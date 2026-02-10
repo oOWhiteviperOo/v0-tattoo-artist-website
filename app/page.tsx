@@ -1,3 +1,51 @@
-export default function Page() {
-  return null
+'use client'
+
+import { useState, useCallback } from 'react'
+import { Header } from '@/components/Header'
+import { Hero } from '@/components/Hero'
+import { TrustBar } from '@/components/TrustBar'
+import { Portfolio } from '@/components/Portfolio'
+import { Sessions } from '@/components/Sessions'
+import { SocialProof } from '@/components/SocialProof'
+import { About } from '@/components/About'
+import { FAQ } from '@/components/FAQ'
+import { FinalCTA } from '@/components/FinalCTA'
+import { Footer } from '@/components/Footer'
+import { BookingModal } from '@/components/BookingModal'
+import { ScrollToTop } from '@/components/ScrollToTop'
+
+export default function Home() {
+  const [bookingOpen, setBookingOpen] = useState(false)
+  const [selectedSession, setSelectedSession] = useState<string | undefined>()
+
+  const openBooking = useCallback((sessionTitle?: string) => {
+    setSelectedSession(sessionTitle)
+    setBookingOpen(true)
+  }, [])
+
+  const openBookingDefault = useCallback(() => {
+    setSelectedSession(undefined)
+    setBookingOpen(true)
+  }, [])
+
+  return (
+    <main>
+      <Header onBookingOpen={openBookingDefault} />
+      <Hero onBookingOpen={openBookingDefault} />
+      <TrustBar />
+      <Portfolio />
+      <Sessions onBookingOpen={openBooking} />
+      <SocialProof />
+      <About />
+      <FAQ />
+      <FinalCTA onBookingOpen={openBookingDefault} />
+      <Footer onBookingOpen={openBookingDefault} />
+      <BookingModal
+        open={bookingOpen}
+        onOpenChange={setBookingOpen}
+        sessionTitle={selectedSession}
+      />
+      <ScrollToTop />
+    </main>
+  )
 }
