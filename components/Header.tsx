@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Menu } from 'lucide-react'
 import { NAV_LINKS } from '@/lib/constants'
 import { smoothScrollTo } from '@/lib/utils'
@@ -8,15 +8,41 @@ import { MobileMenu } from './MobileMenu'
 
 export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [scrollProgress, setScrollProgress] = useState(0)
+
+  useEffect(() => {
+    function handleScroll() {
+      const heroHeight = window.innerHeight
+      const scrollY = window.scrollY
+      const progress = Math.min(scrollY / (heroHeight * 0.5), 1)
+      setScrollProgress(progress)
+    }
+    handleScroll()
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   function handleNavClick(href: string) {
     const id = href.replace('#', '')
     smoothScrollTo(id)
   }
 
+  const bgOpacity = scrollProgress * 0.9
+  const blurAmount = scrollProgress * 12
+  const borderOpacity = scrollProgress * 0.08
+
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-40 border-b border-white/5 bg-[#0A0A0A]/80 backdrop-blur-sm">
+      <header
+        className="fixed top-0 left-0 right-0 z-40 transition-shadow duration-300"
+        style={{
+          backgroundColor: `rgba(10, 10, 10, ${bgOpacity})`,
+          backdropFilter: `blur(${blurAmount}px)`,
+          WebkitBackdropFilter: `blur(${blurAmount}px)`,
+          borderBottom: `1px solid rgba(255, 255, 255, ${borderOpacity})`,
+          boxShadow: scrollProgress > 0.5 ? `0 4px 30px rgba(0, 0, 0, ${scrollProgress * 0.3})` : 'none',
+        }}
+      >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
             href="#"
