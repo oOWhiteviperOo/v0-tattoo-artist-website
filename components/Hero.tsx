@@ -54,7 +54,7 @@ export function Hero({ onBookingOpen }: { onBookingOpen: () => void }) {
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
             placeholder="blur"
             blurDataURL={BLUR_DATA_URL}
-            className="object-cover"
+            className="object-cover animate-ken-burns"
             priority
           />
           <GrainOverlay />
