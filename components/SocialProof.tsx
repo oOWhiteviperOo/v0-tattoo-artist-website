@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { motion } from 'motion/react'
 import { CheckCircle2, TrendingUp, Sparkles, Star } from 'lucide-react'
 import { TESTIMONIALS, TRUST_BADGES, INSTAGRAM_IMAGES, CONTACT, BLUR_DATA_URL } from '@/lib/constants'
 import { TestimonialCarousel } from './TestimonialCarousel'

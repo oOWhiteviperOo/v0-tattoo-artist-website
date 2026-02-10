@@ -2,7 +2,7 @@
 
 import { useRef } from 'react'
 import Image from 'next/image'
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'motion/react'
 import { ABOUT_IMAGE, BLUR_DATA_URL } from '@/lib/constants'
 
 export function About() {

@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { motion } from 'motion/react'
 import { PORTFOLIO_IMAGES, BLUR_DATA_URL } from '@/lib/constants'
 
 const containerVariants = {

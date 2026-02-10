@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion } from 'motion/react'
 import { Shield } from 'lucide-react'
 import { SESSIONS } from '@/lib/constants'
 import { SessionCard } from './SessionCard'
