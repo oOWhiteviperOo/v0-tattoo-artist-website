@@ -89,23 +89,42 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
     return Object.keys(newErrors).length === 0
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     if (!validate()) return
-    setSubmitted(true)
-    setTimeout(() => {
-      onOpenChange(false)
-    }, 3000)
-  }
 
-  function update<K extends keyof FormState>(key: K, value: FormState[K]) {
-    setForm((prev) => ({ ...prev, [key]: value }))
-    if (errors[key]) {
-      setErrors((prev) => {
-        const next = { ...prev }
-        delete next[key]
-        return next
+    setSubmitted(false)
+    setErrors({})
+
+    // Add loading state logic here if desired (e.g. isSubmitting state)
+
+    try {
+      const response = await fetch('/api/booking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          form,
+          studio: {
+            slug: booking.modalTitle ? 'ink-and-iron' : 'unknown', // Ideally this comes from studio config context if available
+            name: 'INK & IRON', // Placeholder, ideally specific
+            artist: 'Alex Rivera' // Placeholder
+          }
+        }), // TODO: Pass actual studio context
       })
+
+      if (!response.ok) throw new Error('Submission failed')
+
+      setSubmitted(true)
+      setTimeout(() => {
+        onOpenChange(false)
+        setForm(defaultForm)
+        setSubmitted(false)
+      }, 3000)
+    } catch (error) {
+      console.error(error)
+      setErrors((prev) => ({ ...prev, description: true })) // Naive error handling for demo
     }
   }
 

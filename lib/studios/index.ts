@@ -1,8 +1,10 @@
 import { StudioConfig } from '../types/studio-config'
 import { INK_AND_IRON } from './ink-and-iron'
+// [N8N-MARKER-IMPORT]
 
-const studios: Record<string, StudioConfig> = {
+export const studios: Record<string, StudioConfig> = {
     'ink-and-iron': INK_AND_IRON,
+    // [N8N-MARKER-REGISTRY]
 }
 
 export const DEFAULT_STUDIO = 'ink-and-iron'
