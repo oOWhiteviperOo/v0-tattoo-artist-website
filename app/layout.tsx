@@ -1,6 +1,7 @@
 import React from "react"
 import type { Metadata, Viewport } from 'next'
 import { Geist } from 'next/font/google'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 import './globals.css'
 
@@ -44,6 +45,7 @@ export default function RootLayout({
     <html lang="en" className={geistSans.variable}>
       <body className="font-sans antialiased bg-[#0A0A0A] text-[#F5F5F5]">
         {children}
+        <SpeedInsights />
       </body>
     </html>
   )
