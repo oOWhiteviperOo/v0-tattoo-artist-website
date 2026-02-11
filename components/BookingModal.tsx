@@ -55,7 +55,7 @@ const defaultForm: FormState = {
 }
 
 export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalProps) {
-  const { booking, sessions } = useStudio()
+  const { booking, sessions, identity } = useStudio()
   const [form, setForm] = useState<FormState>(defaultForm)
   const [submitted, setSubmitted] = useState(false)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, boolean>>>({})
@@ -107,11 +107,11 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
         body: JSON.stringify({
           form,
           studio: {
-            slug: booking.modalTitle ? 'ink-and-iron' : 'unknown', // Ideally this comes from studio config context if available
-            name: 'INK & IRON', // Placeholder, ideally specific
-            artist: 'Alex Rivera' // Placeholder
+            slug: identity.slug,
+            name: identity.name,
+            artist: identity.artistName,
           }
-        }), // TODO: Pass actual studio context
+        }),
       })
 
       if (!response.ok) throw new Error('Submission failed')
