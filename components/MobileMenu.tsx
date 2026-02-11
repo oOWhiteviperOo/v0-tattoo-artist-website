@@ -2,8 +2,8 @@
 
 import { useEffect, useCallback } from 'react'
 import { X } from 'lucide-react'
-import { NAV_LINKS } from '@/lib/constants'
 import { smoothScrollTo } from '@/lib/utils'
+import { useStudio } from '@/lib/studio-context'
 
 interface MobileMenuProps {
   isOpen: boolean
@@ -12,6 +12,7 @@ interface MobileMenuProps {
 }
 
 export function MobileMenu({ isOpen, onClose, onBookingOpen }: MobileMenuProps) {
+  const { nav } = useStudio()
   const handleEscape = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
@@ -51,25 +52,25 @@ export function MobileMenu({ isOpen, onClose, onBookingOpen }: MobileMenuProps) 
 
   return (
     <div
-      className="fixed inset-0 z-50 flex flex-col items-center justify-center gap-8 bg-[#0A0A0A]/95 backdrop-blur-md animate-in fade-in duration-200"
+      className="fixed inset-0 z-50 flex flex-col items-center justify-center gap-8 bg-background/95 backdrop-blur-md animate-in fade-in duration-200"
       role="navigation"
       aria-label="Mobile menu"
     >
       <button
         type="button"
         onClick={onClose}
-        className="absolute top-6 right-6 text-[#F5F5F5] p-2"
+        className="absolute top-6 right-6 text-foreground p-2"
         aria-label="Close menu"
       >
         <X className="h-6 w-6" />
       </button>
 
-      {NAV_LINKS.map((link) => (
+      {nav.links.map((link) => (
         <button
           key={link.href}
           type="button"
           onClick={() => handleNavClick(link.href)}
-          className="font-sans text-3xl font-semibold uppercase tracking-wider text-[#F5F5F5] transition-colors duration-300 hover:text-[#C8A96E]"
+          className="font-sans text-3xl font-semibold uppercase tracking-wider text-foreground transition-colors duration-300 hover:text-accent"
         >
           {link.label}
         </button>
@@ -78,9 +79,9 @@ export function MobileMenu({ isOpen, onClose, onBookingOpen }: MobileMenuProps) 
       <button
         type="button"
         onClick={handleBooking}
-        className="mt-4 w-64 bg-[#C8A96E] text-[#0A0A0A] px-8 py-4 font-sans text-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(200,169,110,0.25)]"
+        className="mt-4 w-64 bg-accent text-accent-foreground px-8 py-4 font-sans text-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-[1.02] hover:shadow-accent-glow"
       >
-        Book a Slot
+        {nav.bookButtonText}
       </button>
     </div>
   )

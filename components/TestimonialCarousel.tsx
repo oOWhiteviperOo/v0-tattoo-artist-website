@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
-import type { Testimonial } from '@/lib/constants'
+import type { Testimonial } from '@/lib/types/studio-config'
 
 interface TestimonialCarouselProps {
   testimonials: Testimonial[]
@@ -14,7 +14,7 @@ function StarRating({ rating }: { rating: number }) {
       {Array.from({ length: 5 }).map((_, i) => (
         <Star
           key={`star-${i}`}
-          className={`h-3.5 w-3.5 ${i < rating ? 'fill-[#C8A96E] text-[#C8A96E]' : 'text-[#6B6B6B]'}`}
+          className={`h-3.5 w-3.5 ${i < rating ? 'fill-accent text-accent' : 'text-dimmed'}`}
         />
       ))}
     </div>
@@ -23,16 +23,16 @@ function StarRating({ rating }: { rating: number }) {
 
 function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
-    <div className="flex h-full flex-col justify-between border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-xl">
+    <div className="flex h-full flex-col justify-between border border-white/[0.06] bg-card p-6 backdrop-blur-xl">
       <div>
         <StarRating rating={testimonial.rating} />
-        <p className="mt-4 text-base leading-relaxed text-[#F5F5F5]">
+        <p className="mt-4 text-base leading-relaxed text-foreground">
           {`"${testimonial.quote}"`}
         </p>
       </div>
       <div className="mt-6">
-        <p className="text-sm font-medium text-[#F5F5F5]">{testimonial.author}</p>
-        <p className="text-sm text-[#6B6B6B]">{testimonial.city}</p>
+        <p className="text-sm font-medium text-foreground">{testimonial.author}</p>
+        <p className="text-sm text-dimmed">{testimonial.city}</p>
       </div>
     </div>
   )
@@ -77,7 +77,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
               type="button"
               onClick={() => goTo(currentIndex - 1)}
               disabled={currentIndex === 0}
-              className="flex h-10 w-10 items-center justify-center border border-white/[0.06] text-[#A1A1A1] transition-colors hover:border-[#C8A96E]/15 hover:text-[#F5F5F5] disabled:opacity-30 disabled:cursor-not-allowed"
+              className="flex h-10 w-10 items-center justify-center border border-white/[0.06] text-muted-foreground transition-colors hover:border-accent/15 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
               aria-label="Previous testimonials"
             >
               <ChevronLeft className="h-5 w-5" />
@@ -86,7 +86,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
               type="button"
               onClick={() => goTo(currentIndex + 1)}
               disabled={currentIndex >= maxIndex}
-              className="flex h-10 w-10 items-center justify-center border border-white/[0.06] text-[#A1A1A1] transition-colors hover:border-[#C8A96E]/15 hover:text-[#F5F5F5] disabled:opacity-30 disabled:cursor-not-allowed"
+              className="flex h-10 w-10 items-center justify-center border border-white/[0.06] text-muted-foreground transition-colors hover:border-accent/15 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
               aria-label="Next testimonials"
             >
               <ChevronRight className="h-5 w-5" />
@@ -123,9 +123,8 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
             key={t.author}
             type="button"
             onClick={() => goTo(i)}
-            className={`h-2 w-2 rounded-full transition-colors ${
-              i === currentIndex ? 'bg-[#C8A96E]' : 'bg-white/10'
-            }`}
+            className={`h-2 w-2 rounded-full transition-colors ${i === currentIndex ? 'bg-accent' : 'bg-white/10'
+              }`}
             aria-label={`Go to testimonial ${i + 1}`}
           />
         ))}

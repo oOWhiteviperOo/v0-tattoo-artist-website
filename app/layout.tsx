@@ -1,5 +1,5 @@
 import React from "react"
-import type { Metadata, Viewport } from 'next'
+import type { Metadata } from 'next'
 import { Geist } from 'next/font/google'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
@@ -11,29 +11,7 @@ const geistSans = Geist({
 })
 
 export const metadata: Metadata = {
-  title: 'INK & IRON — Permanent Art. Limited Slots. | Los Angeles Tattoo Studio',
-  description:
-    'Dark realism and blackwork tattoos by Raven Morales. Book your session at INK & IRON, Arts District, Los Angeles. Limited slots available.',
-  keywords: [
-    'tattoo',
-    'Los Angeles',
-    'dark realism',
-    'blackwork',
-    'tattoo studio',
-    'tattoo artist',
-    'Arts District LA',
-  ],
-  openGraph: {
-    title: 'INK & IRON — Permanent Art. Limited Slots.',
-    description: 'Dark realism and blackwork by Raven Morales. Book your slot.',
-    type: 'website',
-    locale: 'en_US',
-  },
   robots: 'index, follow',
-}
-
-export const viewport: Viewport = {
-  themeColor: '#0A0A0A',
 }
 
 export default function RootLayout({
@@ -43,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={geistSans.variable}>
-      <body className="font-sans antialiased bg-[#0A0A0A] text-[#F5F5F5]">
+      <body className="font-sans antialiased bg-background text-foreground">
         {children}
         <SpeedInsights />
       </body>

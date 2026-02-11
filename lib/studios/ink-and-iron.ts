@@ -1,0 +1,264 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const INK_AND_IRON: StudioConfig = {
+    identity: {
+        name: 'INK & IRON',
+        slug: 'ink-and-iron',
+        tagline: 'Dark Realism \u2022 Blackwork \u2022 Los Angeles',
+        artistName: 'Raven',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '0 0% 96%',
+        accent: '39 35% 61%',       // #C8A96E
+        accentForeground: '0 0% 4%', // #0A0A0A
+        mutedForeground: '0 0% 63%', // #A1A1A1
+        dimmedForeground: '0 0% 42%', // #6B6B6B
+        border: '0 0% 12%',          // #1F1F1F
+        card: '0 0% 8%',             // #141414
+        accentRgb: '200, 169, 110',
+        ring: '39 35% 61%',
+    },
+    seo: {
+        title: 'INK & IRON | Dark Realism Tattoo Artist LA',
+        description: 'Specializing in dark realism, blackwork, and fine line tattoos. Located in the Arts District, Los Angeles. Book your session today.',
+        keywords: ['Tattoo Artist', 'Los Angeles', 'Dark Realism', 'Blackwork', 'Fine Line', 'Arts District'],
+        openGraph: {
+            title: 'INK & IRON | Dark Realism Tattoo Artist LA',
+            description: 'Specializing in dark realism, blackwork, and fine line tattoos. Located in the Arts District, Los Angeles.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://inkandiron.la',
+            siteName: 'INK & IRON',
+            images: [
+                {
+                    url: 'https://images.unsplash.com/photo-1598371839696-5c5bb1ae531c?w=1200&q=80',
+                    width: 1200,
+                    height: 630,
+                    alt: 'INK & IRON Studio',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book a Slot',
+    },
+    hero: {
+        headline: ['ARTISTRY', 'IN PERMANENCE'],
+        subheadline: 'Crafting bespoke dark realism and blackwork tattoos that tell your story. Located in the heart of the Arts District.',
+        urgencyText: 'Accepting New Clients for March 2024',
+        ctaText: 'View Available Sessions',
+        image: 'https://images.unsplash.com/photo-1598371839696-5c5bb1ae531c?w=1200&q=80',
+        imageAlt: 'Tattoo artist working on a design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '500+ Completed Tattoos' },
+            { iconName: 'Zap', label: '100% Custom Design' },
+            { iconName: 'Award', label: '5+ Years Experience' },
+            { iconName: 'Shield', label: 'Licensed & Insured' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Selected Work',
+        subtitle: 'A collection of recent projects focusing on dark realism, intricate linework, and custom composition.',
+        images: [
+            'https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=800&q=80',
+            'https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=800&q=80',
+            'https://images.unsplash.com/photo-1590246814883-57c511e9a5c8?w=800&q=80',
+            'https://images.unsplash.com/photo-1562962230-16e4623d36e6?w=800&q=80',
+            'https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?w=800&q=80',
+            'https://images.unsplash.com/photo-1612459284270-27b3a394b076?w=800&q=80',
+            'https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?w=800&q=80',
+            'https://images.unsplash.com/photo-1594361858624-6c5d6b5d88f8?w=800&q=80',
+            'https://images.unsplash.com/photo-1542556398-95fb5b9f9304?w=800&q=80',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Available Sessions',
+        subtitle: 'Choose the session type that best fits your project. A deposit is required to secure your booking.',
+        guarantee: 'All sessions include a consultation, custom design work, and aftercare kit.',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Flash Drop',
+                duration: '2-3 hours',
+                price: '$250-$500',
+                priceSubtitle: 'Custom design at limited time pricing',
+                features: ['Original design concept', 'Custom placement', 'Touch-ups at 2 weeks'],
+                status: 'limited',
+                availabilityText: '3 Slots Left \u2014 March',
+                buttonText: 'Book Flash',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Half-Day Session',
+                duration: '6 hours',
+                price: '$750-$1,200',
+                priceSubtitle: 'Ideal for detailed, medium-large pieces',
+                features: ['Larger, detailed piece', 'Color or blackwork', 'Unlimited revisions'],
+                status: 'limited',
+                availabilityText: '1 Slot Left',
+                buttonText: 'Book Half-Day',
+                popular: true,
+                buttonVariant: 'default',
+            },
+            {
+                iconName: 'Calendar',
+                title: 'Full-Day Session',
+                duration: '8 hours',
+                price: '$1,500-$2,500',
+                priceSubtitle: 'Full sleeve or large-scale project',
+                features: ['Full sleeve or large project', 'Bring your own artist', 'Payment plan available'],
+                status: 'available',
+                availabilityText: 'Available',
+                buttonText: 'Book Full Day',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Clients Are Saying',
+        testimonials: [
+            {
+                quote: "Raven is the most talented blackwork artist I've ever seen. He took my vague idea and created something I'll wear forever. Highly recommend.",
+                author: 'Maya Chen',
+                city: 'Los Angeles, CA',
+                rating: 5,
+            },
+            {
+                quote: "Professional, detail-oriented, and genuinely cares about the client's vision. The entire process was seamless.",
+                author: 'Jordan Smith',
+                city: 'Venice, CA',
+                rating: 5,
+            },
+            {
+                quote: 'Best decision I made. The piece is absolutely stunning. He nailed the dark realism aesthetic I was going for.',
+                author: 'Alex Rodriguez',
+                city: 'Arts District LA',
+                rating: 5,
+            },
+            {
+                quote: 'Incredible artist with an eye for composition. My half-sleeve turned out exactly as I imagined. 10/10.',
+                author: 'Sam Williams',
+                city: 'West Hollywood',
+                rating: 5,
+            },
+            {
+                quote: "The trust I have in Raven's work is unmatched. He listens, refines, and delivers. A true professional.",
+                author: 'Riley Morgan',
+                city: 'Downtown LA',
+                rating: 5,
+            },
+            {
+                quote: 'Custom designs only, and it shows. Zero regrets. His work speaks for itself.',
+                author: 'Casey Bennett',
+                city: 'Arts District LA',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: '500+ Happy Clients' },
+            { iconName: 'Sparkles', label: 'Custom Designs Only' },
+            { iconName: 'Star', label: '4.9 \u2605 Average Rating' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @inkandironla',
+            images: [
+                'https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=400&q=80',
+                'https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=400&q=80',
+                'https://images.unsplash.com/photo-1590246814883-57c511e9a5c8?w=400&q=80',
+                'https://images.unsplash.com/photo-1562962230-16e4623d36e6?w=400&q=80',
+                'https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?w=400&q=80',
+                'https://images.unsplash.com/photo-1612459284270-27b3a394b076?w=400&q=80',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist',
+        paragraphs: [
+            "I'm Raven, a tattoo artist based in the Arts District of Los Angeles properly obsessed with the craft of permanent transformation.",
+            "With over 5 years of experience, I specialize in dark realism, fine line blackwork, and intricate geometric composition. My philosophy is simple: every tattoo should be a collaboration that honors both the client's vision and the art form itself.",
+            "When I'm not tattooing, I'm usually sketching, exploring LA's hidden architecture, or refining my techniques to ensure every piece stands the test of time.",
+        ],
+        callout: 'My goal is to create art that feels like it was always meant to be part of you.',
+        image: 'https://images.unsplash.com/photo-1621607505115-d3c4a03fa9c4?w=800&q=80',
+        imageAlt: 'Raven, Tattoo Artist',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked',
+        items: [
+            {
+                id: 'faq-1',
+                question: "What if I don't like the design?",
+                answer: "That's why revisions exist. Unlimited revisions within 30 days of the session. Your satisfaction is non-negotiable.",
+            },
+            {
+                id: 'faq-2',
+                question: 'How do you approach custom design?',
+                answer: 'I start with a consultation to understand your vision, style preferences, and placement. I create 2-3 initial concept sketches, then refine based on your feedback. You see everything before the needle touches your skin.',
+            },
+            {
+                id: 'faq-3',
+                question: "What's included in the deposit?",
+                answer: "The deposit secures your slot and covers the design consultation. It's applied toward your final tattoo cost. Non-refundable, but credits are available if rescheduled with 2+ weeks' notice.",
+            },
+            {
+                id: 'faq-4',
+                question: 'Do you offer color work?',
+                answer: "Yes, but my specialty is dark realism & blackwork. I can do selective color, but I'm best known for black & grey depth and shading.",
+            },
+            {
+                id: 'faq-5',
+                question: 'How long after booking until I can get tattooed?',
+                answer: 'Depends on session availability. Flash drops typically book 2-4 weeks out. Half-day and full-day sessions can be scheduled up to 3 months in advance.',
+            },
+            {
+                id: 'faq-6',
+                question: "What's your aftercare process?",
+                answer: 'I provide detailed written aftercare instructions and am available for questions for 30 days post-session. Proper care ensures the best-looking healed result.',
+            },
+            {
+                id: 'faq-7',
+                question: 'Do you work with reference images?',
+                answer: 'Absolutely. Pinterest boards, photos, art styles\u2014bring whatever inspires you. The more reference material, the better I can execute your vision.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Commit?',
+        subheadline: 'Spaces are limited. Secure your session today.',
+        ctaText: 'View Available Sessions',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Select a session type and tell me about your idea. I review all requests personally.',
+        successTitle: 'Request Received',
+        successMessage: "I'll be in touch within 24 hours to schedule your consultation.",
+        submitText: 'Submit Request',
+        depositDisclaimer: 'A deposit will be required after your consultation to secure the date.',
+    },
+    contact: {
+        email: 'hello@inkandiron.la',
+        instagram: '@inkandironla',
+        instagramUrl: 'https://instagram.com/inkandironla',
+        phone: '(555) 000-RAVEN',
+        address: 'Arts District, Los Angeles, CA',
+    },
+    footer: {
+        copyrightHolder: 'INK & IRON',
+        tagline: 'Artistry in Permanence',
+    },
+    blurDataUrl: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN88P/BfwAJhAPkQ0rGbQAAAABJRU5ErkJggg==',
+}

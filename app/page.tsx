@@ -1,51 +1,29 @@
-'use client'
+import { getStudioOrDefault, DEFAULT_STUDIO } from '@/lib/studios'
+import { StudioPage } from '@/components/StudioPage'
+import { Metadata } from 'next'
 
-import { useState, useCallback } from 'react'
-import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
-import { TrustBar } from '@/components/TrustBar'
-import { Portfolio } from '@/components/Portfolio'
-import { Sessions } from '@/components/Sessions'
-import { SocialProof } from '@/components/SocialProof'
-import { About } from '@/components/About'
-import { FAQ } from '@/components/FAQ'
-import { FinalCTA } from '@/components/FinalCTA'
-import { Footer } from '@/components/Footer'
-import { BookingModal } from '@/components/BookingModal'
-import { ScrollToTop } from '@/components/ScrollToTop'
+export async function generateMetadata(): Promise<Metadata> {
+  const studio = getStudioOrDefault(DEFAULT_STUDIO)
+  const { seo } = studio
+
+  return {
+    title: seo.title,
+    description: seo.description,
+    keywords: seo.keywords,
+    openGraph: {
+      title: seo.openGraph.title,
+      description: seo.openGraph.description,
+      type: 'website',
+      locale: seo.openGraph.locale,
+      url: seo.openGraph.url,
+      siteName: seo.openGraph.siteName,
+      images: seo.openGraph.images,
+    },
+  }
+}
 
 export default function Home() {
-  const [bookingOpen, setBookingOpen] = useState(false)
-  const [selectedSession, setSelectedSession] = useState<string | undefined>()
+  const studio = getStudioOrDefault(DEFAULT_STUDIO)
 
-  const openBooking = useCallback((sessionTitle?: string) => {
-    setSelectedSession(sessionTitle)
-    setBookingOpen(true)
-  }, [])
-
-  const openBookingDefault = useCallback(() => {
-    setSelectedSession(undefined)
-    setBookingOpen(true)
-  }, [])
-
-  return (
-    <main>
-      <Header onBookingOpen={openBookingDefault} />
-      <Hero onBookingOpen={openBookingDefault} />
-      <TrustBar />
-      <Portfolio />
-      <Sessions onBookingOpen={openBooking} />
-      <SocialProof />
-      <About />
-      <FAQ />
-      <FinalCTA onBookingOpen={openBookingDefault} />
-      <Footer onBookingOpen={openBookingDefault} />
-      <BookingModal
-        open={bookingOpen}
-        onOpenChange={setBookingOpen}
-        sessionTitle={selectedSession}
-      />
-      <ScrollToTop />
-    </main>
-  )
+  return <StudioPage config={studio} />
 }

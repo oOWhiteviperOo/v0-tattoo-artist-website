@@ -2,12 +2,14 @@
 
 import { motion } from 'motion/react'
 import { Shield } from 'lucide-react'
-import { SESSIONS } from '@/lib/constants'
+import { useStudio } from '@/lib/studio-context'
 import { SessionCard } from './SessionCard'
 
 export function Sessions({ onBookingOpen }: { onBookingOpen: (title?: string) => void }) {
+  const { sessions } = useStudio()
+
   return (
-    <section id="sessions" className="bg-[#0A0A0A] py-20 lg:py-28">
+    <section id="sessions" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mb-12 text-center"
@@ -16,11 +18,11 @@ export function Sessions({ onBookingOpen }: { onBookingOpen: (title?: string) =>
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut' }}
         >
-          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-[#F5F5F5] sm:text-4xl lg:text-5xl text-balance">
-            Available Sessions
+          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
+            {sessions.sectionTitle}
           </h2>
-          <p className="mt-4 text-base text-[#A1A1A1] sm:text-lg">
-            Limited slots. Serious clients only. Custom designs, no flash work.
+          <p className="mt-4 text-base text-muted-foreground sm:text-lg">
+            {sessions.subtitle}
           </p>
         </motion.div>
 
@@ -31,10 +33,12 @@ export function Sessions({ onBookingOpen }: { onBookingOpen: (title?: string) =>
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
         >
-          {SESSIONS.map((session) => (
+          {sessions.items.map((session) => (
             <SessionCard
               key={session.title}
               session={session}
+              popularLabel={sessions.popularLabel}
+              waitlistButtonText={sessions.waitlistButtonText}
               onBook={(title) => onBookingOpen(title)}
             />
           ))}
@@ -48,13 +52,10 @@ export function Sessions({ onBookingOpen }: { onBookingOpen: (title?: string) =>
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
         >
-          <Shield className="h-5 w-5 text-[#C8A96E]" />
+          <Shield className="h-5 w-5 text-accent" />
           <div>
-            <span className="text-sm font-medium text-[#F5F5F5]">
-              30-Day Satisfaction Guarantee
-            </span>
-            <span className="ml-2 text-sm text-[#6B6B6B]">
-              Not happy? Unlimited revisions within 30 days.
+            <span className="text-sm font-medium text-foreground">
+              {sessions.guarantee}
             </span>
           </div>
         </motion.div>

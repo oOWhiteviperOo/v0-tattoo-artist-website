@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { motion } from 'motion/react'
-import { PORTFOLIO_IMAGES, BLUR_DATA_URL } from '@/lib/constants'
+import { useStudio } from '@/lib/studio-context'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -24,8 +24,9 @@ const itemVariants = {
 }
 
 export function Portfolio() {
+  const { portfolio, blurDataUrl } = useStudio()
   return (
-    <section id="work" className="bg-[#0A0A0A] py-20 lg:py-28">
+    <section id="work" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mb-12 text-center"
@@ -34,11 +35,11 @@ export function Portfolio() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut' }}
         >
-          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-[#F5F5F5] sm:text-4xl lg:text-5xl text-balance">
-            Selected Work
+          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
+            {portfolio.sectionTitle}
           </h2>
-          <p className="mt-4 text-base text-[#A1A1A1] sm:text-lg">
-            Dark realism, blackwork, and custom design.
+          <p className="mt-4 text-base text-muted-foreground sm:text-lg">
+            {portfolio.subtitle}
           </p>
         </motion.div>
 
@@ -49,7 +50,7 @@ export function Portfolio() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {PORTFOLIO_IMAGES.map((src, i) => (
+          {portfolio.images.map((src, i) => (
             <motion.div
               key={src}
               variants={itemVariants}
@@ -61,7 +62,7 @@ export function Portfolio() {
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 placeholder="blur"
-                blurDataURL={BLUR_DATA_URL}
+                blurDataURL={blurDataUrl}
                 className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.03]"
               />
             </motion.div>

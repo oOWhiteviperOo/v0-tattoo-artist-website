@@ -22,14 +22,13 @@ import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Label } from '@/components/ui/label'
+import { useStudio } from '@/lib/studio-context'
 
 interface BookingModalProps {
   open: boolean
   onOpenChange: (open: boolean) => void
   sessionTitle?: string
 }
-
-const SESSION_OPTIONS = ['Flash Drop', 'Half-Day Session', 'Full-Day Session']
 
 interface FormState {
   fullName: string
@@ -56,6 +55,7 @@ const defaultForm: FormState = {
 }
 
 export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalProps) {
+  const { booking, sessions } = useStudio()
   const [form, setForm] = useState<FormState>(defaultForm)
   const [submitted, setSubmitted] = useState(false)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, boolean>>>({})
@@ -112,40 +112,39 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
   const today = new Date().toISOString().split('T')[0]
 
   const inputClass =
-    'bg-[#0A0A0A] border-[#1F1F1F] text-[#F5F5F5] placeholder:text-[#6B6B6B] focus:border-[#C8A96E] focus:ring-[#C8A96E] rounded-none'
+    'bg-background border-border text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-accent rounded-none'
   const errorBorder = 'border-red-500/50'
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-h-[90vh] overflow-y-auto bg-[#141414] border-[#1F1F1F] rounded-none sm:max-w-lg">
+      <DialogContent className="max-h-[90vh] overflow-y-auto bg-card border-border rounded-none sm:max-w-lg">
         {submitted ? (
           <div className="flex flex-col items-center justify-center gap-4 py-12">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[#C8A96E]/10">
-              <Check className="h-8 w-8 text-[#C8A96E]" />
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10">
+              <Check className="h-8 w-8 text-accent" />
             </div>
-            <p className="text-center font-sans text-lg font-semibold text-[#F5F5F5]">
-              Request submitted.
+            <p className="text-center font-sans text-lg font-semibold text-foreground">
+              {booking.successTitle}
             </p>
-            <p className="text-center text-sm text-[#A1A1A1]">
-              {"I'll be in touch within 48 hours."}
+            <p className="text-center text-sm text-muted-foreground">
+              {booking.successMessage}
             </p>
           </div>
         ) : (
           <>
             <DialogHeader>
-              <DialogTitle className="font-sans text-lg font-bold uppercase tracking-wider text-[#C8A96E]">
-                Request a Session
+              <DialogTitle className="font-sans text-lg font-bold uppercase tracking-wider text-accent">
+                {booking.modalTitle}
               </DialogTitle>
-              <DialogDescription className="text-sm text-[#A1A1A1]">
-                Fill out the details below. I{"'"}ll review your request and
-                confirm your slot within 48 hours.
+              <DialogDescription className="text-sm text-muted-foreground">
+                {booking.modalDescription}
               </DialogDescription>
             </DialogHeader>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4 mt-2">
               {/* Full Name */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="fullName" className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                <Label htmlFor="fullName" className="text-xs font-medium uppercase tracking-wider text-dimmed">
                   Full Name <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -160,7 +159,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Email */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="email" className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                <Label htmlFor="email" className="text-xs font-medium uppercase tracking-wider text-dimmed">
                   Email <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -176,7 +175,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
               {/* Phone & Instagram */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="phone" className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                  <Label htmlFor="phone" className="text-xs font-medium uppercase tracking-wider text-dimmed">
                     Phone
                   </Label>
                   <Input
@@ -189,7 +188,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="instagram" className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                  <Label htmlFor="instagram" className="text-xs font-medium uppercase tracking-wider text-dimmed">
                     Instagram
                   </Label>
                   <Input
@@ -205,17 +204,17 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Session Type */}
               <div className="flex flex-col gap-1.5">
-                <Label className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                <Label className="text-xs font-medium uppercase tracking-wider text-dimmed">
                   Session Type <span className="text-red-400">*</span>
                 </Label>
                 <Select value={form.sessionType} onValueChange={(v) => update('sessionType', v)}>
                   <SelectTrigger className={`${inputClass} ${errors.sessionType ? errorBorder : ''}`}>
                     <SelectValue placeholder="Select a session type" />
                   </SelectTrigger>
-                  <SelectContent className="bg-[#141414] border-[#1F1F1F]">
-                    {SESSION_OPTIONS.map((opt) => (
-                      <SelectItem key={opt} value={opt} className="text-[#F5F5F5] focus:bg-white/[0.06] focus:text-[#F5F5F5]">
-                        {opt}
+                  <SelectContent className="bg-card border-border">
+                    {sessions.items.map((session) => (
+                      <SelectItem key={session.title} value={session.title} className="text-foreground focus:bg-white/[0.06] focus:text-foreground">
+                        {session.title}
                       </SelectItem>
                     ))}
                   </SelectContent>
@@ -224,7 +223,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Preferred Date */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="preferredDate" className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                <Label htmlFor="preferredDate" className="text-xs font-medium uppercase tracking-wider text-dimmed">
                   Preferred Date <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -239,7 +238,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Placement */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="placement" className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                <Label htmlFor="placement" className="text-xs font-medium uppercase tracking-wider text-dimmed">
                   Placement <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -254,7 +253,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Description */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="description" className="text-xs font-medium uppercase tracking-wider text-[#6B6B6B]">
+                <Label htmlFor="description" className="text-xs font-medium uppercase tracking-wider text-dimmed">
                   {'Description / References'} <span className="text-red-400">*</span>
                 </Label>
                 <Textarea
@@ -273,21 +272,19 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
                   id="agreed"
                   checked={form.agreed}
                   onCheckedChange={(v) => update('agreed', v === true)}
-                  className={`mt-0.5 border-[#1F1F1F] data-[state=checked]:bg-[#C8A96E] data-[state=checked]:text-[#0A0A0A] ${errors.agreed ? 'border-red-500/50' : ''}`}
+                  className={`mt-0.5 border-border data-[state=checked]:bg-accent data-[state=checked]:text-accent-foreground ${errors.agreed ? 'border-red-500/50' : ''}`}
                 />
-                <Label htmlFor="agreed" className="text-xs leading-relaxed text-[#A1A1A1]">
-                  I understand that a non-refundable deposit is required to
-                  secure my session. Pricing and final details will be confirmed
-                  before any payment is taken.
+                <Label htmlFor="agreed" className="text-xs leading-relaxed text-muted-foreground">
+                  {booking.depositDisclaimer}
                 </Label>
               </div>
 
               {/* Submit */}
               <button
                 type="submit"
-                className="mt-2 w-full bg-[#C8A96E] py-3 font-sans text-sm font-bold uppercase tracking-wider text-[#0A0A0A] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(200,169,110,0.25)] disabled:opacity-50 disabled:cursor-not-allowed"
+                className="mt-2 w-full bg-accent py-3 font-sans text-sm font-bold uppercase tracking-wider text-accent-foreground transition-all duration-300 hover:scale-[1.02] hover:shadow-accent-glow disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {'Submit Request \u2192'}
+                {`${booking.submitText} \u2192`}
               </button>
             </form>
           </>

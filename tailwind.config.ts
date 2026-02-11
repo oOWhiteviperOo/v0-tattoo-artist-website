@@ -45,6 +45,10 @@ const config: Config = {
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         gold: '#C8A96E',
+        dimmed: 'hsl(var(--dimmed-foreground))',
+      },
+      boxShadow: {
+        'accent-glow': '0 0 20px rgba(var(--accent-rgb), 0.25)',
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)'],

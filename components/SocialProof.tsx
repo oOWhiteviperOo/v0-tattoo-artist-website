@@ -3,8 +3,9 @@
 import Image from 'next/image'
 import { motion } from 'motion/react'
 import { CheckCircle2, TrendingUp, Sparkles, Star } from 'lucide-react'
-import { TESTIMONIALS, TRUST_BADGES, INSTAGRAM_IMAGES, CONTACT, BLUR_DATA_URL } from '@/lib/constants'
+import { useStudio } from '@/lib/studio-context'
 import { TestimonialCarousel } from './TestimonialCarousel'
+import { TrustBadge } from '@/lib/types/studio-config'
 
 const BADGE_ICON_MAP = {
   CheckCircle2,
@@ -14,8 +15,9 @@ const BADGE_ICON_MAP = {
 } as const
 
 export function SocialProof() {
+  const { socialProof, blurDataUrl } = useStudio()
   return (
-    <section className="bg-[#0A0A0A] py-20 lg:py-28">
+    <section className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mb-12 text-center"
@@ -24,8 +26,8 @@ export function SocialProof() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut' }}
         >
-          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-[#F5F5F5] sm:text-4xl lg:text-5xl text-balance">
-            What Clients Are Saying
+          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
+            {socialProof.sectionTitle}
           </h2>
         </motion.div>
 
@@ -35,7 +37,7 @@ export function SocialProof() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
         >
-          <TestimonialCarousel testimonials={TESTIMONIALS} />
+          <TestimonialCarousel testimonials={socialProof.testimonials} />
         </motion.div>
 
         {/* Trust Badges */}
@@ -46,12 +48,12 @@ export function SocialProof() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
         >
-          {TRUST_BADGES.map((badge) => {
+          {socialProof.trustBadges.map((badge: TrustBadge) => {
             const Icon = BADGE_ICON_MAP[badge.iconName]
             return (
               <div key={badge.label} className="flex flex-col items-center gap-2 text-center">
-                <Icon className="h-5 w-5 text-[#C8A96E]" />
-                <span className="text-sm text-[#A1A1A1]">{badge.label}</span>
+                <Icon className="h-5 w-5 text-accent" />
+                <span className="text-sm text-muted-foreground">{badge.label}</span>
               </div>
             )
           })}
@@ -65,17 +67,13 @@ export function SocialProof() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.3 }}
         >
-          <p className="mb-4 text-center text-xs font-medium uppercase tracking-widest text-[#6B6B6B]">
-            Follow {CONTACT.instagram} on Instagram
+          <p className="mb-4 text-center text-xs font-medium uppercase tracking-widest text-dimmed">
+            {socialProof.instagram.label}
           </p>
-          <a
-            href={CONTACT.instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
             className="grid grid-cols-3 gap-1 lg:grid-cols-6"
-            aria-label="View our Instagram profile"
           >
-            {INSTAGRAM_IMAGES.map((src, i) => (
+            {socialProof.instagram.images.map((src, i) => (
               <div key={src} className="group relative aspect-square overflow-hidden bg-white/[0.03]">
                 <Image
                   src={src || "/placeholder.svg"}
@@ -83,12 +81,12 @@ export function SocialProof() {
                   fill
                   sizes="(max-width: 640px) 33vw, 16vw"
                   placeholder="blur"
-                  blurDataURL={BLUR_DATA_URL}
+                  blurDataURL={blurDataUrl}
                   className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.03]"
                 />
               </div>
             ))}
-          </a>
+          </div>
         </motion.div>
       </div>
     </section>

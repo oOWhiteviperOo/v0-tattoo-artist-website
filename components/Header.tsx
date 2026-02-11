@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from 'react'
 import { Menu } from 'lucide-react'
-import { NAV_LINKS } from '@/lib/constants'
 import { smoothScrollTo } from '@/lib/utils'
+import { useStudio } from '@/lib/studio-context'
 import { MobileMenu } from './MobileMenu'
 
 export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
+  const { identity, nav, theme } = useStudio()
   const [mobileOpen, setMobileOpen] = useState(false)
   const [scrollProgress, setScrollProgress] = useState(0)
 
@@ -36,10 +37,10 @@ export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
       <header
         className="fixed top-0 left-0 right-0 z-40 transition-shadow duration-300"
         style={{
-          backgroundColor: `rgba(10, 10, 10, ${bgOpacity})`,
+          backgroundColor: `hsl(var(--background) / ${bgOpacity})`,
           backdropFilter: `blur(${blurAmount}px)`,
           WebkitBackdropFilter: `blur(${blurAmount}px)`,
-          borderBottom: `1px solid rgba(255, 255, 255, ${borderOpacity})`,
+          borderBottom: `1px solid hsl(var(--foreground) / ${borderOpacity})`,
           boxShadow: scrollProgress > 0.5 ? `0 4px 30px rgba(0, 0, 0, ${scrollProgress * 0.3})` : 'none',
         }}
       >
@@ -50,18 +51,18 @@ export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
               e.preventDefault()
               window.scrollTo({ top: 0, behavior: 'smooth' })
             }}
-            className="font-sans text-lg font-bold uppercase tracking-wider text-[#F5F5F5]"
+            className="font-sans text-lg font-bold uppercase tracking-wider text-foreground"
           >
-            INK & IRON
+            {identity.name}
           </a>
 
           <nav className="hidden items-center gap-8 lg:flex" aria-label="Main navigation">
-            {NAV_LINKS.map((link) => (
+            {nav.links.map((link) => (
               <button
                 key={link.href}
                 type="button"
                 onClick={() => handleNavClick(link.href)}
-                className="relative font-sans text-sm font-medium uppercase tracking-widest text-[#A1A1A1] transition-colors duration-300 hover:text-[#F5F5F5] after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-[#C8A96E] after:transition-all after:duration-300 hover:after:w-full"
+                className="relative font-sans text-sm font-medium uppercase tracking-widest text-muted-foreground transition-colors duration-300 hover:text-foreground after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-accent after:transition-all after:duration-300 hover:after:w-full"
               >
                 {link.label}
               </button>
@@ -69,16 +70,16 @@ export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
             <button
               type="button"
               onClick={onBookingOpen}
-              className="font-sans text-sm font-semibold uppercase tracking-wider bg-[#C8A96E] text-[#0A0A0A] px-6 py-2.5 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(200,169,110,0.25)]"
+              className="font-sans text-sm font-semibold uppercase tracking-wider bg-accent text-accent-foreground px-6 py-2.5 transition-all duration-300 hover:scale-[1.02] hover:shadow-accent-glow"
             >
-              Book a Slot
+              {nav.bookButtonText}
             </button>
           </nav>
 
           <button
             type="button"
             onClick={() => setMobileOpen(true)}
-            className="lg:hidden text-[#F5F5F5] p-2"
+            className="lg:hidden text-foreground p-2"
             aria-label="Open menu"
           >
             <Menu className="h-6 w-6" />
