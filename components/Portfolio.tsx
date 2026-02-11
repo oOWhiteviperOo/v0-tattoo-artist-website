@@ -1,10 +1,10 @@
 'use client'
 
 import Image from 'next/image'
-import { motion } from 'motion/react'
+import { motion, Variants } from 'motion/react'
 import { useStudio } from '@/lib/studio-context'
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -14,7 +14,7 @@ const containerVariants = {
   },
 }
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
