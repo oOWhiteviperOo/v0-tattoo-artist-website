@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const BODY_CANVAS: StudioConfig = {
+    identity: {
+        name: 'Body Canvas',
+        slug: 'body-canvas',
+        tagline: 'Where Art Lives Forever',
+        artistName: 'Alex Rivera',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '280 100% 70%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '178, 0, 255',
+        ring: '280 100% 70%',
+    },
+    seo: {
+        title: 'Body Canvas - Premium Custom Tattoo Studio',
+        description: 'Transform your vision into stunning tattoo art at Body Canvas. Custom designs, expert craftsmanship, and personalized experience. Book your consultation today.',
+        keywords: ['custom tattoo studio', 'professional tattoo artist'],
+        openGraph: {
+            title: 'Body Canvas - Where Art Lives Forever',
+            description: 'Premium custom tattoo studio creating unique art that tells your story. Expert artist, sterile environment, lifetime aftercare support.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/body-canvas',
+            siteName: 'Body Canvas',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Body%20Canvas+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Body Canvas',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Your Story Deserves', 'Exceptional Art'],
+        subheadline: 'Transform your vision into stunning tattoo art with personalized designs that reflect your unique journey',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design at Body Canvas studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Pieces' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Lifetime Aftercare' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Artistry in Motion',
+        subtitle: 'Every piece tells a story. Browse our collection of custom tattoos crafted with precision and passion.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Choose Your Experience',
+        subtitle: 'From intimate pieces to statement works, we craft each tattoo with meticulous attention to detail',
+        guarantee: '100% satisfaction guarantee with unlimited touch-ups within 6 months',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Custom Piece',
+                duration: '2-3 hours',
+                price: '$300',
+                priceSubtitle: 'starting from',
+                features: ['Custom design consultation', 'Complete in single session'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Piece',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Statement Work',
+                duration: '4-8 hours',
+                price: '$800',
+                priceSubtitle: 'starting from',
+                features: ['Multi-session planning', 'Detailed design process'],
+                status: 'available',
+                availabilityText: 'Booking for next month',
+                buttonText: 'Book Statement Piece',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Alex transformed my rough idea into the most beautiful piece of art I\'ve ever seen. The attention to detail and creative vision exceeded all my expectations.',
+                author: 'Sarah Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and incredibly talented. The custom design process was collaborative and the final result is absolutely perfect. Couldn\'t be happier!',
+                author: 'Marcus Thompson',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Certified' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @bodycanvasstudio',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Artist',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alex Rivera has built a reputation for creating stunning custom pieces that perfectly capture each client\'s vision. Specializing in detailed linework, vibrant color work, and innovative compositions, Alex approaches every tattoo as a unique collaboration between artist and client.',
+            'At Body Canvas, we believe that tattoos are more than just ink on skin – they\'re personal stories, meaningful symbols, and works of art that deserve the highest level of craftsmanship. Our studio maintains the strictest hygiene standards while providing a comfortable, welcoming environment where your tattoo journey can unfold naturally.',
+        ],
+        callout: 'Every tattoo tells a story. Let\'s create yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Rivera, professional tattoo artist at Body Canvas studio',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I prepare for my tattoo session?',
+                answer: 'Get plenty of rest the night before, eat a good meal, stay hydrated, and avoid alcohol for 24 hours prior. Wear comfortable clothing that allows easy access to the tattoo area. We\'ll provide detailed preparation instructions when you book.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the aftercare process?',
+                answer: 'We provide comprehensive aftercare instructions, premium healing products, and unlimited follow-up consultations. Touch-ups within the first 6 months are completely free, and we\'re always available to answer any questions during your healing process.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Something Amazing?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with exceptional artistry and craftsmanship.',
+        ctaText: 'Schedule Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Consultation',
+        modalDescription: 'Tell us about your tattoo idea and we\'ll schedule a consultation to discuss your vision, design options, and timeline.',
+        successTitle: 'Consultation Booked!',
+        successMessage: 'We\'ll contact you within 24 hours to confirm your appointment details and answer any questions.',
+        submitText: 'Book Consultation',
+        depositDisclaimer: 'A $50 consultation fee applies, fully credited toward your tattoo session',
+    },
+    contact: {
+        email: 'hello@bodycanvasstudio.com',
+        instagram: '@bodycanvasstudio',
+        instagramUrl: 'https://instagram.com/bodycanvasstudio',
+        phone: '(555) 123-4567',
+        address: '123 Art District Ave, Creative Quarter',
+    },
+    footer: {
+        copyrightHolder: 'Body Canvas Studio',
+        tagline: 'Where Art Lives Forever',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
