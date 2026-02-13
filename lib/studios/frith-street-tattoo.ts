@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const FRITH_STREET_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Frith Street Tattoo',
+        slug: 'frith-street-tattoo',
+        tagline: 'Where Art Meets Skin in the Heart of the City',
+        artistName: 'Marcus Chen',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 47%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '227, 160, 8',
+        ring: '45 93% 47%',
+    },
+    seo: {
+        title: 'Frith Street Tattoo - Premium Custom Tattoos',
+        description: 'Award-winning tattoo studio specializing in custom designs, fine line work, and bold traditional pieces. Book your consultation today.',
+        keywords: ['custom tattoo studio', 'fine line tattoos'],
+        openGraph: {
+            title: 'Frith Street Tattoo - Where Art Meets Skin',
+            description: 'Premium custom tattoo studio creating unique, high-quality ink art. Experience the difference of true craftsmanship.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/frith-street-tattoo',
+            siteName: 'Frith Street Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Frith%20Street%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Frith Street Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Timeless Artistry', 'Crafted in Ink'],
+        subheadline: 'Where traditional craftsmanship meets contemporary vision. Creating unique tattoos that tell your story with uncompromising quality.',
+        urgencyText: 'Next available slots in 3 weeks',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '12+ Years Experience' },
+            { iconName: 'Zap', label: '3500+ Tattoos Done' },
+            { iconName: 'Award', label: 'Award-Winning Studio' },
+            { iconName: 'Shield', label: 'Sterile & Safe' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Work',
+        subtitle: 'Each piece is a unique collaboration between artist and client, bringing personal stories to life through ink.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision. All sessions include consultation, custom design, and aftercare guidance.',
+        guarantee: '100% satisfaction guarantee or free touch-up within 30 days',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Piece Session',
+                duration: '2-3 hours',
+                price: '£280',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Custom design consultation', 'Complete aftercare kit included'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Day Session',
+                duration: '6-8 hours',
+                price: '£850',
+                priceSubtitle: 'For detailed large pieces',
+                features: ['Extended design development', 'Priority booking for touch-ups'],
+                status: 'available',
+                availabilityText: '3 week wait',
+                buttonText: 'Book Full Day',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus transformed my rough idea into an absolute masterpiece. The attention to detail and professionalism at Frith Street is unmatched.',
+                author: 'Sarah Williams',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Three tattoos later and I keep coming back. The studio atmosphere is welcoming and the quality is consistently exceptional.',
+                author: 'James Mitchell',
+                city: 'Brighton',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Health Certified' },
+            { iconName: 'Sparkles', label: 'Award Winning' },
+            { iconName: 'Star', label: 'Vegan Friendly Inks' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @frithstreettattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist Behind the Ink',
+        paragraphs: [
+            'With over a decade of experience in the tattoo industry, Marcus Chen has built Frith Street Tattoo into a sanctuary for artistic expression. Trained in both traditional and contemporary techniques, he specializes in fine line work, geometric designs, and custom illustrations that capture each client\'s unique story.',
+            'Every tattoo begins with a conversation. Marcus believes in the collaborative process, working closely with clients to transform ideas into timeless pieces of art. His commitment to sterile practices, premium inks, and ongoing education ensures that every client receives not just a tattoo, but a piece of wearable art they\'ll treasure forever.',
+        ],
+        callout: 'Featured artist in Tattoo Life Magazine 2023 \'Artists to Watch\'',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Chen, lead tattoo artist at Frith Street Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We typically book 2-4 weeks in advance depending on the size and complexity of your piece. For larger custom work, we recommend booking even earlier to allow proper time for design development.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the session price?',
+                answer: 'All sessions include consultation, custom design work, the tattoo session itself, premium aftercare products, and detailed healing instructions. Touch-ups within 30 days are complimentary.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Next Piece?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with exceptional artistry and care.',
+        ctaText: 'Schedule Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo idea and preferred dates. We\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for choosing Frith Street Tattoo. We\'ll review your request and get back to you within 24 hours to confirm your appointment details.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your booking',
+    },
+    contact: {
+        email: 'hello@frithstreettattoo.com',
+        instagram: '@frithstreettattoo',
+        instagramUrl: 'https://instagram.com/frithstreettattoo',
+        phone: '+44 20 7123 4567',
+        address: '42 Frith Street, Soho, London W1D 4RW',
+    },
+    footer: {
+        copyrightHolder: 'Frith Street Tattoo',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
