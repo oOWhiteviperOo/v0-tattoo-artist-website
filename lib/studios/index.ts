@@ -6,6 +6,7 @@ import { TATTOO_SHOP_BY_DAN_GOLD } from './tattoo-shop-by-dan-gold'
 import { WEST_ONE_TATTOO } from './west-one-tattoo'
 import { MIDNIGHT_TATTOO_AND_PIERCE } from './midnight-tattoo-and-pierce'
 import { NERO_PRENTA_TATTOO } from './nero-prenta-tattoo'
+import { GUNG_HO_TATTOO } from './gung-ho-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -16,6 +17,7 @@ export const studios: Record<string, StudioConfig> = {
         'west-one-tattoo': WEST_ONE_TATTOO,
         'midnight-tattoo-and-pierce': MIDNIGHT_TATTOO_AND_PIERCE,
         'nero-prenta-tattoo': NERO_PRENTA_TATTOO,
+        'gung-ho-tattoo': GUNG_HO_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
