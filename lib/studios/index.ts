@@ -17,6 +17,7 @@ import { ORIGIN_TATTOO_LONDON } from './origin-tattoo-london'
 import { ONE_DAY_TATTOO_STUDIO_LONDON } from './one-day-tattoo-studio-london'
 import { FRITH_STREET_TATTOO } from './frith-street-tattoo'
 import { GYPSY_STABLES_TATTOO_COLLECTIVE } from './gypsy-stables-tattoo-collective'
+import { THE_LONDON_SOCIAL_TATTOO_SOHO } from './the-london-social-tattoo-soho'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -38,6 +39,7 @@ export const studios: Record<string, StudioConfig> = {
         'one-day-tattoo-studio-london': ONE_DAY_TATTOO_STUDIO_LONDON,
         'frith-street-tattoo': FRITH_STREET_TATTOO,
         'gypsy-stables-tattoo-collective': GYPSY_STABLES_TATTOO_COLLECTIVE,
+        'the-london-social-tattoo-soho': THE_LONDON_SOCIAL_TATTOO_SOHO,
     // [N8N-MARKER-REGISTRY]
 }
 
