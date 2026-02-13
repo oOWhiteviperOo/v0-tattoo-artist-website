@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const ORIGIN_TATTOO_LONDON: StudioConfig = {
+    identity: {
+        name: 'Origin Tattoo London',
+        slug: 'origin-tattoo-london',
+        tagline: 'Where Your Story Begins',
+        artistName: 'Marcus Rivera',
+    },
+    theme: {
+        background: '222 14% 4%',
+        foreground: '210 40% 98%',
+        accent: '39 100% 50%',
+        accentForeground: '20 14% 4%',
+        mutedForeground: '215 16% 65%',
+        dimmedForeground: '217 10% 40%',
+        border: '217 33% 12%',
+        card: '222 14% 6%',
+        accentRgb: '255, 170, 0',
+        ring: '39 100% 50%',
+    },
+    seo: {
+        title: 'Origin Tattoo London - Premium Custom Tattoos in London',
+        description: 'London\'s premier tattoo studio specializing in custom designs. Expert artistry, sterile environment, and personalized service. Book your consultation today.',
+        keywords: ['tattoo studio London', 'custom tattoo artist'],
+        openGraph: {
+            title: 'Origin Tattoo London - Where Your Story Begins',
+            description: 'Premium custom tattoos in the heart of London. Expert artistry meets personalized service for unforgettable ink.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/origin-tattoo-london',
+            siteName: 'Origin Tattoo London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Origin%20Tattoo%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Origin Tattoo London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Your Story Starts', 'at Origin'],
+        subheadline: 'Premium custom tattoos crafted with precision and passion in the heart of London. Every piece tells your unique story.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist at work at Origin Tattoo London',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: '100% Custom Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Artistry in Action',
+        subtitle: 'Every tattoo is a masterpiece. Browse our latest work and see why London trusts Origin for their most meaningful ink.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Your Perfect Session',
+        subtitle: 'Choose the session that fits your vision. From intimate small pieces to elaborate full sessions.',
+        guarantee: '100% satisfaction guarantee on all sessions',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£200',
+                priceSubtitle: 'Perfect for first-timers',
+                features: ['Design consultation included', 'Small to medium tattoos'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Day Session',
+                duration: '6-8 hours',
+                price: '£650',
+                priceSubtitle: 'For detailed artwork',
+                features: ['Extended design process', 'Large, detailed pieces'],
+                status: 'available',
+                availabilityText: '2 week wait',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Trusted by London',
+        testimonials: [
+            {
+                quote: 'Marcus at Origin created the most incredible sleeve. His attention to detail and artistic vision exceeded everything I hoped for.',
+                author: 'Sarah Mitchell',
+                city: 'Camden, London',
+                rating: 5,
+            },
+            {
+                quote: 'The entire experience was professional and comfortable. Origin is now my go-to studio for all my tattoo work.',
+                author: 'James Thompson',
+                city: 'Shoreditch, London',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Award Winning' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @origintattoolondon',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist Behind Origin',
+        paragraphs: [
+            'Marcus Rivera founded Origin Tattoo London with a simple mission: to create tattoos that tell authentic stories. With over 8 years of experience and training from some of Europe\'s finest artists, Marcus brings a unique blend of technical precision and artistic vision to every piece.',
+            'Specializing in black and grey realism, fine line work, and contemporary illustrative styles, Marcus believes that every tattoo should be as individual as the person wearing it. At Origin, we don\'t just create tattoos – we craft personal narratives that last a lifetime.',
+        ],
+        callout: 'Every tattoo tells a story. What\'s yours?',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Rivera, founder and lead artist at Origin Tattoo London',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance for most sessions. Popular time slots and larger pieces may require longer lead times. Contact us to check current availability.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Every consultation includes design discussion, placement advice, sizing recommendations, and a custom sketch. We\'ll also cover aftercare instructions and answer any questions about the process.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Begin Your Story?',
+        subheadline: 'Book your consultation today and let\'s create something extraordinary together.',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Submitted!',
+        successMessage: 'We\'ve received your booking request and will contact you within 24 hours to confirm your appointment details.',
+        submitText: 'Submit Booking',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@origintattoolondon.com',
+        instagram: '@origintattoolondon',
+        instagramUrl: 'https://instagram.com/origintattoolondon',
+        phone: '+44 20 7946 0958',
+        address: '123 Brick Lane, Shoreditch, London E1 6SB',
+    },
+    footer: {
+        copyrightHolder: 'Origin Tattoo London',
+        tagline: 'Where Your Story Begins',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
