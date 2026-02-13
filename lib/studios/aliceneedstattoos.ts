@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const ALICENEEDSTATTOOS: StudioConfig = {
+    identity: {
+        name: 'AliceNeedsTattoos',
+        slug: 'aliceneedstattoos',
+        tagline: 'Where Art Meets Skin, Where Dreams Become Ink',
+        artistName: 'Alice',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '315 100% 70%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '255, 51, 204',
+        ring: '315 100% 70%',
+    },
+    seo: {
+        title: 'AliceNeedsTattoos - Custom Tattoo Artist & Studio',
+        description: 'Professional tattoo artist Alice creates stunning custom designs. Book your unique tattoo experience at AliceNeedsTattoos studio today.',
+        keywords: ['custom tattoo artist', 'tattoo studio'],
+        openGraph: {
+            title: 'AliceNeedsTattoos - Custom Tattoo Artist & Studio',
+            description: 'Professional tattoo artist Alice creates stunning custom designs. Book your unique tattoo experience today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/aliceneedstattoos',
+            siteName: 'AliceNeedsTattoos',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=AliceNeedsTattoos+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'AliceNeedsTattoos',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Alice',
+    },
+    hero: {
+        headline: ['Transform Your Vision Into', 'Living Art'],
+        subheadline: 'Custom tattoo designs that tell your story with precision, passion, and unmatched artistry',
+        urgencyText: 'Limited availability - Book your consultation today',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist Alice working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Tattoos' },
+            { iconName: 'Award', label: '5-Star Reviews' },
+            { iconName: 'Shield', label: 'Original Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Ink That Speaks',
+        subtitle: 'Every tattoo tells a story. Here are some of the stories Alice has helped bring to life through her artistry.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Your Tattoo Experience',
+        subtitle: 'Choose the perfect session for your vision. Every experience includes custom design consultation and premium aftercare.',
+        guarantee: '100% satisfaction guarantee - your vision, perfectly executed',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '$250',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Custom design consultation', 'Small to medium tattoo'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Custom Session',
+                duration: '4-6 hours',
+                price: '$500',
+                priceSubtitle: 'Complete tattoo experience',
+                features: ['Detailed custom artwork', 'Large detailed tattoo'],
+                status: 'available',
+                availabilityText: 'Next available slot',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Clients Say',
+        testimonials: [
+            {
+                quote: 'Alice transformed my rough idea into the most beautiful tattoo. Her attention to detail and artistic vision exceeded all my expectations.',
+                author: 'Sarah M.',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and incredibly talented. Alice made my first tattoo experience comfortable and the result is absolutely perfect.',
+                author: 'Mike R.',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @aliceneedstattoos',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Alice',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alice has developed a unique artistic style that blends traditional techniques with contemporary design. Her passion for storytelling through ink has made her one of the most sought-after tattoo artists in the area.',
+            'Alice believes that every tattoo should be as unique as the person wearing it. She works closely with each client to understand their vision, creating custom designs that capture their personal story and aesthetic preferences. Her commitment to excellence and attention to detail ensures that every piece is a work of art.',
+        ],
+        callout: 'Every tattoo is a collaboration between artist and client, resulting in something truly one-of-a-kind.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alice, professional tattoo artist at AliceNeedsTattoos studio',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book directly through our website or contact us via Instagram. We\'ll schedule a consultation to discuss your design ideas and provide a detailed quote.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the session price?',
+                answer: 'All sessions include custom design work, the tattoo session, premium aftercare products, and follow-up support during the healing process.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Join hundreds of satisfied clients who have transformed their vision into stunning tattoo art',
+        ctaText: 'Book With Alice',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for choosing AliceNeedsTattoos. We\'ll contact you within 24 hours to confirm your appointment and discuss your design.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@aliceneedstattoos.com',
+        instagram: '@aliceneedstattoos',
+        instagramUrl: 'https://instagram.com/aliceneedstattoos',
+        phone: '+1 (555) 123-4567',
+        address: '123 Art District, Creative Quarter',
+    },
+    footer: {
+        copyrightHolder: 'AliceNeedsTattoos',
+        tagline: 'Where art meets skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
