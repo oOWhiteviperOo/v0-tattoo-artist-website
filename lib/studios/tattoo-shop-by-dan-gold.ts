@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const TATTOO_SHOP_BY_DAN_GOLD: StudioConfig = {
+    identity: {
+        name: 'Tattoo Shop By Dan Gold',
+        slug: 'tattoo-shop-by-dan-gold',
+        tagline: 'Where Golden Artistry Meets Timeless Ink',
+        artistName: 'Dan Gold',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '43 96% 56%',
+        accentForeground: '0 0% 3%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '245, 197, 24',
+        ring: '43 96% 56%',
+    },
+    seo: {
+        title: 'Tattoo Shop By Dan Gold | Premium Custom Tattoo Studio',
+        description: 'Expert tattoo artistry by Dan Gold. Custom designs, premium quality ink, and exceptional service. Book your consultation today.',
+        keywords: ['custom tattoo artist', 'premium tattoo studio'],
+        openGraph: {
+            title: 'Tattoo Shop By Dan Gold - Premium Custom Tattoo Studio',
+            description: 'Expert tattoo artistry by Dan Gold. Custom designs, premium quality ink, and exceptional service. Book your consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/tattoo-shop-by-dan-gold',
+            siteName: 'Tattoo Shop By Dan Gold',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Tattoo%20Shop%20By%20Dan%20Gold+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Tattoo Shop By Dan Gold',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Premium Tattoo Artistry', 'By Dan Gold'],
+        subheadline: 'Transform your vision into stunning, permanent art with expert craftsmanship and attention to detail',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Dan Gold creating a custom tattoo in his premium studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '15+ Years Experience' },
+            { iconName: 'Zap', label: '3000+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Premium Quality Ink' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Featured Artwork',
+        subtitle: 'A showcase of custom pieces crafted with precision and artistic vision',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your tattoo journey',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Custom Design Session',
+                duration: '3-5 hours',
+                price: '$450',
+                priceSubtitle: 'Starting price',
+                features: ['Personalized design consultation', 'Premium quality inks'],
+                status: 'limited',
+                availabilityText: 'Available weekends',
+                buttonText: 'Book Custom Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Premium Full Piece',
+                duration: '6-8 hours',
+                price: '$750',
+                priceSubtitle: 'Complete artwork',
+                features: ['Full day dedicated session', 'Detailed finishing touches'],
+                status: 'available',
+                availabilityText: 'By appointment only',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Clients Say',
+        testimonials: [
+            {
+                quote: 'Dan\'s attention to detail is incredible. My tattoo exceeded all expectations and the healing process was perfect.',
+                author: 'Sarah M.',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and artistic. Dan Gold created exactly what I envisioned. Highly recommend!',
+                author: 'Mike R.',
+                city: 'Westside',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Health Certified' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @tattooshopbydangold',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Dan Gold',
+        paragraphs: [
+            'With over 15 years of experience in the tattoo industry, Dan Gold has established himself as a premier artist known for exceptional craftsmanship and attention to detail. His passion for creating unique, personalized artwork has earned him a loyal clientele and recognition in the tattoo community.',
+            'Dan specializes in custom designs that tell your story through ink. His meticulous approach ensures every piece is not just a tattoo, but a work of art that you\'ll be proud to wear for life. From initial consultation to final touch-up, Dan provides a premium experience in a clean, professional environment.',
+        ],
+        callout: 'Every tattoo tells a story. Let me help you tell yours.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Dan Gold, professional tattoo artist, in his studio',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book a consultation through our booking form or by contacting us directly. We\'ll discuss your ideas, design preferences, and schedule your session.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What is your deposit policy?',
+                answer: 'We require a $100 deposit to secure your appointment. This deposit goes toward your final session cost and is non-refundable but transferable to future appointments.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Get Your Dream Tattoo?',
+        subheadline: 'Book your consultation today and let\'s create something amazing together',
+        ctaText: 'Schedule Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest! We\'ll contact you within 24 hours to confirm your appointment and discuss your tattoo ideas.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A $100 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'info@tattooshopbydangold.com',
+        instagram: '@tattooshopbydangold',
+        instagramUrl: 'https://instagram.com/tattooshopbydangold',
+        phone: '(555) 123-4567',
+        address: '123 Main Street, Studio City, CA 90210',
+    },
+    footer: {
+        copyrightHolder: 'Tattoo Shop By Dan Gold',
+        tagline: 'Premium tattoo artistry and custom designs',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
