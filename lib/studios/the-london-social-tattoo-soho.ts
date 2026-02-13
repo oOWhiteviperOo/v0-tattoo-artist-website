@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_LONDON_SOCIAL_TATTOO_SOHO: StudioConfig = {
+    identity: {
+        name: 'The London Social Tattoo - Soho',
+        slug: 'the-london-social-tattoo-soho',
+        tagline: 'Where Art Meets Culture in the Heart of Soho',
+        artistName: 'Marcus Chen',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 58%',
+        accentForeground: '0 0% 4%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '255, 206, 84',
+        ring: '45 93% 58%',
+    },
+    seo: {
+        title: 'The London Social Tattoo - Premium Soho Tattoo Studio',
+        description: 'Award-winning tattoo studio in Soho, London. Custom designs, traditional & modern styles. Book your consultation with our expert artists today.',
+        keywords: ['tattoo studio soho london', 'custom tattoo london'],
+        openGraph: {
+            title: 'The London Social Tattoo - Soho\'s Premier Tattoo Studio',
+            description: 'Experience exceptional tattooing in the heart of Soho. Custom designs, expert artists, and unmatched quality in London\'s creative district.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/the-london-social-tattoo-soho',
+            siteName: 'The London Social Tattoo - Soho',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20London%20Social%20Tattoo%20-%20Soho+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The London Social Tattoo - Soho',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['London\'s Most Social', 'Tattoo Experience'],
+        subheadline: 'Where creativity meets community in the heart of Soho. Custom tattoos crafted by award-winning artists in London\'s most vibrant district.',
+        urgencyText: 'Only 8 consultation slots left this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Tattoo artist working in modern Soho studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years in Soho' },
+            { iconName: 'Zap', label: '1500+ Happy Clients' },
+            { iconName: 'Award', label: 'Award-Winning Studio' },
+            { iconName: 'Shield', label: '100% Custom Work' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Masterpieces',
+        subtitle: 'Each piece tells a story, crafted with precision and passion in our Soho studio',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision',
+        guarantee: '100% satisfaction guaranteed or full refund',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£280',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Design consultation included', 'Up to 4 inch piece'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Custom Session',
+                duration: '4-6 hours',
+                price: '£480',
+                priceSubtitle: 'For detailed custom work',
+                features: ['Detailed design process', 'Large format pieces'],
+                status: 'available',
+                availabilityText: 'Next available: 3 weeks',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Incredible experience from start to finish. Marcus understood my vision perfectly and delivered a piece that exceeded all expectations. The Soho location adds to the whole vibe.',
+                author: 'Sarah Mitchell',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Best tattoo studio in London, hands down. The attention to detail and professionalism is unmatched. Already planning my next piece with them.',
+                author: 'James Rodriguez',
+                city: 'Camden',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Included' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @londonsocialtattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Marcus Chen',
+        paragraphs: [
+            'With over 8 years of experience in London\'s tattoo scene, Marcus has established The London Social Tattoo as Soho\'s premier destination for custom ink. Trained in traditional techniques and modern innovations, he brings a unique perspective to every piece.',
+            'Located in the heart of Soho, our studio embodies the creative spirit of London\'s most vibrant district. We believe tattooing is a social art form - a collaboration between artist and client that creates something truly unique.',
+        ],
+        callout: 'Every tattoo tells a story. Let\'s tell yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Chen, lead tattoo artist at The London Social Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance, especially for larger pieces. Consultations can usually be scheduled within a week.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do you require a deposit?',
+                answer: 'Yes, we require a £50 deposit to secure your appointment, which goes toward your final session cost. This is fully refundable with 48 hours notice.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Join hundreds of satisfied clients who chose London\'s most social tattoo experience',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll contact you within 24 hours to confirm your session details and answer any questions.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: '£50 deposit required to secure appointment',
+    },
+    contact: {
+        email: 'hello@londonsocialtattoo.com',
+        instagram: '@londonsocialtattoo',
+        instagramUrl: 'https://instagram.com/londonsocialtattoo',
+        phone: '+44 20 7434 1234',
+        address: '42 Frith Street, Soho, London W1D 4RW',
+    },
+    footer: {
+        copyrightHolder: 'The London Social Tattoo',
+        tagline: 'Soho\'s Premier Tattoo Experience',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
