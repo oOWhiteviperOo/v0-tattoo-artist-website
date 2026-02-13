@@ -1,11 +1,13 @@
 import { StudioConfig } from '../types/studio-config'
 import { INK_AND_IRON } from './ink-and-iron'
 import { TEST_STUDIO_V2 } from './test-studio-v2'
+import { FATES_AND_FURY_TATTOO } from './fates-and-fury-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
     'ink-and-iron': INK_AND_IRON,
         'test-studio-v2': TEST_STUDIO_V2,
+        'fates-and-fury-tattoo': FATES_AND_FURY_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
