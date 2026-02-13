@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const SAI_SAI_INK: StudioConfig = {
+    identity: {
+        name: 'Sai Sai Ink',
+        slug: 'sai-sai-ink',
+        tagline: 'Where Art Meets Soul',
+        artistName: 'Sai',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '210 40% 98%',
+        accent: '280 100% 70%',
+        accentForeground: '210 40% 98%',
+        mutedForeground: '215 20% 65%',
+        dimmedForeground: '215 16% 47%',
+        border: '215 28% 17%',
+        card: '222 84% 5%',
+        accentRgb: '170, 0, 255',
+        ring: '280 100% 70%',
+    },
+    seo: {
+        title: 'Sai Sai Ink - Premium Tattoo Studio | Custom Art',
+        description: 'Experience exceptional tattoo artistry at Sai Sai Ink. Custom designs, professional service, and stunning results. Book your consultation today.',
+        keywords: ['custom tattoo studio', 'professional tattoo artist'],
+        openGraph: {
+            title: 'Sai Sai Ink - Where Art Meets Soul',
+            description: 'Premium tattoo studio specializing in custom designs and exceptional artistry. Transform your vision into stunning body art.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/sai-sai-ink',
+            siteName: 'Sai Sai Ink',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Sai%20Sai%20Ink+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Sai Sai Ink',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Transform Your Vision Into', 'Living Art'],
+        subheadline: 'Premium custom tattoos crafted with precision, passion, and years of artistic expertise',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: '100% Custom Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Featured Artwork',
+        subtitle: 'Each piece tells a unique story, crafted with meticulous attention to detail',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Design Consultation',
+                duration: '1-2 hours',
+                price: '$150',
+                priceSubtitle: 'Applied to final tattoo',
+                features: ['Custom design creation', 'Placement consultation'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Tattoo Session',
+                duration: '3-6 hours',
+                price: '$400+',
+                priceSubtitle: 'Based on size & detail',
+                features: ['Complete tattoo service', 'Aftercare included'],
+                status: 'available',
+                availabilityText: 'Next available: 2 weeks',
+                buttonText: 'Book Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Client Stories',
+        testimonials: [
+            {
+                quote: 'Sai\'s attention to detail is incredible. My sleeve turned out better than I ever imagined. The whole experience was professional and comfortable.',
+                author: 'Marcus Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Amazing artist with a great eye for design. Sai took my rough idea and created something absolutely stunning. Highly recommend!',
+                author: 'Sarah Williams',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @saisaiink',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Artist',
+        paragraphs: [
+            'Welcome to Sai Sai Ink, where artistic vision meets technical mastery. With over 8 years of experience in the tattoo industry, I\'ve dedicated my career to creating meaningful, lasting art that tells your unique story.',
+            'My approach combines traditional tattooing techniques with contemporary artistic styles, ensuring each piece is not just a tattoo, but a work of art that you\'ll treasure forever. Every design is custom-created to reflect your personality and vision.',
+        ],
+        callout: 'Your story deserves to be told through exceptional art',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Professional portrait of tattoo artist Sai',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'I recommend booking 2-4 weeks in advance, especially for larger pieces. Consultations can usually be scheduled within a week.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Your consultation includes custom design creation, size and placement discussion, pricing estimate, and scheduling. The consultation fee is applied to your final tattoo cost.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Let\'s bring your vision to life with exceptional artistry and professional service',
+        ctaText: 'Book Your Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and I\'ll get back to you within 24 hours to discuss your vision.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest! I\'ll review your request and get back to you within 24 hours to discuss your vision and schedule your session.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@saisaiink.com',
+        instagram: '@saisaiink',
+        instagramUrl: 'https://instagram.com/saisaiink',
+        phone: '(555) 123-4567',
+        address: '123 Art District, Creative Quarter',
+    },
+    footer: {
+        copyrightHolder: 'Sai Sai Ink',
+        tagline: 'Where Art Meets Soul',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
