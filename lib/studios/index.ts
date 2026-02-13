@@ -20,6 +20,7 @@ import { GYPSY_STABLES_TATTOO_COLLECTIVE } from './gypsy-stables-tattoo-collecti
 import { THE_LONDON_SOCIAL_TATTOO_SOHO } from './the-london-social-tattoo-soho'
 import { SAI_SAI_INK } from './sai-sai-ink'
 import { SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN } from './supreme-karma-tattoo-and-piercing-camden'
+import { CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997 } from './camden-piercing-tattoo-studio-since-1997'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -44,6 +45,7 @@ export const studios: Record<string, StudioConfig> = {
         'the-london-social-tattoo-soho': THE_LONDON_SOCIAL_TATTOO_SOHO,
         'sai-sai-ink': SAI_SAI_INK,
         'supreme-karma-tattoo-and-piercing-camden': SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN,
+        'camden-piercing-tattoo-studio-since-1997': CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997,
     // [N8N-MARKER-REGISTRY]
 }
 
