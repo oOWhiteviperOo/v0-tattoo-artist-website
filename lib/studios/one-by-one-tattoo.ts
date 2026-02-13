@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const ONE_BY_ONE_TATTOO: StudioConfig = {
+    identity: {
+        name: 'One by One Tattoo',
+        slug: 'one-by-one-tattoo',
+        tagline: 'Crafting Individual Stories, One Tattoo at a Time',
+        artistName: 'Marcus Rivera',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '14 100% 57%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '255, 102, 0',
+        ring: '14 100% 57%',
+    },
+    seo: {
+        title: 'One by One Tattoo - Custom Tattoos & Artistic Designs',
+        description: 'Premium custom tattoo studio specializing in unique, personalized designs. Book your consultation today for exceptional artistry and professional service.',
+        keywords: ['custom tattoo studio', 'professional tattoo artist'],
+        openGraph: {
+            title: 'One by One Tattoo - Crafting Individual Stories',
+            description: 'Premium custom tattoo studio creating unique, personalized designs with exceptional artistry and professional service.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/one-by-one-tattoo',
+            siteName: 'One by One Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=One%20by%20One%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'One by One Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Your Story Deserves', 'Exceptional Art'],
+        subheadline: 'Custom tattoo designs crafted with precision, passion, and personal meaning. Every piece tells your unique story.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Pieces' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: '100% Original Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Masterpieces',
+        subtitle: 'Each tattoo is a collaboration between artist and client, resulting in truly one-of-a-kind artwork',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the session that best fits your vision and schedule',
+        guarantee: '100% satisfaction guarantee on all custom work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Custom Piece',
+                duration: '2-3 hours',
+                price: '$300',
+                priceSubtitle: 'Starting price',
+                features: ['Custom design consultation', 'Touch-up session included'],
+                status: 'limited',
+                availabilityText: 'Available within 2 weeks',
+                buttonText: 'Book Small Piece',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Custom Artwork',
+                duration: '4-6 hours',
+                price: '$800',
+                priceSubtitle: 'Starting price',
+                features: ['Detailed design process', 'Multiple sessions if needed'],
+                status: 'available',
+                availabilityText: 'Available within 1 month',
+                buttonText: 'Book Large Piece',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus took my vague idea and turned it into the most beautiful tattoo I could have imagined. The attention to detail is incredible.',
+                author: 'Sarah Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and incredibly talented. This was my first tattoo and Marcus made the whole experience comfortable and amazing.',
+                author: 'Jake Morrison',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @onebyonetattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Artist',
+        paragraphs: [
+            'Marcus Rivera brings over 8 years of tattooing experience to One by One Tattoo, with a passion for creating meaningful, custom artwork that tells each client\'s unique story. Specializing in detailed linework, realistic portraits, and geometric designs, Marcus believes that every tattoo should be as individual as the person wearing it.',
+            'After apprenticing under master artists and honing his craft across different styles, Marcus opened One by One Tattoo with a simple philosophy: quality over quantity. Every piece receives the time, attention, and artistic vision it deserves, ensuring that each client leaves with a tattoo they\'ll treasure forever.',
+        ],
+        callout: '"I don\'t just create tattoos - I help people express their stories through art that will last a lifetime."',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Rivera, professional tattoo artist at One by One Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance for small pieces and 1-2 months for larger, more complex designs. This allows time for proper design development and ensures the best possible outcome.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Every consultation includes discussing your vision, reviewing reference materials, initial design sketches, placement advice, and a detailed timeline and pricing breakdown. The consultation fee is applied toward your tattoo session.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with exceptional artistry and professional care.',
+        ctaText: 'Schedule Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Consultation',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll schedule your personalized consultation with Marcus.',
+        successTitle: 'Consultation Booked!',
+        successMessage: 'Thank you for choosing One by One Tattoo. We\'ll contact you within 24 hours to confirm your consultation details.',
+        submitText: 'Book Consultation',
+        depositDisclaimer: 'A $50 consultation fee will be required to secure your appointment (applied toward tattoo cost).',
+    },
+    contact: {
+        email: 'info@onebyonetattoo.com',
+        instagram: '@onebyonetattoo',
+        instagramUrl: 'https://instagram.com/onebyonetattoo',
+        phone: '(555) 123-4567',
+        address: '123 Art District Ave, Creative Quarter',
+    },
+    footer: {
+        copyrightHolder: 'One by One Tattoo',
+        tagline: 'Crafting Individual Stories, One Tattoo at a Time',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
