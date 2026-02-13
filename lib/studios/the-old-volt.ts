@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_OLD_VOLT: StudioConfig = {
+    identity: {
+        name: 'The Old Volt',
+        slug: 'the-old-volt',
+        tagline: 'Electric Art, Timeless Ink',
+        artistName: 'Marcus Steel',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 47%',
+        accentForeground: '0 0% 0%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '225, 225, 15',
+        ring: '45 93% 47%',
+    },
+    seo: {
+        title: 'The Old Volt Tattoo Studio | Electric Art, Timeless Ink',
+        description: 'Premium tattoo studio specializing in bold, electric designs. Custom artwork by master artist Marcus Steel. Book your session today.',
+        keywords: ['tattoo studio', 'custom tattoo artist'],
+        openGraph: {
+            title: 'The Old Volt - Electric Art, Timeless Ink',
+            description: 'Premium tattoo studio creating bold, electric designs with timeless appeal. Expert artistry meets cutting-edge style.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/the-old-volt',
+            siteName: 'The Old Volt',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20Old%20Volt+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The Old Volt',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Where Electricity Meets', 'Eternal Art'],
+        subheadline: 'Bold designs that spark conversation and stand the test of time',
+        urgencyText: 'Limited slots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'The Old Volt tattoo studio hero image',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '12+ Years Experience' },
+            { iconName: 'Zap', label: '3000+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Electric Portfolio',
+        subtitle: 'Bold designs that make a statement',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose your electric experience',
+        guarantee: '100% satisfaction guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Flash Session',
+                duration: '2-3 hours',
+                price: '$300',
+                priceSubtitle: 'Small to medium designs',
+                features: ['Pre-designed flash art', 'Same-day availability'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Flash',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Custom Session',
+                duration: '4-8 hours',
+                price: '$600+',
+                priceSubtitle: 'Fully custom artwork',
+                features: ['One-on-one design consultation', 'Completely original artwork'],
+                status: 'available',
+                availabilityText: '2-week wait',
+                buttonText: 'Book Custom',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus absolutely nailed my electric-themed sleeve. The attention to detail and bold lines are incredible. Best tattoo experience I\'ve ever had!',
+                author: 'Sarah Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'The Old Volt lives up to its name - the energy in the studio is amazing and the artwork speaks for itself. My lightning bolt piece gets compliments daily.',
+                author: 'Jake Morrison',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Award Winning' },
+            { iconName: 'Sparkles', label: 'Sterile Environment' },
+            { iconName: 'Star', label: 'Premium Equipment' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @theoldvolt',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist Behind The Voltage',
+        paragraphs: [
+            'Marcus Steel has been electrifying the tattoo world for over a decade, specializing in bold, high-contrast designs that capture the raw energy of electricity itself. His unique approach combines traditional tattooing techniques with modern electric-inspired aesthetics.',
+            'At The Old Volt, every piece is crafted with precision and passion. Marcus believes that great tattoos should spark conversation and stand as timeless works of art on your skin. His studio maintains the highest standards of cleanliness and professionalism while fostering a creative, energetic atmosphere.',
+        ],
+        callout: 'Every tattoo tells a story - let\'s make yours electric.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Steel, master tattoo artist at The Old Volt',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'Flash sessions can often be booked same-day, while custom pieces typically require a 2-week advance booking. We recommend reaching out as early as possible to secure your preferred date.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the session price?',
+                answer: 'All sessions include the tattoo work, aftercare products, detailed healing instructions, and a complimentary touch-up within 6 months if needed. Custom sessions also include the design consultation and artwork creation.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Get Electric?',
+        subheadline: 'Book your session today and join the hundreds of satisfied clients who chose The Old Volt',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to confirm your session details.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A 50% deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'info@theoldvolt.com',
+        instagram: '@theoldvolt',
+        instagramUrl: 'https://instagram.com/theoldvolt',
+        phone: '(555) 123-VOLT',
+        address: 'Electric Arts District, Studio 12',
+    },
+    footer: {
+        copyrightHolder: 'The Old Volt',
+        tagline: 'Electric Art, Timeless Ink',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
