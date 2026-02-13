@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const NOOIR_TATTOO_BLACKWORK_TATTOOS: StudioConfig = {
+    identity: {
+        name: 'Nooir Tattoo - Blackwork Tattoos',
+        slug: 'nooir-tattoo-blackwork-tattoos',
+        tagline: 'Where Shadows Become Art',
+        artistName: 'Alex Noir',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '0 0% 98%',
+        accent: '0 0% 20%',
+        accentForeground: '0 0% 98%',
+        mutedForeground: '0 0% 64%',
+        dimmedForeground: '0 0% 45%',
+        border: '0 0% 15%',
+        card: '0 0% 6%',
+        accentRgb: '51, 51, 51',
+        ring: '0 0% 20%',
+    },
+    seo: {
+        title: 'Nooir Tattoo - Premium Blackwork Tattoos & Dark Art',
+        description: 'Expert blackwork tattoos and dark art at Nooir Tattoo. Custom designs, bold linework, and geometric patterns. Book your consultation today.',
+        keywords: ['blackwork tattoos', 'dark art tattoo studio'],
+        openGraph: {
+            title: 'Nooir Tattoo - Blackwork Tattoos',
+            description: 'Premium blackwork tattoos and dark art. Custom designs by expert artists specializing in bold linework and geometric patterns.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/nooir-tattoo-blackwork-tattoos',
+            siteName: 'Nooir Tattoo - Blackwork Tattoos',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Nooir%20Tattoo%20-%20Blackwork%20Tattoos+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Nooir Tattoo - Blackwork Tattoos',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Bold Blackwork', 'Dark Art Mastery'],
+        subheadline: 'Specializing in striking blackwork tattoos, geometric patterns, and dark artistic designs that make a statement',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Design Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Blackwork tattoo artist working on intricate geometric design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Blackwork Tattoos' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Dark Art Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Dark Art Portfolio',
+        subtitle: 'Bold blackwork designs that tell your story through shadows and contrast',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional blackwork tattoo services tailored to your vision',
+        guarantee: '100% satisfaction guaranteed with free touch-ups within 30 days',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Blackwork Consultation',
+                duration: '1 Hour',
+                price: '$100',
+                priceSubtitle: 'Applied to tattoo cost',
+                features: ['Custom design creation', 'Placement consultation'],
+                status: 'limited',
+                availabilityText: 'Available weekly',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Blackwork Tattoo Session',
+                duration: '3-6 Hours',
+                price: '$200/hour',
+                priceSubtitle: 'Minimum 3 hours',
+                features: ['Expert blackwork execution', 'Premium ink & aftercare'],
+                status: 'available',
+                availabilityText: 'Limited monthly slots',
+                buttonText: 'Book Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Alex\'s blackwork is absolutely incredible. The geometric design on my forearm gets compliments everywhere I go. The attention to detail is unmatched.',
+                author: 'Marcus Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Finally found an artist who understands dark art. My mandala sleeve turned out better than I ever imagined. Professional and talented.',
+                author: 'Sarah Rodriguez',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Health Certified' },
+            { iconName: 'Sparkles', label: 'Award Winning' },
+            { iconName: 'Star', label: 'Sterile Environment' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @nooirtattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Master of Shadows',
+        paragraphs: [
+            'Alex Noir has been pushing the boundaries of blackwork tattooing for over 8 years, specializing in bold geometric patterns, intricate mandalas, and dark artistic designs. With a background in fine arts and a passion for contrast and shadow work, Alex brings a unique perspective to every piece.',
+            'At Nooir Tattoo, we believe that blackwork isn\'t just about the absence of color—it\'s about the power of pure form, line, and contrast to create stunning visual impact. Every tattoo is a custom piece of art designed specifically for you, ensuring your vision comes to life in striking black ink.',
+        ],
+        callout: 'Every design is hand-drawn and completely original—no flash, no repeats, just pure artistic expression.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Noir, blackwork tattoo artist, working on a custom design',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long do blackwork tattoos take to heal?',
+                answer: 'Blackwork tattoos typically take 2-3 weeks to heal completely. The bold black ink may appear darker initially but will settle to the intended shade during healing. We provide detailed aftercare instructions to ensure optimal healing.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Can you add color to blackwork designs later?',
+                answer: 'While it\'s possible to add color accents to some blackwork pieces, our specialty is pure blackwork art. We design each piece to be complete and stunning in black ink alone. If you\'re interested in color, we can discuss options during consultation.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Your Dark Art Masterpiece?',
+        subheadline: 'Book a consultation and let\'s create something bold and unforgettable together',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Blackwork Session',
+        modalDescription: 'Ready to get started on your custom blackwork tattoo? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest in Nooir Tattoo. We\'ll review your request and get back to you within 24 hours to confirm your consultation.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A $100 deposit is required to secure your appointment and will be applied to your final tattoo cost.',
+    },
+    contact: {
+        email: 'alex@nooirtattoo.com',
+        instagram: '@nooirtattoo',
+        instagramUrl: 'https://instagram.com/nooirtattoo',
+        phone: '(555) 123-NOIR',
+        address: '123 Dark Arts Ave, Studio District',
+    },
+    footer: {
+        copyrightHolder: 'Nooir Tattoo',
+        tagline: 'Where Shadows Become Art',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
