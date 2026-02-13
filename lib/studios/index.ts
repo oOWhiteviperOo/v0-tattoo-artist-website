@@ -23,6 +23,7 @@ import { SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN } from './supreme-karma-tattoo
 import { CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997 } from './camden-piercing-tattoo-studio-since-1997'
 import { THE_OLD_VOLT } from './the-old-volt'
 import { RIVAL_INK_TATTOO_SALFORD } from './rival-ink-tattoo-salford'
+import { INKD_LONDON } from './inkd-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -50,6 +51,7 @@ export const studios: Record<string, StudioConfig> = {
         'camden-piercing-tattoo-studio-since-1997': CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997,
         'the-old-volt': THE_OLD_VOLT,
         'rival-ink-tattoo-salford': RIVAL_INK_TATTOO_SALFORD,
+        'inkd-london': INKD_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
