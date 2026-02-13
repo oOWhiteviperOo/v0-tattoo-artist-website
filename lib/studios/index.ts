@@ -1,11 +1,9 @@
 import { StudioConfig } from '../types/studio-config'
 import { INK_AND_IRON } from './ink-and-iron'
-import { TEST_STUDIO } from './test-studio'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
     'ink-and-iron': INK_AND_IRON,
-        'test-studio': TEST_STUDIO,
     // [N8N-MARKER-REGISTRY]
 }
 
