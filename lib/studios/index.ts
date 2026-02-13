@@ -19,6 +19,7 @@ import { FRITH_STREET_TATTOO } from './frith-street-tattoo'
 import { GYPSY_STABLES_TATTOO_COLLECTIVE } from './gypsy-stables-tattoo-collective'
 import { THE_LONDON_SOCIAL_TATTOO_SOHO } from './the-london-social-tattoo-soho'
 import { SAI_SAI_INK } from './sai-sai-ink'
+import { SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN } from './supreme-karma-tattoo-and-piercing-camden'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -42,6 +43,7 @@ export const studios: Record<string, StudioConfig> = {
         'gypsy-stables-tattoo-collective': GYPSY_STABLES_TATTOO_COLLECTIVE,
         'the-london-social-tattoo-soho': THE_LONDON_SOCIAL_TATTOO_SOHO,
         'sai-sai-ink': SAI_SAI_INK,
+        'supreme-karma-tattoo-and-piercing-camden': SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN,
     // [N8N-MARKER-REGISTRY]
 }
 
