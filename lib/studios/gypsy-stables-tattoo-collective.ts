@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const GYPSY_STABLES_TATTOO_COLLECTIVE: StudioConfig = {
+    identity: {
+        name: 'Gypsy Stables Tattoo Collective',
+        slug: 'gypsy-stables-tattoo-collective',
+        tagline: 'Where Art Lives Free',
+        artistName: 'The Collective',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '25 75% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '245, 158, 61',
+        ring: '25 75% 60%',
+    },
+    seo: {
+        title: 'Gypsy Stables Tattoo Collective - Where Art Lives Free',
+        description: 'Premium tattoo collective specializing in custom designs. Book your consultation with our talented artists today. Walk-ins welcome.',
+        keywords: ['tattoo collective', 'custom tattoo designs'],
+        openGraph: {
+            title: 'Gypsy Stables Tattoo Collective',
+            description: 'Premium tattoo collective where art lives free. Custom designs by talented artists.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/gypsy-stables-tattoo-collective',
+            siteName: 'Gypsy Stables Tattoo Collective',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Gypsy%20Stables%20Tattoo%20Collective+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Gypsy Stables Tattoo Collective',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Where Art', 'Lives Free'],
+        subheadline: 'A collective of passionate artists creating one-of-a-kind tattoos that tell your story',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Gypsy Stables tattoo artist at work',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: 'Collective of Artists' },
+            { iconName: 'Zap', label: '5000+ Custom Tattoos' },
+            { iconName: 'Award', label: 'Premium Quality' },
+            { iconName: 'Shield', label: 'Walk-ins Welcome' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Our Collective Works',
+        subtitle: 'Each piece tells a unique story, crafted by our diverse team of artists',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision',
+        guarantee: '100% satisfaction guaranteed or we\'ll make it right',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '$200',
+                priceSubtitle: 'Starting rate',
+                features: ['Design consultation included', 'Perfect for first tattoos'],
+                status: 'limited',
+                availabilityText: 'Same day available',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Custom Design',
+                duration: '4-8 hours',
+                price: '$500',
+                priceSubtitle: 'Starting rate',
+                features: ['Complete custom design', 'Multiple session option'],
+                status: 'available',
+                availabilityText: 'Book 2 weeks ahead',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'The collective at Gypsy Stables created exactly what I envisioned. The atmosphere is so welcoming and the artistry is incredible.',
+                author: 'Sarah M.',
+                city: 'Local Client',
+                rating: 5,
+            },
+            {
+                quote: 'I\'ve gotten three tattoos here and each artist brought something unique to the table. This place feels like a true artistic community.',
+                author: 'Mike R.',
+                city: 'Repeat Client',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artists' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @gypsystablestattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'About Our Collective',
+        paragraphs: [
+            'Gypsy Stables Tattoo Collective is more than just a studio - we\'re a community of passionate artists who believe in the power of authentic self-expression. Our collective brings together diverse styles and perspectives, creating a space where art truly lives free.',
+            'Each artist in our collective brings their own unique vision and expertise, from traditional American to fine line work, blackwork to vibrant color pieces. We pride ourselves on creating custom designs that reflect your individual story and style.',
+        ],
+        callout: 'Every tattoo is a collaboration between artist and client, resulting in truly one-of-a-kind artwork.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Gypsy Stables Tattoo Collective artists',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'Do you accept walk-ins?',
+                answer: 'Yes! While we recommend booking ahead for larger pieces, we welcome walk-ins for smaller tattoos and consultations based on availability.',
+            },
+            {
+                id: 'faq-2',
+                question: 'How do I choose which artist to work with?',
+                answer: 'During your consultation, we\'ll discuss your vision and match you with the artist whose style best fits your desired piece. You can also browse our individual portfolios.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Next Tattoo?',
+        subheadline: 'Join our community of satisfied clients and let our collective bring your vision to life',
+        ctaText: 'Book Your Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll match you with the perfect artist from our collective.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll contact you within 24 hours to confirm your appointment and discuss your design.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@gypsystablestattoo.com',
+        instagram: '@gypsystablestattoo',
+        instagramUrl: 'https://instagram.com/gypsystablestattoo',
+        phone: '(555) 123-4567',
+        address: '123 Art District, Creative City',
+    },
+    footer: {
+        copyrightHolder: 'Gypsy Stables Tattoo Collective',
+        tagline: 'Where Art Lives Free',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
