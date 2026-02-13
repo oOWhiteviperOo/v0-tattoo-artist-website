@@ -4,7 +4,7 @@ import { getStudio, getAllSlugs } from '@/lib/studios'
 import { StudioPage } from '@/components/StudioPage'
 
 interface PageProps {
-    params: { slug: string }
+    params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
@@ -13,7 +13,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-    const studio = getStudio(params.slug)
+    const { slug } = await params
+    const studio = getStudio(slug)
 
     if (!studio) {
         return {}
@@ -39,8 +40,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 }
 
-export default function Page({ params }: PageProps) {
-    const studio = getStudio(params.slug)
+export default async function Page({ params }: PageProps) {
+    const { slug } = await params
+    const studio = getStudio(slug)
 
     if (!studio) {
         notFound()
