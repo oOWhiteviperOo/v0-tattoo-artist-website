@@ -59,6 +59,8 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
   const [form, setForm] = useState<FormState>(defaultForm)
   const [submitted, setSubmitted] = useState(false)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, boolean>>>({})
+  const update = (key: keyof FormState, value: string | boolean) =>
+    setForm(prev => ({ ...prev, [key]: value }))
 
   // Pre-fill session type when opened from a session card
   useEffect(() => {
