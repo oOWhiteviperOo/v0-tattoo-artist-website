@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const FATES_AND_FURY_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Fates & Fury Tattoo',
+        slug: 'fates-and-fury-tattoo',
+        tagline: 'Where Destiny Meets Ink',
+        artistName: 'Marcus Steel',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '0 84% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '245, 40, 40',
+        ring: '0 84% 60%',
+    },
+    seo: {
+        title: 'Fates & Fury Tattoo Sheffield | Custom Tattoo Studio',
+        description: 'Sheffield\'s premier tattoo studio specializing in dark art, mythology, and custom designs. Book your consultation at Fates & Fury Tattoo today.',
+        keywords: ['Sheffield tattoo studio', 'custom tattoo Sheffield'],
+        openGraph: {
+            title: 'Fates & Fury Tattoo - Where Destiny Meets Ink',
+            description: 'Sheffield\'s premier tattoo studio specializing in dark art, mythology, and custom designs. Book your consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/fates-and-fury-tattoo',
+            siteName: 'Fates & Fury Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Fates%20%26%20Fury%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Fates & Fury Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Where Ancient Myths Meet', 'Modern Artistry'],
+        subheadline: 'Sheffield\'s premier destination for dark art, mythology-inspired tattoos, and custom designs that tell your unique story',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Destiny',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Dark mythology tattoo artwork at Fates & Fury Tattoo Sheffield',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Mastery' },
+            { iconName: 'Zap', label: '1500+ Legends Inked' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Legends Brought to Life',
+        subtitle: 'Each piece tells a story of fate, fury, and the eternal dance between light and shadow',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Choose Your Path',
+        subtitle: 'Every legend begins with a single step. Which journey will you choose?',
+        guarantee: '100% satisfaction guaranteed or full deposit refund',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Design',
+                duration: '90 minutes',
+                price: '£75',
+                priceSubtitle: 'Fully refundable with booking',
+                features: ['Custom design creation', 'Placement consultation'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Tattoo Session',
+                duration: '4-8 hours',
+                price: '£150/hr',
+                priceSubtitle: 'Includes aftercare kit',
+                features: ['Premium inks & equipment', 'Lifetime touch-up guarantee'],
+                status: 'available',
+                availabilityText: 'Next available: 3 weeks',
+                buttonText: 'Book Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Stories of Transformation',
+        testimonials: [
+            {
+                quote: 'Marcus transformed my vision of Norse mythology into the most incredible sleeve. The detail and symbolism are absolutely perfect. Worth every penny and the wait!',
+                author: 'Sarah M.',
+                city: 'Sheffield',
+                rating: 5,
+            },
+            {
+                quote: 'The atmosphere at Fates & Fury is incredible - dark, mystical, and professional. My Greek mythology piece exceeded all expectations. This is true artistry.',
+                author: 'James R.',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks Only' },
+            { iconName: 'Star', label: 'Award Winning' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @fatesandfurytattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist Behind the Legends',
+        paragraphs: [
+            'Marcus Steel has spent over 8 years mastering the ancient art of tattooing, specializing in dark mythology, Nordic runes, and gothic imagery. His passion for storytelling through ink has earned him recognition across the UK tattoo community.',
+            'At Fates & Fury, every piece is a collaboration between artist and client, weaving personal stories with timeless mythological themes. Marcus believes that tattoos are more than art - they\'re talismans that carry our deepest truths and aspirations.',
+        ],
+        callout: 'Your story deserves to be told with the reverence and artistry it commands.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Steel, master tattoo artist at Fates & Fury Tattoo Sheffield',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'For custom work, we recommend booking 3-4 weeks in advance. Larger pieces may require longer lead times. Consultations can usually be scheduled within the week.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do you offer payment plans for large pieces?',
+                answer: 'Yes, we offer flexible payment plans for sessions over £500. A 25% deposit secures your booking, with the balance payable in agreed installments before your session.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Begin Your Legend?',
+        subheadline: 'Your story is waiting to be inked. Let\'s create something extraordinary together.',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Consultation',
+        modalDescription: 'Take the first step towards your perfect tattoo. Share your vision and let\'s bring it to life.',
+        successTitle: 'Your Destiny Awaits!',
+        successMessage: 'We\'ve received your booking request and will contact you within 24 hours to confirm your consultation.',
+        submitText: 'Secure My Spot',
+        depositDisclaimer: 'A £75 deposit will be required to secure your booking date',
+    },
+    contact: {
+        email: 'hello@fatesandfurytattoo.co.uk',
+        instagram: '@fatesandfurytattoo',
+        instagramUrl: 'https://instagram.com/fatesandfurytattoo',
+        phone: '+44 114 123 4567',
+        address: '123 Steel Street, Sheffield, S1 2AB',
+    },
+    footer: {
+        copyrightHolder: 'Fates & Fury Tattoo',
+        tagline: 'Where legends are born in ink',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
