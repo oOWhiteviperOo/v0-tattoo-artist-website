@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997: StudioConfig = {
+    identity: {
+        name: 'Camden Piercing & Tattoo Studio - Since 1997',
+        slug: 'camden-piercing-tattoo-studio-since-1997',
+        tagline: 'Legendary artistry, trusted since 1997',
+        artistName: 'The Camden Collective',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '210 40% 98%',
+        accent: '30 100% 50%',
+        accentForeground: '210 40% 98%',
+        mutedForeground: '215 20% 65%',
+        dimmedForeground: '215 15% 45%',
+        border: '215 27% 17%',
+        card: '215 27% 8%',
+        accentRgb: '255, 128, 0',
+        ring: '30 100% 50%',
+    },
+    seo: {
+        title: 'Camden Piercing & Tattoo Studio - Since 1997 | Expert Artists',
+        description: 'Premier tattoo & piercing studio since 1997. Expert artists, custom designs, professional piercings. Book your appointment at Camden\'s trusted studio.',
+        keywords: ['Camden tattoo studio', 'professional piercing Camden'],
+        openGraph: {
+            title: 'Camden Piercing & Tattoo Studio - Since 1997',
+            description: 'Premier tattoo & piercing studio since 1997. Expert artists, custom designs, professional piercings in Camden.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/camden-piercing-tattoo-studio-since-1997',
+            siteName: 'Camden Piercing & Tattoo Studio - Since 1997',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Camden%20Piercing%20%26%20Tattoo%20Studio%20-%20Since%201997+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Camden Piercing & Tattoo Studio - Since 1997',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Camden\'s Premier', 'Tattoo & Piercing Studio'],
+        subheadline: 'Trusted artistry and professional body modification since 1997. Where tradition meets innovation in the heart of Camden.',
+        urgencyText: 'Booking up fast - secure your spot today',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Camden Piercing & Tattoo Studio interior showcasing professional equipment and artistic atmosphere',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '27+ Years Experience' },
+            { iconName: 'Zap', label: '15,000+ Satisfied Clients' },
+            { iconName: 'Award', label: 'Licensed & Certified' },
+            { iconName: 'Shield', label: 'Award-Winning Studio' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Legendary Artistry',
+        subtitle: 'From bold traditional pieces to intricate fine line work, explore our diverse portfolio spanning nearly three decades of excellence.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Professional Services',
+        subtitle: 'Expert tattoo and piercing services with over 27 years of trusted experience in Camden.',
+        guarantee: '100% satisfaction guaranteed with aftercare support included',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Custom Tattoo Session',
+                duration: '2-6 hours',
+                price: '£120/hour',
+                priceSubtitle: 'Minimum 2 hours',
+                features: ['Custom design consultation included', 'Premium inks & sterile equipment'],
+                status: 'limited',
+                availabilityText: 'Available daily',
+                buttonText: 'Book Tattoo',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Professional Piercing',
+                duration: '30-60 minutes',
+                price: '£45-85',
+                priceSubtitle: 'Jewelry included',
+                features: ['High-quality titanium jewelry', 'Comprehensive aftercare guidance'],
+                status: 'available',
+                availabilityText: 'Walk-ins welcome',
+                buttonText: 'Book Piercing',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Been going to Camden Studio for over 10 years. The quality and professionalism never disappoints. My sleeve is absolutely stunning!',
+                author: 'Sarah M.',
+                city: 'Camden',
+                rating: 5,
+            },
+            {
+                quote: 'Got my first piercing here in 1999 and have been a loyal customer ever since. The team\'s expertise and care is unmatched in London.',
+                author: 'James R.',
+                city: 'North London',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Health Certified' },
+            { iconName: 'Sparkles', label: 'Award Winner' },
+            { iconName: 'Star', label: '27 Years Trusted' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @camdenpiercingtattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'A Camden Institution Since 1997',
+        paragraphs: [
+            'For over a quarter-century, Camden Piercing & Tattoo Studio has been at the heart of London\'s body art scene. What started as a small shop in Camden\'s vibrant market has grown into one of the city\'s most respected studios, known for exceptional artistry and unwavering commitment to safety and hygiene.',
+            'Our team of experienced artists and piercers brings together decades of collective expertise, offering everything from traditional tattoo styles to cutting-edge body piercing techniques. We\'ve watched Camden evolve while maintaining our dedication to quality craftsmanship and customer satisfaction that has made us a trusted name for generations of clients.',
+        ],
+        callout: 'Every piece we create tells a story - let us help you tell yours with the artistry and professionalism that only comes with 27 years of experience.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Camden Piercing & Tattoo Studio team of experienced artists and piercers',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'Do I need to book an appointment for piercings?',
+                answer: 'While we welcome walk-ins for most piercings, we recommend booking ahead during busy periods to avoid waiting. Complex piercings like industrials or surface piercings should be booked in advance.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the tattoo consultation?',
+                answer: 'Our consultation includes design discussion, size and placement advice, aftercare instructions, and a detailed quote. We\'ll work with you to create the perfect custom piece that fits your vision and budget.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Join the Camden Legacy?',
+        subheadline: 'Book your appointment at London\'s most trusted tattoo and piercing studio. Quality artistry backed by 27 years of experience.',
+        ctaText: 'Book Your Session Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to get started? Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for choosing Camden Piercing & Tattoo Studio. We\'ll contact you within 24 hours to confirm your appointment details.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A deposit may be required to secure your appointment',
+    },
+    contact: {
+        email: 'info@camdenpiercingtattoo.co.uk',
+        instagram: '@camdenpiercingtattoo',
+        instagramUrl: 'https://instagram.com/camdenpiercingtattoo',
+        phone: '+44 20 7485 2847',
+        address: 'Camden Market, London NW1 8AH, UK',
+    },
+    footer: {
+        copyrightHolder: 'Camden Piercing & Tattoo Studio',
+        tagline: 'Legendary artistry since 1997',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
