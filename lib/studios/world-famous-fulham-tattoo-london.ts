@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const WORLD_FAMOUS_FULHAM_TATTOO_LONDON: StudioConfig = {
+    identity: {
+        name: 'World Famous Fulham Tattoo London',
+        slug: 'world-famous-fulham-tattoo-london',
+        tagline: 'World-Class Artistry in the Heart of London',
+        artistName: 'Master Artist Collective',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '0 0% 98%',
+        accent: '14 86% 42%',
+        accentForeground: '0 0% 98%',
+        mutedForeground: '0 0% 64%',
+        dimmedForeground: '0 0% 45%',
+        border: '0 0% 15%',
+        card: '0 0% 6%',
+        accentRgb: '186, 85, 32',
+        ring: '14 86% 42%',
+    },
+    seo: {
+        title: 'World Famous Fulham Tattoo London | Premier Tattoo Studio',
+        description: 'London\'s premier tattoo studio in Fulham. World-class artists, custom designs, and exceptional artistry. Book your consultation today.',
+        keywords: ['tattoo studio Fulham London', 'custom tattoo artist London'],
+        openGraph: {
+            title: 'World Famous Fulham Tattoo London - Premier Tattoo Studio',
+            description: 'Experience world-class tattoo artistry in the heart of Fulham. Custom designs, master artists, and exceptional service.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/world-famous-fulham-tattoo-london',
+            siteName: 'World Famous Fulham Tattoo London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=World%20Famous%20Fulham%20Tattoo%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'World Famous Fulham Tattoo London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['World Famous Artistry', 'In the Heart of Fulham'],
+        subheadline: 'Where legendary tattoo artistry meets London\'s creative spirit. Our master artists create bespoke pieces that tell your unique story.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'World Famous Fulham Tattoo London studio interior',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '15+ Years Legacy' },
+            { iconName: 'Zap', label: '5000+ Masterpieces' },
+            { iconName: 'Award', label: 'Award Winning Studio' },
+            { iconName: 'Shield', label: 'Celebrity Clientele' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Legendary Artistry',
+        subtitle: 'Each piece is a masterwork, crafted by London\'s most celebrated tattoo artists',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Bespoke Tattoo Experiences',
+        subtitle: 'From intimate pieces to grand masterworks, we craft tattoos worthy of our world-famous reputation',
+        guarantee: '100% satisfaction guarantee on all custom work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Signature Piece',
+                duration: '2-4 Hours',
+                price: '£300',
+                priceSubtitle: 'Starting from',
+                features: ['Custom design consultation', 'Premium aftercare kit included'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Signature Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Masterwork Collection',
+                duration: 'Full Day',
+                price: '£800',
+                priceSubtitle: 'Starting from',
+                features: ['Multiple session planning', 'Priority booking privileges'],
+                status: 'available',
+                availabilityText: 'Limited availability',
+                buttonText: 'Book Masterwork Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Trusted by London\'s Elite',
+        testimonials: [
+            {
+                quote: 'Absolutely phenomenal work. The attention to detail and artistry is unmatched. Worth every penny and more.',
+                author: 'James Morrison',
+                city: 'Chelsea',
+                rating: 5,
+            },
+            {
+                quote: 'World Famous lives up to its name. The studio atmosphere and artist skill level is truly exceptional.',
+                author: 'Sarah Williams',
+                city: 'Kensington',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Award Winning Studio' },
+            { iconName: 'TrendingUp', label: 'Licensed & Insured' },
+            { iconName: 'Sparkles', label: 'Sterile Environment' },
+            { iconName: 'Star', label: 'Celebrity Trusted' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @worldfamousfulham',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'London\'s Most Celebrated Tattoo Destination',
+        paragraphs: [
+            'For over fifteen years, World Famous Fulham Tattoo London has been the premier destination for discerning clients seeking exceptional tattoo artistry. Our studio represents the pinnacle of tattooing excellence in London, where traditional craftsmanship meets contemporary innovation.',
+            'Our collective of master artists brings decades of combined experience, having trained under legendary tattooers and developed signature styles that have earned international recognition. From intricate blackwork to vibrant color pieces, we specialize in creating bespoke tattoos that reflect our clients\' unique stories and aesthetic vision.',
+        ],
+        callout: 'Every tattoo is a collaboration between artist and client, resulting in truly one-of-a-kind masterpieces.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'World Famous Fulham Tattoo London artist at work',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'Contact us through our booking form, Instagram, or phone. We\'ll schedule a consultation to discuss your vision and create a custom design proposal.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s your deposit policy?',
+                answer: 'We require a £100 deposit to secure your appointment, which goes toward your final session cost. Deposits are non-refundable but can be transferred once.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Join the ranks of satisfied clients who\'ve experienced world-famous artistry',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Consultation',
+        modalDescription: 'Tell us about your vision and we\'ll create something extraordinary together',
+        successTitle: 'Consultation Booked!',
+        successMessage: 'We\'ll be in touch within 24 hours to confirm your appointment and discuss your vision.',
+        submitText: 'Book Consultation',
+        depositDisclaimer: '£100 deposit required to secure appointment',
+    },
+    contact: {
+        email: 'info@worldfamousfulham.co.uk',
+        instagram: '@worldfamousfulham',
+        instagramUrl: 'https://instagram.com/worldfamousfulham',
+        phone: '+44 20 7736 8899',
+        address: 'Kings Road, Fulham, London SW6 2DX',
+    },
+    footer: {
+        copyrightHolder: 'World Famous Fulham Tattoo London',
+        tagline: 'Where legends are made in ink',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
