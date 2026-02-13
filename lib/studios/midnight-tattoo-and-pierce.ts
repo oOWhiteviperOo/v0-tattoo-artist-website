@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const MIDNIGHT_TATTOO_AND_PIERCE: StudioConfig = {
+    identity: {
+        name: 'Midnight tattoo and pierce',
+        slug: 'midnight-tattoo-and-pierce',
+        tagline: 'Where darkness meets artistry',
+        artistName: 'Alex Midnight',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '270 60% 50%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '153, 51, 204',
+        ring: '270 60% 50%',
+    },
+    seo: {
+        title: 'Midnight Tattoo & Pierce - Dark Art, Bold Statements',
+        description: 'Professional tattoo and piercing studio specializing in dark art, gothic designs, and bold custom pieces. Book your midnight session today.',
+        keywords: ['tattoo studio', 'piercing shop'],
+        openGraph: {
+            title: 'Midnight tattoo and pierce - Where darkness meets artistry',
+            description: 'Professional tattoo and piercing studio creating bold, dark art that tells your story. Custom designs and expert craftsmanship.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/midnight-tattoo-and-pierce',
+            siteName: 'Midnight tattoo and pierce',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Midnight%20tattoo%20and%20pierce+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Midnight tattoo and pierce',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Embrace the darkness', 'unleash your story'],
+        subheadline: 'Professional tattoo and piercing artistry that transforms your vision into bold, lasting statements',
+        urgencyText: 'Limited midnight slots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on dark gothic design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Dark Art' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Dark artistry portfolio',
+        subtitle: 'Every piece tells a story, every line holds meaning',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo & piercing sessions',
+        subtitle: 'Professional artistry with a dark edge',
+        guarantee: '100% satisfaction guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Tattoo Session',
+                duration: '2-6 hours',
+                price: '$150',
+                priceSubtitle: 'per hour',
+                features: ['Custom dark art design', 'Professional aftercare kit'],
+                status: 'limited',
+                availabilityText: 'Available weekdays & weekends',
+                buttonText: 'Book Tattoo',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Piercing Session',
+                duration: '30-60 minutes',
+                price: '$80',
+                priceSubtitle: 'starting price',
+                features: ['Premium jewelry selection', 'Sterile technique guaranteed'],
+                status: 'available',
+                availabilityText: 'Walk-ins welcome',
+                buttonText: 'Book Piercing',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What our clients say',
+        testimonials: [
+            {
+                quote: 'Alex captured my dark aesthetic perfectly. The attention to detail in my gothic sleeve is incredible. Best tattoo experience I\'ve ever had.',
+                author: 'Sarah M.',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'The midnight atmosphere and professional work made this studio my go-to. My blackwork piece exceeded all expectations.',
+                author: 'Marcus R.',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks Only' },
+            { iconName: 'Star', label: 'Custom Designs' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @midnighttattoopierce',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The artist behind the darkness',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alex Midnight has built a reputation for creating bold, dark artistry that pushes creative boundaries. Specializing in gothic, blackwork, and horror-inspired designs, every piece is crafted with meticulous attention to detail and artistic integrity.',
+            'At Midnight tattoo and pierce, we believe that tattoos are more than just ink on skin - they\'re personal statements, stories, and expressions of your inner darkness. Our studio provides a welcoming space where your darkest visions come to life through professional artistry and uncompromising quality.',
+        ],
+        callout: 'Every tattoo is a journey into darkness, every piercing a bold statement of individuality.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Midnight, professional tattoo artist in dark studio setting',
+    },
+    faq: {
+        sectionTitle: 'Frequently asked questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book through our website, call us directly, or message us on Instagram. We recommend scheduling consultations at least 2 weeks in advance for custom designs.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s your deposit policy?',
+                answer: 'We require a $100 deposit to secure your appointment, which goes toward your final session cost. Deposits are refundable up to 48 hours before your scheduled appointment.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to embrace the darkness?',
+        subheadline: 'Book your session today and let\'s create something extraordinary together',
+        ctaText: 'Book Now',
+    },
+    booking: {
+        modalTitle: 'Book your session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking request sent!',
+        successMessage: 'We\'ll contact you within 24 hours to confirm your appointment details.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A $100 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'info@midnighttattoopierce.com',
+        instagram: '@midnighttattoopierce',
+        instagramUrl: 'https://instagram.com/midnighttattoopierce',
+        phone: '(555) 123-4567',
+        address: '123 Dark Street, Gothic Quarter',
+    },
+    footer: {
+        copyrightHolder: 'Midnight tattoo and pierce',
+        tagline: 'Where darkness meets artistry',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
