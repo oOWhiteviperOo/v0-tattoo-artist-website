@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const ONE_DAY_TATTOO_STUDIO_LONDON: StudioConfig = {
+    identity: {
+        name: 'ONE DAY Tattoo Studio London',
+        slug: 'one-day-tattoo-studio-london',
+        tagline: 'Your Vision, Inked in a Single Day',
+        artistName: 'Alex Morgan',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '345 82% 58%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '236, 72, 153',
+        ring: '345 82% 58%',
+    },
+    seo: {
+        title: 'ONE DAY Tattoo Studio London - Same Day Tattoos',
+        description: 'Professional same-day tattoo services in London. Custom designs, walk-ins welcome, expert artists. Book your tattoo session today at ONE DAY Studio.',
+        keywords: ['same day tattoo London', 'walk in tattoo studio London'],
+        openGraph: {
+            title: 'ONE DAY Tattoo Studio London - Same Day Tattoos',
+            description: 'Professional same-day tattoo services in London. Custom designs, walk-ins welcome, expert artists.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/one-day-tattoo-studio-london',
+            siteName: 'ONE DAY Tattoo Studio London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=ONE%20DAY%20Tattoo%20Studio%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'ONE DAY Tattoo Studio London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Today',
+    },
+    hero: {
+        headline: ['Get Your Dream Tattoo', 'In Just ONE DAY'],
+        subheadline: 'Professional same-day tattoo services in the heart of London. Walk-ins welcome, custom designs created on the spot.',
+        urgencyText: 'Same-day appointments available',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on a custom design at ONE DAY Tattoo Studio London',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Same-Day Tattoos' },
+            { iconName: 'Award', label: '5-Star Google Rating' },
+            { iconName: 'Shield', label: 'Walk-Ins Welcome' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Work',
+        subtitle: 'Fresh ink from our studio - all completed in a single session',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Same-Day Sessions',
+        subtitle: 'Choose your perfect tattoo session - all completed today',
+        guarantee: '100% same-day completion guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Express Session',
+                duration: '1-2 Hours',
+                price: '£150',
+                priceSubtitle: 'Small to medium pieces',
+                features: ['Custom design consultation', 'Same-day completion'],
+                status: 'limited',
+                availabilityText: 'Available today',
+                buttonText: 'Book Express',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Day Session',
+                duration: '4-6 Hours',
+                price: '£450',
+                priceSubtitle: 'Large detailed pieces',
+                features: ['Extended design time', 'Multiple break periods'],
+                status: 'available',
+                availabilityText: 'Limited slots',
+                buttonText: 'Book Full Day',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Walked in with an idea and left with the perfect tattoo. The same-day service is incredible - no waiting weeks for appointments!',
+                author: 'Sarah Mitchell',
+                city: 'Camden, London',
+                rating: 5,
+            },
+            {
+                quote: 'Alex\'s attention to detail is amazing. Got my sleeve started and finished in one long session. Couldn\'t be happier with the result.',
+                author: 'Marcus Thompson',
+                city: 'Shoreditch, London',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Sterile Equipment' },
+            { iconName: 'Sparkles', label: 'Walk-Ins Welcome' },
+            { iconName: 'Star', label: 'Same-Day Service' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @onedaytattoostudio',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'About ONE DAY Studio',
+        paragraphs: [
+            'Founded on the belief that great tattoos shouldn\'t require weeks of waiting, ONE DAY Tattoo Studio revolutionizes the London tattoo scene with professional same-day services. Our experienced artists specialize in creating custom designs and completing them in a single session.',
+            'Located in the heart of London, we welcome both appointments and walk-ins. Our state-of-the-art studio maintains the highest standards of cleanliness and safety while delivering exceptional artistry. Whether you\'re a first-timer or a seasoned collector, we\'re here to bring your vision to life today.',
+        ],
+        callout: 'Every tattoo tells a story - let us help you tell yours today.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Morgan, lead tattoo artist at ONE DAY Tattoo Studio London',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'Do you really complete tattoos in one day?',
+                answer: 'Absolutely! We specialize in same-day completion for most tattoo sizes. Larger pieces may require a full-day session, but we guarantee completion within your booked timeframe.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do you accept walk-ins?',
+                answer: 'Yes, we welcome walk-ins based on availability. However, we recommend booking in advance to guarantee your preferred time slot, especially for larger pieces.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Your Same-Day Tattoo?',
+        subheadline: 'Don\'t wait weeks for your next tattoo. Book today and walk out with fresh ink.',
+        ctaText: 'Book Your Session Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Same-Day Session',
+        modalDescription: 'Fill out the form below and we\'ll confirm your same-day appointment within 2 hours.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll contact you within 2 hours to confirm your same-day appointment. Get ready for some fresh ink!',
+        submitText: 'Request Same-Day Slot',
+        depositDisclaimer: '£50 deposit required to secure your same-day appointment',
+    },
+    contact: {
+        email: 'book@onedaytattoostudio.co.uk',
+        instagram: '@onedaytattoostudio',
+        instagramUrl: 'https://instagram.com/onedaytattoostudio',
+        phone: '+44 20 7946 0958',
+        address: '123 Brick Lane, Shoreditch, London E1 6SB',
+    },
+    footer: {
+        copyrightHolder: 'ONE DAY Tattoo Studio London',
+        tagline: 'Your vision, inked in a single day',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
