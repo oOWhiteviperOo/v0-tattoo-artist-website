@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_CIRCLE_LONDON: StudioConfig = {
+    identity: {
+        name: 'The Circle London',
+        slug: 'the-circle-london',
+        tagline: 'Where Art Meets Soul in the Heart of London',
+        artistName: 'Circle Collective',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 47%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '226, 178, 17',
+        ring: '45 93% 47%',
+    },
+    seo: {
+        title: 'The Circle London - Premium Tattoo Studio | Custom Ink Art',
+        description: 'London\'s premier tattoo studio. Expert artists, custom designs, and exceptional artistry. Book your transformative tattoo experience today.',
+        keywords: ['London tattoo studio', 'custom tattoo design'],
+        openGraph: {
+            title: 'The Circle London - Where Art Meets Soul',
+            description: 'Premium tattoo artistry in the heart of London. Custom designs that tell your story.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/the-circle-london',
+            siteName: 'The Circle London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20Circle%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The Circle London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Timeless Art', 'Eternal Stories'],
+        subheadline: 'Where every tattoo becomes a masterpiece and every story finds its perfect expression through ink',
+        urgencyText: 'Only 12 slots remaining this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'The Circle London tattoo artist creating custom artwork',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Mastery' },
+            { iconName: 'Zap', label: '1500+ Tattoos Created' },
+            { iconName: 'Award', label: '5-Star Excellence' },
+            { iconName: 'Shield', label: 'Bespoke Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Artistry in Motion',
+        subtitle: 'Each piece tells a story, crafted with precision and passion in the heart of London',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Experiences',
+        subtitle: 'Choose your perfect session for a transformative tattoo journey',
+        guarantee: '100% satisfaction guaranteed or full refund within 30 days',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Signature Session',
+                duration: '3-4 hours',
+                price: '£450',
+                priceSubtitle: 'Complete custom design',
+                features: ['Personal consultation & design', 'Premium aftercare package'],
+                status: 'limited',
+                availabilityText: 'Next available: 2 weeks',
+                buttonText: 'Book Signature',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Masterpiece Session',
+                duration: '6-8 hours',
+                price: '£850',
+                priceSubtitle: 'Large-scale artistry',
+                features: ['Multi-session planning included', 'Exclusive artist collaboration'],
+                status: 'available',
+                availabilityText: 'Next available: 4 weeks',
+                buttonText: 'Book Masterpiece',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Stories from Our Canvas',
+        testimonials: [
+            {
+                quote: 'The Circle London transformed my vision into the most incredible piece of art. The attention to detail and artistic vision exceeded every expectation.',
+                author: 'Sarah M.',
+                city: 'Shoreditch',
+                rating: 5,
+            },
+            {
+                quote: 'After years of searching for the right artist, I found my home at The Circle. The experience was transformative and the result is absolutely stunning.',
+                author: 'Marcus R.',
+                city: 'Camden',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Award-Winning Artists' },
+            { iconName: 'Star', label: 'Lifetime Touch-ups' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @thecirclelondon',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Circle Story',
+        paragraphs: [
+            'Born from a passion for transformative art, The Circle London represents the convergence of classical technique and contemporary vision. Our collective of artists brings together diverse backgrounds and specialties, united by an unwavering commitment to excellence and storytelling through ink.',
+            'Every tattoo at The Circle is more than just ink on skin—it\'s a collaboration between artist and canvas, a moment where personal narrative meets artistic mastery. We believe in the power of tattoos to mark life\'s most meaningful moments and celebrate the beauty of individual expression.',
+        ],
+        callout: 'Your story deserves to be told with the finest artistry London has to offer.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'The Circle London artist at work in the studio',
+    },
+    faq: {
+        sectionTitle: 'Everything You Need to Know',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book my appointment?',
+                answer: 'We recommend booking 3-4 weeks in advance for signature sessions and 6-8 weeks for masterpiece sessions. However, we occasionally have last-minute availability, so don\'t hesitate to reach out.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation process?',
+                answer: 'Every session begins with a comprehensive consultation where we discuss your vision, design preferences, placement, and sizing. We\'ll create custom artwork specifically for you and make any adjustments until it\'s perfect.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Join the hundreds who\'ve trusted The Circle London to bring their stories to life',
+        ctaText: 'Begin Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Choose your preferred session and let\'s create something extraordinary together.',
+        successTitle: 'Booking Confirmed!',
+        successMessage: 'We\'ll contact you within 24 hours to finalize your appointment details and begin the design process.',
+        submitText: 'Confirm Booking',
+        depositDisclaimer: 'A £100 deposit is required to secure your appointment and will be deducted from your final session cost.',
+    },
+    contact: {
+        email: 'hello@thecirclelondon.com',
+        instagram: '@thecirclelondon',
+        instagramUrl: 'https://instagram.com/thecirclelondon',
+        phone: '+44 20 7123 4567',
+        address: '123 Artistic Lane, Shoreditch, London E1 6AN',
+    },
+    footer: {
+        copyrightHolder: 'The Circle London',
+        tagline: 'Where Art Meets Soul',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
