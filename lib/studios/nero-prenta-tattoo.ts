@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const NERO_PRENTA_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Nero Prenta Tattoo',
+        slug: 'nero-prenta-tattoo',
+        tagline: 'Where Art Meets Skin',
+        artistName: 'Marco Nero',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '0 0% 98%',
+        accent: '0 84% 60%',
+        accentForeground: '0 0% 98%',
+        mutedForeground: '0 0% 64%',
+        dimmedForeground: '0 0% 45%',
+        border: '0 0% 15%',
+        card: '0 0% 8%',
+        accentRgb: '245, 101, 101',
+        ring: '0 84% 60%',
+    },
+    seo: {
+        title: 'Nero Prenta Tattoo - Premium Custom Tattoo Studio',
+        description: 'Expert custom tattoo artistry at Nero Prenta Tattoo. Specializing in bold, detailed designs with precision and passion. Book your consultation today.',
+        keywords: ['custom tattoo studio', 'professional tattoo artist'],
+        openGraph: {
+            title: 'Nero Prenta Tattoo - Premium Custom Tattoo Studio',
+            description: 'Expert custom tattoo artistry with bold, detailed designs. Professional studio with years of experience creating unique body art.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/nero-prenta-tattoo',
+            siteName: 'Nero Prenta Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Nero%20Prenta%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Nero Prenta Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Bold Art for', 'Bold Souls'],
+        subheadline: 'Custom tattoo artistry that tells your story with precision, passion, and uncompromising quality.',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Reviews' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Work',
+        subtitle: 'Each piece is a unique collaboration between artist and client, crafted with meticulous attention to detail.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision. All work comes with aftercare support and touch-up guarantee.',
+        guarantee: '30-day touch-up guarantee included',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Standard Session',
+                duration: '2-4 hours',
+                price: '$300',
+                priceSubtitle: 'Starting price',
+                features: ['Custom design consultation', 'Professional aftercare kit'],
+                status: 'limited',
+                availabilityText: 'Available weekly',
+                buttonText: 'Book Standard',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Extended Session',
+                duration: '5-8 hours',
+                price: '$600',
+                priceSubtitle: 'Starting price',
+                features: ['Complex detailed work', 'Premium aftercare package'],
+                status: 'available',
+                availabilityText: 'Limited slots',
+                buttonText: 'Book Extended',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Client Stories',
+        testimonials: [
+            {
+                quote: 'Marco\'s attention to detail is incredible. He brought my vision to life better than I ever imagined. The whole experience was professional and comfortable.',
+                author: 'Sarah Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'The quality of work at Nero Prenta is unmatched. My tattoo healed perfectly and looks amazing months later. Definitely coming back for my next piece.',
+                author: 'Mike Rodriguez',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Sterile Equipment' },
+            { iconName: 'Sparkles', label: 'Premium Inks Only' },
+            { iconName: 'Star', label: 'Health Certified' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @neroprenta',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet the Artist',
+        paragraphs: [
+            'Marco Nero has been creating custom tattoo art for over 8 years, developing a reputation for bold, clean work that stands the test of time. His passion for the craft shows in every piece, from intricate detailed work to bold statement pieces.',
+            'At Nero Prenta Tattoo, every client receives a personalized experience. Marco believes that great tattoos come from understanding the client\'s vision and translating it into art that they\'ll love forever. The studio maintains the highest standards of cleanliness and professionalism.',
+        ],
+        callout: 'Every tattoo tells a story - let\'s create yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marco Nero, professional tattoo artist at work in studio',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book through our contact form or call directly. We\'ll discuss your ideas, size, placement, and provide a detailed quote during the consultation.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the aftercare?',
+                answer: 'All sessions include detailed aftercare instructions, premium healing balm, and follow-up support. We also offer a 30-day touch-up guarantee for optimal healing.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Next Tattoo?',
+        subheadline: 'Let\'s discuss your vision and bring it to life with professional artistry.',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo idea and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll review your request and contact you within 24 hours to confirm your appointment.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A $50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@neroprenta.com',
+        instagram: '@neroprenta',
+        instagramUrl: 'https://instagram.com/neroprenta',
+        phone: '(555) 123-4567',
+        address: '123 Art District, Creative Quarter',
+    },
+    footer: {
+        copyrightHolder: 'Nero Prenta Tattoo',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
