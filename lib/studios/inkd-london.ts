@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const INKD_LONDON: StudioConfig = {
+    identity: {
+        name: 'INK\'D London',
+        slug: 'inkd-london',
+        tagline: 'Where Art Meets Skin in the Heart of London',
+        artistName: 'Marcus Sterling',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '0 0% 98%',
+        accent: '0 84% 60%',
+        accentForeground: '0 0% 98%',
+        mutedForeground: '0 0% 65%',
+        dimmedForeground: '0 0% 45%',
+        border: '0 0% 15%',
+        card: '0 0% 6%',
+        accentRgb: '245, 39, 39',
+        ring: '0 84% 60%',
+    },
+    seo: {
+        title: 'INK\'D London - Premium Tattoo Studio | Custom Designs',
+        description: 'London\'s premier tattoo studio specializing in custom designs. Book your consultation today for exceptional artistry in the heart of the city.',
+        keywords: ['London tattoo studio', 'custom tattoo design'],
+        openGraph: {
+            title: 'INK\'D London - Premium Tattoo Studio',
+            description: 'Where art meets skin in the heart of London. Custom designs and exceptional artistry.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/inkd-london',
+            siteName: 'INK\'D London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=INK%E2%80%99D%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'INK\'D London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['London\'s Premier', 'Tattoo Experience'],
+        subheadline: 'Where artistry meets precision in the heart of London. Custom designs crafted with passion and expertise.',
+        urgencyText: 'Limited slots available this month',
+        ctaText: 'Book Your Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design at INK\'D London',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '15+ Years Experience' },
+            { iconName: 'Zap', label: '3000+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Our Finest Work',
+        subtitle: 'Every piece tells a story. Browse our collection of custom tattoos that showcase the artistry and precision that defines INK\'D London.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision. From quick touch-ups to full custom pieces.',
+        guarantee: '100% satisfaction guaranteed or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Tattoo Session',
+                duration: '1-2 hours',
+                price: '£150',
+                priceSubtitle: 'starting from',
+                features: ['Perfect for first tattoos', 'Simple designs & text'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Custom Design Session',
+                duration: '3-6 hours',
+                price: '£400',
+                priceSubtitle: 'starting from',
+                features: ['Completely custom artwork', 'Multiple revisions included'],
+                status: 'available',
+                availabilityText: 'Next available: Next week',
+                buttonText: 'Book Custom Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus created the most incredible sleeve for me. The attention to detail and artistry is unmatched. INK\'D London is the only place I trust with my skin.',
+                author: 'Sarah Chen',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and absolutely brilliant work. The custom design process was collaborative and the final result exceeded all my expectations.',
+                author: 'James Mitchell',
+                city: 'Camden',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Award Winning' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @inkdlondon',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Artist',
+        paragraphs: [
+            'Marcus Sterling has been creating exceptional tattoos in London for over 15 years. Trained in traditional techniques and constantly evolving with contemporary styles, he brings a unique blend of classical artistry and modern innovation to every piece.',
+            'At INK\'D London, we believe every tattoo should be a masterpiece. Our studio combines state-of-the-art equipment with old-school craftsmanship, ensuring each client receives not just a tattoo, but a work of art that will last a lifetime.',
+        ],
+        callout: 'Every tattoo tells a story. Let\'s create yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Sterling, lead tattoo artist at INK\'D London',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance for custom designs. Small tattoos can often be accommodated within a week. Contact us for current availability.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Your consultation includes design discussion, sizing, placement advice, and a custom sketch. We\'ll also cover aftercare instructions and answer any questions you have.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Book your consultation today and let\'s create something extraordinary together.',
+        ctaText: 'Book Your Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to get started? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your booking',
+    },
+    contact: {
+        email: 'hello@inkdlondon.co.uk',
+        instagram: '@inkdlondon',
+        instagramUrl: 'https://instagram.com/inkdlondon',
+        phone: '+44 20 7123 4567',
+        address: '123 Brick Lane, Shoreditch, London E1 6SB',
+    },
+    footer: {
+        copyrightHolder: 'INK\'D London',
+        tagline: 'Where art meets skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
