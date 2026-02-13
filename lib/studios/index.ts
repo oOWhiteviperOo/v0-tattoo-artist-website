@@ -24,6 +24,7 @@ import { CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997 } from './camden-piercing-tatt
 import { THE_OLD_VOLT } from './the-old-volt'
 import { RIVAL_INK_TATTOO_SALFORD } from './rival-ink-tattoo-salford'
 import { INKD_LONDON } from './inkd-london'
+import { BODY_CANVAS } from './body-canvas'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -52,6 +53,7 @@ export const studios: Record<string, StudioConfig> = {
         'the-old-volt': THE_OLD_VOLT,
         'rival-ink-tattoo-salford': RIVAL_INK_TATTOO_SALFORD,
         'inkd-london': INKD_LONDON,
+        'body-canvas': BODY_CANVAS,
     // [N8N-MARKER-REGISTRY]
 }
 
