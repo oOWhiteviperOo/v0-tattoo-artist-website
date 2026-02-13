@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const GUNG_HO_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Gung Ho Tattoo',
+        slug: 'gung-ho-tattoo',
+        tagline: 'Bold Ink. Fearless Art. No Regrets.',
+        artistName: 'Alex Chen',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '15 85% 55%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 7%',
+        accentRgb: '242, 101, 34',
+        ring: '15 85% 55%',
+    },
+    seo: {
+        title: 'Gung Ho Tattoo - Bold Custom Tattoos & Professional Art',
+        description: 'Premium custom tattoo studio specializing in bold, fearless designs. Professional artists, sterile environment, and exceptional artistry. Book your session today.',
+        keywords: ['custom tattoo studio', 'professional tattoo artist'],
+        openGraph: {
+            title: 'Gung Ho Tattoo - Bold Ink. Fearless Art. No Regrets.',
+            description: 'Premium custom tattoo studio creating bold, fearless designs with professional artistry and exceptional attention to detail.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/gung-ho-tattoo',
+            siteName: 'Gung Ho Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Gung%20Ho%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Gung Ho Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Bold Ink for the', 'Fearless'],
+        subheadline: 'Custom tattoo artistry that matches your courage. No cookie-cutter designs, just authentic art that tells your story.',
+        urgencyText: 'Limited slots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Tattoos' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: '100% Original Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Fearless Artistry',
+        subtitle: 'Every piece tells a story. Every story deserves bold execution.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional custom tattoo sessions tailored to your vision',
+        guarantee: '100% satisfaction guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Custom Design Session',
+                duration: '3-5 hours',
+                price: '$400',
+                priceSubtitle: 'Starting price',
+                features: ['Custom design consultation', 'Professional execution'],
+                status: 'limited',
+                availabilityText: 'Available weekdays',
+                buttonText: 'Book Custom Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Flash Design Session',
+                duration: '1-3 hours',
+                price: '$200',
+                priceSubtitle: 'Starting price',
+                features: ['Pre-designed flash art', 'Quick turnaround'],
+                status: 'available',
+                availabilityText: 'Available weekends',
+                buttonText: 'Book Flash Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Alex\'s work is absolutely incredible. The attention to detail and bold execution exceeded all my expectations. This is art that will last a lifetime.',
+                author: 'Marcus Rodriguez',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Gung Ho Tattoo is where fearless meets flawless. The studio atmosphere is professional and the artistry is next level. Couldn\'t be happier with my piece.',
+                author: 'Sarah Kim',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Certified' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Award-Winning Artist' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @gunghotattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet the Artist',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alex Chen has built Gung Ho Tattoo on the foundation of fearless artistry and uncompromising quality. Specializing in bold, custom designs that push creative boundaries while maintaining the highest standards of professionalism.',
+            'Every tattoo is a collaboration between artist and client, resulting in unique pieces that tell personal stories through ink. The studio\'s \'gung ho\' approach means going all-in on every design, ensuring each client leaves with art they\'ll be proud to wear for life.',
+        ],
+        callout: '"I believe tattoos should be as bold and fearless as the people who wear them. No compromises, no regrets."',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Chen, professional tattoo artist at Gung Ho Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance for custom work. Flash sessions may have same-week availability. Contact us to check current openings.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s your deposit policy?',
+                answer: 'We require a $100 deposit to secure your appointment, which goes toward your final session cost. Deposits are refundable up to 48 hours before your appointment.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Fearless Ink?',
+        subheadline: 'Book your custom tattoo session and join the Gung Ho family',
+        ctaText: 'Book Your Session Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll review your request and get back to you within 24 hours to confirm your session details.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A $100 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@gunghotatoo.com',
+        instagram: '@gunghotatoo',
+        instagramUrl: 'https://instagram.com/gunghotatoo',
+        phone: '(555) 123-GUNG',
+        address: '123 Ink Street, Art District',
+    },
+    footer: {
+        copyrightHolder: 'Gung Ho Tattoo',
+        tagline: 'Bold Ink. Fearless Art. No Regrets.',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
