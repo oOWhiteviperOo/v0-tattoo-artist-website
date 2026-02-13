@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const TEST_STUDIO_V2: StudioConfig = {
+    identity: {
+        name: 'Venom Ink Studio',
+        slug: 'test-studio-v2',
+        tagline: 'Where Art Meets Precision',
+        artistName: 'Marcus Reeves',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '280 72% 51%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '162, 38, 220',
+        ring: '280 72% 51%',
+    },
+    seo: {
+        title: 'Venom Ink Studio - Austin\'s Premier Tattoo Artist',
+        description: 'Expert blackwork, geometric & fine line tattoos in Austin. Marcus Reeves creates custom designs with precision. Book your consultation today.',
+        keywords: ['Austin tattoo artist', 'blackwork tattoo Austin'],
+        openGraph: {
+            title: 'Venom Ink Studio - Where Art Meets Precision',
+            description: 'Marcus Reeves specializes in blackwork, geometric, and fine line tattoos. Custom designs crafted with precision in Austin, Texas.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/test-studio-v2',
+            siteName: 'Venom Ink Studio',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Venom%20Ink%20Studio+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Venom Ink Studio',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Precision Meets', 'Artistry'],
+        subheadline: 'Marcus Reeves creates striking blackwork, geometric, and fine line tattoos that tell your story with unmatched precision.',
+        urgencyText: 'Limited slots available this month',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Marcus Reeves tattooing intricate blackwork design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Precision Crafted Art',
+        subtitle: 'Each piece is meticulously designed and executed with attention to every detail',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattoo services tailored to your vision',
+        guarantee: '100% satisfaction guaranteed or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small to Medium Pieces',
+                duration: '2-4 hours',
+                price: '$200-$400',
+                priceSubtitle: 'Perfect for fine line work',
+                features: ['Custom design consultation', 'Aftercare kit included'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Complex Pieces',
+                duration: '4-8 hours',
+                price: '$400-$800',
+                priceSubtitle: 'Geometric & blackwork speciality',
+                features: ['Multi-session planning', 'Premium aftercare package'],
+                status: 'available',
+                availabilityText: 'Next available: Next week',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus created the most incredible geometric sleeve. His attention to detail and precision is unmatched. Every line is perfect.',
+                author: 'Sarah M.',
+                city: 'Austin',
+                rating: 5,
+            },
+            {
+                quote: 'The fine line work Marcus did on my wrist is absolutely stunning. He really listened to my vision and brought it to life beautifully.',
+                author: 'Jake R.',
+                city: 'Austin',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @venominkstudio',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Marcus Reeves',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Marcus has developed a distinctive style that blends precision with artistic vision. Specializing in blackwork, geometric patterns, and fine line tattoos, he brings each client\'s story to life through carefully crafted designs.',
+            'Based in Austin, Marcus is known for his meticulous attention to detail and commitment to creating tattoos that stand the test of time. Every piece is custom designed to reflect the individual\'s personality and vision, ensuring a truly unique work of art.',
+        ],
+        callout: 'Every tattoo tells a story - let me help you tell yours with precision and artistry.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Reeves, tattoo artist at Venom Ink Studio',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'I recommend booking 2-4 weeks in advance, especially for larger pieces. However, I sometimes have last-minute availability for smaller tattoos.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do you do walk-ins?',
+                answer: 'I work by appointment only to ensure each client gets my full attention. This allows me to properly prepare custom designs and maintain the highest quality standards.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with precision and artistry.',
+        ctaText: 'Book Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Fill out the form below and I\'ll get back to you within 24 hours to discuss your design and schedule your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! I\'ll review your request and get back to you within 24 hours to discuss your design and confirm your appointment.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A $50 deposit is required to secure your appointment and will be applied to your final session cost.',
+    },
+    contact: {
+        email: 'marcus@venominkstudio.com',
+        instagram: '@venominkstudio',
+        instagramUrl: 'https://instagram.com/venominkstudio',
+        phone: '(512) 555-0123',
+        address: '123 South Lamar Blvd, Austin, TX 78704',
+    },
+    footer: {
+        copyrightHolder: 'Venom Ink Studio',
+        tagline: 'Where Art Meets Precision',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
