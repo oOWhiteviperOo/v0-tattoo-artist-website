@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const TATTOO_13: StudioConfig = {
+    identity: {
+        name: 'Tattoo 13',
+        slug: 'tattoo-13',
+        tagline: 'Where Art Meets Skin',
+        artistName: 'Marcus Rivera',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '0 72% 51%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '220, 38, 38',
+        ring: '0 72% 51%',
+    },
+    seo: {
+        title: 'Tattoo 13 - Premium Custom Tattoos & Professional Art',
+        description: 'Experience exceptional tattoo artistry at Tattoo 13. Custom designs, professional service, and unmatched quality. Book your consultation today.',
+        keywords: ['custom tattoos', 'tattoo artist'],
+        openGraph: {
+            title: 'Tattoo 13 - Where Art Meets Skin',
+            description: 'Premium custom tattoos and professional artistry. Transform your vision into stunning body art at Tattoo 13.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/tattoo-13',
+            siteName: 'Tattoo 13',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Tattoo%2013+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Tattoo 13',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Unlock Your Story Through', 'Exceptional Ink'],
+        subheadline: 'Custom tattoo artistry that transforms your vision into permanent masterpieces with precision, creativity, and uncompromising quality.',
+        urgencyText: 'Limited slots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist at work creating custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Featured Artwork',
+        subtitle: 'Each piece tells a unique story, crafted with precision and artistic vision',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your tattoo journey',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 Hours',
+                price: '$300',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Design consultation included', 'Up to 4 inch piece'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Custom Session',
+                duration: '4-6 Hours',
+                price: '$600',
+                priceSubtitle: 'For detailed artwork',
+                features: ['Complete custom design', 'Multiple revisions'],
+                status: 'available',
+                availabilityText: '2 week wait',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus at Tattoo 13 created the most incredible sleeve for me. His attention to detail and artistic vision exceeded all my expectations. The whole experience was professional and comfortable.',
+                author: 'Sarah Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'I\'ve gotten tattoos from several artists, but none compare to the quality and creativity at Tattoo 13. The custom design process was collaborative and the final result is absolutely stunning.',
+                author: 'Mike Rodriguez',
+                city: 'Midtown',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Included' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @tattoo13studio',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet the Artist',
+        paragraphs: [
+            'Marcus Rivera brings over 8 years of dedicated artistry to Tattoo 13, specializing in bold, custom designs that tell your unique story. With a background in fine arts and a passion for pushing creative boundaries, Marcus has built a reputation for exceptional craftsmanship and attention to detail.',
+            'Every tattoo at Tattoo 13 is approached as a collaborative masterpiece. From the initial consultation to the final touch-up, Marcus works closely with each client to ensure their vision comes to life with precision, artistry, and the highest standards of safety and professionalism.',
+        ],
+        callout: 'Your story deserves exceptional artistry',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Rivera, lead tattoo artist at Tattoo 13',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'For custom pieces, we recommend booking 2-3 weeks in advance. Smaller pieces and touch-ups can often be scheduled within the same week. Contact us to check current availability.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Every consultation includes design discussion, placement advice, sizing recommendations, and a detailed quote. We\'ll work together to refine your concept until it\'s perfect before any ink touches skin.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Book your consultation today and start your journey to exceptional body art',
+        ctaText: 'Schedule Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Submitted!',
+        successMessage: 'Thanks for choosing Tattoo 13. We\'ll contact you within 24 hours to confirm your appointment and discuss your design.',
+        submitText: 'Submit Booking',
+        depositDisclaimer: 'A $50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@tattoo13studio.com',
+        instagram: '@tattoo13studio',
+        instagramUrl: 'https://instagram.com/tattoo13studio',
+        phone: '(555) 123-4567',
+        address: '123 Art District Ave, Studio 13',
+    },
+    footer: {
+        copyrightHolder: 'Tattoo 13',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
