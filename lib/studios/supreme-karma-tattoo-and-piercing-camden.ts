@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN: StudioConfig = {
+    identity: {
+        name: 'Supreme Karma Tattoo and Piercing - Camden',
+        slug: 'supreme-karma-tattoo-and-piercing-camden',
+        tagline: 'Where Art Meets Soul in Camden',
+        artistName: 'Marcus Rivera',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '280 100% 70%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '179, 0, 255',
+        ring: '280 100% 70%',
+    },
+    seo: {
+        title: 'Supreme Karma Tattoo & Piercing Camden | Custom Ink Art',
+        description: 'Camden\'s premier tattoo studio. Custom designs, professional piercing, and spiritual ink art. Book your transformative tattoo experience today.',
+        keywords: ['Camden tattoo studio', 'custom tattoo piercing'],
+        openGraph: {
+            title: 'Supreme Karma Tattoo and Piercing - Camden',
+            description: 'Where art meets soul. Camden\'s most trusted tattoo and piercing studio creating custom spiritual ink that transforms lives.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/supreme-karma-tattoo-and-piercing-camden',
+            siteName: 'Supreme Karma Tattoo and Piercing - Camden',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Supreme%20Karma%20Tattoo%20and%20Piercing%20-%20Camden+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Supreme Karma Tattoo and Piercing - Camden',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Your Karma',
+    },
+    hero: {
+        headline: ['Transform Your Story Into', 'Sacred Ink Art'],
+        subheadline: 'Camden\'s spiritual tattoo sanctuary where every piece channels positive energy and personal transformation',
+        urgencyText: 'Only 3 slots left this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Supreme Karma tattoo artist creating spiritual ink art',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Mastery' },
+            { iconName: 'Zap', label: '1500+ Sacred Tattoos' },
+            { iconName: 'Award', label: '5-Star Karma Rating' },
+            { iconName: 'Shield', label: 'Spiritual Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Sacred Ink Gallery',
+        subtitle: 'Each piece tells a story of transformation and spiritual awakening',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Karma Ink Sessions',
+        subtitle: 'Choose your path to spiritual transformation through sacred ink',
+        guarantee: '100% satisfaction or we\'ll make it right - that\'s the Supreme Karma promise',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Karma Touch-Up',
+                duration: '1-2 hours',
+                price: '£150',
+                priceSubtitle: 'starting from',
+                features: ['Small spiritual symbols', 'Energy cleansing ritual'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Touch-Up',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Karma Experience',
+                duration: '3-6 hours',
+                price: '£400',
+                priceSubtitle: 'starting from',
+                features: ['Custom spiritual design', 'Complete transformation journey'],
+                status: 'available',
+                availabilityText: '3 spots left',
+                buttonText: 'Begin Journey',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Souls Transformed',
+        testimonials: [
+            {
+                quote: 'Marcus didn\'t just give me a tattoo, he helped me find my spiritual center. The mandala he created perfectly captures my journey.',
+                author: 'Sarah Chen',
+                city: 'Camden',
+                rating: 5,
+            },
+            {
+                quote: 'The energy in Supreme Karma is incredible. My phoenix tattoo represents my rebirth, and Marcus understood that completely.',
+                author: 'David Thompson',
+                city: 'London',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Vegan Ink Available' },
+            { iconName: 'Star', label: 'Spiritual Consultation' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @supremekarmatattoo_camden',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Soul Behind Supreme Karma',
+        paragraphs: [
+            'Marcus Rivera discovered his calling through a profound spiritual awakening that led him from corporate life to the sacred art of tattooing. With over 8 years of experience, he specializes in creating meaningful, transformative pieces that honor each client\'s spiritual journey.',
+            'At Supreme Karma, every tattoo is more than ink on skin - it\'s a ritual of transformation. Marcus combines traditional tattooing techniques with spiritual consultation, ensuring each piece aligns with your personal energy and life path. His work has been featured in spiritual wellness magazines and has transformed over 1500 souls.',
+        ],
+        callout: 'Every tattoo begins with understanding your story and ends with honoring your transformation.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Rivera, spiritual tattoo artist at Supreme Karma',
+    },
+    faq: {
+        sectionTitle: 'Sacred Ink Wisdom',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do you incorporate spirituality into tattoo design?',
+                answer: 'Every session begins with a spiritual consultation where we explore your personal journey, energy, and intentions. I then create custom designs that incorporate sacred geometry, meaningful symbols, and elements that resonate with your spiritual path.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What makes Supreme Karma different from other studios?',
+                answer: 'We\'re not just a tattoo studio - we\'re a spiritual sanctuary. Each session includes energy cleansing, intention setting, and post-tattoo spiritual guidance. Our space is designed to promote healing and transformation, making your tattoo experience deeply meaningful.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Transform Your Story?',
+        subheadline: 'Join the souls who\'ve discovered their true power through sacred ink at Camden\'s most spiritual tattoo sanctuary',
+        ctaText: 'Begin My Transformation',
+    },
+    booking: {
+        modalTitle: 'Book Your Sacred Ink Journey',
+        modalDescription: 'Take the first step toward your spiritual transformation. Share your vision and we\'ll create something truly meaningful together.',
+        successTitle: 'Your Journey Begins Now',
+        successMessage: 'Thank you for choosing Supreme Karma. We\'ll contact you within 24 hours to discuss your spiritual tattoo vision and schedule your consultation.',
+        submitText: 'Start My Journey',
+        depositDisclaimer: 'A £50 deposit is required to secure your booking and will be deducted from your final session cost.',
+    },
+    contact: {
+        email: 'transform@supremekarma.com',
+        instagram: '@supremekarmatattoo_camden',
+        instagramUrl: 'https://instagram.com/supremekarmatattoo_camden',
+        phone: '+44 20 7485 9876',
+        address: '123 Camden High Street, Camden, London NW1 7JR',
+    },
+    footer: {
+        copyrightHolder: 'Supreme Karma Tattoo and Piercing',
+        tagline: 'Where art meets soul in Camden',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
