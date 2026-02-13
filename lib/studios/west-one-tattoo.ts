@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const WEST_ONE_TATTOO: StudioConfig = {
+    identity: {
+        name: 'West One Tattoo',
+        slug: 'west-one-tattoo',
+        tagline: 'Where Art Meets Skin',
+        artistName: 'Marcus West',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 47%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '238, 175, 17',
+        ring: '45 93% 47%',
+    },
+    seo: {
+        title: 'West One Tattoo - Custom Tattoo Art & Professional Studio',
+        description: 'Premium custom tattoo artistry at West One Tattoo. Expert craftsmanship, sterile environment, and personalized designs. Book your consultation today.',
+        keywords: ['custom tattoo artist', 'professional tattoo studio'],
+        openGraph: {
+            title: 'West One Tattoo - Where Art Meets Skin',
+            description: 'Experience premium custom tattoo artistry with expert craftsmanship and personalized designs at West One Tattoo.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/west-one-tattoo',
+            siteName: 'West One Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=West%20One%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'West One Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Custom Tattoo Artistry', 'Beyond Expectations'],
+        subheadline: 'Transform your vision into timeless body art with precision, creativity, and uncompromising quality at West One Tattoo.',
+        urgencyText: 'Limited spots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design at West One Tattoo studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Featured Artwork',
+        subtitle: 'Every piece tells a story. Browse our collection of custom tattoo artistry that showcases precision, creativity, and lasting quality.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your tattoo journey. Each option includes consultation, custom design, and aftercare guidance.',
+        guarantee: '100% satisfaction guaranteed or full refund on deposit',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small to Medium Tattoo',
+                duration: '2-4 hours',
+                price: '$300-600',
+                priceSubtitle: 'Starting rate',
+                features: ['Custom design consultation', 'Complete aftercare kit'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Custom Piece',
+                duration: '5-8 hours',
+                price: '$800-1500',
+                priceSubtitle: 'Full day rate',
+                features: ['Multiple revision rounds', 'Premium healing products'],
+                status: 'available',
+                availabilityText: '2-3 week wait',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus at West One Tattoo exceeded every expectation. The attention to detail and artistic vision is unmatched. My sleeve is absolutely perfect.',
+                author: 'Sarah Chen',
+                city: 'Downtown',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and incredibly talented. The custom design process was collaborative and the final result is a masterpiece I\'ll treasure forever.',
+                author: 'Mike Rodriguez',
+                city: 'Westside',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Award Winning' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @westonetattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet The Artist',
+        paragraphs: [
+            'Marcus West founded West One Tattoo with a vision to elevate tattoo artistry beyond traditional boundaries. With over 8 years of experience and a background in fine arts, Marcus brings a unique perspective to every custom piece, blending technical precision with creative innovation.',
+            'Every tattoo at West One is a collaboration between artist and client, resulting in truly personalized artwork that tells your story. From concept to completion, we maintain the highest standards of safety, cleanliness, and artistic excellence.',
+        ],
+        callout: 'Your skin deserves nothing less than exceptional artistry and professional care.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus West, founder and lead artist at West One Tattoo studio',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance for custom pieces. Small tattoos may have same-week availability. Contact us to check current scheduling.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Every consultation includes design discussion, size and placement advice, pricing estimate, and preliminary sketches. We\'ll work together to perfect your vision before your tattoo session.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with exceptional artistry and professional care.',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation and discuss your custom design.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for choosing West One Tattoo. We\'ll contact you within 24 hours to confirm your appointment and discuss your design ideas.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A 50% deposit is required to secure your appointment and begin the custom design process.',
+    },
+    contact: {
+        email: 'info@westonetattoo.com',
+        instagram: '@westonetattoo',
+        instagramUrl: 'https://instagram.com/westonetattoo',
+        phone: '(555) 123-WEST',
+        address: '123 Art District Ave, Studio 1',
+    },
+    footer: {
+        copyrightHolder: 'West One Tattoo',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
