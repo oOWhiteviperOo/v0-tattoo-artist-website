@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const RED_POINT_TATTOO_TATTOO_STUDIO_NORTH_LONDON: StudioConfig = {
+    identity: {
+        name: 'Red Point Tattoo | Tattoo Studio North London',
+        slug: 'red-point-tattoo-tattoo-studio-north-london',
+        tagline: 'Where artistry meets precision in North London',
+        artistName: 'Marcus Rivera',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '0 0% 98%',
+        accent: '0 84% 60%',
+        accentForeground: '0 0% 98%',
+        mutedForeground: '0 0% 65%',
+        dimmedForeground: '0 0% 45%',
+        border: '0 0% 15%',
+        card: '0 0% 6%',
+        accentRgb: '245, 101, 101',
+        ring: '0 84% 60%',
+    },
+    seo: {
+        title: 'Red Point Tattoo | Premium Tattoo Studio North London',
+        description: 'Award-winning tattoo studio in North London. Custom designs, expert artists, sterile environment. Book your consultation today for exceptional ink artistry.',
+        keywords: ['tattoo studio North London', 'custom tattoo designs London'],
+        openGraph: {
+            title: 'Red Point Tattoo | Premium Tattoo Studio North London',
+            description: 'Award-winning tattoo studio in North London specializing in custom designs and exceptional artistry. Book your consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/red-point-tattoo-tattoo-studio-north-london',
+            siteName: 'Red Point Tattoo | Tattoo Studio North London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Red%20Point%20Tattoo%20%7C%20Tattoo%20Studio%20North%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Red Point Tattoo | Tattoo Studio North London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['North London\'s Premier', 'Tattoo Destination'],
+        subheadline: 'Where bold vision meets masterful execution. Custom designs crafted with precision and passion in the heart of North London.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design at Red Point Tattoo studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Award-Winning Artists' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Our Signature Work',
+        subtitle: 'Each piece tells a story. Discover the artistry that sets Red Point apart from other North London studios.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattooing services tailored to your vision and timeline',
+        guarantee: '100% satisfaction guarantee with free touch-ups within 6 months',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small to Medium Tattoo',
+                duration: '2-4 hours',
+                price: '£200-400',
+                priceSubtitle: 'Starting price includes consultation',
+                features: ['Custom design consultation included', 'Perfect for first-time clients'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Custom Piece',
+                duration: '5-8 hours',
+                price: '£500-900',
+                priceSubtitle: 'Multi-session pieces available',
+                features: ['Detailed custom artwork', 'Multiple session options'],
+                status: 'available',
+                availabilityText: 'Booking 3 weeks out',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus at Red Point created the most incredible sleeve for me. The attention to detail and artistic vision exceeded all my expectations. Worth every penny!',
+                author: 'Sarah Chen',
+                city: 'Islington',
+                rating: 5,
+            },
+            {
+                quote: 'Found Red Point through a friend\'s recommendation and couldn\'t be happier. Professional, clean, and the artwork is absolutely stunning. My go-to studio now.',
+                author: 'James Mitchell',
+                city: 'Camden',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Award Winning' },
+            { iconName: 'Star', label: 'Custom Designs Only' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @redpointtattoo_london',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Marcus Rivera',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Marcus has established Red Point Tattoo as North London\'s premier destination for custom ink artistry. Trained in both traditional and contemporary techniques, he specializes in creating bold, meaningful pieces that stand the test of time.',
+            'Marcus believes that every tattoo should be as unique as the person wearing it. His meticulous attention to detail and commitment to artistic excellence has earned him recognition throughout London\'s tattoo community, with clients traveling from across the UK to experience his distinctive style.',
+        ],
+        callout: 'Every piece is designed from scratch - no flash sheets, no shortcuts, just pure artistic vision brought to life.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Rivera, lead tattoo artist at Red Point Tattoo, working on a detailed custom design',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book my appointment?',
+                answer: 'We recommend booking 2-4 weeks in advance for optimal scheduling. Rush appointments may be available for smaller pieces, but custom work requires proper planning time for the best results.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation fee?',
+                answer: 'Your consultation includes design discussion, size and placement advice, aftercare instructions, and a custom sketch. The consultation fee is deducted from your final tattoo cost when you book your session.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Something Extraordinary?',
+        subheadline: 'Join hundreds of satisfied clients who chose Red Point for their tattoo journey. Book your consultation today.',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Consultation',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll schedule your personal consultation with Marcus. All consultations include custom design discussion and placement advice.',
+        successTitle: 'Consultation Booked Successfully!',
+        successMessage: 'Thank you for choosing Red Point Tattoo. We\'ll contact you within 24 hours to confirm your consultation details and answer any questions.',
+        submitText: 'Book Consultation',
+        depositDisclaimer: 'A £50 deposit is required to secure your appointment, which will be deducted from your final tattoo cost.',
+    },
+    contact: {
+        email: 'hello@redpointtattoo.co.uk',
+        instagram: '@redpointtattoo_london',
+        instagramUrl: 'https://instagram.com/redpointtattoo_london',
+        phone: '+44 20 7123 4567',
+        address: '123 High Street, North London, N1 2AB',
+    },
+    footer: {
+        copyrightHolder: 'Red Point Tattoo Studio',
+        tagline: 'Premium tattoo artistry in North London',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
