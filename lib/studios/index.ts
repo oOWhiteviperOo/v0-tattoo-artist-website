@@ -25,6 +25,7 @@ import { THE_OLD_VOLT } from './the-old-volt'
 import { RIVAL_INK_TATTOO_SALFORD } from './rival-ink-tattoo-salford'
 import { INKD_LONDON } from './inkd-london'
 import { BODY_CANVAS } from './body-canvas'
+import { WORLD_FAMOUS_FULHAM_TATTOO_LONDON } from './world-famous-fulham-tattoo-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -54,6 +55,7 @@ export const studios: Record<string, StudioConfig> = {
         'rival-ink-tattoo-salford': RIVAL_INK_TATTOO_SALFORD,
         'inkd-london': INKD_LONDON,
         'body-canvas': BODY_CANVAS,
+        'world-famous-fulham-tattoo-london': WORLD_FAMOUS_FULHAM_TATTOO_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
