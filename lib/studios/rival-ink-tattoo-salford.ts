@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const RIVAL_INK_TATTOO_SALFORD: StudioConfig = {
+    identity: {
+        name: 'Rival Ink Tattoo Salford',
+        slug: 'rival-ink-tattoo-salford',
+        tagline: 'Where Art Meets Skin',
+        artistName: 'Jake Morrison',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '0 84% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '245, 40, 40',
+        ring: '0 84% 60%',
+    },
+    seo: {
+        title: 'Rival Ink Tattoo Salford | Custom Tattoos & Professional Art',
+        description: 'Premier tattoo studio in Salford. Custom designs, expert artists, sterile environment. Book your consultation today for professional tattoo artistry.',
+        keywords: ['tattoo studio Salford', 'custom tattoo Manchester'],
+        openGraph: {
+            title: 'Rival Ink Tattoo Salford - Where Art Meets Skin',
+            description: 'Professional tattoo artistry in Salford. Custom designs, expert craftsmanship, sterile studio. Transform your vision into permanent art.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-tattoo-artist-website.vercel.app/rival-ink-tattoo-salford',
+            siteName: 'Rival Ink Tattoo Salford',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Rival%20Ink%20Tattoo%20Salford+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Rival Ink Tattoo Salford',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Transform Your Vision Into', 'Permanent Art'],
+        subheadline: 'Professional tattoo artistry in the heart of Salford. Custom designs, sterile environment, and years of expertise creating your perfect piece.',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Artwork',
+        subtitle: 'Each piece tells a story. Browse our latest custom tattoos and see the artistry that sets Rival Ink apart.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your tattoo journey. All sessions include consultation, custom design, and aftercare guidance.',
+        guarantee: '100% satisfaction guaranteed or we\'ll work with you until it\'s perfect',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Custom Piece',
+                duration: '2-3 hours',
+                price: '£180',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Custom design consultation', 'Complete aftercare kit included'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Custom Piece',
+                duration: '4-6 hours',
+                price: '£350',
+                priceSubtitle: 'For detailed artwork',
+                features: ['Extended design process', 'Premium aftercare package'],
+                status: 'available',
+                availabilityText: 'Next available: Next week',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Jake\'s attention to detail is incredible. My sleeve turned out better than I ever imagined. The studio is spotless and professional.',
+                author: 'Sarah Mitchell',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Been going to Rival Ink for years. Every piece is a masterpiece. Jake really listens to what you want and makes it even better.',
+                author: 'Marcus Thompson',
+                city: 'Salford',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Custom Designs' },
+            { iconName: 'Star', label: '8+ Years Experience' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @rivalinktattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Artist',
+        paragraphs: [
+            'Jake Morrison has been creating custom tattoos in Salford for over 8 years. With a background in fine arts and a passion for storytelling through ink, Jake specializes in bringing your unique vision to life with precision and artistry.',
+            'At Rival Ink, we believe every tattoo should be as individual as the person wearing it. From the initial consultation to the final touch-up, we\'re committed to creating artwork that you\'ll be proud to wear for life. Our studio maintains the highest standards of cleanliness and professionalism.',
+        ],
+        callout: 'Every tattoo tells a story. What\'s yours?',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Jake Morrison, professional tattoo artist at Rival Ink Tattoo Salford',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How much does a tattoo cost?',
+                answer: 'Pricing varies based on size, complexity, and placement. Small custom pieces start at £180, while larger detailed work starts at £350. We provide exact quotes during your consultation after discussing your design.',
+            },
+            {
+                id: 'faq-2',
+                question: 'How do I book an appointment?',
+                answer: 'You can book through our website, call us directly, or message us on Instagram. We require a deposit to secure your appointment, which goes toward your final tattoo cost. Consultations are always free.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Book your free consultation today and let\'s bring your vision to life with professional artistry and care.',
+        ctaText: 'Book Free Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo idea and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@rivalinktattoo.co.uk',
+        instagram: '@rivalinktattoo',
+        instagramUrl: 'https://instagram.com/rivalinktattoo',
+        phone: '+44 161 555 0123',
+        address: '45 Chapel Street, Salford, M3 5DZ',
+    },
+    footer: {
+        copyrightHolder: 'Rival Ink Tattoo Salford',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
