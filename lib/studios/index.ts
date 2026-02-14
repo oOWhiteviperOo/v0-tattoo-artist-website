@@ -45,6 +45,7 @@ import { BODY_CANVAS } from './body-canvas'
 import { WORLD_FAMOUS_FULHAM_TATTOO_LONDON } from './world-famous-fulham-tattoo-london'
 import { NOOIR_TATTOO_BLACKWORK_TATTOOS } from './nooir-tattoo-blackwork-tattoos'
 import { RIVAL_INK_TATTOO_SALFORD } from './rival-ink-tattoo-salford'
+import { SWEET_TIME_TATTOO } from './sweet-time-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -94,6 +95,7 @@ export const studios: Record<string, StudioConfig> = {
         'world-famous-fulham-tattoo-london': WORLD_FAMOUS_FULHAM_TATTOO_LONDON,
         'nooir-tattoo-blackwork-tattoos': NOOIR_TATTOO_BLACKWORK_TATTOOS,
         'rival-ink-tattoo-salford': RIVAL_INK_TATTOO_SALFORD,
+        'sweet-time-tattoo': SWEET_TIME_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
