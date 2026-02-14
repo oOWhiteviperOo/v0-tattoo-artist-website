@@ -42,6 +42,7 @@ import { RED_POINT_TATTOO_TATTOO_STUDIO_NORTH_LONDON } from './red-point-tattoo-
 import { ORIGIN_TATTOO_LONDON } from './origin-tattoo-london'
 import { INKD_LONDON } from './inkd-london'
 import { BODY_CANVAS } from './body-canvas'
+import { WORLD_FAMOUS_FULHAM_TATTOO_LONDON } from './world-famous-fulham-tattoo-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -88,6 +89,7 @@ export const studios: Record<string, StudioConfig> = {
         'origin-tattoo-london': ORIGIN_TATTOO_LONDON,
         'inkd-london': INKD_LONDON,
         'body-canvas': BODY_CANVAS,
+        'world-famous-fulham-tattoo-london': WORLD_FAMOUS_FULHAM_TATTOO_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
