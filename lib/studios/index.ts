@@ -60,6 +60,7 @@ import { MANCHESTER_TATTOO_COMPANY } from './manchester-tattoo-company'
 import { NO_REGRETS_STUDIOS_MANCHESTER } from './no-regrets-studios-manchester'
 import { NORTH_OF_WINTER_TATTOO_STUDIO_MANCHESTER } from './north-of-winter-tattoo-studio-manchester'
 import { THE_STUDIO_AFFLECKS } from './the-studio-afflecks'
+import { PEEL_TATTOO } from './peel-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -124,6 +125,7 @@ export const studios: Record<string, StudioConfig> = {
         'no-regrets-studios-manchester': NO_REGRETS_STUDIOS_MANCHESTER,
         'north-of-winter-tattoo-studio-manchester': NORTH_OF_WINTER_TATTOO_STUDIO_MANCHESTER,
         'the-studio-afflecks': THE_STUDIO_AFFLECKS,
+        'peel-tattoo': PEEL_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
