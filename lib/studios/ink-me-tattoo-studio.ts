@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const INK_ME_TATTOO_STUDIO: StudioConfig = {
+    identity: {
+        name: 'Ink Me Tattoo Studio',
+        slug: 'ink-me-tattoo-studio',
+        tagline: 'Where Art Meets Skin',
+        artistName: 'Alex Morgan',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '339 90% 51%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '245, 25, 102',
+        ring: '339 90% 51%',
+    },
+    seo: {
+        title: 'Ink Me Tattoo Studio - Custom Tattoos & Professional Art',
+        description: 'Professional tattoo studio specializing in custom designs. Expert artists, sterile environment, and exceptional artistry. Book your consultation today.',
+        keywords: ['tattoo studio', 'custom tattoos'],
+        openGraph: {
+            title: 'Ink Me Tattoo Studio - Where Art Meets Skin',
+            description: 'Professional tattoo studio creating custom artwork on skin. Expert artists, premium service, and unforgettable ink experiences.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/ink-me-tattoo-studio',
+            siteName: 'Ink Me Tattoo Studio',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Ink%20Me%20Tattoo%20Studio+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Ink Me Tattoo Studio',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Transform Your Vision Into', 'Permanent Art'],
+        subheadline: 'Custom tattoo designs crafted by experienced artists in a professional, sterile environment',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Artwork',
+        subtitle: 'Every piece tells a story - see our latest custom creations',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattoo services tailored to your vision',
+        guarantee: '100% satisfaction guaranteed or full refund within 7 days',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Tattoo Session',
+                duration: '1-2 hours',
+                price: '£120',
+                priceSubtitle: 'Starting price',
+                features: ['Custom design consultation', 'Perfect for first-time clients'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Tattoo Session',
+                duration: '3-6 hours',
+                price: '£350',
+                priceSubtitle: 'Starting price',
+                features: ['Complex custom artwork', 'Multiple session planning'],
+                status: 'available',
+                availabilityText: 'Limited slots available',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Alex completely understood my vision and created something beyond my expectations. The attention to detail is incredible!',
+                author: 'Sarah Chen',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and talented. My sleeve took 4 sessions and every moment was worth it. Highly recommend!',
+                author: 'Mike Thompson',
+                city: 'Birmingham',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Equipment' },
+            { iconName: 'Sparkles', label: 'Custom Designs' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @inkmetattoos',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Artist',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alex Morgan has developed a reputation for creating stunning custom artwork that perfectly captures each client\'s vision. Specializing in detailed linework, geometric designs, and realistic portraits, Alex approaches every tattoo as a collaborative art piece.',
+            'At Ink Me Tattoo Studio, we believe that getting a tattoo should be a memorable and positive experience. Our studio maintains the highest standards of cleanliness and professionalism, using only premium inks and sterile equipment. Every design is custom-created to ensure your tattoo is as unique as you are.',
+        ],
+        callout: 'Every tattoo tells a story - let\'s create yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Morgan, professional tattoo artist at Ink Me Tattoo Studio',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How much does a tattoo cost?',
+                answer: 'Pricing varies based on size, complexity, and placement. Small tattoos start at £120, while larger pieces begin at £350. We provide detailed quotes after your consultation.',
+            },
+            {
+                id: 'faq-2',
+                question: 'How do I prepare for my tattoo appointment?',
+                answer: 'Get plenty of rest, eat a good meal beforehand, stay hydrated, and avoid alcohol for 24 hours prior. Wear comfortable clothing that allows easy access to the tattoo area.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Get Your Dream Tattoo?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life',
+        ctaText: 'Schedule Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest! We\'ll contact you within 24 hours to confirm your appointment and discuss your design ideas.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@inkmetattoo.co.uk',
+        instagram: '@inkmetattoos',
+        instagramUrl: 'https://instagram.com/inkmetattoos',
+        phone: '+44 7123 456789',
+        address: '123 High Street, City Centre, UK',
+    },
+    footer: {
+        copyrightHolder: 'Ink Me Tattoo Studio',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
