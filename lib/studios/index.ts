@@ -36,6 +36,7 @@ import { THE_OLD_VOLT } from './the-old-volt'
 import { TATTOO_SHOP_BY_DAN_GOLD } from './tattoo-shop-by-dan-gold'
 import { SIXTYINK_LONDON_TATTOO_STUDIO } from './sixtyink-london-tattoo-studio'
 import { THE_CIRCLE_LONDON } from './the-circle-london'
+import { TATTOO_13 } from './tattoo-13'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -76,6 +77,7 @@ export const studios: Record<string, StudioConfig> = {
         'tattoo-shop-by-dan-gold': TATTOO_SHOP_BY_DAN_GOLD,
         'sixtyink-london-tattoo-studio': SIXTYINK_LONDON_TATTOO_STUDIO,
         'the-circle-london': THE_CIRCLE_LONDON,
+        'tattoo-13': TATTOO_13,
     // [N8N-MARKER-REGISTRY]
 }
 
