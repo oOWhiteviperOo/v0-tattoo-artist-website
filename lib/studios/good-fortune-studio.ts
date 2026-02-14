@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const GOOD_FORTUNE_STUDIO: StudioConfig = {
+    identity: {
+        name: 'Good Fortune Studio',
+        slug: 'good-fortune-studio',
+        tagline: 'Where Art Meets Fortune',
+        artistName: 'Alex Chen',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 58%',
+        accentForeground: '0 0% 4%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '240, 180, 45',
+        ring: '45 93% 58%',
+    },
+    seo: {
+        title: 'Good Fortune Studio - Premium Tattoos & Custom Designs',
+        description: 'Good Fortune Studio creates stunning custom tattoos with meticulous attention to detail. Book your consultation for premium tattoo artistry today.',
+        keywords: ['tattoo studio', 'custom tattoos'],
+        openGraph: {
+            title: 'Good Fortune Studio - Where Art Meets Fortune',
+            description: 'Premium tattoo artistry with custom designs. Experience the finest in tattoo craftsmanship at Good Fortune Studio.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/good-fortune-studio',
+            siteName: 'Good Fortune Studio',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Good%20Fortune%20Studio+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Good Fortune Studio',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Your Story, Told in', 'Golden Ink'],
+        subheadline: 'At Good Fortune Studio, we craft bespoke tattoos that capture your unique journey with artistic precision and meaningful symbolism.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Masterpieces',
+        subtitle: 'Each piece tells a story of artistic collaboration and personal expression',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision',
+        guarantee: '100% satisfaction guaranteed or full refund',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Design',
+                duration: '1-2 hours',
+                price: '£80',
+                priceSubtitle: 'Includes custom design',
+                features: ['Detailed consultation', 'Custom design creation'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Design Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Tattoo Session',
+                duration: '3-6 hours',
+                price: '£350',
+                priceSubtitle: 'Complete tattoo experience',
+                features: ['Premium aftercare kit', 'Touch-up guarantee'],
+                status: 'available',
+                availabilityText: '2 weeks booking',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Alex\'s attention to detail is incredible. My geometric piece turned out better than I ever imagined. The whole experience at Good Fortune was professional and comfortable.',
+                author: 'Sarah M.',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'I\'ve been to many studios, but Good Fortune is special. The custom design process was collaborative and the final result is a true work of art. Highly recommend!',
+                author: 'James R.',
+                city: 'Liverpool',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Award Winning Studio' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @goodfortunestudio',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Alex Chen',
+        paragraphs: [
+            'With over 8 years of tattooing experience, Alex Chen founded Good Fortune Studio with a vision to create meaningful, high-quality tattoos that stand the test of time. Specializing in custom designs, Alex works closely with each client to bring their unique story to life through ink.',
+            'Drawing inspiration from traditional symbolism and modern artistic techniques, Alex\'s work is characterized by clean lines, thoughtful composition, and attention to detail. Every tattoo is approached as a collaborative artwork, ensuring each piece is as unique as the person wearing it.',
+        ],
+        callout: 'Every tattoo tells a story - let\'s create yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Chen, founder and lead artist at Good Fortune Studio',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book through our online form or contact us directly. We\'ll schedule a consultation to discuss your design ideas and provide a detailed quote for your tattoo.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s your deposit policy?',
+                answer: 'We require a £50 deposit to secure your appointment, which goes towards your final tattoo cost. Deposits are non-refundable but can be transferred to a new date with 48 hours notice.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Book your consultation today and start your journey to exceptional ink',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Consultation',
+        modalDescription: 'Tell us about your tattoo vision and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Consultation Requested!',
+        successMessage: 'We\'ll contact you within 24 hours to confirm your appointment. Check your email for confirmation details.',
+        submitText: 'Request Consultation',
+        depositDisclaimer: 'A £50 deposit will be required to confirm your appointment',
+    },
+    contact: {
+        email: 'hello@goodfortunestudio.com',
+        instagram: '@goodfortunestudio',
+        instagramUrl: 'https://instagram.com/goodfortunestudio',
+        phone: '+44 7123 456789',
+        address: '123 Fortune Street, City Centre',
+    },
+    footer: {
+        copyrightHolder: 'Good Fortune Studio',
+        tagline: 'Where Art Meets Fortune',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
