@@ -80,6 +80,7 @@ import { SECRET_SOCIETY_TATTOO_MCR } from './secret-society-tattoo-mcr'
 import { THE_STORY_OF_US_TATTOO } from './the-story-of-us-tattoo'
 import { HANNAEYETATTOO } from './hannaeyetattoo'
 import { MANCHESTER_TATTOO_ACADEMY_GUARANTEED_EMPLOYMENT_OPPORTUNITIE } from './manchester-tattoo-academy-guaranteed-employment-opportunitie'
+import { GYPSY_STABLES_TATTOO_COLLECTIVE } from './gypsy-stables-tattoo-collective'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -164,6 +165,7 @@ export const studios: Record<string, StudioConfig> = {
         'the-story-of-us-tattoo': THE_STORY_OF_US_TATTOO,
         'hannaeyetattoo': HANNAEYETATTOO,
         'manchester-tattoo-academy-guaranteed-employment-opportunitie': MANCHESTER_TATTOO_ACADEMY_GUARANTEED_EMPLOYMENT_OPPORTUNITIE,
+        'gypsy-stables-tattoo-collective': GYPSY_STABLES_TATTOO_COLLECTIVE,
     // [N8N-MARKER-REGISTRY]
 }
 
