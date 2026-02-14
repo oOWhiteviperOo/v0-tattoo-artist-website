@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_STORY_OF_US_TATTOO: StudioConfig = {
+    identity: {
+        name: 'The Story Of Us Tattoo',
+        slug: 'the-story-of-us-tattoo',
+        tagline: 'Where Every Tattoo Tells Your Story',
+        artistName: 'Alex Morgan',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '350 89% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '240, 56, 120',
+        ring: '350 89% 60%',
+    },
+    seo: {
+        title: 'The Story Of Us Tattoo - Custom Tattoos & Personal Art',
+        description: 'Premium custom tattoo studio creating meaningful art that tells your unique story. Professional tattooing with exceptional attention to detail.',
+        keywords: ['custom tattoo studio', 'personal tattoo art'],
+        openGraph: {
+            title: 'The Story Of Us Tattoo - Where Every Tattoo Tells Your Story',
+            description: 'Premium custom tattoo studio creating meaningful art that tells your unique story. Book your consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/the-story-of-us-tattoo',
+            siteName: 'The Story Of Us Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20Story%20Of%20Us%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The Story Of Us Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Every Tattoo Tells', 'Your Story'],
+        subheadline: 'Custom tattoo artistry that captures your personal journey, memories, and dreams in stunning detail',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Start Your Story',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist creating custom artwork',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Stories Told' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: '100% Custom Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Stories We\'ve Told',
+        subtitle: 'Each piece is a unique chapter in someone\'s personal story',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Your Story Awaits',
+        subtitle: 'Choose the perfect session to bring your vision to life',
+        guarantee: '100% satisfaction guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Story Consultation',
+                duration: '90 minutes',
+                price: '£75',
+                priceSubtitle: 'Applied to tattoo cost',
+                features: ['Custom design creation', 'Story consultation & planning'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Story Session',
+                duration: '4-6 hours',
+                price: '£400',
+                priceSubtitle: 'Complete tattoo experience',
+                features: ['Full custom tattoo completion', 'Aftercare kit included'],
+                status: 'available',
+                availabilityText: 'Next available: 2 weeks',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Stories From Our Clients',
+        testimonials: [
+            {
+                quote: 'Alex perfectly captured the story I wanted to tell. The attention to detail and personal touch made this so much more than just a tattoo.',
+                author: 'Sarah Johnson',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'The consultation process was incredible. Alex really listened to my story and created something that exceeded all my expectations.',
+                author: 'Michael Chen',
+                city: 'Birmingham',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @thestoryofustattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist Behind The Stories',
+        paragraphs: [
+            'Hi, I\'m Alex Morgan, and I believe every tattoo should tell a story. For over 8 years, I\'ve been helping people transform their most meaningful memories, experiences, and dreams into beautiful, lasting art. My approach goes beyond traditional tattooing - I\'m here to listen, understand, and create something truly personal for you.',
+            'Specializing in narrative-driven designs, I work closely with each client to uncover the deeper meaning behind their tattoo vision. Whether it\'s commemorating a loved one, marking a life milestone, or simply expressing your unique personality, every piece I create is designed to be as individual as the story it tells.',
+        ],
+        callout: 'Every story deserves to be told beautifully',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Morgan, tattoo artist at The Story Of Us Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long does the consultation process take?',
+                answer: 'Our story consultation takes about 90 minutes. We\'ll discuss your vision, explore the meaning behind your tattoo, and begin the custom design process. This time is essential to ensure your tattoo perfectly captures your story.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do you work with first-time tattoo clients?',
+                answer: 'Absolutely! I love working with first-time clients and will guide you through every step of the process. We\'ll discuss placement, size, aftercare, and answer all your questions to ensure you feel completely comfortable.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Tell Your Story?',
+        subheadline: 'Book your consultation today and let\'s create something meaningful together',
+        ctaText: 'Start Your Story',
+    },
+    booking: {
+        modalTitle: 'Book Your Story Session',
+        modalDescription: 'Ready to begin your tattoo journey? Fill out the form below and I\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Your Story Begins!',
+        successMessage: 'Thank you for reaching out! I\'ll review your submission and get back to you within 24 hours to discuss your vision and schedule your consultation.',
+        submitText: 'Send My Story',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@thestoryofustattoo.co.uk',
+        instagram: '@thestoryofustattoo',
+        instagramUrl: 'https://instagram.com/thestoryofustattoo',
+        phone: '+44 7123 456789',
+        address: '123 Story Lane, Tattoo Quarter, Birmingham B1 2AB',
+    },
+    footer: {
+        copyrightHolder: 'The Story Of Us Tattoo',
+        tagline: 'Where Every Tattoo Tells Your Story',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
