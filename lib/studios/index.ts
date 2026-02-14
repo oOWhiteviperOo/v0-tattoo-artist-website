@@ -75,6 +75,7 @@ import { METAL_MORPHOSIS_PIERCING } from './metal-morphosis-piercing'
 import { NEMESIS_TATTOO_BODY_PIERCING_STUDIO } from './nemesis-tattoo-body-piercing-studio'
 import { PRINCELET_TATTOO_LONDON } from './princelet-tattoo-london'
 import { VAGABOND_TATTOO } from './vagabond-tattoo'
+import { RAIN_CITY_TATTOO_COLLECTIVE } from './rain-city-tattoo-collective'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -154,6 +155,7 @@ export const studios: Record<string, StudioConfig> = {
         'nemesis-tattoo-body-piercing-studio': NEMESIS_TATTOO_BODY_PIERCING_STUDIO,
         'princelet-tattoo-london': PRINCELET_TATTOO_LONDON,
         'vagabond-tattoo': VAGABOND_TATTOO,
+        'rain-city-tattoo-collective': RAIN_CITY_TATTOO_COLLECTIVE,
     // [N8N-MARKER-REGISTRY]
 }
 
