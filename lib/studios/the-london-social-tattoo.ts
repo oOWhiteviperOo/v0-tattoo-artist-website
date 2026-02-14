@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_LONDON_SOCIAL_TATTOO: StudioConfig = {
+    identity: {
+        name: 'The London Social Tattoo',
+        slug: 'the-london-social-tattoo',
+        tagline: 'Where Art Meets Community in the Heart of London',
+        artistName: 'Marcus Chen',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '210 100% 55%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '26, 128, 255',
+        ring: '210 100% 55%',
+    },
+    seo: {
+        title: 'The London Social Tattoo | Premier London Tattoo Studio',
+        description: 'Award-winning tattoo studio in London. Custom designs, expert artists, and exceptional service. Book your consultation today at The London Social.',
+        keywords: ['London tattoo studio', 'custom tattoo design London'],
+        openGraph: {
+            title: 'The London Social Tattoo - Premier London Tattoo Studio',
+            description: 'Where Art Meets Community in the Heart of London. Custom designs, expert artists, exceptional service.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/the-london-social-tattoo',
+            siteName: 'The London Social Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20London%20Social%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The London Social Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['London\'s Premier', 'Social Tattoo Experience'],
+        subheadline: 'Where artistry meets community. Custom tattoos crafted by award-winning artists in the heart of London.',
+        urgencyText: 'Only 3 consultation slots left this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'The London Social Tattoo studio interior with artist at work',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Happy Clients' },
+            { iconName: 'Award', label: 'Award-Winning Artists' },
+            { iconName: 'Shield', label: '100% Custom Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Our Latest Masterpieces',
+        subtitle: 'Each piece tells a story. Browse our recent work and discover the artistry that sets us apart.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision. All sessions include consultation, custom design, and aftercare guidance.',
+        guarantee: '100% satisfaction guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Piece Session',
+                duration: '2-3 hours',
+                price: '£200-400',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Custom design consultation', 'Complete aftercare kit included'],
+                status: 'limited',
+                availabilityText: 'Available next week',
+                buttonText: 'Book Small Piece',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Piece Session',
+                duration: '4-8 hours',
+                price: '£500-1200',
+                priceSubtitle: 'For detailed artwork',
+                features: ['Multiple design revisions', 'Priority booking for touch-ups'],
+                status: 'available',
+                availabilityText: 'Booking 3 weeks out',
+                buttonText: 'Book Large Piece',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus created the most incredible sleeve for me. The attention to detail and artistic vision exceeded all my expectations. The whole team made me feel so welcome.',
+                author: 'Sarah Williams',
+                city: 'Camden',
+                rating: 5,
+            },
+            {
+                quote: 'Been to many studios but The London Social is something special. The atmosphere is relaxed, the art is world-class, and they really listen to what you want.',
+                author: 'James Thompson',
+                city: 'Shoreditch',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Award-Winning Studio' },
+            { iconName: 'Sparkles', label: 'Sterile Environment' },
+            { iconName: 'Star', label: 'Custom Designs Only' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @londonsocialtattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'About The London Social',
+        paragraphs: [
+            'Founded in 2016, The London Social Tattoo has become one of London\'s most respected tattoo studios. We believe that getting a tattoo should be a social, collaborative experience where artists and clients work together to create something truly unique.',
+            'Our studio combines traditional tattooing techniques with contemporary artistry, creating a space where creativity thrives and community flourishes. Every piece we create is custom-designed, ensuring your tattoo is as individual as you are.',
+        ],
+        callout: 'We don\'t just create tattoos - we craft stories that last a lifetime.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Chen, lead artist at The London Social Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book directly through our website or send us a message on Instagram. We\'ll schedule a consultation to discuss your ideas and create a custom design.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s your deposit policy?',
+                answer: 'We require a £50 deposit to secure your appointment, which goes toward your final session cost. Deposits are refundable up to 48 hours before your appointment.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Join the hundreds of satisfied clients who\'ve made The London Social their tattoo home.',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ve received your request and will contact you within 24 hours to confirm your consultation.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: '£50 deposit required to secure appointment',
+    },
+    contact: {
+        email: 'hello@londonsocialtattoo.co.uk',
+        instagram: '@londonsocialtattoo',
+        instagramUrl: 'https://instagram.com/londonsocialtattoo',
+        phone: '+44 20 7123 4567',
+        address: '123 Brick Lane, Shoreditch, London E1 6SB',
+    },
+    footer: {
+        copyrightHolder: 'The London Social Tattoo',
+        tagline: 'Where Art Meets Community',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
