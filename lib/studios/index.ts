@@ -53,6 +53,7 @@ import { LONDONS_GLITCH } from './londons-glitch'
 import { GOOD_FORTUNE_STUDIO } from './good-fortune-studio'
 import { NO_REGRETS_STUDIOS_LONDON } from './no-regrets-studios-london'
 import { LABEL_TATTOO_LONDON } from './label-tattoo-london'
+import { USHUAIA_TATTOO_LONDON } from './ushuaia-tattoo-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -110,6 +111,7 @@ export const studios: Record<string, StudioConfig> = {
         'good-fortune-studio': GOOD_FORTUNE_STUDIO,
         'no-regrets-studios-london': NO_REGRETS_STUDIOS_LONDON,
         'label-tattoo-london': LABEL_TATTOO_LONDON,
+        'ushuaia-tattoo-london': USHUAIA_TATTOO_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
