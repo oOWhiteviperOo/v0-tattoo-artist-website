@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const SWEET_TIME_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Sweet Time Tattoo',
+        slug: 'sweet-time-tattoo',
+        tagline: 'Where Every Moment Becomes Art',
+        artistName: 'Sam Mitchell',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '350 89% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '240, 101, 149',
+        ring: '350 89% 60%',
+    },
+    seo: {
+        title: 'Sweet Time Tattoo - Custom Tattoos & Artistic Designs',
+        description: 'Premium custom tattoo studio creating unique, artistic designs. Book your consultation today for exceptional tattoo artistry in a welcoming environment.',
+        keywords: ['custom tattoo studio', 'artistic tattoo designs'],
+        openGraph: {
+            title: 'Sweet Time Tattoo - Where Every Moment Becomes Art',
+            description: 'Premium custom tattoo studio creating unique, artistic designs. Book your consultation today for exceptional tattoo artistry.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/sweet-time-tattoo',
+            siteName: 'Sweet Time Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Sweet%20Time%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Sweet Time Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Make Every Moment', 'Sweet & Timeless'],
+        subheadline: 'Custom tattoo artistry that captures your story with precision, creativity, and heart',
+        urgencyText: 'Limited consultation spots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Sweet Time Tattoo artist creating custom tattoo design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Pieces' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Award-Winning Artistry' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Timeless Artistry',
+        subtitle: 'Each piece tells a story, crafted with precision and passion',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattooing with a personal touch',
+        guarantee: '100% satisfaction guarantee on all custom work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£180',
+                priceSubtitle: 'Perfect for first-time clients',
+                features: ['Custom design consultation', 'Small to medium tattoo'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Custom Session',
+                duration: '4-6 hours',
+                price: '£350',
+                priceSubtitle: 'For larger, detailed pieces',
+                features: ['Extended design process', 'Large detailed artwork'],
+                status: 'available',
+                availabilityText: 'Limited slots available',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Sam\'s attention to detail is incredible. My tattoo came out exactly as I envisioned, and the whole experience was so comfortable and professional.',
+                author: 'Emma Thompson',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Sweet Time Tattoo exceeded all my expectations. The custom design process was collaborative and the final piece is absolutely stunning. Highly recommend!',
+                author: 'James Wilson',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Certified' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks Only' },
+            { iconName: 'Star', label: 'Aftercare Included' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @sweettimetattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Sam Mitchell',
+        paragraphs: [
+            'With over 8 years of experience in tattoo artistry, I\'ve dedicated my career to creating meaningful, custom pieces that stand the test of time. My approach combines technical precision with artistic creativity, ensuring each tattoo is as unique as the person wearing it.',
+            'At Sweet Time Tattoo, I believe in taking the time to understand your vision and bringing it to life with meticulous attention to detail. From the initial consultation to the final touch-up, every step is crafted to provide you with an exceptional experience and a tattoo you\'ll treasure forever.',
+        ],
+        callout: 'Every tattoo tells a story - let me help you tell yours with artistry that lasts a lifetime.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Sam Mitchell, lead tattoo artist at Sweet Time Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book my appointment?',
+                answer: 'We recommend booking 2-4 weeks in advance, especially for custom pieces. However, we sometimes have last-minute availability for smaller tattoos. Contact us to check current availability.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What should I expect during the consultation process?',
+                answer: 'During your consultation, we\'ll discuss your ideas, review reference images, and work together to create a custom design that perfectly captures your vision. This process typically takes 30-60 minutes and is included in your session price.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Sweet Time?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with exceptional artistry',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment details.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@sweettimetattoo.co.uk',
+        instagram: '@sweettimetattoo',
+        instagramUrl: 'https://instagram.com/sweettimetattoo',
+        phone: '+44 7700 900123',
+        address: '123 Creative Quarter, Arts District, City Centre',
+    },
+    footer: {
+        copyrightHolder: 'Sweet Time Tattoo',
+        tagline: 'Where Every Moment Becomes Art',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkrHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
