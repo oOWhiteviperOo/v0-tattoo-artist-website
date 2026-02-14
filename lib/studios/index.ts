@@ -62,6 +62,7 @@ import { NORTH_OF_WINTER_TATTOO_STUDIO_MANCHESTER } from './north-of-winter-tatt
 import { THE_STUDIO_AFFLECKS } from './the-studio-afflecks'
 import { PEEL_TATTOO } from './peel-tattoo'
 import { HOPE_ROSEMARY_TATTOO } from './hope-rosemary-tattoo'
+import { TIBOR_VARGA_TATTOO } from './tibor-varga-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -128,6 +129,7 @@ export const studios: Record<string, StudioConfig> = {
         'the-studio-afflecks': THE_STUDIO_AFFLECKS,
         'peel-tattoo': PEEL_TATTOO,
         'hope-rosemary-tattoo': HOPE_ROSEMARY_TATTOO,
+        'tibor-varga-tattoo': TIBOR_VARGA_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
