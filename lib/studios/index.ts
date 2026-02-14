@@ -49,6 +49,7 @@ import { SWEET_TIME_TATTOO } from './sweet-time-tattoo'
 import { KINGS_CROSS_TATTOO_PARLOUR } from './kings-cross-tattoo-parlour'
 import { BOYS_DONT_CRY_TATTOO_PIERCING_CAMDEN } from './boys-dont-cry-tattoo-piercing-camden'
 import { VON_BARBAZ_TATTOO_FINE_LINE_TATTOO } from './von-barbaz-tattoo-fine-line-tattoo'
+import { LONDONS_GLITCH } from './londons-glitch'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -102,6 +103,7 @@ export const studios: Record<string, StudioConfig> = {
         'kings-cross-tattoo-parlour': KINGS_CROSS_TATTOO_PARLOUR,
         'boys-dont-cry-tattoo-piercing-camden': BOYS_DONT_CRY_TATTOO_PIERCING_CAMDEN,
         'von-barbaz-tattoo-fine-line-tattoo': VON_BARBAZ_TATTOO_FINE_LINE_TATTOO,
+        'londons-glitch': LONDONS_GLITCH,
     // [N8N-MARKER-REGISTRY]
 }
 
