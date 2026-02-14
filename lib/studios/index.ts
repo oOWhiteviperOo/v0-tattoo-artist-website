@@ -39,6 +39,7 @@ import { THE_CIRCLE_LONDON } from './the-circle-london'
 import { TATTOO_13 } from './tattoo-13'
 import { ONE_BY_ONE_TATTOO } from './one-by-one-tattoo'
 import { RED_POINT_TATTOO_TATTOO_STUDIO_NORTH_LONDON } from './red-point-tattoo-tattoo-studio-north-london'
+import { ORIGIN_TATTOO_LONDON } from './origin-tattoo-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -82,6 +83,7 @@ export const studios: Record<string, StudioConfig> = {
         'tattoo-13': TATTOO_13,
         'one-by-one-tattoo': ONE_BY_ONE_TATTOO,
         'red-point-tattoo-tattoo-studio-north-london': RED_POINT_TATTOO_TATTOO_STUDIO_NORTH_LONDON,
+        'origin-tattoo-london': ORIGIN_TATTOO_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
