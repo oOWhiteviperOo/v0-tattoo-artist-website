@@ -44,6 +44,7 @@ import { INKD_LONDON } from './inkd-london'
 import { BODY_CANVAS } from './body-canvas'
 import { WORLD_FAMOUS_FULHAM_TATTOO_LONDON } from './world-famous-fulham-tattoo-london'
 import { NOOIR_TATTOO_BLACKWORK_TATTOOS } from './nooir-tattoo-blackwork-tattoos'
+import { RIVAL_INK_TATTOO_SALFORD } from './rival-ink-tattoo-salford'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -92,6 +93,7 @@ export const studios: Record<string, StudioConfig> = {
         'body-canvas': BODY_CANVAS,
         'world-famous-fulham-tattoo-london': WORLD_FAMOUS_FULHAM_TATTOO_LONDON,
         'nooir-tattoo-blackwork-tattoos': NOOIR_TATTOO_BLACKWORK_TATTOOS,
+        'rival-ink-tattoo-salford': RIVAL_INK_TATTOO_SALFORD,
     // [N8N-MARKER-REGISTRY]
 }
 
