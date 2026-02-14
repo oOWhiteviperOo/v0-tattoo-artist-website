@@ -71,6 +71,7 @@ import { HAMMERSMITH_TATTOO_LONDON } from './hammersmith-tattoo-london'
 import { ECO_TATTOO_LONDON } from './eco-tattoo-london'
 import { FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS } from './fine-line-tattoo-shop-in-london-by-dannyptattoos'
 import { SOUTH_CITY_MARKET_CALEDONIAN_ROAD } from './south-city-market-caledonian-road'
+import { METAL_MORPHOSIS_PIERCING } from './metal-morphosis-piercing'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -146,6 +147,7 @@ export const studios: Record<string, StudioConfig> = {
         'eco-tattoo-london': ECO_TATTOO_LONDON,
         'fine-line-tattoo-shop-in-london-by-dannyptattoos': FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS,
         'south-city-market-caledonian-road': SOUTH_CITY_MARKET_CALEDONIAN_ROAD,
+        'metal-morphosis-piercing': METAL_MORPHOSIS_PIERCING,
     // [N8N-MARKER-REGISTRY]
 }
 
