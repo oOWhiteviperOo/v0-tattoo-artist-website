@@ -69,6 +69,7 @@ import { METAL_MORPHOSIS_PIERCING } from './metal-morphosis-piercing'
 import { DIAMOND_JACKS_TATTOO_PARLOUR } from './diamond-jacks-tattoo-parlour'
 import { HAMMERSMITH_TATTOO_LONDON } from './hammersmith-tattoo-london'
 import { ECO_TATTOO_LONDON } from './eco-tattoo-london'
+import { FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS } from './fine-line-tattoo-shop-in-london-by-dannyptattoos'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -142,6 +143,7 @@ export const studios: Record<string, StudioConfig> = {
         'diamond-jacks-tattoo-parlour': DIAMOND_JACKS_TATTOO_PARLOUR,
         'hammersmith-tattoo-london': HAMMERSMITH_TATTOO_LONDON,
         'eco-tattoo-london': ECO_TATTOO_LONDON,
+        'fine-line-tattoo-shop-in-london-by-dannyptattoos': FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS,
     // [N8N-MARKER-REGISTRY]
 }
 
