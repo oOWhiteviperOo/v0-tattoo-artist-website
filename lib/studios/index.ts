@@ -51,6 +51,7 @@ import { BOYS_DONT_CRY_TATTOO_PIERCING_CAMDEN } from './boys-dont-cry-tattoo-pie
 import { VON_BARBAZ_TATTOO_FINE_LINE_TATTOO } from './von-barbaz-tattoo-fine-line-tattoo'
 import { LONDONS_GLITCH } from './londons-glitch'
 import { GOOD_FORTUNE_STUDIO } from './good-fortune-studio'
+import { NO_REGRETS_STUDIOS_LONDON } from './no-regrets-studios-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -106,6 +107,7 @@ export const studios: Record<string, StudioConfig> = {
         'von-barbaz-tattoo-fine-line-tattoo': VON_BARBAZ_TATTOO_FINE_LINE_TATTOO,
         'londons-glitch': LONDONS_GLITCH,
         'good-fortune-studio': GOOD_FORTUNE_STUDIO,
+        'no-regrets-studios-london': NO_REGRETS_STUDIOS_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
