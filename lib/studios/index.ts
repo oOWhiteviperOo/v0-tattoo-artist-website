@@ -92,6 +92,7 @@ import { FLASH_BY_AJ_TATTOO } from './flash-by-aj-tattoo'
 import { STRAIGHT_LINES_AND_CIRCLES } from './straight-lines-and-circles'
 import { PURE_PIERCING } from './pure-piercing'
 import { PURE_PIERCING } from './pure-piercing'
+import { OHLA_TATTOO_MANCHESTER } from './ohla-tattoo-manchester'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -188,6 +189,7 @@ export const studios: Record<string, StudioConfig> = {
         'straight-lines-and-circles': STRAIGHT_LINES_AND_CIRCLES,
         'pure-piercing': PURE_PIERCING,
         'pure-piercing': PURE_PIERCING,
+        'ohla-tattoo-manchester': OHLA_TATTOO_MANCHESTER,
     // [N8N-MARKER-REGISTRY]
 }
 
