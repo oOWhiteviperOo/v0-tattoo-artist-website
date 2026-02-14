@@ -77,6 +77,7 @@ import { PRINCELET_TATTOO_LONDON } from './princelet-tattoo-london'
 import { VAGABOND_TATTOO } from './vagabond-tattoo'
 import { RAIN_CITY_TATTOO_COLLECTIVE } from './rain-city-tattoo-collective'
 import { SECRET_SOCIETY_TATTOO_MCR } from './secret-society-tattoo-mcr'
+import { THE_STORY_OF_US_TATTOO } from './the-story-of-us-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -158,6 +159,7 @@ export const studios: Record<string, StudioConfig> = {
         'vagabond-tattoo': VAGABOND_TATTOO,
         'rain-city-tattoo-collective': RAIN_CITY_TATTOO_COLLECTIVE,
         'secret-society-tattoo-mcr': SECRET_SOCIETY_TATTOO_MCR,
+        'the-story-of-us-tattoo': THE_STORY_OF_US_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
