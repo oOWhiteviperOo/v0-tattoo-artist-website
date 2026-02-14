@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const VON_BARBAZ_TATTOO_FINE_LINE_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Von Barbaz Tattoo Fine Line Tattoo',
+        slug: 'von-barbaz-tattoo-fine-line-tattoo',
+        tagline: 'Precision in Every Line',
+        artistName: 'Von Barbaz',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '280 100% 70%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '179, 0, 255',
+        ring: '280 100% 70%',
+    },
+    seo: {
+        title: 'Von Barbaz Tattoo - Fine Line Tattoo Artist',
+        description: 'Precision fine line tattoos by Von Barbaz. Delicate, detailed designs with expert craftsmanship. Book your custom fine line tattoo consultation today.',
+        keywords: ['fine line tattoos', 'Von Barbaz tattoo artist'],
+        openGraph: {
+            title: 'Von Barbaz Tattoo Fine Line Tattoo - Precision in Every Line',
+            description: 'Expert fine line tattoo artist specializing in delicate, detailed designs. Custom work with precision and artistry.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/von-barbaz-tattoo-fine-line-tattoo',
+            siteName: 'Von Barbaz Tattoo Fine Line Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Von%20Barbaz%20Tattoo%20Fine%20Line%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Von Barbaz Tattoo Fine Line Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Fine Line Artistry', 'Crafted with Precision'],
+        subheadline: 'Delicate, detailed tattoos that tell your story with elegant simplicity and masterful technique',
+        urgencyText: 'Limited fine line slots available this month',
+        ctaText: 'Book Your Design',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Von Barbaz creating a delicate fine line tattoo',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Specializing' },
+            { iconName: 'Zap', label: '1500+ Fine Line Tattoos' },
+            { iconName: 'Award', label: 'Award-Winning Artist' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Fine Line Masterpieces',
+        subtitle: 'Each piece is meticulously crafted with precision and artistic vision',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Fine Line Sessions',
+        subtitle: 'Choose the perfect session for your fine line vision',
+        guarantee: '100% satisfaction guarantee on all fine line work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Fine Line',
+                duration: '2-3 hours',
+                price: '£250',
+                priceSubtitle: 'Perfect for delicate designs',
+                features: ['Up to 4 inches maximum', 'Single needle precision'],
+                status: 'limited',
+                availabilityText: 'Available next week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Medium Fine Line',
+                duration: '4-6 hours',
+                price: '£450',
+                priceSubtitle: 'For detailed compositions',
+                features: ['Complex fine line designs', 'Multiple session option'],
+                status: 'available',
+                availabilityText: 'Booking 3 weeks out',
+                buttonText: 'Book Medium Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Clients Say About Von Barbaz',
+        testimonials: [
+            {
+                quote: 'Von Barbaz\'s fine line work is absolutely stunning. The precision and attention to detail is unmatched. My delicate floral piece healed beautifully.',
+                author: 'Sarah Mitchell',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'I\'ve never seen such clean, precise line work. Von Barbaz took my concept and elevated it beyond what I imagined. True artistry.',
+                author: 'James Thompson',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Professional' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Included' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @vonbarbaz_fineline',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Master of Fine Line Artistry',
+        paragraphs: [
+            'Von Barbaz has dedicated over 8 years to perfecting the art of fine line tattooing. With a background in illustration and a passion for minimalist design, Von brings a unique perspective to each piece, creating tattoos that are both delicate and enduring.',
+            'Specializing exclusively in fine line work, Von uses single needle techniques and premium equipment to achieve the crisp, clean lines that have become the studio\'s signature. Every design is custom-created in collaboration with the client, ensuring a truly personal piece of art.',
+        ],
+        callout: 'Each tattoo is a testament to precision, artistry, and the beauty found in simplicity.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Von Barbaz working on a fine line tattoo design',
+    },
+    faq: {
+        sectionTitle: 'Fine Line Tattoo Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long do fine line tattoos take to heal?',
+                answer: 'Fine line tattoos typically heal faster than traditional tattoos, usually within 2-3 weeks. The single needle technique creates less trauma to the skin, resulting in quicker healing times.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do fine line tattoos age well?',
+                answer: 'When done properly with quality ink and technique, fine line tattoos age beautifully. I use premium inks and proper depth to ensure longevity while maintaining the delicate appearance.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Your Fine Line Masterpiece?',
+        subheadline: 'Book a consultation to discuss your vision and create something truly unique',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Fine Line Consultation',
+        modalDescription: 'Let\'s discuss your vision and create a custom fine line design that\'s perfect for you.',
+        successTitle: 'Consultation Booked!',
+        successMessage: 'Thank you for choosing Von Barbaz Tattoo. I\'ll be in touch within 24 hours to confirm your consultation details.',
+        submitText: 'Book Consultation',
+        depositDisclaimer: 'A £50 deposit is required to secure your booking and will be applied to your final session cost.',
+    },
+    contact: {
+        email: 'hello@vonbarbaztattoo.co.uk',
+        instagram: '@vonbarbaz_fineline',
+        instagramUrl: 'https://instagram.com/vonbarbaz_fineline',
+        phone: '+44 7123 456789',
+        address: 'Private Studio, London',
+    },
+    footer: {
+        copyrightHolder: 'Von Barbaz Tattoo Fine Line Tattoo',
+        tagline: 'Precision in Every Line',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
