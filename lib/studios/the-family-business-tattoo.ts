@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_FAMILY_BUSINESS_TATTOO: StudioConfig = {
+    identity: {
+        name: 'The Family Business Tattoo',
+        slug: 'the-family-business-tattoo',
+        tagline: 'Where tradition meets artistry, and every tattoo tells a story',
+        artistName: 'The Family Collective',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '25 95% 53%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '245, 158, 11',
+        ring: '25 95% 53%',
+    },
+    seo: {
+        title: 'The Family Business Tattoo - Traditional & Custom Tattoos',
+        description: 'Award-winning tattoo studio specializing in traditional, custom, and family-inspired designs. Book your consultation with our experienced artists today.',
+        keywords: ['family tattoo studio', 'traditional tattoos'],
+        openGraph: {
+            title: 'The Family Business Tattoo - Where Tradition Meets Artistry',
+            description: 'Experience the art of tattooing with our family-run studio. Custom designs, traditional craftsmanship, and stories that last a lifetime.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/the-family-business-tattoo',
+            siteName: 'The Family Business Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20Family%20Business%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The Family Business Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Where Family Legacy', 'Meets Timeless Art'],
+        subheadline: 'Three generations of tattoo artistry creating meaningful designs that honor your story and celebrate your journey.',
+        urgencyText: 'Booking 3-4 weeks in advance - secure your spot today',
+        ctaText: 'Start Your Story',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'The Family Business Tattoo studio interior with vintage tattoo equipment',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '15+ Years Legacy' },
+            { iconName: 'Zap', label: '3000+ Stories Told' },
+            { iconName: 'Award', label: 'Multi-Award Winning' },
+            { iconName: 'Shield', label: 'Family Tradition' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Our Family\'s Artistry',
+        subtitle: 'Every piece tells a story, crafted with generations of experience and passion',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision, backed by our family guarantee',
+        guarantee: '100% satisfaction guaranteed or we\'ll make it right - that\'s the family promise',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Heritage Session',
+                duration: '2-3 hours',
+                price: '£250',
+                priceSubtitle: 'inc. £50 deposit',
+                features: ['Traditional & family designs', 'Personal consultation included'],
+                status: 'limited',
+                availabilityText: 'Available weekly',
+                buttonText: 'Book Heritage',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Legacy Session',
+                duration: '4-6 hours',
+                price: '£450',
+                priceSubtitle: 'inc. £100 deposit',
+                features: ['Large custom pieces', 'Multi-session planning'],
+                status: 'available',
+                availabilityText: 'Limited monthly slots',
+                buttonText: 'Book Legacy',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Stories From Our Extended Family',
+        testimonials: [
+            {
+                quote: 'Three generations of my family have gotten tattoos here. The tradition, skill, and care they put into every piece is unmatched. It\'s not just a tattoo shop - it\'s truly a family business.',
+                author: 'Sarah Mitchell',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'I wanted something to honor my grandfather, and they created the most beautiful traditional piece that captured his spirit perfectly. The attention to detail and respect for family stories is incredible.',
+                author: 'James Thompson',
+                city: 'Leeds',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Award Winning Studio' },
+            { iconName: 'TrendingUp', label: 'Fully Licensed & Insured' },
+            { iconName: 'Sparkles', label: 'Sterile Equipment' },
+            { iconName: 'Star', label: 'Family Owned Since 2008' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @familybusinesstattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Three Generations, One Passion',
+        paragraphs: [
+            'The Family Business Tattoo began as a dream shared between father and son in 2008. What started as a small studio has grown into a multi-generational legacy, where traditional tattooing techniques meet contemporary artistry. Our family approach means every client becomes part of our extended family, and every tattoo carries the weight of our collective experience and passion.',
+            'We specialize in designs that honor family heritage, celebrate personal milestones, and create lasting memories. From traditional American and British styles to custom family crests and memorial pieces, our artists bring decades of combined experience to every session. We believe that tattoos are more than art - they\'re stories, legacies, and connections that bind us together.',
+        ],
+        callout: 'Every tattoo we create carries our family\'s reputation - that\'s why we never compromise on quality, safety, or artistry.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'The family artists at The Family Business Tattoo studio',
+    },
+    faq: {
+        sectionTitle: 'Family Questions & Answers',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We typically book 3-4 weeks in advance, especially for our Legacy Sessions. Heritage Sessions may have more availability, but we recommend booking at least 2 weeks ahead to ensure your preferred date and artist.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do you create custom family designs?',
+                answer: 'Absolutely! Family and heritage designs are our specialty. We work closely with you to create meaningful pieces that honor your family story, whether it\'s incorporating family crests, memorial elements, or traditional symbols passed down through generations.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Family Story?',
+        subheadline: 'Join thousands who have trusted their stories to our family. Book your consultation today and let\'s create something meaningful together.',
+        ctaText: 'Book Your Story',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Choose your session type and let\'s start planning your perfect tattoo. We\'ll contact you within 24 hours to confirm details.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for choosing The Family Business Tattoo. We\'ll contact you within 24 hours to confirm your appointment and discuss your design ideas.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A deposit will be required to secure your appointment and will be deducted from your final session cost.',
+    },
+    contact: {
+        email: 'hello@familybusinesstattoo.co.uk',
+        instagram: '@familybusinesstattoo',
+        instagramUrl: 'https://instagram.com/familybusinesstattoo',
+        phone: '01234 567890',
+        address: '123 Heritage Street, City Centre',
+    },
+    footer: {
+        copyrightHolder: 'The Family Business Tattoo',
+        tagline: 'Where tradition meets artistry since 2008',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
