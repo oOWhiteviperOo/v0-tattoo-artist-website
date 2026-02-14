@@ -28,6 +28,7 @@ import { BODY_CANVAS } from './body-canvas'
 import { WORLD_FAMOUS_FULHAM_TATTOO_LONDON } from './world-famous-fulham-tattoo-london'
 import { NOOIR_TATTOO_BLACKWORK_TATTOOS } from './nooir-tattoo-blackwork-tattoos'
 import { FRITH_STREET_TATTOO } from './frith-street-tattoo'
+import { SAI_SAI_INK } from './sai-sai-ink'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -60,6 +61,7 @@ export const studios: Record<string, StudioConfig> = {
         'world-famous-fulham-tattoo-london': WORLD_FAMOUS_FULHAM_TATTOO_LONDON,
         'nooir-tattoo-blackwork-tattoos': NOOIR_TATTOO_BLACKWORK_TATTOOS,
         'frith-street-tattoo': FRITH_STREET_TATTOO,
+        'sai-sai-ink': SAI_SAI_INK,
     // [N8N-MARKER-REGISTRY]
 }
 
