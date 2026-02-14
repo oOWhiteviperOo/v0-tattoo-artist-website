@@ -90,6 +90,7 @@ import { HOLIER_THAN_THOU } from './holier-than-thou'
 import { THE_MANCHESTER_SOCIAL } from './the-manchester-social'
 import { FLASH_BY_AJ_TATTOO } from './flash-by-aj-tattoo'
 import { STRAIGHT_LINES_AND_CIRCLES } from './straight-lines-and-circles'
+import { PURE_PIERCING } from './pure-piercing'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -184,6 +185,7 @@ export const studios: Record<string, StudioConfig> = {
         'the-manchester-social': THE_MANCHESTER_SOCIAL,
         'flash-by-aj-tattoo': FLASH_BY_AJ_TATTOO,
         'straight-lines-and-circles': STRAIGHT_LINES_AND_CIRCLES,
+        'pure-piercing': PURE_PIERCING,
     // [N8N-MARKER-REGISTRY]
 }
 
