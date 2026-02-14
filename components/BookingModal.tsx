@@ -58,7 +58,10 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
   const { booking, sessions, identity } = useStudio()
   const [form, setForm] = useState<FormState>(defaultForm)
   const [submitted, setSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitError, setSubmitError] = useState<string | null>(null)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, boolean>>>({})
+
   const update = (key: keyof FormState, value: string | boolean) =>
     setForm(prev => ({ ...prev, [key]: value }))
 
@@ -72,6 +75,8 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
       const timeout = setTimeout(() => {
         setForm(defaultForm)
         setSubmitted(false)
+        setIsSubmitting(false)
+        setSubmitError(null)
         setErrors({})
       }, 300)
       return () => clearTimeout(timeout)
@@ -95,10 +100,9 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
     e.preventDefault()
     if (!validate()) return
 
-    setSubmitted(false)
+    setIsSubmitting(true)
+    setSubmitError(null)
     setErrors({})
-
-    // Add loading state logic here if desired (e.g. isSubmitting state)
 
     try {
       const response = await fetch('/api/booking', {
@@ -118,6 +122,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
       if (!response.ok) throw new Error('Submission failed')
 
+      setIsSubmitting(false)
       setSubmitted(true)
       setTimeout(() => {
         onOpenChange(false)
@@ -126,7 +131,8 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
       }, 3000)
     } catch (error) {
       console.error(error)
-      setErrors((prev) => ({ ...prev, description: true })) // Naive error handling for demo
+      setIsSubmitting(false)
+      setSubmitError('Something went wrong. Please try again or contact the studio directly.')
     }
   }
 
@@ -300,12 +306,18 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
                 </Label>
               </div>
 
+              {/* Error Message */}
+              {submitError && (
+                <p className="text-sm text-red-400 text-center">{submitError}</p>
+              )}
+
               {/* Submit */}
               <button
                 type="submit"
+                disabled={isSubmitting}
                 className="mt-2 w-full bg-accent py-3 font-sans text-sm font-bold uppercase tracking-wider text-accent-foreground transition-all duration-300 hover:scale-[1.02] hover:shadow-accent-glow disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {`${booking.submitText} \u2192`}
+                {isSubmitting ? 'Submitting...' : `${booking.submitText} \u2192`}
               </button>
             </form>
           </>
