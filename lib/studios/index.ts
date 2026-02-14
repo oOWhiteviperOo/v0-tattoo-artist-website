@@ -66,6 +66,7 @@ import { TIBOR_VARGA_TATTOO } from './tibor-varga-tattoo'
 import { SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC } from './skalp-manchester-scalp-micropigmentation-clinic'
 import { ONE_DAY_TATTOO_STUDIO_LONDON } from './one-day-tattoo-studio-london'
 import { METAL_MORPHOSIS_PIERCING } from './metal-morphosis-piercing'
+import { DIAMOND_JACKS_TATTOO_PARLOUR } from './diamond-jacks-tattoo-parlour'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -136,6 +137,7 @@ export const studios: Record<string, StudioConfig> = {
         'skalp-manchester-scalp-micropigmentation-clinic': SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC,
         'one-day-tattoo-studio-london': ONE_DAY_TATTOO_STUDIO_LONDON,
         'metal-morphosis-piercing': METAL_MORPHOSIS_PIERCING,
+        'diamond-jacks-tattoo-parlour': DIAMOND_JACKS_TATTOO_PARLOUR,
     // [N8N-MARKER-REGISTRY]
 }
 
