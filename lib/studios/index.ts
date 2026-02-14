@@ -93,6 +93,7 @@ import { STRAIGHT_LINES_AND_CIRCLES } from './straight-lines-and-circles'
 import { PURE_PIERCING } from './pure-piercing'
 import { PURE_PIERCING } from './pure-piercing'
 import { OHLA_TATTOO_MANCHESTER } from './ohla-tattoo-manchester'
+import { SABBATH_CHURCH_TATTOO } from './sabbath-church-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -190,6 +191,7 @@ export const studios: Record<string, StudioConfig> = {
         'pure-piercing': PURE_PIERCING,
         'pure-piercing': PURE_PIERCING,
         'ohla-tattoo-manchester': OHLA_TATTOO_MANCHESTER,
+        'sabbath-church-tattoo': SABBATH_CHURCH_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
