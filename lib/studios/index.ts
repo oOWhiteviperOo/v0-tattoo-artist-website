@@ -34,6 +34,7 @@ import { MIDNIGHT_TATTOO_AND_PIERCE } from './midnight-tattoo-and-pierce'
 import { CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997 } from './camden-piercing-tattoo-studio-since-1997'
 import { THE_OLD_VOLT } from './the-old-volt'
 import { TATTOO_SHOP_BY_DAN_GOLD } from './tattoo-shop-by-dan-gold'
+import { SIXTYINK_LONDON_TATTOO_STUDIO } from './sixtyink-london-tattoo-studio'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -72,6 +73,7 @@ export const studios: Record<string, StudioConfig> = {
         'camden-piercing-tattoo-studio-since-1997': CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997,
         'the-old-volt': THE_OLD_VOLT,
         'tattoo-shop-by-dan-gold': TATTOO_SHOP_BY_DAN_GOLD,
+        'sixtyink-london-tattoo-studio': SIXTYINK_LONDON_TATTOO_STUDIO,
     // [N8N-MARKER-REGISTRY]
 }
 
