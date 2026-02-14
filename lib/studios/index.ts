@@ -65,6 +65,7 @@ import { HOPE_ROSEMARY_TATTOO } from './hope-rosemary-tattoo'
 import { TIBOR_VARGA_TATTOO } from './tibor-varga-tattoo'
 import { SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC } from './skalp-manchester-scalp-micropigmentation-clinic'
 import { ONE_DAY_TATTOO_STUDIO_LONDON } from './one-day-tattoo-studio-london'
+import { METAL_MORPHOSIS_PIERCING } from './metal-morphosis-piercing'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -134,6 +135,7 @@ export const studios: Record<string, StudioConfig> = {
         'tibor-varga-tattoo': TIBOR_VARGA_TATTOO,
         'skalp-manchester-scalp-micropigmentation-clinic': SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC,
         'one-day-tattoo-studio-london': ONE_DAY_TATTOO_STUDIO_LONDON,
+        'metal-morphosis-piercing': METAL_MORPHOSIS_PIERCING,
     // [N8N-MARKER-REGISTRY]
 }
 
