@@ -67,6 +67,7 @@ import { SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC } from './skalp-manches
 import { ONE_DAY_TATTOO_STUDIO_LONDON } from './one-day-tattoo-studio-london'
 import { METAL_MORPHOSIS_PIERCING } from './metal-morphosis-piercing'
 import { DIAMOND_JACKS_TATTOO_PARLOUR } from './diamond-jacks-tattoo-parlour'
+import { HAMMERSMITH_TATTOO_LONDON } from './hammersmith-tattoo-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -138,6 +139,7 @@ export const studios: Record<string, StudioConfig> = {
         'one-day-tattoo-studio-london': ONE_DAY_TATTOO_STUDIO_LONDON,
         'metal-morphosis-piercing': METAL_MORPHOSIS_PIERCING,
         'diamond-jacks-tattoo-parlour': DIAMOND_JACKS_TATTOO_PARLOUR,
+        'hammersmith-tattoo-london': HAMMERSMITH_TATTOO_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
