@@ -83,6 +83,7 @@ import { MANCHESTER_TATTOO_ACADEMY_GUARANTEED_EMPLOYMENT_OPPORTUNITIE } from './
 import { GYPSY_STABLES_TATTOO_COLLECTIVE } from './gypsy-stables-tattoo-collective'
 import { THE_LONDON_SOCIAL_TATTOO_SOHO } from './the-london-social-tattoo-soho'
 import { THE_FAMILY_BUSINESS_TATTOO } from './the-family-business-tattoo'
+import { INK_ME_TATTOO_STUDIO } from './ink-me-tattoo-studio'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -170,6 +171,7 @@ export const studios: Record<string, StudioConfig> = {
         'gypsy-stables-tattoo-collective': GYPSY_STABLES_TATTOO_COLLECTIVE,
         'the-london-social-tattoo-soho': THE_LONDON_SOCIAL_TATTOO_SOHO,
         'the-family-business-tattoo': THE_FAMILY_BUSINESS_TATTOO,
+        'ink-me-tattoo-studio': INK_ME_TATTOO_STUDIO,
     // [N8N-MARKER-REGISTRY]
 }
 
