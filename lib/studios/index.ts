@@ -84,6 +84,7 @@ import { GYPSY_STABLES_TATTOO_COLLECTIVE } from './gypsy-stables-tattoo-collecti
 import { THE_LONDON_SOCIAL_TATTOO_SOHO } from './the-london-social-tattoo-soho'
 import { THE_FAMILY_BUSINESS_TATTOO } from './the-family-business-tattoo'
 import { INK_ME_TATTOO_STUDIO } from './ink-me-tattoo-studio'
+import { THE_LONDON_SOCIAL_TATTOO } from './the-london-social-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -172,6 +173,7 @@ export const studios: Record<string, StudioConfig> = {
         'the-london-social-tattoo-soho': THE_LONDON_SOCIAL_TATTOO_SOHO,
         'the-family-business-tattoo': THE_FAMILY_BUSINESS_TATTOO,
         'ink-me-tattoo-studio': INK_ME_TATTOO_STUDIO,
+        'the-london-social-tattoo': THE_LONDON_SOCIAL_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
