@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const NEMESIS_TATTOO_BODY_PIERCING_STUDIO: StudioConfig = {
+    identity: {
+        name: 'Nemesis Tattoo & Body Piercing Studio',
+        slug: 'nemesis-tattoo-body-piercing-studio',
+        tagline: 'Where Art Meets Rebellion',
+        artistName: 'Alex Sterling',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '0 0% 98%',
+        accent: '339 90% 51%',
+        accentForeground: '0 0% 98%',
+        mutedForeground: '0 0% 65%',
+        dimmedForeground: '0 0% 45%',
+        border: '0 0% 15%',
+        card: '0 0% 6%',
+        accentRgb: '245, 25, 127',
+        ring: '339 90% 51%',
+    },
+    seo: {
+        title: 'Nemesis Tattoo & Body Piercing Studio | Custom Ink Art',
+        description: 'Premier tattoo and body piercing studio. Custom designs, professional artists, sterile environment. Book your consultation today.',
+        keywords: ['tattoo studio', 'body piercing'],
+        openGraph: {
+            title: 'Nemesis Tattoo & Body Piercing Studio - Where Art Meets Rebellion',
+            description: 'Experience the finest in custom tattoo artistry and professional body piercing. Book your session with our skilled artists today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/nemesis-tattoo-body-piercing-studio',
+            siteName: 'Nemesis Tattoo & Body Piercing Studio',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Nemesis%20Tattoo%20%26%20Body%20Piercing%20Studio+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Nemesis Tattoo & Body Piercing Studio',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Unleash Your', 'Inner Nemesis'],
+        subheadline: 'Custom tattoos and professional body piercing that tell your story with uncompromising artistry',
+        urgencyText: 'Limited slots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Artistry in Ink',
+        subtitle: 'Every piece tells a story. Browse our collection of custom tattoos and body art that push creative boundaries.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Choose Your Experience',
+        subtitle: 'From intimate pieces to bold statements, we craft each session around your vision',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Custom Tattoo Session',
+                duration: '2-6 hours',
+                price: '£150',
+                priceSubtitle: 'per hour + design',
+                features: ['Bespoke design consultation', 'Premium ink and equipment'],
+                status: 'limited',
+                availabilityText: 'Available weekdays',
+                buttonText: 'Book Tattoo',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Body Piercing Session',
+                duration: '30-60 minutes',
+                price: '£45',
+                priceSubtitle: 'including jewelry',
+                features: ['Professional piercing techniques', 'High-grade titanium jewelry'],
+                status: 'available',
+                availabilityText: 'Walk-ins welcome',
+                buttonText: 'Book Piercing',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Alex transformed my vision into something beyond my wildest dreams. The attention to detail and artistic flair at Nemesis is unmatched.',
+                author: 'Sarah Mitchell',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and incredibly talented. My sleeve took months to complete but every session was worth it. Absolutely love the result!',
+                author: 'James Rodriguez',
+                city: 'Liverpool',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Award-Winning Artists' },
+            { iconName: 'Star', label: 'Vegan-Friendly Inks' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @nemesistattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Alex Sterling',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo and body modification industry, Alex Sterling founded Nemesis Tattoo & Body Piercing Studio with a vision to create art that challenges conventions. Specializing in dark realism, geometric designs, and custom blackwork, Alex brings a unique perspective to every piece.',
+            'Our studio combines traditional tattooing techniques with modern innovation, ensuring each client receives not just a tattoo, but a transformative experience. We believe that body art should be as individual as the person wearing it, which is why we never use flash designs - every piece is custom-created for you.',
+        ],
+        callout: 'Every tattoo tells a story. What\'s yours?',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Sterling, lead tattoo artist at Nemesis Studio',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I prepare for my tattoo session?',
+                answer: 'Get a good night\'s sleep, eat a proper meal beforehand, stay hydrated, and avoid alcohol for 24 hours prior. Wear comfortable clothing that provides easy access to the tattoo area.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the tattoo price?',
+                answer: 'Our hourly rate includes the custom design consultation, premium inks, professional equipment, and aftercare instructions. A £50 deposit is required to secure your booking.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life',
+        ctaText: 'Book Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your booking',
+    },
+    contact: {
+        email: 'hello@nemesistattoo.com',
+        instagram: '@nemesistattoo',
+        instagramUrl: 'https://instagram.com/nemesistattoo',
+        phone: '+44 7123 456789',
+        address: '123 Ink Street, Creative Quarter',
+    },
+    footer: {
+        copyrightHolder: 'Nemesis Tattoo & Body Piercing Studio',
+        tagline: 'Where Art Meets Rebellion',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
