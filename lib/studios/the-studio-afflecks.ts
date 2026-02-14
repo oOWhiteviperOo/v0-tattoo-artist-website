@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_STUDIO_AFFLECKS: StudioConfig = {
+    identity: {
+        name: 'The Studio Afflecks',
+        slug: 'the-studio-afflecks',
+        tagline: 'Where Art Meets Skin in the Heart of Manchester',
+        artistName: 'Alex Affleck',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '280 100% 70%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '179, 0, 255',
+        ring: '280 100% 70%',
+    },
+    seo: {
+        title: 'The Studio Afflecks | Premium Tattoo Studio Manchester',
+        description: 'Manchester\'s premier tattoo studio. Custom designs, expert artistry, and exceptional service. Book your consultation at The Studio Afflecks today.',
+        keywords: ['tattoo studio manchester', 'custom tattoo design'],
+        openGraph: {
+            title: 'The Studio Afflecks - Manchester\'s Premier Tattoo Studio',
+            description: 'Where art meets skin in the heart of Manchester. Custom designs and expert artistry.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/the-studio-afflecks',
+            siteName: 'The Studio Afflecks',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20Studio%20Afflecks+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The Studio Afflecks',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Manchester\'s Most', 'Sought-After Tattoo Studio'],
+        subheadline: 'Where creative vision meets technical mastery. Custom designs that tell your story with uncompromising quality and artistic excellence.',
+        urgencyText: 'Limited availability - booking 3 months ahead',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'The Studio Afflecks artist creating a custom tattoo',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Created' },
+            { iconName: 'Award', label: '5-Star Google Rating' },
+            { iconName: 'Shield', label: 'Award-Winning Studio' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Masterpieces',
+        subtitle: 'Every piece is a unique work of art, crafted with precision and passion',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattooing services tailored to your vision',
+        guarantee: '100% satisfaction guarantee with all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Design Consultation',
+                duration: '1 Hour',
+                price: '£80',
+                priceSubtitle: 'Includes custom design',
+                features: ['Detailed design consultation', 'Custom artwork creation'],
+                status: 'limited',
+                availabilityText: 'Available weekly',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Tattoo Session',
+                duration: '3-6 Hours',
+                price: '£150/hr',
+                priceSubtitle: 'Professional tattooing',
+                features: ['Premium ink and equipment', 'Aftercare guidance included'],
+                status: 'available',
+                availabilityText: 'Limited slots',
+                buttonText: 'Book Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Client Love',
+        testimonials: [
+            {
+                quote: 'Alex\'s attention to detail is incredible. My sleeve turned out better than I ever imagined. The studio atmosphere is welcoming and professional.',
+                author: 'Sarah M.',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Been to many studios but The Studio Afflecks is on another level. The artistry and professionalism here is unmatched. Highly recommend!',
+                author: 'James T.',
+                city: 'Salford',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @studiofflecks',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'About Alex Affleck',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alex has established The Studio Afflecks as Manchester\'s premier destination for custom tattoo artistry. Specializing in detailed black and grey realism, neo-traditional, and fine line work, Alex brings a unique artistic vision to every piece.',
+            'After training under renowned artists across Europe, Alex opened The Studio Afflecks with a mission to create a welcoming space where art and professionalism intersect. Every tattoo is approached as a collaborative masterpiece, ensuring each client receives a truly personal and exceptional experience.',
+        ],
+        callout: 'Every tattoo tells a story - let\'s create yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Affleck, founder and lead artist at The Studio Afflecks',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-3 months in advance, especially for larger pieces or custom designs. Consultation appointments are typically available within 2-3 weeks.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation fee?',
+                answer: 'The £80 consultation includes a detailed discussion of your vision, custom design creation, placement advice, and sizing recommendations. This fee is credited toward your tattoo session when you book.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Book your consultation today and let\'s create something extraordinary together',
+        ctaText: 'Book Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A £50 deposit is required to secure your booking and will be deducted from your final session cost.',
+    },
+    contact: {
+        email: 'hello@studiofflecks.co.uk',
+        instagram: '@studiofflecks',
+        instagramUrl: 'https://instagram.com/studiofflecks',
+        phone: '+44 161 234 5678',
+        address: 'Northern Quarter, Manchester, UK',
+    },
+    footer: {
+        copyrightHolder: 'The Studio Afflecks',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
