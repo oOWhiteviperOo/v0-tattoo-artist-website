@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const MANCHESTER_TATTOO_COMPANY: StudioConfig = {
+    identity: {
+        name: 'Manchester Tattoo Company',
+        slug: 'manchester-tattoo-company',
+        tagline: 'Crafting Stories in Ink Since Manchester\'s Heart',
+        artistName: 'Jake Morrison',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '39 100% 50%',
+        accentForeground: '0 0% 0%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '255, 170, 0',
+        ring: '39 100% 50%',
+    },
+    seo: {
+        title: 'Manchester Tattoo Company | Premium Custom Tattoos',
+        description: 'Manchester\'s premier tattoo studio. Custom designs, expert craftsmanship, and professional service. Book your consultation today.',
+        keywords: ['Manchester tattoo studio', 'custom tattoos Manchester'],
+        openGraph: {
+            title: 'Manchester Tattoo Company - Premium Custom Tattoos',
+            description: 'Manchester\'s premier tattoo studio specializing in custom designs and expert craftsmanship. Professional, clean, and creative.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/manchester-tattoo-company',
+            siteName: 'Manchester Tattoo Company',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Manchester%20Tattoo%20Company+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Manchester Tattoo Company',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Manchester\'s Premier', 'Tattoo Experience'],
+        subheadline: 'Where artistry meets precision. Custom tattoos crafted with passion and expertise in the heart of Manchester.',
+        urgencyText: 'December slots filling fast - book now',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Work',
+        subtitle: 'Every piece tells a story. See our latest custom creations.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional service tailored to your vision',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Design Consultation',
+                duration: '1-2 hours',
+                price: '£80',
+                priceSubtitle: 'Applied to tattoo cost',
+                features: ['Custom design creation', 'Placement consultation'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Tattoo Session',
+                duration: '2-6 hours',
+                price: '£150/hour',
+                priceSubtitle: 'Minimum 2 hours',
+                features: ['Professional tattooing', 'Aftercare included'],
+                status: 'available',
+                availabilityText: 'Next available: Jan 15th',
+                buttonText: 'Book Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Jake\'s attention to detail is incredible. My sleeve turned out better than I ever imagined. The whole experience was professional and comfortable.',
+                author: 'Sarah Chen',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Best tattoo studio in Manchester hands down. Clean, professional, and Jake really listens to what you want. My geometric piece is absolutely perfect.',
+                author: 'Marcus Williams',
+                city: 'Salford',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Sterile Equipment' },
+            { iconName: 'Sparkles', label: 'Premium Inks' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @manchestertattoocompany',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Jake Morrison',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Jake has established Manchester Tattoo Company as one of the city\'s most respected studios. His passion for creating unique, meaningful artwork has led to over 1,500 satisfied clients.',
+            'Jake specializes in custom designs that tell your story. Whether it\'s your first tattoo or you\'re adding to an existing collection, he takes the time to understand your vision and brings it to life with precision and artistry.',
+        ],
+        callout: 'Every tattoo should be as unique as the person wearing it.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Jake Morrison, professional tattoo artist',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance, especially for larger pieces. Consultations can usually be scheduled within a week.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the aftercare?',
+                answer: 'All sessions include detailed aftercare instructions, healing cream, and follow-up support. We\'re available for any questions during the healing process.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Book your consultation today and let\'s create something amazing together.',
+        ctaText: 'Book Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo idea and we\'ll get back to you within 24 hours to schedule your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll contact you within 24 hours to confirm your appointment and discuss your tattoo design.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'info@manchestertattoocompany.co.uk',
+        instagram: '@manchestertattoocompany',
+        instagramUrl: 'https://instagram.com/manchestertattoocompany',
+        phone: '+44 161 123 4567',
+        address: '45 Northern Quarter, Manchester M1 1JG',
+    },
+    footer: {
+        copyrightHolder: 'Manchester Tattoo Company',
+        tagline: 'Crafting Stories in Ink',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
