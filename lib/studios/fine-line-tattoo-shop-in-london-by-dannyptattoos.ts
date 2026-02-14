@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS: StudioConfig = {
+    identity: {
+        name: 'Fine Line Tattoo Shop In London by dannyptattoos.',
+        slug: 'fine-line-tattoo-shop-in-london-by-dannyptattoos',
+        tagline: 'Precision Fine Line Tattoos in the Heart of London',
+        artistName: 'Danny P',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 47%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '230, 184, 18',
+        ring: '45 93% 47%',
+    },
+    seo: {
+        title: 'Fine Line Tattoo Shop London | Danny P Tattoos',
+        description: 'Expert fine line tattoos in London by Danny P. Delicate, precise designs. Book your consultation at London\'s premier fine line tattoo studio.',
+        keywords: ['fine line tattoo London', 'Danny P tattoos London'],
+        openGraph: {
+            title: 'Fine Line Tattoo Shop In London by dannyptattoos.',
+            description: 'Expert fine line tattoos in London by Danny P. Delicate, precise designs crafted with artistic excellence.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/fine-line-tattoo-shop-in-london-by-dannyptattoos',
+            siteName: 'Fine Line Tattoo Shop In London by dannyptattoos.',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Fine%20Line%20Tattoo%20Shop%20In%20London%20by%20dannyptattoos.+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Fine Line Tattoo Shop In London by dannyptattoos.',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Exquisite Fine Line', 'Tattoos in London'],
+        subheadline: 'Precision artistry meets delicate design. Danny P creates stunning fine line tattoos with meticulous attention to detail.',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Fine line tattoo artwork by Danny P',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Specialising' },
+            { iconName: 'Zap', label: '1500+ Fine Line Tattoos' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Delicate Artistry',
+        subtitle: 'Each fine line tattoo is a masterpiece of precision and elegance',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Fine Line Sessions',
+        subtitle: 'Bespoke tattoo experiences tailored to your vision',
+        guarantee: '100% satisfaction guarantee on all fine line work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Fine Line',
+                duration: '2-3 hours',
+                price: '£200-350',
+                priceSubtitle: 'Perfect for delicate designs',
+                features: ['Custom design consultation', 'Premium fine line needles'],
+                status: 'limited',
+                availabilityText: 'Available weekdays',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Fine Line',
+                duration: '4-6 hours',
+                price: '£450-750',
+                priceSubtitle: 'For detailed masterpieces',
+                features: ['Extended design process', 'Multiple break intervals'],
+                status: 'available',
+                availabilityText: 'Weekend slots available',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Client Love',
+        testimonials: [
+            {
+                quote: 'Danny\'s fine line work is absolutely incredible. The detail and precision in my botanical tattoo exceeded all expectations. Couldn\'t be happier!',
+                author: 'Sarah M.',
+                city: 'Camden',
+                rating: 5,
+            },
+            {
+                quote: 'The most delicate and beautiful fine line tattoo I\'ve ever seen. Danny\'s artistic vision brought my concept to life perfectly. Highly recommend!',
+                author: 'James R.',
+                city: 'Shoreditch',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @dannyptattoos',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Danny P',
+        paragraphs: [
+            'With over 8 years dedicated to the art of fine line tattooing, Danny P has established himself as one of London\'s premier fine line specialists. His passion for delicate, precise artwork began during his apprenticeship in East London, where he discovered his natural talent for creating intricate, minimalist designs.',
+            'Danny\'s approach combines traditional tattoo techniques with modern fine line artistry, resulting in tattoos that are both timeless and contemporary. Each piece is carefully crafted to complement the client\'s vision while maintaining the highest standards of technical excellence. His studio in London has become a destination for those seeking sophisticated, elegant tattoo work.',
+        ],
+        callout: 'Every line tells a story, and I\'m here to help you tell yours with precision and artistry.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Danny P, fine line tattoo artist in London',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long do fine line tattoos take to heal?',
+                answer: 'Fine line tattoos typically heal within 2-3 weeks with proper aftercare. Due to their delicate nature, they may heal slightly faster than traditional tattoos. I provide detailed aftercare instructions to ensure optimal healing.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do fine line tattoos fade faster than regular tattoos?',
+                answer: 'When done properly with quality ink and technique, fine line tattoos can last just as long as traditional tattoos. Proper aftercare and sun protection are key to maintaining their crisp appearance over time.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Your Fine Line Masterpiece?',
+        subheadline: 'Book your consultation today and let\'s create something extraordinary together',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Fine Line Session',
+        modalDescription: 'Ready to get started? Fill out the form below and I\'ll get back to you within 24 hours to discuss your design and schedule your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! I\'ll review your request and get back to you within 24 hours to discuss your design and confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@dannyptattoos.com',
+        instagram: '@dannyptattoos',
+        instagramUrl: 'https://instagram.com/dannyptattoos',
+        phone: '+44 20 7123 4567',
+        address: '123 Brick Lane, London E1 6SB',
+    },
+    footer: {
+        copyrightHolder: 'Fine Line Tattoo Shop In London by dannyptattoos.',
+        tagline: 'Precision fine line tattoos in London',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
