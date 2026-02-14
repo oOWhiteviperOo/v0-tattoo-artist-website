@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC: StudioConfig = {
+    identity: {
+        name: 'Skalp | Manchester Scalp Micropigmentation Clinic',
+        slug: 'skalp-manchester-scalp-micropigmentation-clinic',
+        tagline: 'Restore Your Confidence with Expert Scalp Micropigmentation',
+        artistName: 'Master SMP Technician',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '210 100% 50%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '0, 128, 255',
+        ring: '210 100% 50%',
+    },
+    seo: {
+        title: 'Scalp Micropigmentation Manchester | Skalp SMP Clinic',
+        description: 'Premier scalp micropigmentation clinic in Manchester. Restore your hairline with expert SMP treatments. Book your consultation today.',
+        keywords: ['scalp micropigmentation Manchester', 'SMP clinic Manchester'],
+        openGraph: {
+            title: 'Skalp | Manchester\'s Premier Scalp Micropigmentation Clinic',
+            description: 'Expert scalp micropigmentation treatments in Manchester. Restore your confidence with our professional SMP services.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/skalp-manchester-scalp-micropigmentation-clinic',
+            siteName: 'Skalp | Manchester Scalp Micropigmentation Clinic',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Skalp%20%7C%20Manchester%20Scalp%20Micropigmentation%20Clinic+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Skalp | Manchester Scalp Micropigmentation Clinic',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Transform Your Confidence with', 'Expert Scalp Micropigmentation'],
+        subheadline: 'Manchester\'s leading SMP clinic offering natural-looking hairline restoration and scalp density solutions',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Free Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional scalp micropigmentation result showing natural hairline',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '5+ Years Experience' },
+            { iconName: 'Zap', label: '1000+ Treatments Done' },
+            { iconName: 'Award', label: '5-Star Rated Clinic' },
+            { iconName: 'Shield', label: 'Natural Results Guaranteed' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Real Transformations',
+        subtitle: 'See the life-changing results our clients achieve with expert scalp micropigmentation',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'SMP Treatment Packages',
+        subtitle: 'Choose the perfect scalp micropigmentation package for your needs',
+        guarantee: '100% satisfaction guarantee on all treatments',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Complete SMP Treatment',
+                duration: '3 sessions over 6-8 weeks',
+                price: '£2,500',
+                priceSubtitle: 'Full treatment package',
+                features: ['Complete hairline restoration', 'Lifetime touch-up guarantee'],
+                status: 'limited',
+                availabilityText: 'Book 2 weeks ahead',
+                buttonText: 'Book Complete Package',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'SMP Touch-Up Session',
+                duration: '1-2 hours',
+                price: '£350',
+                priceSubtitle: 'Per touch-up session',
+                features: ['Refresh existing SMP', 'Color matching included'],
+                status: 'available',
+                availabilityText: 'Same week booking',
+                buttonText: 'Book Touch-Up',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'The team at Skalp completely transformed my confidence. The results look incredibly natural and no one can tell it\'s SMP.',
+                author: 'James Mitchell',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Best decision I ever made. The professionalism and attention to detail is outstanding. Highly recommend to anyone considering SMP.',
+                author: 'David Thompson',
+                city: 'Salford',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed SMP Clinic' },
+            { iconName: 'TrendingUp', label: '5-Star Google Reviews' },
+            { iconName: 'Sparkles', label: 'Certified Technicians' },
+            { iconName: 'Star', label: 'Aftercare Included' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @skalpmanchester',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Manchester\'s Premier SMP Specialists',
+        paragraphs: [
+            'At Skalp Manchester, we specialize in the art and science of scalp micropigmentation. Our expert technicians have transformed thousands of lives through precision SMP treatments that create natural-looking hairlines and restore confidence.',
+            'Using the latest techniques and premium pigments, we deliver results that are indistinguishable from natural hair follicles. Every treatment is customized to match your skin tone, hair color, and desired hairline shape for the most authentic appearance possible.',
+        ],
+        callout: 'We believe everyone deserves to feel confident in their appearance. That\'s why we\'re committed to delivering exceptional results with every treatment.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Professional SMP technician at work in Manchester clinic',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long does scalp micropigmentation last?',
+                answer: 'SMP typically lasts 3-5 years before requiring touch-ups. The longevity depends on factors like skin type, lifestyle, and sun exposure. We provide lifetime touch-up guarantees with our complete packages.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Is scalp micropigmentation painful?',
+                answer: 'Most clients describe the sensation as mild discomfort, similar to getting a tattoo. We use topical numbing agents to minimize any discomfort. The procedure is well-tolerated by the vast majority of our clients.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Transform Your Look?',
+        subheadline: 'Book your free consultation today and take the first step towards renewed confidence',
+        ctaText: 'Book Free Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your SMP Consultation',
+        modalDescription: 'Ready to start your scalp micropigmentation journey? Fill out the form below and we\'ll contact you within 24 hours to schedule your free consultation.',
+        successTitle: 'Consultation Booked Successfully!',
+        successMessage: 'Thank you for booking with Skalp Manchester. We\'ll contact you within 24 hours to confirm your consultation details.',
+        submitText: 'Book My Consultation',
+        depositDisclaimer: 'No deposit required for consultation. £200 deposit required to secure treatment booking.',
+    },
+    contact: {
+        email: 'info@skalpmanchester.co.uk',
+        instagram: '@skalpmanchester',
+        instagramUrl: 'https://instagram.com/skalpmanchester',
+        phone: '+44 161 123 4567',
+        address: '123 Deansgate, Manchester M3 2BW, UK',
+    },
+    footer: {
+        copyrightHolder: 'Skalp Manchester',
+        tagline: 'Restore Your Confidence with Expert SMP',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
