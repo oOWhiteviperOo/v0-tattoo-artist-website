@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const TIBOR_VARGA_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Tibor Varga Tattoo',
+        slug: 'tibor-varga-tattoo',
+        tagline: 'Precision Artistry in Every Line',
+        artistName: 'Tibor Varga',
+    },
+    theme: {
+        background: '240 10% 3%',
+        foreground: '60 9% 98%',
+        accent: '220 90% 56%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '240 5% 64%',
+        dimmedForeground: '240 6% 45%',
+        border: '240 6% 15%',
+        card: '240 6% 6%',
+        accentRgb: '59, 130, 246',
+        ring: '220 90% 56%',
+    },
+    seo: {
+        title: 'Tibor Varga Tattoo - Premium Custom Tattoo Studio',
+        description: 'Expert tattoo artistry by Tibor Varga. Custom designs, precision linework, and exceptional craftsmanship. Book your consultation today.',
+        keywords: ['custom tattoo artist', 'precision tattoo work'],
+        openGraph: {
+            title: 'Tibor Varga Tattoo - Precision Artistry in Every Line',
+            description: 'Experience exceptional tattoo artistry with custom designs and meticulous attention to detail.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/tibor-varga-tattoo',
+            siteName: 'Tibor Varga Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Tibor%20Varga%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Tibor Varga Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Where Art Meets', 'Precision'],
+        subheadline: 'Custom tattoo artistry crafted with meticulous attention to detail and years of refined technique',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Tibor Varga creating detailed custom tattoo artwork',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Work',
+        subtitle: 'Each piece tells a story through precise linework and thoughtful composition',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattooing with personalized attention to your vision',
+        guarantee: '100% satisfaction guarantee on all custom work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£200',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Design consultation included', 'Up to 4" detailed work'],
+                status: 'limited',
+                availabilityText: 'Available weekly',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Day Session',
+                duration: '6-8 hours',
+                price: '£650',
+                priceSubtitle: 'For larger detailed pieces',
+                features: ['Complete custom design', 'Extended detail work'],
+                status: 'available',
+                availabilityText: 'Limited monthly slots',
+                buttonText: 'Book Full Day',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Clients Say',
+        testimonials: [
+            {
+                quote: 'Tibor\'s attention to detail is incredible. Every line is perfect and the design exceeded my expectations.',
+                author: 'Sarah M.',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, clean, and artistic. The consultation process was thorough and the result is exactly what I wanted.',
+                author: 'James R.',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks' },
+            { iconName: 'Star', label: 'Custom Designs' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @tiborvargatatoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Tibor Varga',
+        paragraphs: [
+            'With over 8 years of dedicated practice in tattoo artistry, Tibor has developed a reputation for precision and artistic excellence. His background in fine arts brings a unique perspective to every custom piece, ensuring each tattoo is not just ink on skin, but a carefully crafted work of art.',
+            'Specializing in detailed linework and custom designs, Tibor takes pride in working closely with each client to bring their vision to life. Every session begins with an in-depth consultation to understand the story behind the tattoo and create something truly meaningful.',
+        ],
+        callout: 'Every tattoo tells a story - let\'s create yours together',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Tibor Varga working on a detailed custom tattoo design',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long does the design process take?',
+                answer: 'Custom designs typically take 1-2 weeks to complete. This includes initial consultation, design drafts, and revisions to ensure the final piece perfectly matches your vision.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What should I expect during my first session?',
+                answer: 'Your first session includes a detailed consultation, design review, skin preparation, and the tattooing process. We\'ll discuss aftercare and schedule any follow-up sessions if needed.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Something Extraordinary?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with precision artistry',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@tiborvargatatoo.com',
+        instagram: '@tiborvargatatoo',
+        instagramUrl: 'https://instagram.com/tiborvargatatoo',
+        phone: '+44 7700 900123',
+        address: 'Private Studio, By Appointment Only',
+    },
+    footer: {
+        copyrightHolder: 'Tibor Varga Tattoo',
+        tagline: 'Precision Artistry in Every Line',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
