@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const MANCHESTER_TATTOO_ACADEMY_GUARANTEED_EMPLOYMENT_OPPORTUNITIE: StudioConfig = {
+    identity: {
+        name: 'Manchester Tattoo Academy "Guaranteed Employment Opportunities"',
+        slug: 'manchester-tattoo-academy-guaranteed-employment-opportunitie',
+        tagline: 'Learn. Master. Earn. Your tattoo career starts here.',
+        artistName: 'Master Instructor Sarah Collins',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '45 93% 47%',
+        accentForeground: '0 0% 0%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '227, 180, 15',
+        ring: '45 93% 47%',
+    },
+    seo: {
+        title: 'Manchester Tattoo Academy - Guaranteed Employment Training',
+        description: 'Professional tattoo training in Manchester with guaranteed job placement. Master the art, launch your career. Industry-certified instructors.',
+        keywords: ['tattoo training Manchester', 'tattoo apprenticeship guaranteed job'],
+        openGraph: {
+            title: 'Manchester Tattoo Academy - Launch Your Tattoo Career',
+            description: 'Professional tattoo training with guaranteed employment opportunities. Learn from industry masters in Manchester.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/manchester-tattoo-academy-guaranteed-employment-opportunitie',
+            siteName: 'Manchester Tattoo Academy "Guaranteed Employment Opportunities"',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Manchester%20Tattoo%20Academy%20%22Guaranteed%20Employment%20Opportunities%22+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Manchester Tattoo Academy "Guaranteed Employment Opportunities"',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Enroll Now',
+    },
+    hero: {
+        headline: ['Master the Art of Tattooing', 'Guaranteed Employment Awaits'],
+        subheadline: 'Transform your passion into a profitable career with our comprehensive tattoo training program and job placement guarantee',
+        urgencyText: 'Next intake starts in 2 weeks - Limited spots available',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo training session at Manchester Tattoo Academy',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '100% Job Placement Rate' },
+            { iconName: 'Zap', label: '15+ Years Teaching' },
+            { iconName: 'Award', label: 'Industry Certified' },
+            { iconName: 'Shield', label: '500+ Graduates Placed' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Student Success Stories',
+        subtitle: 'See the incredible work created by our graduates in their first year',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Training Programs',
+        subtitle: 'Choose the path that fits your career goals',
+        guarantee: '100% job placement guarantee or full refund',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Complete Professional Course',
+                duration: '12 weeks intensive',
+                price: '£4,500',
+                priceSubtitle: 'Payment plans available',
+                features: ['Full apprenticeship included', 'Job placement guarantee'],
+                status: 'limited',
+                availabilityText: 'Next intake: March 15th',
+                buttonText: 'Secure Your Spot',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Weekend Warrior Program',
+                duration: '6 months part-time',
+                price: '£3,200',
+                priceSubtitle: 'Perfect for career changers',
+                features: ['Weekend and evening classes', 'Employment assistance included'],
+                status: 'available',
+                availabilityText: 'Rolling admissions',
+                buttonText: 'Learn More',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Success Stories from Our Graduates',
+        testimonials: [
+            {
+                quote: 'Within 3 months of graduating, I was working at one of Manchester\'s top studios. The job guarantee is real!',
+                author: 'Jake Morrison',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'The training was incredible and the connections they have in the industry made all the difference in landing my dream job.',
+                author: 'Emma Richardson',
+                city: 'Liverpool',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Ofsted Approved' },
+            { iconName: 'TrendingUp', label: 'Industry Partnerships' },
+            { iconName: 'Sparkles', label: 'Certified Instructors' },
+            { iconName: 'Star', label: 'Graduate Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @manchestertattooacademy',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'About Master Instructor Sarah Collins',
+        paragraphs: [
+            'With over 15 years in the tattoo industry and 8 years teaching experience, Sarah Collins has trained hundreds of successful tattoo artists across the UK. Her comprehensive approach combines traditional techniques with modern innovations, ensuring graduates are fully prepared for today\'s competitive market.',
+            'Sarah\'s extensive network of industry contacts and partnerships with leading tattoo studios across Manchester and beyond is what makes our employment guarantee possible. She personally works with each graduate to match them with the perfect studio placement.',
+        ],
+        callout: '"My mission is simple: turn your passion into a sustainable, profitable career in tattooing."',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Master Instructor Sarah Collins teaching at Manchester Tattoo Academy',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'What does the employment guarantee actually mean?',
+                answer: 'We guarantee that within 6 months of completing our program, you\'ll have a paid position at a professional tattoo studio. If not, we provide a full refund. We have partnerships with over 50 studios across the North West.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Do I need any prior experience to enroll?',
+                answer: 'No prior tattooing experience is required. We start with the absolute basics and build your skills systematically. However, artistic ability and a passion for the craft are essential for success in this industry.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Career?',
+        subheadline: 'Join the next intake and take the first step towards guaranteed employment in the tattoo industry',
+        ctaText: 'Enroll Today',
+    },
+    booking: {
+        modalTitle: 'Enroll in Manchester Tattoo Academy',
+        modalDescription: 'Secure your spot in our next training program. Limited places available.',
+        successTitle: 'Enrollment Submitted!',
+        successMessage: 'Thank you for your interest! We\'ll contact you within 24 hours to discuss your training options and schedule your assessment.',
+        submitText: 'Submit Enrollment',
+        depositDisclaimer: '£500 deposit required to secure your place. Full payment plans available.',
+    },
+    contact: {
+        email: 'info@manchestertattooacademy.co.uk',
+        instagram: '@manchestertattooacademy',
+        instagramUrl: 'https://instagram.com/manchestertattooacademy',
+        phone: '+44 161 234 5678',
+        address: 'Manchester Training Centre, Northern Quarter, Manchester M1 4EZ',
+    },
+    footer: {
+        copyrightHolder: 'Manchester Tattoo Academy',
+        tagline: 'Launching careers in tattooing since 2009',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
