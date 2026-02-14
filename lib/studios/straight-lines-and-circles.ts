@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const STRAIGHT_LINES_AND_CIRCLES: StudioConfig = {
+    identity: {
+        name: 'Straight Lines and Circles',
+        slug: 'straight-lines-and-circles',
+        tagline: 'Where Precision Meets Artistry',
+        artistName: 'Alex Martinez',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '220 100% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '51, 153, 255',
+        ring: '220 100% 60%',
+    },
+    seo: {
+        title: 'Straight Lines and Circles - Geometric Tattoo Studio',
+        description: 'Precision geometric tattoos featuring clean lines and perfect circles. Custom minimalist designs by expert artists. Book your consultation today.',
+        keywords: ['geometric tattoos', 'minimalist tattoo studio'],
+        openGraph: {
+            title: 'Straight Lines and Circles - Geometric Tattoo Studio',
+            description: 'Precision geometric tattoos featuring clean lines and perfect circles. Custom minimalist designs by expert artists.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/straight-lines-and-circles',
+            siteName: 'Straight Lines and Circles',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Straight%20lines%20and%20Circles+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Straight Lines and Circles',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Precision Meets', 'Geometric Perfection'],
+        subheadline: 'Specializing in clean lines, perfect circles, and minimalist geometric designs that stand the test of time',
+        urgencyText: 'Only 3 slots remaining this month',
+        ctaText: 'Book Your Design',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Geometric tattoo artwork showcasing precise lines and circles',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Geometric Pieces' },
+            { iconName: 'Award', label: '5-Star Reviews' },
+            { iconName: 'Shield', label: 'Precision Specialists' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Geometric Artistry',
+        subtitle: 'Each piece crafted with mathematical precision and artistic vision',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Design Sessions',
+        subtitle: 'Choose the perfect session for your geometric vision',
+        guarantee: '100% satisfaction guarantee on all geometric work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£180',
+                priceSubtitle: 'Perfect for first-timers',
+                features: ['Design consultation included', 'Small geometric piece (up to 4 inches)'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Geometric Design',
+                duration: '4-6 hours',
+                price: '£450',
+                priceSubtitle: 'Complete geometric artwork',
+                features: ['Custom geometric design creation', 'Large detailed piece (6+ inches)'],
+                status: 'available',
+                availabilityText: 'Book 2 weeks ahead',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'The precision in Alex\'s geometric work is absolutely incredible. My mandala came out exactly as envisioned with perfect symmetry.',
+                author: 'Sarah Chen',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Finally found an artist who understands geometric tattooing. The clean lines and perfect circles are exactly what I was looking for.',
+                author: 'Marcus Thompson',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Certified' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @straightlinesandcircles',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Precision in Every Line',
+        paragraphs: [
+            'With over 8 years dedicated to geometric tattooing, Alex Martinez has perfected the art of mathematical precision in ink. Specializing in clean lines, perfect circles, and intricate geometric patterns, each piece is meticulously planned and executed with surgical precision.',
+            'From minimalist single-line designs to complex mandala masterpieces, every tattoo is a testament to the beauty found in mathematical perfection. Using state-of-the-art equipment and premium inks, we ensure your geometric vision becomes a lasting work of art.',
+        ],
+        callout: 'Every angle measured, every circle perfect, every line intentional.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Martinez working on a geometric tattoo design',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long does a geometric tattoo take to heal?',
+                answer: 'Geometric tattoos typically heal within 2-3 weeks with proper aftercare. The clean lines and solid work heal beautifully when cared for correctly. We provide detailed aftercare instructions and premium healing products.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Can you create custom geometric designs?',
+                answer: 'Absolutely! Every geometric piece we create is custom-designed for each client. We work with you to develop a unique design that incorporates your vision with mathematical precision and artistic flair.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Geometric Perfection?',
+        subheadline: 'Book your consultation today and let\'s create something mathematically beautiful together',
+        ctaText: 'Start Your Design',
+    },
+    booking: {
+        modalTitle: 'Book Your Geometric Session',
+        modalDescription: 'Tell us about your geometric vision and we\'ll create the perfect design for you',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll contact you within 24 hours to discuss your geometric design and confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: '£50 deposit required to secure booking',
+    },
+    contact: {
+        email: 'hello@straightlinesandcircles.com',
+        instagram: '@straightlinesandcircles',
+        instagramUrl: 'https://instagram.com/straightlinesandcircles',
+        phone: '+44 7700 900123',
+        address: '123 Geometric Street, Art Quarter, London',
+    },
+    footer: {
+        copyrightHolder: 'Straight Lines and Circles',
+        tagline: 'Where precision meets artistry',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
