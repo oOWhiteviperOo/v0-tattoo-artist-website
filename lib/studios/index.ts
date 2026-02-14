@@ -55,6 +55,7 @@ import { NO_REGRETS_STUDIOS_LONDON } from './no-regrets-studios-london'
 import { LABEL_TATTOO_LONDON } from './label-tattoo-london'
 import { USHUAIA_TATTOO_LONDON } from './ushuaia-tattoo-london'
 import { EXP_HAUS } from './exp-haus'
+import { K_BARRIA_TATTOO } from './k-barria-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -114,6 +115,7 @@ export const studios: Record<string, StudioConfig> = {
         'label-tattoo-london': LABEL_TATTOO_LONDON,
         'ushuaia-tattoo-london': USHUAIA_TATTOO_LONDON,
         'exp-haus': EXP_HAUS,
+        'k-barria-tattoo': K_BARRIA_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
