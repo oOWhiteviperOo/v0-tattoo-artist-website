@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const THE_MANCHESTER_SOCIAL: StudioConfig = {
+    identity: {
+        name: 'The Manchester Social',
+        slug: 'the-manchester-social',
+        tagline: 'Where Art Meets Community',
+        artistName: 'Alex Thompson',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '25 85% 55%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '230, 115, 40',
+        ring: '25 85% 55%',
+    },
+    seo: {
+        title: 'The Manchester Social | Premium Tattoo Studio Manchester',
+        description: 'Manchester\'s premier tattoo studio offering custom designs, traditional & modern styles. Expert artists, sterile environment. Book your consultation today.',
+        keywords: ['manchester tattoo studio', 'custom tattoo manchester'],
+        openGraph: {
+            title: 'The Manchester Social - Premium Tattoo Studio',
+            description: 'Manchester\'s premier tattoo studio specializing in custom designs and exceptional artistry. Where art meets community.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/the-manchester-social',
+            siteName: 'The Manchester Social',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=The%20Manchester%20Social+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'The Manchester Social',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Manchester\'s Premier', 'Tattoo Collective'],
+        subheadline: 'Where creativity thrives and community connects. Experience exceptional artistry in the heart of Manchester\'s creative quarter.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'The Manchester Social tattoo studio interior',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Award-Winning Artists' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Our Latest Work',
+        subtitle: 'From bold traditional pieces to intricate fine line work, every tattoo tells a story',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattoo services tailored to your vision',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£150-£300',
+                priceSubtitle: 'Perfect for first-timers',
+                features: ['Design consultation included', 'Aftercare kit provided'],
+                status: 'limited',
+                availabilityText: 'Available daily',
+                buttonText: 'Book Small Piece',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Session',
+                duration: '4-6 hours',
+                price: '£400-£800',
+                priceSubtitle: 'For larger detailed work',
+                features: ['Multiple design revisions', 'Priority booking'],
+                status: 'available',
+                availabilityText: 'Weekends & evenings',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'The Manchester Social created the perfect sleeve for me. Alex\'s attention to detail is incredible and the studio atmosphere is so welcoming.',
+                author: 'Sarah Mitchell',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Best tattoo experience I\'ve ever had. Professional, clean, and the artwork exceeded my expectations. Already planning my next piece!',
+                author: 'James Rodriguez',
+                city: 'Salford',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Award Winning' },
+            { iconName: 'Star', label: 'Custom Designs' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @themanchestersocial',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'About The Manchester Social',
+        paragraphs: [
+            'Founded in the heart of Manchester\'s creative quarter, The Manchester Social is more than just a tattoo studio – we\'re a community hub where art, creativity, and authentic connections flourish. Our mission is to create exceptional tattoos while fostering genuine relationships with every client who walks through our doors.',
+            'Led by award-winning artist Alex Thompson, our studio combines traditional tattooing techniques with contemporary artistry. We believe every tattoo should be a collaborative masterpiece, reflecting your unique story while showcasing our commitment to exceptional craftsmanship and attention to detail.',
+        ],
+        callout: 'Every tattoo tells a story. Let us help tell yours.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Thompson, lead artist at The Manchester Social',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 3-4 weeks in advance for regular sessions, and 6-8 weeks for larger pieces. However, we occasionally have last-minute availability, so don\'t hesitate to reach out.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Every consultation includes design discussion, sizing and placement advice, aftercare instructions, and a detailed quote. We\'ll work together to ensure your vision comes to life perfectly.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Join the Manchester Social community and get the tattoo you\'ve always dreamed of',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your booking',
+    },
+    contact: {
+        email: 'hello@themanchestersocial.co.uk',
+        instagram: '@themanchestersocial',
+        instagramUrl: 'https://instagram.com/themanchestersocial',
+        phone: '+44 161 123 4567',
+        address: '45 Northern Quarter, Manchester M1 1JG',
+    },
+    footer: {
+        copyrightHolder: 'The Manchester Social',
+        tagline: 'Where Art Meets Community',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
