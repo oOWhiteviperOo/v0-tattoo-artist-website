@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const PURE_PIERCING: StudioConfig = {
+    identity: {
+        name: 'Pure Piercing',
+        slug: 'pure-piercing',
+        tagline: 'Where Precision Meets Artistry',
+        artistName: 'Jordan Matthews',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '280 65% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '147, 51, 234',
+        ring: '280 65% 60%',
+    },
+    seo: {
+        title: 'Pure Piercing - Expert Body Piercing & Jewelry Studio',
+        description: 'Professional body piercing services with premium jewelry. Expert piercers, sterile environment, and aftercare support. Book your piercing today.',
+        keywords: ['body piercing studio', 'professional piercer'],
+        openGraph: {
+            title: 'Pure Piercing - Expert Body Piercing Studio',
+            description: 'Professional body piercing services with premium jewelry and expert aftercare. Book your piercing consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/pure-piercing',
+            siteName: 'Pure Piercing',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Pure%20Piercing+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Pure Piercing',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Piercing',
+    },
+    hero: {
+        headline: ['Professional Body Piercing', 'Done Right, Every Time'],
+        subheadline: 'Expert piercing services with premium jewelry, sterile techniques, and comprehensive aftercare support',
+        urgencyText: 'Same-day appointments available',
+        ctaText: 'Book Your Piercing',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional piercer at Pure Piercing studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '5000+ Piercings Done' },
+            { iconName: 'Award', label: 'APP Certified' },
+            { iconName: 'Shield', label: 'Premium Jewelry Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Work',
+        subtitle: 'Precision piercing with premium jewelry from leading brands',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Piercing Services',
+        subtitle: 'Professional piercing services with aftercare included',
+        guarantee: 'All piercings come with comprehensive aftercare guidance and follow-up support',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Standard Piercing',
+                duration: '30 mins',
+                price: '£45',
+                priceSubtitle: 'includes basic jewelry',
+                features: ['Professional consultation', 'Aftercare kit included'],
+                status: 'limited',
+                availabilityText: 'Available daily',
+                buttonText: 'Book Standard',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Premium Piercing',
+                duration: '45 mins',
+                price: '£85',
+                priceSubtitle: 'includes premium jewelry',
+                features: ['Premium titanium jewelry', 'Extended consultation'],
+                status: 'available',
+                availabilityText: 'By appointment',
+                buttonText: 'Book Premium',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Jordan is incredibly professional and made my first piercing experience so comfortable. The studio is spotless and the aftercare advice was perfect.',
+                author: 'Sarah M.',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Best piercing studio I\'ve been to. The jewelry selection is amazing and Jordan really knows what they\'re doing. Healed perfectly with no issues.',
+                author: 'Alex R.',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'APP Certified' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Jewelry' },
+            { iconName: 'Star', label: 'Expert Aftercare' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @purepiercing',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Piercer',
+        paragraphs: [
+            'Jordan Matthews has been a professional body piercer for over 8 years, specializing in precision piercing techniques and premium jewelry fitting. Trained by industry leaders and certified by the Association of Professional Piercers, Jordan brings expertise and artistry to every piercing.',
+            'At Pure Piercing, we believe in doing things right the first time. From our sterile procedures to our carefully curated jewelry selection, every detail is designed to give you the best possible piercing experience and healing journey.',
+        ],
+        callout: 'Every piercing is performed with surgical-grade instruments in a sterile environment, using only the finest titanium and gold jewelry from trusted manufacturers.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Jordan Matthews, professional body piercer at Pure Piercing',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long does the piercing process take?',
+                answer: 'Most piercings take 15-30 minutes including consultation and aftercare instructions. We never rush the process to ensure your comfort and safety.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What jewelry brands do you use?',
+                answer: 'We exclusively use premium jewelry from brands like Anatometal, BVLA, and Industrial Strength. All jewelry is implant-grade titanium or solid gold.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Your Perfect Piercing?',
+        subheadline: 'Book your consultation today and join thousands of satisfied clients',
+        ctaText: 'Book Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Piercing',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll contact you within 24 hours to confirm your appointment details.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A £20 deposit is required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@purepiercing.co.uk',
+        instagram: '@purepiercing',
+        instagramUrl: 'https://instagram.com/purepiercing',
+        phone: '+44 20 7123 4567',
+        address: '123 High Street, London, UK',
+    },
+    footer: {
+        copyrightHolder: 'Pure Piercing',
+        tagline: 'Where Precision Meets Artistry',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
