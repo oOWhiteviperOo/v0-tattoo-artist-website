@@ -29,6 +29,7 @@ import { WORLD_FAMOUS_FULHAM_TATTOO_LONDON } from './world-famous-fulham-tattoo-
 import { NOOIR_TATTOO_BLACKWORK_TATTOOS } from './nooir-tattoo-blackwork-tattoos'
 import { FRITH_STREET_TATTOO } from './frith-street-tattoo'
 import { SAI_SAI_INK } from './sai-sai-ink'
+import { SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN } from './supreme-karma-tattoo-and-piercing-camden'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -62,6 +63,7 @@ export const studios: Record<string, StudioConfig> = {
         'nooir-tattoo-blackwork-tattoos': NOOIR_TATTOO_BLACKWORK_TATTOOS,
         'frith-street-tattoo': FRITH_STREET_TATTOO,
         'sai-sai-ink': SAI_SAI_INK,
+        'supreme-karma-tattoo-and-piercing-camden': SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN,
     // [N8N-MARKER-REGISTRY]
 }
 
