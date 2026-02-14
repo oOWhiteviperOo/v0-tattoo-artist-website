@@ -88,6 +88,7 @@ import { THE_LONDON_SOCIAL_TATTOO } from './the-london-social-tattoo'
 import { KUSTOM_CREATIONS_TATTOO_STUDIO } from './kustom-creations-tattoo-studio'
 import { HOLIER_THAN_THOU } from './holier-than-thou'
 import { THE_MANCHESTER_SOCIAL } from './the-manchester-social'
+import { FLASH_BY_AJ_TATTOO } from './flash-by-aj-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -180,6 +181,7 @@ export const studios: Record<string, StudioConfig> = {
         'kustom-creations-tattoo-studio': KUSTOM_CREATIONS_TATTOO_STUDIO,
         'holier-than-thou': HOLIER_THAN_THOU,
         'the-manchester-social': THE_MANCHESTER_SOCIAL,
+        'flash-by-aj-tattoo': FLASH_BY_AJ_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
