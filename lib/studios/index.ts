@@ -74,6 +74,7 @@ import { SOUTH_CITY_MARKET_CALEDONIAN_ROAD } from './south-city-market-caledonia
 import { METAL_MORPHOSIS_PIERCING } from './metal-morphosis-piercing'
 import { NEMESIS_TATTOO_BODY_PIERCING_STUDIO } from './nemesis-tattoo-body-piercing-studio'
 import { PRINCELET_TATTOO_LONDON } from './princelet-tattoo-london'
+import { VAGABOND_TATTOO } from './vagabond-tattoo'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -152,6 +153,7 @@ export const studios: Record<string, StudioConfig> = {
         'metal-morphosis-piercing': METAL_MORPHOSIS_PIERCING,
         'nemesis-tattoo-body-piercing-studio': NEMESIS_TATTOO_BODY_PIERCING_STUDIO,
         'princelet-tattoo-london': PRINCELET_TATTOO_LONDON,
+        'vagabond-tattoo': VAGABOND_TATTOO,
     // [N8N-MARKER-REGISTRY]
 }
 
