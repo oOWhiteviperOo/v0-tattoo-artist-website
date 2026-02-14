@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const LABEL_TATTOO_LONDON: StudioConfig = {
+    identity: {
+        name: 'Label Tattoo London',
+        slug: 'label-tattoo-london',
+        tagline: 'Premium Custom Tattoos in the Heart of London',
+        artistName: 'Alex Morrison',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '45 100% 51%',
+        accentForeground: '0 0% 0%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '255, 204, 0',
+        ring: '45 100% 51%',
+    },
+    seo: {
+        title: 'Label Tattoo London - Premium Custom Tattoos | London',
+        description: 'Award-winning tattoo studio in London specializing in custom designs. Book your consultation with expert artist Alex Morrison today.',
+        keywords: ['tattoo studio London', 'custom tattoos London'],
+        openGraph: {
+            title: 'Label Tattoo London - Premium Custom Tattoos',
+            description: 'Award-winning tattoo studio in London specializing in custom designs. Book your consultation with expert artist Alex Morrison today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/label-tattoo-london',
+            siteName: 'Label Tattoo London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Label%20Tattoo%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Label Tattoo London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Premium Custom Tattoos', 'Crafted with Precision'],
+        subheadline: 'Award-winning artist creating unique, personal tattoos that tell your story. Every piece is custom designed and executed to perfection.',
+        urgencyText: 'Only 3 consultation slots left this month',
+        ctaText: 'Book Your Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on a detailed custom tattoo',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Tattoos' },
+            { iconName: 'Award', label: 'Award-Winning Artist' },
+            { iconName: 'Shield', label: '100% Custom Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Featured Work',
+        subtitle: 'Every tattoo is a unique piece of art, carefully crafted to reflect your personal story and vision.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your tattoo vision. All sessions include custom design and aftercare guidance.',
+        guarantee: '100% satisfaction guarantee or your money back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£200',
+                priceSubtitle: 'Perfect for first tattoos',
+                features: ['Custom design consultation', 'Small to medium tattoo completion'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Custom Session',
+                duration: '4-6 hours',
+                price: '£450',
+                priceSubtitle: 'For detailed custom work',
+                features: ['Extensive design development', 'Large detailed tattoo completion'],
+                status: 'available',
+                availabilityText: 'Next available: 2 weeks',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Alex created the most incredible sleeve for me. The attention to detail and artistic vision exceeded all my expectations. Truly world-class work.',
+                author: 'Sarah Johnson',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'The studio atmosphere is professional and welcoming. My custom piece turned out exactly as I envisioned. Couldn\'t be happier with the result.',
+                author: 'Michael Chen',
+                city: 'Camden',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Certified' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @labeltattoolondon',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Alex Morrison',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alex has established Label Tattoo London as one of the premier custom tattoo studios in the city. Specializing in detailed black and grey work, geometric designs, and realistic portraits, Alex brings a unique artistic vision to every piece.',
+            'The studio combines traditional tattooing techniques with modern equipment and safety standards. Every tattoo is approached as a collaborative artwork, ensuring that each client receives a truly personal and meaningful piece that they\'ll treasure for life.',
+        ],
+        callout: 'Every tattoo tells a story. Let me help you tell yours.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Morrison, professional tattoo artist at Label Tattoo London',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance for custom work. Consultation slots are typically available within a week.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Your consultation includes design discussion, sizing, placement advice, and a custom sketch. We\'ll also cover aftercare and answer any questions you have.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Custom Tattoo?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with expert craftsmanship and attention to detail.',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your booking request. We\'ll contact you within 24 hours to confirm your appointment and discuss your tattoo vision.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'info@labeltattoolondon.com',
+        instagram: '@labeltattoolondon',
+        instagramUrl: 'https://instagram.com/labeltattoolondon',
+        phone: '+44 20 7123 4567',
+        address: '123 Camden High Street, London NW1 7JR',
+    },
+    footer: {
+        copyrightHolder: 'Label Tattoo London',
+        tagline: 'Premium custom tattoos crafted with precision',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
