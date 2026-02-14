@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const NO_REGRETS_STUDIOS_LONDON: StudioConfig = {
+    identity: {
+        name: 'No Regrets Studios London',
+        slug: 'no-regrets-studios-london',
+        tagline: 'Where Art Meets Skin in London\'s Heart',
+        artistName: 'Marcus Thompson',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '15 86% 55%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '224, 89, 37',
+        ring: '15 86% 55%',
+    },
+    seo: {
+        title: 'No Regrets Studios London | Premium Tattoo Artists',
+        description: 'London\'s premier tattoo studio. Custom designs, expert artists, and exceptional aftercare. Book your consultation today at No Regrets Studios.',
+        keywords: ['tattoo studio London', 'custom tattoo artist London'],
+        openGraph: {
+            title: 'No Regrets Studios London - Premium Tattoo Artists',
+            description: 'London\'s premier tattoo studio specializing in custom designs and exceptional artistry. Book your consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/no-regrets-studios-london',
+            siteName: 'No Regrets Studios London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=No%20Regrets%20Studios%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'No Regrets Studios London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['London\'s Premier', 'Tattoo Experience'],
+        subheadline: 'Where exceptional artistry meets uncompromising quality. Custom designs crafted by London\'s finest tattoo artists.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '12+ Years Experience' },
+            { iconName: 'Zap', label: '3500+ Tattoos Created' },
+            { iconName: 'Award', label: '5-Star Studio Rating' },
+            { iconName: 'Shield', label: 'Award-Winning Artists' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Exceptional Artistry',
+        subtitle: 'Every piece tells a story. Explore our collection of custom designs and witness the craftsmanship that sets us apart.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision. All sessions include consultation, custom design, and premium aftercare.',
+        guarantee: '100% satisfaction guarantee or we\'ll make it right',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Half Day Session',
+                duration: '4 hours',
+                price: '£480',
+                priceSubtitle: 'Perfect for medium pieces',
+                features: ['Custom design consultation', 'Premium aftercare kit included'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Half Day',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Day Session',
+                duration: '8 hours',
+                price: '£880',
+                priceSubtitle: 'Ideal for large detailed work',
+                features: ['Extended design development', 'Lunch break & refreshments'],
+                status: 'available',
+                availabilityText: 'Next available: Next week',
+                buttonText: 'Book Full Day',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Trusted by London\'s Tattoo Community',
+        testimonials: [
+            {
+                quote: 'Marcus at No Regrets Studios created the most incredible sleeve for me. The attention to detail and artistic vision exceeded all my expectations. Absolutely phenomenal work!',
+                author: 'Sarah Mitchell',
+                city: 'Camden, London',
+                rating: 5,
+            },
+            {
+                quote: 'I\'ve been to several studios in London, but No Regrets is in a league of its own. The professionalism, cleanliness, and artistic skill are unmatched. My tattoo is a masterpiece.',
+                author: 'James Rodriguez',
+                city: 'Shoreditch, London',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Health Certified' },
+            { iconName: 'Sparkles', label: 'Award Winning' },
+            { iconName: 'Star', label: 'Custom Designs Only' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @noregretsstudioslondon',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Marcus Thompson',
+        paragraphs: [
+            'With over 12 years of experience in the London tattoo scene, Marcus has established No Regrets Studios as a premier destination for custom tattoo artistry. His background in fine arts and passion for storytelling through ink has earned him recognition throughout the UK tattoo community.',
+            'Marcus specializes in detailed realism, bold traditional work, and innovative contemporary designs. Every piece is approached with meticulous planning, ensuring each client receives a truly unique work of art that they\'ll treasure for life. His commitment to excellence and client satisfaction has built a loyal following across London.',
+        ],
+        callout: 'Every tattoo is a collaboration between artist and client, resulting in something truly extraordinary.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Thompson, lead tattoo artist at No Regrets Studios London',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book my appointment?',
+                answer: 'We recommend booking 2-4 weeks in advance, especially for larger pieces or specific dates. However, we sometimes have last-minute availability for smaller tattoos. Contact us to check current availability.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the session price?',
+                answer: 'All sessions include initial consultation, custom design work, the tattoo session itself, premium aftercare products, and follow-up care instructions. Touch-ups within the first 6 months are complimentary.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Join hundreds of satisfied clients who chose No Regrets Studios for their tattoo journey. Book your consultation today.',
+        ctaText: 'Book Your Session Now',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to discuss your vision and schedule your session.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for choosing No Regrets Studios! We\'ll review your request and get back to you within 24 hours to discuss your design and confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £100 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@noregretsstudios.london',
+        instagram: '@noregretsstudioslondon',
+        instagramUrl: 'https://instagram.com/noregretsstudioslondon',
+        phone: '+44 20 7123 4567',
+        address: '123 Brick Lane, Shoreditch, London E1 6SB',
+    },
+    footer: {
+        copyrightHolder: 'No Regrets Studios London',
+        tagline: 'Where Art Meets Skin in London\'s Heart',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
