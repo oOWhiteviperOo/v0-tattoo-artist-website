@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const ECO_TATTOO_LONDON: StudioConfig = {
+    identity: {
+        name: 'Eco Tattoo London',
+        slug: 'eco-tattoo-london',
+        tagline: 'Sustainable Ink, Conscious Art',
+        artistName: 'Maya Green',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '120 5% 96%',
+        accent: '142 76% 36%',
+        accentForeground: '120 5% 96%',
+        mutedForeground: '120 3% 64%',
+        dimmedForeground: '120 4% 45%',
+        border: '120 6% 12%',
+        card: '120 4% 7%',
+        accentRgb: '22, 163, 74',
+        ring: '142 76% 36%',
+    },
+    seo: {
+        title: 'Eco Tattoo London | Sustainable Tattoos & Conscious Art',
+        description: 'London\'s premier eco-friendly tattoo studio. Sustainable inks, vegan aftercare, and conscious artistry. Book your environmentally responsible tattoo today.',
+        keywords: ['eco tattoo London', 'sustainable tattoo studio'],
+        openGraph: {
+            title: 'Eco Tattoo London - Sustainable Ink, Conscious Art',
+            description: 'Experience guilt-free tattooing with our eco-friendly inks, sustainable practices, and conscious artistry in the heart of London.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/eco-tattoo-london',
+            siteName: 'Eco Tattoo London',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Eco%20Tattoo%20London+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Eco Tattoo London',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Eco Session',
+    },
+    hero: {
+        headline: ['London\'s First', '100% Sustainable Tattoo Studio'],
+        subheadline: 'Where environmental consciousness meets exceptional artistry. Vegan inks, renewable energy, and zero-waste practices.',
+        urgencyText: 'Limited eco-sessions available this month',
+        ctaText: 'Book Your Green Tattoo',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Eco-friendly tattoo artist at work in sustainable studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '100% Vegan Inks' },
+            { iconName: 'Zap', label: 'Zero Waste Studio' },
+            { iconName: 'Award', label: 'Carbon Neutral' },
+            { iconName: 'Shield', label: 'Renewable Energy' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Sustainable Art Gallery',
+        subtitle: 'Every piece created with love for both you and the planet',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Conscious Tattoo Sessions',
+        subtitle: 'Choose your eco-friendly tattoo experience',
+        guarantee: '100% satisfaction guaranteed with our sustainable practices',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Eco Piece',
+                duration: '1-2 hours',
+                price: '£120',
+                priceSubtitle: 'Starting price',
+                features: ['Vegan ink guarantee', 'Organic aftercare kit'],
+                status: 'limited',
+                availabilityText: 'Same week booking',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Eco Design',
+                duration: '3-5 hours',
+                price: '£350',
+                priceSubtitle: 'Starting price',
+                features: ['Custom sustainable design', 'Extended aftercare support'],
+                status: 'available',
+                availabilityText: '2-3 weeks',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Eco-Warriors Say',
+        testimonials: [
+            {
+                quote: 'Finally found a studio that matches my values! Maya created the most beautiful botanical piece using completely vegan inks. The whole experience felt guilt-free.',
+                author: 'Emma Thompson',
+                city: 'Camden',
+                rating: 5,
+            },
+            {
+                quote: 'Incredible attention to detail and environmental responsibility. Love knowing my tattoo was created without harming the planet. The aftercare products are amazing too!',
+                author: 'James Wilson',
+                city: 'Shoreditch',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Certified Vegan Studio' },
+            { iconName: 'TrendingUp', label: 'B-Corp Certified' },
+            { iconName: 'Sparkles', label: 'Zero Waste Pledge' },
+            { iconName: 'Star', label: 'Renewable Energy Powered' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @ecotattoolondon',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Maya Green',
+        paragraphs: [
+            'With over 8 years of tattooing experience, Maya founded Eco Tattoo London with a mission to prove that exceptional art doesn\'t have to come at the planet\'s expense. Trained in traditional techniques but passionate about innovation, she pioneered the use of 100% vegan inks and sustainable studio practices in London.',
+            'Every design is thoughtfully created using eco-friendly materials, from biodegradable transfer papers to organic aftercare products. Maya specializes in botanical designs, nature-inspired pieces, and meaningful symbols that celebrate our connection to the earth.',
+        ],
+        callout: '"Art should heal, not harm. Every tattoo tells a story, and I want that story to include respect for our planet."',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Maya Green, eco-conscious tattoo artist at Eco Tattoo London',
+    },
+    faq: {
+        sectionTitle: 'Eco Tattoo FAQs',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'What makes your inks truly vegan and eco-friendly?',
+                answer: 'Our inks are completely free from animal products, bone char, and harmful chemicals. We use plant-based pigments and sustainable manufacturing processes. All our suppliers are certified cruelty-free and environmentally responsible.',
+            },
+            {
+                id: 'faq-2',
+                question: 'How do you ensure your studio is truly sustainable?',
+                answer: 'We operate on 100% renewable energy, use biodegradable supplies wherever possible, implement a zero-waste policy, and offset our carbon footprint. Our aftercare products are organic and plastic-free, and we donate 1% of profits to environmental charities.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready for Your Eco-Conscious Tattoo?',
+        subheadline: 'Join the sustainable tattoo movement and wear your values with pride',
+        ctaText: 'Book Your Green Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Eco Tattoo Session',
+        modalDescription: 'Ready to get your sustainable tattoo? Fill out the form below and Maya will get back to you within 24 hours to discuss your eco-friendly design.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for choosing sustainable tattooing! Maya will contact you within 24 hours to discuss your eco-friendly design and schedule your session.',
+        submitText: 'Send Eco Booking Request',
+        depositDisclaimer: 'A £50 deposit is required to secure your eco-session',
+    },
+    contact: {
+        email: 'hello@ecotattolon.com',
+        instagram: '@ecotattoolondon',
+        instagramUrl: 'https://instagram.com/ecotattoolondon',
+        phone: '+44 20 7946 0958',
+        address: '123 Green Lane, Hackney, London E8 2AB',
+    },
+    footer: {
+        copyrightHolder: 'Eco Tattoo London',
+        tagline: 'Sustainable ink, conscious art, better world',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
