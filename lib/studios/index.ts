@@ -64,6 +64,7 @@ import { PEEL_TATTOO } from './peel-tattoo'
 import { HOPE_ROSEMARY_TATTOO } from './hope-rosemary-tattoo'
 import { TIBOR_VARGA_TATTOO } from './tibor-varga-tattoo'
 import { SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC } from './skalp-manchester-scalp-micropigmentation-clinic'
+import { ONE_DAY_TATTOO_STUDIO_LONDON } from './one-day-tattoo-studio-london'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -132,6 +133,7 @@ export const studios: Record<string, StudioConfig> = {
         'hope-rosemary-tattoo': HOPE_ROSEMARY_TATTOO,
         'tibor-varga-tattoo': TIBOR_VARGA_TATTOO,
         'skalp-manchester-scalp-micropigmentation-clinic': SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC,
+        'one-day-tattoo-studio-london': ONE_DAY_TATTOO_STUDIO_LONDON,
     // [N8N-MARKER-REGISTRY]
 }
 
