@@ -89,6 +89,7 @@ import { KUSTOM_CREATIONS_TATTOO_STUDIO } from './kustom-creations-tattoo-studio
 import { HOLIER_THAN_THOU } from './holier-than-thou'
 import { THE_MANCHESTER_SOCIAL } from './the-manchester-social'
 import { FLASH_BY_AJ_TATTOO } from './flash-by-aj-tattoo'
+import { STRAIGHT_LINES_AND_CIRCLES } from './straight-lines-and-circles'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -182,6 +183,7 @@ export const studios: Record<string, StudioConfig> = {
         'holier-than-thou': HOLIER_THAN_THOU,
         'the-manchester-social': THE_MANCHESTER_SOCIAL,
         'flash-by-aj-tattoo': FLASH_BY_AJ_TATTOO,
+        'straight-lines-and-circles': STRAIGHT_LINES_AND_CIRCLES,
     // [N8N-MARKER-REGISTRY]
 }
 
