@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const HOPE_ROSEMARY_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Hope Rosemary Tattoo',
+        slug: 'hope-rosemary-tattoo',
+        tagline: 'Botanical artistry meets timeless ink',
+        artistName: 'Hope Rosemary',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '340 75% 55%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '208, 55, 122',
+        ring: '340 75% 55%',
+    },
+    seo: {
+        title: 'Hope Rosemary Tattoo - Botanical & Fine Line Tattoo Artist',
+        description: 'Exquisite botanical tattoos and fine line artistry by Hope Rosemary. Custom designs, delicate florals, and nature-inspired ink. Book your consultation today.',
+        keywords: ['botanical tattoo artist', 'fine line tattoos'],
+        openGraph: {
+            title: 'Hope Rosemary Tattoo - Botanical Artistry Meets Timeless Ink',
+            description: 'Specializing in delicate botanical tattoos and fine line artistry. Custom nature-inspired designs that bloom on skin.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/hope-rosemary-tattoo',
+            siteName: 'Hope Rosemary Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Hope%20Rosemary%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Hope Rosemary Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Where nature meets', 'timeless artistry'],
+        subheadline: 'Specializing in delicate botanical tattoos and fine line work that captures the beauty of nature on skin',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Your Design Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Hope Rosemary creating a delicate botanical tattoo',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Botanical Tattoos' },
+            { iconName: 'Award', label: 'Award-Winning Artist' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Botanical Artistry',
+        subtitle: 'Each piece is carefully crafted to capture nature\'s delicate beauty',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your botanical masterpiece',
+        guarantee: '100% satisfaction guarantee on all custom designs',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Botanical Consultation',
+                duration: '2 hours',
+                price: '£180',
+                priceSubtitle: 'Design + Small Piece',
+                features: ['Custom botanical design creation', 'Small to medium tattoo completion'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Botanical Session',
+                duration: '4-6 hours',
+                price: '£450',
+                priceSubtitle: 'Large Custom Piece',
+                features: ['Extensive botanical composition', 'Multiple session planning included'],
+                status: 'available',
+                availabilityText: 'Next available: 3 weeks',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What clients say about Hope Rosemary',
+        testimonials: [
+            {
+                quote: 'Hope\'s botanical work is absolutely stunning. She captured the essence of my grandmother\'s garden perfectly in my forearm piece.',
+                author: 'Sarah M.',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'The attention to detail in my wildflower sleeve is incredible. Hope truly understands how to make nature come alive on skin.',
+                author: 'Emma K.',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artist' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Inks Only' },
+            { iconName: 'Star', label: 'Aftercare Included' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @hoperosemarytattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Hope Rosemary',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Hope has developed a distinctive style that celebrates the intricate beauty of botanical forms. Her passion for nature and fine art converges in each carefully crafted piece, creating tattoos that are both delicate and enduring.',
+            'Trained in classical botanical illustration, Hope brings an artist\'s eye to every design. She believes that each tattoo should tell a story, capturing not just the visual beauty of flora but the emotional connection between client and nature. Her studio is a sanctuary where art, nature, and personal expression bloom together.',
+        ],
+        callout: 'Every design is hand-drawn and completely unique to you',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Hope Rosemary working on a botanical tattoo design',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long does a botanical tattoo take to heal?',
+                answer: 'Fine line botanical tattoos typically heal within 2-3 weeks with proper aftercare. I provide detailed aftercare instructions and premium healing products to ensure your tattoo heals beautifully.',
+            },
+            {
+                id: 'faq-2',
+                question: 'Can you work with my own botanical references?',
+                answer: 'Absolutely! I love working with personal botanical references, whether it\'s a flower from your garden, a pressed leaf, or a meaningful plant. Bring your inspiration and we\'ll create something uniquely yours.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to bloom?',
+        subheadline: 'Let\'s create your perfect botanical tattoo together',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Botanical Tattoo',
+        modalDescription: 'Ready to create something beautiful? Fill out the form below and I\'ll get back to you within 24 hours to discuss your botanical vision.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest! I\'ll review your request and get back to you within 24 hours to discuss your botanical tattoo vision.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit is required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@hoperosemarytattoo.co.uk',
+        instagram: '@hoperosemarytattoo',
+        instagramUrl: 'https://instagram.com/hoperosemarytattoo',
+        phone: '+44 7123 456789',
+        address: 'Private Studio, London, UK',
+    },
+    footer: {
+        copyrightHolder: 'Hope Rosemary Tattoo',
+        tagline: 'Botanical artistry meets timeless ink',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
