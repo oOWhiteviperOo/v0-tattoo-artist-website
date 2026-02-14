@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const SECRET_SOCIETY_TATTOO_MCR: StudioConfig = {
+    identity: {
+        name: 'Secret Society Tattoo MCR',
+        slug: 'secret-society-tattoo-mcr',
+        tagline: 'Where Art Meets Mystery',
+        artistName: 'Marcus Reed',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '280 100% 70%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '280 20% 15%',
+        card: '280 15% 6%',
+        accentRgb: '187, 51, 255',
+        ring: '280 100% 70%',
+    },
+    seo: {
+        title: 'Secret Society Tattoo MCR | Premium Tattoo Studio Manchester',
+        description: 'Manchester\'s most exclusive tattoo studio. Custom designs, dark art, and mystical tattoos. Book your consultation with our award-winning artists today.',
+        keywords: ['tattoo studio Manchester', 'custom tattoo designs'],
+        openGraph: {
+            title: 'Secret Society Tattoo MCR - Where Art Meets Mystery',
+            description: 'Manchester\'s premier tattoo studio specializing in dark art and mystical designs. Experience the difference of true artistry.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/secret-society-tattoo-mcr',
+            siteName: 'Secret Society Tattoo MCR',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Secret%20Society%20Tattoo%20MCR+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Secret Society Tattoo MCR',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Welcome to the', 'Secret Society'],
+        subheadline: 'Manchester\'s most exclusive tattoo studio, where dark art and mystical designs come to life through masterful craftsmanship',
+        urgencyText: 'Only 3 slots remaining this month',
+        ctaText: 'Join the Society',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Dark mystical tattoo artwork at Secret Society Tattoo MCR',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Mastery' },
+            { iconName: 'Zap', label: '1500+ Sacred Tattoos' },
+            { iconName: 'Award', label: 'Award-Winning Artist' },
+            { iconName: 'Shield', label: 'Exclusive Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Sacred Gallery',
+        subtitle: 'Each piece tells a story, each design holds power. Witness the dark artistry that defines our legacy.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Ritual Sessions',
+        subtitle: 'Choose your path to transformation. Each session is a sacred ceremony of art and flesh.',
+        guarantee: '100% satisfaction guaranteed or full refund within 30 days',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Initiation Session',
+                duration: '2-3 Hours',
+                price: '£300',
+                priceSubtitle: 'Starting price',
+                features: ['Custom design consultation', 'Small to medium pieces'],
+                status: 'limited',
+                availabilityText: 'Available within 2 weeks',
+                buttonText: 'Begin Initiation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Master\'s Ritual',
+                duration: '4-6 Hours',
+                price: '£650',
+                priceSubtitle: 'Full day session',
+                features: ['Large scale masterpieces', 'Multiple session planning'],
+                status: 'available',
+                availabilityText: 'Booking 3-4 weeks ahead',
+                buttonText: 'Book Master Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Voices from the Society',
+        testimonials: [
+            {
+                quote: 'Marcus created something beyond my wildest dreams. The attention to detail and dark artistry is unmatched in Manchester.',
+                author: 'Sarah M.',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'The atmosphere and quality at Secret Society is incredible. My occult-themed sleeve is a true work of art that gets compliments daily.',
+                author: 'James K.',
+                city: 'Salford',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Award Winner 2023' },
+            { iconName: 'TrendingUp', label: 'Licensed & Insured' },
+            { iconName: 'Sparkles', label: 'Sterile Environment' },
+            { iconName: 'Star', label: 'Premium Inks Only' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @secretsocietytattoomcr',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Keeper of Secrets',
+        paragraphs: [
+            'Marcus Reed founded Secret Society Tattoo MCR with a vision to create more than just tattoos - to craft sacred art that speaks to the soul. With over 8 years of experience in dark art, occult symbolism, and mystical designs, Marcus has become Manchester\'s go-to artist for those seeking something truly extraordinary.',
+            'Every piece that emerges from our studio is born from deep consultation and mystical inspiration. We don\'t just tattoo skin - we create portals to other realms, symbols of power, and artwork that carries meaning far beyond the surface. Our private studio space ensures an intimate, transformative experience for each member of our society.',
+        ],
+        callout: 'Art is the bridge between what is and what could be. Every tattoo is a spell cast in ink.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Reed, master tattoo artist at Secret Society Tattoo MCR',
+    },
+    faq: {
+        sectionTitle: 'Sacred Knowledge',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I become a member of the Secret Society?',
+                answer: 'Simply book a consultation where we\'ll discuss your vision and determine if our artistic styles align. We work with clients who appreciate dark art, mystical themes, and truly custom designs.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Your consultation includes design discussion, size and placement planning, timeline creation, and a detailed quote. We also provide aftercare instructions and ongoing support throughout your tattoo journey.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Join the Society?',
+        subheadline: 'Your transformation awaits. Book your consultation and begin your journey into the world of sacred ink.',
+        ctaText: 'Book Your Ritual',
+    },
+    booking: {
+        modalTitle: 'Book Your Sacred Session',
+        modalDescription: 'Fill out the form below and we\'ll contact you within 24 hours to schedule your consultation and begin your transformation.',
+        successTitle: 'Welcome to the Society',
+        successMessage: 'Your consultation request has been received. We\'ll contact you within 24 hours to schedule your sacred session.',
+        submitText: 'Submit Request',
+        depositDisclaimer: 'A £50 deposit is required to secure your appointment and will be deducted from your final session cost.',
+    },
+    contact: {
+        email: 'hello@secretsocietytattoomcr.co.uk',
+        instagram: '@secretsocietytattoomcr',
+        instagramUrl: 'https://instagram.com/secretsocietytattoomcr',
+        phone: '+44 161 555 0123',
+        address: 'Private Studio, Manchester City Centre, M1 2AB',
+    },
+    footer: {
+        copyrightHolder: 'Secret Society Tattoo MCR',
+        tagline: 'Where Art Meets Mystery',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkrHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
