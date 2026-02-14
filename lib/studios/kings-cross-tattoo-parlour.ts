@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const KINGS_CROSS_TATTOO_PARLOUR: StudioConfig = {
+    identity: {
+        name: 'Kings Cross Tattoo Parlour',
+        slug: 'kings-cross-tattoo-parlour',
+        tagline: 'Artistry Meets Authenticity',
+        artistName: 'Marcus Kane',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '358 75% 59%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '240, 94, 124',
+        ring: '358 75% 59%',
+    },
+    seo: {
+        title: 'Kings Cross Tattoo Parlour | Premium Custom Tattoos',
+        description: 'Award-winning tattoo studio in Kings Cross. Custom designs, traditional & modern styles. Book your consultation today. Professional artists, sterile environment.',
+        keywords: ['tattoo studio Kings Cross', 'custom tattoo designs'],
+        openGraph: {
+            title: 'Kings Cross Tattoo Parlour - Premium Custom Tattoos',
+            description: 'Award-winning tattoo studio specializing in custom designs, traditional and modern styles. Professional artists in a sterile, welcoming environment.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/kings-cross-tattoo-parlour',
+            siteName: 'Kings Cross Tattoo Parlour',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Kings%20Cross%20Tattoo%20Parlour+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Kings Cross Tattoo Parlour',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Where Stories Become', 'Living Art'],
+        subheadline: 'Premium custom tattoo designs crafted by award-winning artists in the heart of London',
+        urgencyText: 'December slots filling fast - book now',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design at Kings Cross Tattoo Parlour',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '15+ Years Experience' },
+            { iconName: 'Zap', label: '3000+ Satisfied Clients' },
+            { iconName: 'Award', label: 'Award-Winning Studio' },
+            { iconName: 'Shield', label: '100% Custom Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Featured Artwork',
+        subtitle: 'Each piece tells a unique story, crafted with precision and passion',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your vision',
+        guarantee: '100% satisfaction guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Small Piece',
+                duration: '2-3 hours',
+                price: '£200',
+                priceSubtitle: 'Perfect for first-timers',
+                features: ['Design consultation included', 'Small to medium tattoos'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Custom Session',
+                duration: '4-6 hours',
+                price: '£450',
+                priceSubtitle: 'Complete custom artwork',
+                features: ['Extensive design process', 'Large detailed pieces'],
+                status: 'available',
+                availabilityText: 'Next available: Jan 15th',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'Marcus transformed my rough idea into an incredible sleeve. The attention to detail is phenomenal, and the studio atmosphere made me feel completely at ease.',
+                author: 'Sarah Mitchell',
+                city: 'Camden',
+                rating: 5,
+            },
+            {
+                quote: 'Been going to Kings Cross Tattoo for years. The quality is consistently outstanding, and they really listen to what you want. Wouldn\'t go anywhere else.',
+                author: 'James Rodriguez',
+                city: 'Islington',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Award-Winning Artists' },
+            { iconName: 'Star', label: 'Custom Designs Only' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @kingscrosstattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Master Craftsman Behind the Art',
+        paragraphs: [
+            'Marcus Kane has been perfecting the art of tattooing for over 15 years, establishing Kings Cross Tattoo Parlour as one of London\'s premier custom tattoo destinations. With a background in fine arts and a passion for storytelling through ink, Marcus specializes in creating unique pieces that reflect each client\'s individual journey.',
+            'From intricate traditional designs to contemporary masterpieces, every tattoo is approached with meticulous attention to detail and artistic integrity. The studio maintains the highest standards of hygiene and professionalism, ensuring every client feels comfortable and confident throughout their tattoo experience.',
+        ],
+        callout: 'Every tattoo tells a story. Let\'s create yours together.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Kane, master tattoo artist at Kings Cross Tattoo Parlour',
+    },
+    faq: {
+        sectionTitle: 'Common Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'We recommend booking 2-4 weeks in advance for consultation sessions and 4-8 weeks for full custom pieces. Popular time slots fill up quickly, especially during summer months.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Every consultation includes detailed design discussion, placement advice, sizing recommendations, and a custom sketch. We\'ll work together to ensure your vision comes to life perfectly.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Join thousands of satisfied clients who chose Kings Cross Tattoo Parlour for their ink',
+        ctaText: 'Book Your Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for reaching out! We\'ll review your request and get back to you within 24 hours with available times.',
+        submitText: 'Send Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@kingscrosstattoo.co.uk',
+        instagram: '@kingscrosstattoo',
+        instagramUrl: 'https://instagram.com/kingscrosstattoo',
+        phone: '+44 20 7837 9420',
+        address: '127 York Way, Kings Cross, London N1 0AX',
+    },
+    footer: {
+        copyrightHolder: 'Kings Cross Tattoo Parlour',
+        tagline: 'Artistry Meets Authenticity',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
