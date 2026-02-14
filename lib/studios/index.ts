@@ -31,6 +31,7 @@ import { FRITH_STREET_TATTOO } from './frith-street-tattoo'
 import { SAI_SAI_INK } from './sai-sai-ink'
 import { SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN } from './supreme-karma-tattoo-and-piercing-camden'
 import { MIDNIGHT_TATTOO_AND_PIERCE } from './midnight-tattoo-and-pierce'
+import { CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997 } from './camden-piercing-tattoo-studio-since-1997'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -66,6 +67,7 @@ export const studios: Record<string, StudioConfig> = {
         'sai-sai-ink': SAI_SAI_INK,
         'supreme-karma-tattoo-and-piercing-camden': SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN,
         'midnight-tattoo-and-pierce': MIDNIGHT_TATTOO_AND_PIERCE,
+        'camden-piercing-tattoo-studio-since-1997': CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997,
     // [N8N-MARKER-REGISTRY]
 }
 
