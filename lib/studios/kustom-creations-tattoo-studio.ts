@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const KUSTOM_CREATIONS_TATTOO_STUDIO: StudioConfig = {
+    identity: {
+        name: 'Kustom Creations tattoo studio',
+        slug: 'kustom-creations-tattoo-studio',
+        tagline: 'Where Art Meets Skin',
+        artistName: 'Alex Morgan',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '280 100% 70%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '187, 51, 255',
+        ring: '280 100% 70%',
+    },
+    seo: {
+        title: 'Kustom Creations Tattoo Studio - Custom Ink Art',
+        description: 'Professional custom tattoo studio specializing in unique designs. Book your consultation today for premium quality ink work and artistic excellence.',
+        keywords: ['custom tattoo studio', 'professional tattoo artist'],
+        openGraph: {
+            title: 'Kustom Creations tattoo studio - Where Art Meets Skin',
+            description: 'Premium custom tattoo studio creating unique artistic designs. Professional quality ink work with personalized service.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/kustom-creations-tattoo-studio',
+            siteName: 'Kustom Creations tattoo studio',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Kustom%20Creations%20tattoo%20studio+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Kustom Creations tattoo studio',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Transform Your Vision Into', 'Kustom Ink Art'],
+        subheadline: 'Premium custom tattoo studio where every design tells your unique story through professional artistry and exceptional craftsmanship.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Design Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist creating custom artwork at Kustom Creations studio',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Tattoos' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: '100% Original Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Artistic Excellence',
+        subtitle: 'Every piece is a masterpiece crafted specifically for you',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your custom artwork',
+        guarantee: 'All sessions include free touch-ups within 30 days',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Design Consultation',
+                duration: '1 Hour',
+                price: '£75',
+                priceSubtitle: 'Applied to final tattoo cost',
+                features: ['Custom design creation', 'Placement consultation'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Tattoo Session',
+                duration: '3-6 Hours',
+                price: '£300-600',
+                priceSubtitle: 'Based on size and complexity',
+                features: ['Complete custom tattoo', 'Premium aftercare kit'],
+                status: 'available',
+                availabilityText: '2 week booking',
+                buttonText: 'Book Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Client Stories',
+        testimonials: [
+            {
+                quote: 'Alex created the most incredible custom piece for me. The attention to detail and artistic vision exceeded all my expectations. Absolutely phenomenal work!',
+                author: 'Sarah Mitchell',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'The studio atmosphere is perfect and Alex\'s professionalism is unmatched. My tattoo healed beautifully and looks exactly as we designed it. Highly recommend!',
+                author: 'James Cooper',
+                city: 'Birmingham',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Professional' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @kustomcreationsink',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Meet Your Artist',
+        paragraphs: [
+            'With over 8 years of dedicated experience in the tattoo industry, Alex Morgan has built Kustom Creations into a premier destination for custom ink art. Specializing in unique, personalized designs, Alex believes every tattoo should be as individual as the person wearing it.',
+            'From intricate black and grey work to vibrant color pieces, Alex\'s artistic versatility and commitment to excellence ensures each client receives a masterpiece that tells their story. The studio maintains the highest standards of hygiene and professionalism while creating a comfortable, welcoming environment for all clients.',
+        ],
+        callout: 'Every design is hand-drawn and completely original - no flash art, just pure custom creativity.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Morgan, professional tattoo artist at Kustom Creations studio',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How long does the design process take?',
+                answer: 'The initial consultation and design process typically takes 1-2 hours. We\'ll work together to perfect your vision before any tattooing begins. Complex pieces may require additional design time.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the aftercare?',
+                answer: 'Every tattoo session includes a premium aftercare kit with healing balm, detailed care instructions, and free touch-ups within 30 days. We also provide ongoing support throughout the healing process.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with custom ink art that\'s uniquely yours.',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to start your custom tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thank you for your interest! We\'ll review your request and get back to you within 24 hours to confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@kustomcreations.co.uk',
+        instagram: '@kustomcreationsink',
+        instagramUrl: 'https://instagram.com/kustomcreationsink',
+        phone: '+44 7123 456789',
+        address: '123 Ink Street, Creative Quarter, City Centre',
+    },
+    footer: {
+        copyrightHolder: 'Kustom Creations tattoo studio',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
