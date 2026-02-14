@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const PEEL_TATTOO: StudioConfig = {
+    identity: {
+        name: 'PEEL TATTOO',
+        slug: 'peel-tattoo',
+        tagline: 'Authentic ink, authentic stories',
+        artistName: 'The PEEL Collective',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '15 85% 55%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '220, 95, 38',
+        ring: '15 85% 55%',
+    },
+    seo: {
+        title: 'PEEL TATTOO - Premium Custom Tattoos & Authentic Artistry',
+        description: 'Expert tattoo artists creating custom designs with authentic storytelling. Professional studio, premium aftercare, and exceptional artistry. Book your consultation today.',
+        keywords: ['custom tattoos', 'tattoo studio'],
+        openGraph: {
+            title: 'PEEL TATTOO - Authentic Ink, Authentic Stories',
+            description: 'Premium custom tattoo studio specializing in authentic artistry and storytelling through ink. Expert artists, professional service, exceptional results.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/peel-tattoo',
+            siteName: 'PEEL TATTOO',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=PEEL%20TATTOO+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'PEEL TATTOO',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Session',
+    },
+    hero: {
+        headline: ['Authentic ink for', 'authentic stories'],
+        subheadline: 'Where craftsmanship meets creativity. Custom tattoos that tell your unique story with precision and artistry.',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Pieces' },
+            { iconName: 'Award', label: '5-Star Reviews' },
+            { iconName: 'Shield', label: 'Authentic Artistry' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Work',
+        subtitle: 'Every piece tells a story. Explore our latest custom tattoos crafted with precision and passion.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional tattoo services tailored to bring your vision to life',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Custom Design Session',
+                duration: '2-4 hours',
+                price: '£180',
+                priceSubtitle: 'per hour + consultation',
+                features: ['Bespoke design creation', 'Premium aftercare included'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Custom Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Flash & Small Pieces',
+                duration: '1-2 hours',
+                price: '£120',
+                priceSubtitle: 'minimum + design',
+                features: ['Quick turnaround', 'Walk-ins welcome'],
+                status: 'available',
+                availabilityText: 'Available daily',
+                buttonText: 'Book Flash Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'The attention to detail at PEEL is incredible. My custom piece exceeded all expectations and the healing process was smooth thanks to their aftercare guidance.',
+                author: 'Sarah M.',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'Finally found artists who really listen and translate your ideas perfectly. The studio atmosphere is welcoming and professional. Couldn\'t be happier with my tattoo.',
+                author: 'James T.',
+                city: 'Leeds',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Artists' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @peeltattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The PEEL Story',
+        paragraphs: [
+            'PEEL TATTOO was founded on the belief that every tattoo should be as unique as the person wearing it. Our collective of skilled artists brings together diverse styles and techniques, united by a commitment to authentic artistry and exceptional craftsmanship.',
+            'We specialize in creating custom designs that tell your story. From initial consultation to final touch-up, we\'re dedicated to providing a premium experience that results in tattoos you\'ll love for life. Our studio maintains the highest standards of hygiene and professionalism.',
+        ],
+        callout: 'Every piece we create is a collaboration between artist and client, ensuring your tattoo is truly one-of-a-kind.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'PEEL TATTOO artists at work in professional studio environment',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book through our website, call us directly, or message us on Instagram. We recommend booking consultations at least 2 weeks in advance for custom work.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the session price?',
+                answer: 'All sessions include the tattoo work, premium aftercare products, detailed healing instructions, and one complimentary touch-up within 6 weeks if needed.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to start your tattoo journey?',
+        subheadline: 'Book your consultation today and let\'s create something authentic together.',
+        ctaText: 'Book Your Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Tell us about your tattoo ideas and we\'ll get back to you within 24 hours to discuss your design and schedule your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to discuss your design and confirm your appointment.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@peeltattoo.co.uk',
+        instagram: '@peeltattoo',
+        instagramUrl: 'https://instagram.com/peeltattoo',
+        phone: '+44 7700 900123',
+        address: 'Studio location available upon booking',
+    },
+    footer: {
+        copyrightHolder: 'PEEL TATTOO',
+        tagline: 'Authentic ink, authentic stories',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
