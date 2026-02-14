@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const SABBATH_CHURCH_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Sabbath Church Tattoo',
+        slug: 'sabbath-church-tattoo',
+        tagline: 'Sacred Ink, Unholy Art',
+        artistName: 'Alex Morrison',
+    },
+    theme: {
+        background: '0 0% 5%',
+        foreground: '60 9% 98%',
+        accent: '280 50% 45%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 8%',
+        accentRgb: '149, 57, 184',
+        ring: '280 50% 45%',
+    },
+    seo: {
+        title: 'Sabbath Church Tattoo - Sacred Dark Art & Custom Designs',
+        description: 'Professional tattoo studio specializing in dark religious themes, gothic art & custom designs. Book your sacred ink consultation today.',
+        keywords: ['dark tattoo studio', 'gothic religious tattoos'],
+        openGraph: {
+            title: 'Sabbath Church Tattoo - Sacred Ink, Unholy Art',
+            description: 'Where sacred meets profane. Custom dark art tattoos by award-winning artists. Book your consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/sabbath-church-tattoo',
+            siteName: 'Sabbath Church Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Sabbath%20Church%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Sabbath Church Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Where Sacred Meets', 'Profane'],
+        subheadline: 'Custom dark art tattoos that blur the line between devotion and rebellion. Each piece tells a story of spiritual awakening through ink.',
+        urgencyText: 'Only 3 consultation slots left this month',
+        ctaText: 'Book Your Sacred Session',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Dark gothic tattoo artwork showcasing religious and occult themes',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Mastery' },
+            { iconName: 'Zap', label: '1500+ Sacred Pieces' },
+            { iconName: 'Award', label: 'Award-Winning Artist' },
+            { iconName: 'Shield', label: 'Custom Dark Art Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Sacred Gallery',
+        subtitle: 'Where darkness becomes divine. Each piece is a testament to the beauty found in shadows and the sacred nature of personal transformation.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Sacred Sessions',
+        subtitle: 'Choose your path to transformation. Each session is a ritual, each tattoo a covenant.',
+        guarantee: '100% satisfaction guarantee or your deposit back',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Consultation & Design',
+                duration: '2 hours',
+                price: '£150',
+                priceSubtitle: 'Applied to final tattoo',
+                features: ['Custom dark art design', 'Spiritual consultation'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Design Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Full Sacred Piece',
+                duration: '4-8 hours',
+                price: '£400-800',
+                priceSubtitle: 'Depends on complexity',
+                features: ['Complete custom artwork', 'Premium aftercare kit'],
+                status: 'available',
+                availabilityText: 'Next available: 3 weeks',
+                buttonText: 'Book Full Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Testimonials from the Faithful',
+        testimonials: [
+            {
+                quote: 'Alex transformed my vision into something beyond my wildest dreams. The attention to detail in the religious symbolism is incredible. This isn\'t just a tattoo, it\'s a masterpiece.',
+                author: 'Sarah M.',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'The atmosphere at Sabbath Church is unlike any other studio. Alex creates a spiritual experience around each piece. My gothic angel sleeve is absolutely breathtaking.',
+                author: 'Marcus D.',
+                city: 'Birmingham',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Award Winner 2023' },
+            { iconName: 'TrendingUp', label: 'Sterile & Safe' },
+            { iconName: 'Sparkles', label: 'Custom Art Only' },
+            { iconName: 'Star', label: 'Aftercare Included' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @sabbathchurchtattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist Behind the Altar',
+        paragraphs: [
+            'Alex Morrison has spent over 8 years perfecting the art of dark spiritual tattooing. Trained in classical religious iconography and modern gothic art, Alex brings a unique perspective to every piece. What started as a fascination with medieval church art evolved into a calling to create modern sacred art on human canvas.',
+            'At Sabbath Church Tattoo, every session is treated as a sacred ritual. Alex believes that tattoos are more than decoration - they\'re spiritual markers, personal altars, and expressions of our deepest beliefs. Whether you\'re drawn to angelic imagery, occult symbolism, or gothic religious themes, Alex will guide you through a transformative artistic journey.',
+        ],
+        callout: 'Each tattoo is a covenant between artist and canvas, a sacred bond that transcends mere ink and skin.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Morrison, tattoo artist, working on a detailed gothic religious piece',
+    },
+    faq: {
+        sectionTitle: 'Sacred Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do you approach religious and spiritual themes?',
+                answer: 'I approach all spiritual and religious imagery with deep respect and understanding. Whether you\'re seeking Christian iconography, pagan symbols, or occult themes, I research the historical and cultural significance to ensure authenticity. I work with clients to create pieces that honor their beliefs while pushing artistic boundaries.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation process?',
+                answer: 'The consultation includes a deep dive into your vision, spiritual significance discussion, custom sketch creation, placement guidance, and aftercare planning. This 2-hour session ensures we create something truly meaningful. The £150 consultation fee is applied toward your final tattoo cost.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Begin Your Sacred Journey?',
+        subheadline: 'Transform your vision into eternal art. Book your consultation today and step into the shadows where true beauty dwells.',
+        ctaText: 'Book Sacred Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Sacred Session',
+        modalDescription: 'Ready to begin your transformation? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Your Journey Begins',
+        successMessage: 'Thank you for choosing Sabbath Church Tattoo. We\'ll contact you within 24 hours to schedule your sacred session. Check your email for next steps.',
+        submitText: 'Submit Sacred Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your booking',
+    },
+    contact: {
+        email: 'alex@sabbathchurchtattoo.co.uk',
+        instagram: '@sabbathchurchtattoo',
+        instagramUrl: 'https://instagram.com/sabbathchurchtattoo',
+        phone: '+44 7700 900123',
+        address: '123 Gothic Quarter, Manchester M1 2AB',
+    },
+    footer: {
+        copyrightHolder: 'Sabbath Church Tattoo',
+        tagline: 'Sacred ink, unholy art',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
