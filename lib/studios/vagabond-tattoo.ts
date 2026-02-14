@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const VAGABOND_TATTOO: StudioConfig = {
+    identity: {
+        name: 'Vagabond Tattoo',
+        slug: 'vagabond-tattoo',
+        tagline: 'Art That Travels With You',
+        artistName: 'Alex Morgan',
+    },
+    theme: {
+        background: '0 0% 4%',
+        foreground: '60 9% 98%',
+        accent: '24 100% 50%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '255, 128, 0',
+        ring: '24 100% 50%',
+    },
+    seo: {
+        title: 'Vagabond Tattoo - Custom Tattoo Art & Design Studio',
+        description: 'Professional custom tattoo studio specializing in unique, travel-inspired designs. Expert artistry with a focus on quality and creativity.',
+        keywords: ['custom tattoo studio', 'professional tattoo artist'],
+        openGraph: {
+            title: 'Vagabond Tattoo - Art That Travels With You',
+            description: 'Custom tattoo studio creating unique, travel-inspired designs with expert artistry and uncompromising quality.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/vagabond-tattoo',
+            siteName: 'Vagabond Tattoo',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Vagabond%20Tattoo+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Vagabond Tattoo',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Where Stories Become', 'Living Art'],
+        subheadline: 'Custom tattoo designs inspired by your journey, crafted with precision and passion by experienced artists',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Start Your Journey',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist at work creating custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Custom Pieces' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: 'Travel-Inspired Art' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Recent Journeys',
+        subtitle: 'Each piece tells a unique story, crafted with precision and artistic vision',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Your Journey Starts Here',
+        subtitle: 'Choose the perfect session for your next piece of living art',
+        guarantee: '100% satisfaction guarantee or full refund on deposit',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Design Consultation',
+                duration: '90 minutes',
+                price: '£80',
+                priceSubtitle: 'Applied to tattoo session',
+                features: ['Custom design creation', 'Placement consultation'],
+                status: 'limited',
+                availabilityText: 'Next available: This week',
+                buttonText: 'Book Consultation',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Tattoo Session',
+                duration: '3-6 hours',
+                price: '£150/hour',
+                priceSubtitle: 'Includes aftercare kit',
+                features: ['Professional tattooing', 'Complete aftercare guidance'],
+                status: 'available',
+                availabilityText: 'Next available: 2 weeks',
+                buttonText: 'Book Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Stories From Fellow Travelers',
+        testimonials: [
+            {
+                quote: 'Alex perfectly captured my travel memories in an incredible sleeve design. The attention to detail and artistic vision exceeded all my expectations.',
+                author: 'Sarah Chen',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'The consultation process was thorough and creative. My compass tattoo represents my wanderlust perfectly. Couldn\'t be happier with the result.',
+                author: 'Marcus Thompson',
+                city: 'Brighton',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed Studio' },
+            { iconName: 'TrendingUp', label: 'Health Certified' },
+            { iconName: 'Sparkles', label: 'Award Winning' },
+            { iconName: 'Star', label: 'Custom Designs' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @vagabondtattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'The Artist Behind The Journey',
+        paragraphs: [
+            'With over 8 years of experience in the tattoo industry, Alex Morgan founded Vagabond Tattoo with a vision to create meaningful art inspired by life\'s adventures. Specializing in travel-themed designs, geometric patterns, and custom illustrative work, Alex brings a unique perspective shaped by years of exploring different cultures and artistic traditions.',
+            'Every piece created at Vagabond Tattoo is a collaboration between artist and client, ensuring each design perfectly captures your personal story. From delicate line work to bold statement pieces, the focus remains on quality, creativity, and the lasting impact of truly personalized art.',
+        ],
+        callout: 'Your story deserves to be told through exceptional artistry and uncompromising quality.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Alex Morgan, founder and lead artist at Vagabond Tattoo',
+    },
+    faq: {
+        sectionTitle: 'Journey Questions Answered',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book?',
+                answer: 'For consultations, we typically have availability within 1-2 weeks. Tattoo sessions are usually scheduled 2-4 weeks out, depending on the size and complexity of your design. We recommend booking as early as possible to secure your preferred dates.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the consultation?',
+                answer: 'Your consultation includes a detailed discussion of your concept, custom design sketching, placement advice, sizing recommendations, and a complete timeline for your tattoo. The £80 consultation fee is applied toward your tattoo session when you proceed.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready To Start Your Journey?',
+        subheadline: 'Book your consultation today and let\'s create something extraordinary together',
+        ctaText: 'Book Your Consultation',
+    },
+    booking: {
+        modalTitle: 'Book Your Session',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to confirm your appointment.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'Thanks for your booking request. We\'ll review your details and get back to you within 24 hours to confirm your appointment and discuss your design ideas.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@vagabondtattoo.co.uk',
+        instagram: '@vagabondtattoo',
+        instagramUrl: 'https://instagram.com/vagabondtattoo',
+        phone: '+44 7700 900123',
+        address: '123 Creative Quarter, Studio District, UK',
+    },
+    footer: {
+        copyrightHolder: 'Vagabond Tattoo',
+        tagline: 'Art That Travels With You',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
