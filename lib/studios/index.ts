@@ -41,6 +41,7 @@ import { ONE_BY_ONE_TATTOO } from './one-by-one-tattoo'
 import { RED_POINT_TATTOO_TATTOO_STUDIO_NORTH_LONDON } from './red-point-tattoo-tattoo-studio-north-london'
 import { ORIGIN_TATTOO_LONDON } from './origin-tattoo-london'
 import { INKD_LONDON } from './inkd-london'
+import { BODY_CANVAS } from './body-canvas'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -86,6 +87,7 @@ export const studios: Record<string, StudioConfig> = {
         'red-point-tattoo-tattoo-studio-north-london': RED_POINT_TATTOO_TATTOO_STUDIO_NORTH_LONDON,
         'origin-tattoo-london': ORIGIN_TATTOO_LONDON,
         'inkd-london': INKD_LONDON,
+        'body-canvas': BODY_CANVAS,
     // [N8N-MARKER-REGISTRY]
 }
 
