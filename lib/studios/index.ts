@@ -46,6 +46,7 @@ import { WORLD_FAMOUS_FULHAM_TATTOO_LONDON } from './world-famous-fulham-tattoo-
 import { NOOIR_TATTOO_BLACKWORK_TATTOOS } from './nooir-tattoo-blackwork-tattoos'
 import { RIVAL_INK_TATTOO_SALFORD } from './rival-ink-tattoo-salford'
 import { SWEET_TIME_TATTOO } from './sweet-time-tattoo'
+import { KINGS_CROSS_TATTOO_PARLOUR } from './kings-cross-tattoo-parlour'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -96,6 +97,7 @@ export const studios: Record<string, StudioConfig> = {
         'nooir-tattoo-blackwork-tattoos': NOOIR_TATTOO_BLACKWORK_TATTOOS,
         'rival-ink-tattoo-salford': RIVAL_INK_TATTOO_SALFORD,
         'sweet-time-tattoo': SWEET_TIME_TATTOO,
+        'kings-cross-tattoo-parlour': KINGS_CROSS_TATTOO_PARLOUR,
     // [N8N-MARKER-REGISTRY]
 }
 
