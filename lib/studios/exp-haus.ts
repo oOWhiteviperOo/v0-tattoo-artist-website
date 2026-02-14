@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const EXP_HAUS: StudioConfig = {
+    identity: {
+        name: 'EXP Haus',
+        slug: 'exp-haus',
+        tagline: 'Where Art Meets Experience',
+        artistName: 'The EXP Haus Team',
+    },
+    theme: {
+        background: '0 0% 3%',
+        foreground: '60 9% 98%',
+        accent: '280 85% 60%',
+        accentForeground: '60 9% 98%',
+        mutedForeground: '24 5% 64%',
+        dimmedForeground: '12 6% 45%',
+        border: '20 6% 15%',
+        card: '20 6% 6%',
+        accentRgb: '153, 51, 255',
+        ring: '280 85% 60%',
+    },
+    seo: {
+        title: 'EXP Haus - Premium Tattoo Studio & Custom Art',
+        description: 'Experience exceptional tattoo artistry at EXP Haus. Custom designs, professional artists, and premium quality ink work. Book your consultation today.',
+        keywords: ['tattoo studio', 'custom tattoo design'],
+        openGraph: {
+            title: 'EXP Haus - Where Art Meets Experience',
+            description: 'Premium tattoo studio specializing in custom designs and exceptional artistry. Book your consultation today.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/exp-haus',
+            siteName: 'EXP Haus',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=EXP%20Haus+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'EXP Haus',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Now',
+    },
+    hero: {
+        headline: ['Where Art Meets', 'Experience'],
+        subheadline: 'Transform your vision into exceptional ink with our team of skilled artists specializing in custom designs and premium quality work.',
+        urgencyText: 'Limited appointments available this month',
+        ctaText: 'Book Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on custom design at EXP Haus',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '8+ Years Experience' },
+            { iconName: 'Zap', label: '1500+ Tattoos Done' },
+            { iconName: 'Award', label: '5-Star Rated' },
+            { iconName: 'Shield', label: 'Custom Designs Only' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Our Latest Work',
+        subtitle: 'Every piece tells a story. Explore our collection of custom tattoos and see the artistry that sets EXP Haus apart.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Choose the perfect session for your tattoo journey. All sessions include consultation, custom design, and aftercare guidance.',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Standard Session',
+                duration: '2-4 hours',
+                price: '£200-400',
+                priceSubtitle: 'Starting from £200',
+                features: ['Custom design consultation', 'Premium ink and equipment'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Standard',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Extended Session',
+                duration: '4-8 hours',
+                price: '£400-800',
+                priceSubtitle: 'Starting from £400',
+                features: ['Complex detailed work', 'Multiple session planning'],
+                status: 'available',
+                availabilityText: 'Limited slots',
+                buttonText: 'Book Extended',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'What Our Clients Say',
+        testimonials: [
+            {
+                quote: 'The team at EXP Haus exceeded every expectation. My tattoo is absolutely perfect and the experience was incredible from start to finish.',
+                author: 'Sarah M.',
+                city: 'London',
+                rating: 5,
+            },
+            {
+                quote: 'Professional, creative, and incredibly talented. They brought my vision to life better than I ever imagined possible.',
+                author: 'James R.',
+                city: 'Manchester',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Aftercare Support' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @exphaus_tattoo',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'About EXP Haus',
+        paragraphs: [
+            'EXP Haus was founded on the belief that every tattoo should be an experience worth remembering. Our team of skilled artists combines technical expertise with creative vision to deliver exceptional custom tattoos that tell your unique story.',
+            'We pride ourselves on creating a welcoming, professional environment where artistry meets innovation. From initial consultation to final aftercare, we\'re committed to making your tattoo journey extraordinary.',
+        ],
+        callout: 'Every tattoo we create is a collaboration between artist and client, resulting in truly one-of-a-kind artwork.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'EXP Haus tattoo artist working on custom design',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How do I book a consultation?',
+                answer: 'You can book a consultation through our online booking system or contact us directly. We\'ll discuss your ideas, provide design concepts, and schedule your tattoo session.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What\'s included in the session price?',
+                answer: 'All sessions include consultation, custom design work, tattooing, and comprehensive aftercare instructions. We use only premium inks and sterile equipment.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Start Your Tattoo Journey?',
+        subheadline: 'Book your consultation today and let\'s bring your vision to life with exceptional artistry.',
+        ctaText: 'Book Your Session',
+    },
+    booking: {
+        modalTitle: 'Book Your Tattoo Session',
+        modalDescription: 'Tell us about your tattoo ideas and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Booking Request Sent!',
+        successMessage: 'We\'ll contact you within 24 hours to confirm your appointment and discuss your tattoo ideas.',
+        submitText: 'Send Booking Request',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment',
+    },
+    contact: {
+        email: 'hello@exphaus.co.uk',
+        instagram: '@exphaus_tattoo',
+        instagramUrl: 'https://instagram.com/exphaus_tattoo',
+        phone: '+44 20 7123 4567',
+        address: 'Studio Location Available Upon Booking',
+    },
+    footer: {
+        copyrightHolder: 'EXP Haus',
+        tagline: 'Where Art Meets Experience',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
