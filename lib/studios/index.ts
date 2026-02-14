@@ -63,6 +63,7 @@ import { THE_STUDIO_AFFLECKS } from './the-studio-afflecks'
 import { PEEL_TATTOO } from './peel-tattoo'
 import { HOPE_ROSEMARY_TATTOO } from './hope-rosemary-tattoo'
 import { TIBOR_VARGA_TATTOO } from './tibor-varga-tattoo'
+import { SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC } from './skalp-manchester-scalp-micropigmentation-clinic'
 // [N8N-MARKER-IMPORT]
 
 export const studios: Record<string, StudioConfig> = {
@@ -130,6 +131,7 @@ export const studios: Record<string, StudioConfig> = {
         'peel-tattoo': PEEL_TATTOO,
         'hope-rosemary-tattoo': HOPE_ROSEMARY_TATTOO,
         'tibor-varga-tattoo': TIBOR_VARGA_TATTOO,
+        'skalp-manchester-scalp-micropigmentation-clinic': SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC,
     // [N8N-MARKER-REGISTRY]
 }
 
