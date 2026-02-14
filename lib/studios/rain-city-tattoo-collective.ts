@@ -1,0 +1,196 @@
+import { StudioConfig } from '../types/studio-config'
+
+export const RAIN_CITY_TATTOO_COLLECTIVE: StudioConfig = {
+    identity: {
+        name: 'Rain City Tattoo Collective',
+        slug: 'rain-city-tattoo-collective',
+        tagline: 'Where Art Meets Skin in the Heart of the City',
+        artistName: 'Marcus Chen',
+    },
+    theme: {
+        background: '220 15% 4%',
+        foreground: '220 10% 95%',
+        accent: '200 85% 55%',
+        accentForeground: '220 10% 95%',
+        mutedForeground: '220 8% 65%',
+        dimmedForeground: '220 10% 45%',
+        border: '220 15% 12%',
+        card: '220 15% 6%',
+        accentRgb: '41, 171, 226',
+        ring: '200 85% 55%',
+    },
+    seo: {
+        title: 'Rain City Tattoo Collective - Premium Custom Tattoos',
+        description: 'Rain City Tattoo Collective creates stunning custom tattoos with precision and artistry. Book your consultation today for premium ink work.',
+        keywords: ['custom tattoo artist', 'tattoo studio'],
+        openGraph: {
+            title: 'Rain City Tattoo Collective - Where Art Meets Skin',
+            description: 'Premium custom tattoos crafted with precision and artistry. Experience the Rain City difference.',
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://v0-inkandiron.vercel.app/rain-city-tattoo-collective',
+            siteName: 'Rain City Tattoo Collective',
+            images: [
+                {
+                    url: 'https://placehold.co/1200x630?text=Rain%20City%20Tattoo%20Collective+OG',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Rain City Tattoo Collective',
+                },
+            ],
+        },
+    },
+    nav: {
+        links: [
+            { label: 'Work', href: '#work' },
+            { label: 'Sessions', href: '#sessions' },
+            { label: 'FAQ', href: '#faq' },
+        ],
+        bookButtonText: 'Book Consultation',
+    },
+    hero: {
+        headline: ['Premium Tattoos in the', 'Rain City'],
+        subheadline: 'Where artistic vision meets technical mastery. Custom designs crafted with precision, passion, and years of experience.',
+        urgencyText: 'Limited consultation slots available this month',
+        ctaText: 'Book Your Consultation',
+        image: 'https://placehold.co/800x1000?text=Hero+Image',
+        imageAlt: 'Professional tattoo artist working on detailed custom design',
+    },
+    trustMetrics: {
+        items: [
+            { iconName: 'CheckCircle2', label: '12+ Years Experience' },
+            { iconName: 'Zap', label: '3000+ Tattoos Created' },
+            { iconName: 'Award', label: '5-Star Rated Studio' },
+            { iconName: 'Shield', label: '100% Custom Designs' },
+        ],
+    },
+    portfolio: {
+        sectionTitle: 'Artistic Excellence',
+        subtitle: 'Each piece tells a story, crafted with precision and brought to life through our unique artistic vision.',
+        images: [
+            'https://placehold.co/600x600?text=Portfolio+1',
+            'https://placehold.co/600x600?text=Portfolio+2',
+            'https://placehold.co/600x600?text=Portfolio+3',
+            'https://placehold.co/600x600?text=Portfolio+4',
+            'https://placehold.co/600x600?text=Portfolio+5',
+            'https://placehold.co/600x600?text=Portfolio+6',
+        ],
+    },
+    sessions: {
+        sectionTitle: 'Tattoo Sessions',
+        subtitle: 'Professional sessions tailored to bring your vision to life with exceptional quality and attention to detail.',
+        guarantee: '100% satisfaction guarantee on all work',
+        popularLabel: 'Most Popular',
+        waitlistButtonText: 'Join Waitlist',
+        items: [
+            {
+                iconName: 'Zap',
+                title: 'Small Piece Session',
+                duration: '2-3 hours',
+                price: '£250',
+                priceSubtitle: 'Perfect for first tattoos or simple designs',
+                features: ['Custom design consultation', 'Premium ink and equipment'],
+                status: 'limited',
+                availabilityText: 'Available this week',
+                buttonText: 'Book Small Session',
+                popular: false,
+                buttonVariant: 'outline',
+            },
+            {
+                iconName: 'Clock',
+                title: 'Large Piece Session',
+                duration: '4-6 hours',
+                price: '£450',
+                priceSubtitle: 'For detailed artwork and larger pieces',
+                features: ['Extended design process', 'Multiple revision rounds'],
+                status: 'available',
+                availabilityText: 'Next available: 2 weeks',
+                buttonText: 'Book Large Session',
+                popular: true,
+                buttonVariant: 'default',
+            },
+        ],
+    },
+    socialProof: {
+        sectionTitle: 'Trusted by Tattoo Enthusiasts',
+        testimonials: [
+            {
+                quote: 'Marcus at Rain City created the most incredible sleeve for me. The attention to detail and artistic vision exceeded all my expectations. Absolutely phenomenal work!',
+                author: 'Sarah Mitchell',
+                city: 'Manchester',
+                rating: 5,
+            },
+            {
+                quote: 'The Rain City team made my first tattoo experience amazing. Professional, clean, and the artwork is stunning. I\'ll definitely be back for more pieces!',
+                author: 'James Thompson',
+                city: 'Liverpool',
+                rating: 5,
+            },
+        ],
+        trustBadges: [
+            { iconName: 'CheckCircle2', label: 'Licensed & Insured' },
+            { iconName: 'TrendingUp', label: 'Sterile Environment' },
+            { iconName: 'Sparkles', label: 'Premium Equipment' },
+            { iconName: 'Star', label: 'Award Winning' },
+        ],
+        instagram: {
+            label: 'Follow on Instagram @raincitytattoos',
+            images: [
+                'https://placehold.co/400x400?text=Insta+1',
+                'https://placehold.co/400x400?text=Insta+2',
+                'https://placehold.co/400x400?text=Insta+3',
+                'https://placehold.co/400x400?text=Insta+4',
+            ],
+        },
+    },
+    about: {
+        sectionTitle: 'Master of the Craft',
+        paragraphs: [
+            'With over 12 years of experience in the tattoo industry, Marcus Chen has established Rain City Tattoo Collective as a premier destination for custom artwork. His journey began with traditional apprenticeships and has evolved into mastering multiple styles from photorealistic portraits to intricate geometric designs.',
+            'Every piece created at Rain City is a collaboration between artist and client, ensuring each tattoo is not just expertly executed but deeply meaningful. We believe in the power of ink to tell stories, commemorate moments, and express individuality through permanent art.',
+        ],
+        callout: 'Your vision, our expertise – creating timeless art that you\'ll be proud to wear forever.',
+        image: 'https://placehold.co/600x800?text=Artist+Portrait',
+        imageAlt: 'Marcus Chen, master tattoo artist at Rain City Tattoo Collective',
+    },
+    faq: {
+        sectionTitle: 'Frequently Asked Questions',
+        items: [
+            {
+                id: 'faq-1',
+                question: 'How far in advance should I book my appointment?',
+                answer: 'We recommend booking 2-4 weeks in advance for the best availability. Popular time slots and larger pieces may require longer lead times. Contact us to discuss your timeline and we\'ll work to accommodate your schedule.',
+            },
+            {
+                id: 'faq-2',
+                question: 'What should I expect during my first consultation?',
+                answer: 'During your consultation, we\'ll discuss your vision, preferred placement, sizing, and style preferences. We\'ll create preliminary sketches and provide detailed pricing. This session typically takes 30-60 minutes and helps ensure your final tattoo exceeds expectations.',
+            },
+        ],
+    },
+    finalCta: {
+        headline: 'Ready to Create Your Masterpiece?',
+        subheadline: 'Join hundreds of satisfied clients who chose Rain City for their custom tattoo experience. Book your consultation today.',
+        ctaText: 'Start Your Journey',
+    },
+    booking: {
+        modalTitle: 'Book Your Consultation',
+        modalDescription: 'Ready to start your tattoo journey? Fill out the form below and we\'ll get back to you within 24 hours to schedule your consultation.',
+        successTitle: 'Consultation Requested!',
+        successMessage: 'Thanks for your interest! We\'ll review your request and get back to you within 24 hours to confirm your consultation time.',
+        submitText: 'Request Consultation',
+        depositDisclaimer: 'A £50 deposit will be required to secure your appointment, which goes towards your final session cost.',
+    },
+    contact: {
+        email: 'hello@raincitytattoos.co.uk',
+        instagram: '@raincitytattoos',
+        instagramUrl: 'https://instagram.com/raincitytattoos',
+        phone: '+44 7123 456789',
+        address: '123 Ink Street, Creative Quarter, City Centre',
+    },
+    footer: {
+        copyrightHolder: 'Rain City Tattoo Collective',
+        tagline: 'Where Art Meets Skin',
+    },
+    blurDataUrl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==',
+}
