@@ -6,8 +6,9 @@ import { useStudio } from '@/lib/studio-context'
 export function FinalCTA({ onBookingOpen }: { onBookingOpen: () => void }) {
   const { finalCta } = useStudio()
   return (
-    <section className="relative bg-secondary py-24 lg:py-32">
-      <div className="mx-auto max-w-3xl px-6 text-center">
+    <section className="relative bg-card py-24 lg:py-32 overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,hsl(var(--accent)/0.04),transparent_70%)]" />
+      <div className="relative mx-auto max-w-3xl px-6 text-center">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -23,7 +24,7 @@ export function FinalCTA({ onBookingOpen }: { onBookingOpen: () => void }) {
           <button
             type="button"
             onClick={onBookingOpen}
-            className="mt-10 inline-block bg-accent text-accent-foreground px-10 py-3.5 font-sans text-sm font-medium rounded-sm transition-colors duration-200 hover:bg-accent/90"
+            className="mt-10 inline-block bg-accent text-accent-foreground px-10 py-3.5 font-sans text-sm font-medium rounded transition-all duration-200 hover:bg-accent/90 hover:shadow-subtle active:scale-[0.98]"
           >
             {finalCta.ctaText}
           </button>

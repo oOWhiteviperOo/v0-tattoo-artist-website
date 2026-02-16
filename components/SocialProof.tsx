@@ -10,7 +10,7 @@ import { TrustBadge } from '@/lib/types/studio-config'
 export function SocialProof() {
   const { socialProof, blurDataUrl } = useStudio()
   return (
-    <section className="bg-background py-20 lg:py-28">
+    <section className="bg-secondary py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mb-12"
@@ -50,7 +50,7 @@ export function SocialProof() {
           </p>
           <div className="grid grid-cols-3 gap-2 lg:grid-cols-6">
             {socialProof.instagram.images.map((src, i) => (
-              <div key={src} className="relative aspect-square overflow-hidden bg-secondary rounded-sm">
+              <div key={src} className="group relative aspect-square overflow-hidden bg-background rounded">
                 <Image
                   src={src || "/placeholder.svg"}
                   alt={`Instagram post ${i + 1}`}
@@ -58,7 +58,7 @@ export function SocialProof() {
                   sizes="(max-width: 640px) 33vw, 16vw"
                   placeholder="blur"
                   blurDataURL={blurDataUrl}
-                  className="object-cover transition-[filter] duration-300 hover:brightness-110"
+                  className="object-cover transition-all duration-500 group-hover:scale-[1.03] group-hover:brightness-110"
                 />
               </div>
             ))}

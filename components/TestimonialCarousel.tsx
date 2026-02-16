@@ -23,17 +23,19 @@ function StarRating({ rating }: { rating: number }) {
 
 function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
-    <div className="flex h-full flex-col justify-between border border-border bg-card p-6 rounded-sm">
+    <div className="flex h-full flex-col justify-between border border-border bg-card p-6 rounded transition-colors duration-300 hover:border-accent/20">
       <div>
         <StarRating rating={testimonial.rating} />
-        <p className="mt-4 text-base leading-relaxed text-foreground">
-          <span className="font-display text-2xl text-accent/20 leading-none">&ldquo;</span>
-          {testimonial.quote}
-        </p>
+        <div className="mt-4">
+          <span className="block font-display text-3xl text-accent/30 leading-none select-none">&ldquo;</span>
+          <p className="mt-1 text-base leading-relaxed text-foreground">
+            {testimonial.quote}
+          </p>
+        </div>
       </div>
-      <div className="mt-6">
+      <div className="mt-6 pt-4 border-t border-border">
         <p className="text-sm font-medium text-foreground">{testimonial.author}</p>
-        <p className="text-sm text-muted-foreground">{testimonial.city}</p>
+        <p className="text-xs text-muted-foreground">{testimonial.city}</p>
       </div>
     </div>
   )
@@ -77,7 +79,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
               type="button"
               onClick={() => goTo(currentIndex - 1)}
               disabled={currentIndex === 0}
-              className="flex h-10 w-10 items-center justify-center border border-border text-muted-foreground rounded-sm transition-colors hover:border-foreground/20 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+              className="flex h-10 w-10 items-center justify-center border border-border text-muted-foreground rounded transition-all duration-200 hover:border-foreground/20 hover:text-foreground active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed"
               aria-label="Previous testimonials"
             >
               <ChevronLeft className="h-5 w-5" />
@@ -86,7 +88,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
               type="button"
               onClick={() => goTo(currentIndex + 1)}
               disabled={currentIndex >= maxIndex}
-              className="flex h-10 w-10 items-center justify-center border border-border text-muted-foreground rounded-sm transition-colors hover:border-foreground/20 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+              className="flex h-10 w-10 items-center justify-center border border-border text-muted-foreground rounded transition-all duration-200 hover:border-foreground/20 hover:text-foreground active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed"
               aria-label="Next testimonials"
             >
               <ChevronRight className="h-5 w-5" />
@@ -117,13 +119,13 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
         ))}
       </div>
       {/* Dots */}
-      <div className="mt-4 flex justify-center gap-2">
+      <div className="mt-6 flex justify-center gap-3">
         {testimonials.map((t, i) => (
           <button
             key={t.author}
             type="button"
             onClick={() => goTo(i)}
-            className={`h-2 w-2 rounded-full transition-colors ${i === currentIndex ? 'bg-accent' : 'bg-border'}`}
+            className={`h-2.5 w-2.5 rounded-full transition-all duration-300 ${i === currentIndex ? 'bg-accent scale-110' : 'bg-border hover:bg-muted-foreground/30'}`}
             aria-label={`Go to testimonial ${i + 1}`}
           />
         ))}
