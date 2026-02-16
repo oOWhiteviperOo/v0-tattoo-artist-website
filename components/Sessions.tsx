@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'motion/react'
+import { Shield } from 'lucide-react'
 import { useStudio } from '@/lib/studio-context'
 import { SessionCard } from './SessionCard'
 
@@ -12,8 +13,8 @@ export function Sessions({ onBookingOpen }: { onBookingOpen: (title?: string) =>
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mb-12"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 8 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
@@ -44,7 +45,8 @@ export function Sessions({ onBookingOpen }: { onBookingOpen: (title?: string) =>
         </motion.div>
 
         {sessions.guarantee && (
-          <div className="mt-12 text-center">
+          <div className="mt-10 flex items-center justify-center gap-2.5">
+            <Shield className="h-4 w-4 text-accent" />
             <span className="text-sm text-muted-foreground">
               {sessions.guarantee}
             </span>

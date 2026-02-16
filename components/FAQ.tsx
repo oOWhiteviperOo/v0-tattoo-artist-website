@@ -7,7 +7,7 @@ import { useStudio } from '@/lib/studio-context'
 export function FAQ() {
   const { faq } = useStudio()
   return (
-    <section id="faq" className="bg-background py-20 lg:py-28">
+    <section id="faq" className="bg-secondary py-20 lg:py-28">
       <div className="mx-auto max-w-3xl px-6">
         <motion.div
           className="mb-12"

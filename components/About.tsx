@@ -15,7 +15,7 @@ export function About() {
   const yParallax = useTransform(scrollYProgress, [0, 1], [0, -20])
 
   return (
-    <section ref={sectionRef} className="bg-background py-20 lg:py-28">
+    <section id="about" ref={sectionRef} className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mb-12"
@@ -32,7 +32,7 @@ export function About() {
         <div className="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-16">
           {/* Image */}
           <motion.div
-            className="relative aspect-[3/4] w-full overflow-hidden lg:w-1/2"
+            className="relative aspect-[3/4] w-full overflow-hidden rounded lg:w-1/2"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true, margin: '-100px' }}
@@ -70,8 +70,8 @@ export function About() {
                 {paragraph}
               </p>
             ))}
-            <div className="border-l border-border pl-6">
-              <p className="text-base italic text-foreground/80 font-display">
+            <div className="border-l-2 border-accent/40 pl-6 py-1">
+              <p className="text-lg italic text-foreground/80 font-display leading-relaxed">
                 {about.callout}
               </p>
             </div>

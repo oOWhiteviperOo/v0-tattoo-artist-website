@@ -28,11 +28,15 @@ export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
           scrolled
-            ? 'bg-background/95 backdrop-blur-md border-b border-border shadow-subtle'
+            ? 'bg-background/95 backdrop-blur-md border-b border-border'
             : 'bg-transparent border-b border-transparent'
         }`}
+        style={{
+          boxShadow: scrolled ? '0 1px 3px rgba(0, 0, 0, 0.3)' : 'none',
+          transition: 'background-color 0.5s, border-color 0.5s, box-shadow 0.5s',
+        }}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
@@ -41,7 +45,7 @@ export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
               e.preventDefault()
               window.scrollTo({ top: 0, behavior: 'smooth' })
             }}
-            className="font-display text-xl font-normal text-foreground"
+            className="font-display text-xl font-normal text-foreground transition-colors duration-200 hover:text-accent"
           >
             {identity.name}
           </a>
@@ -60,7 +64,7 @@ export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
             <button
               type="button"
               onClick={onBookingOpen}
-              className="font-sans text-sm font-medium bg-accent text-accent-foreground px-5 py-2 rounded-sm transition-colors duration-200 hover:bg-accent/90"
+              className="font-sans text-sm font-medium bg-accent text-accent-foreground px-5 py-2 rounded transition-all duration-200 hover:bg-accent/90 active:scale-[0.98]"
             >
               {nav.bookButtonText}
             </button>
@@ -69,7 +73,7 @@ export function Header({ onBookingOpen }: { onBookingOpen: () => void }) {
           <button
             type="button"
             onClick={() => setMobileOpen(true)}
-            className="lg:hidden text-foreground p-2"
+            className="lg:hidden text-foreground p-2 rounded transition-colors duration-200 hover:bg-secondary"
             aria-label="Open menu"
           >
             <Menu className="h-6 w-6" />

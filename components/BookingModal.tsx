@@ -144,7 +144,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-h-[90vh] overflow-y-auto bg-card border-border rounded-sm sm:max-w-lg">
+      <DialogContent className="max-h-[90vh] overflow-y-auto bg-card border-border rounded sm:max-w-lg">
         {submitted ? (
           <div className="flex flex-col items-center justify-center gap-4 py-12">
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10">
@@ -208,7 +208,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
                   <Input
                     id="phone"
                     type="tel"
-                    placeholder="(555) 000-0000"
+                    placeholder="07700 900000"
                     value={form.phone}
                     onChange={(e) => update('phone', e.target.value)}
                     className={inputClass}
@@ -315,7 +315,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="mt-2 w-full bg-accent py-3 font-sans text-sm font-medium text-accent-foreground rounded-sm transition-colors duration-200 hover:bg-accent/90 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="mt-2 w-full bg-accent py-3 font-sans text-sm font-medium text-accent-foreground rounded transition-all duration-200 hover:bg-accent/90 hover:shadow-subtle active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? 'Submitting...' : booking.submitText}
               </button>

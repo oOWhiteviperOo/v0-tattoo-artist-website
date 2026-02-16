@@ -12,10 +12,10 @@ export function Footer({ onBookingOpen }: { onBookingOpen: () => void }) {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
           {/* About */}
           <div>
-            <p className="font-display text-xl font-normal text-foreground">
+            <p className="font-display text-xl font-normal text-foreground hover:text-accent transition-colors duration-200">
               {identity.name}
             </p>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
               {footer.tagline}
             </p>
             <p className="mt-1 text-sm text-muted-foreground">{contact.address}</p>
@@ -86,10 +86,10 @@ export function Footer({ onBookingOpen }: { onBookingOpen: () => void }) {
             &copy; {new Date().getFullYear()} {footer.copyrightHolder}. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
+            <a href="#" className="text-xs text-muted-foreground transition-colors duration-200 hover:text-foreground">
               Terms & Conditions
             </a>
-            <a href="#" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
+            <a href="#" className="text-xs text-muted-foreground transition-colors duration-200 hover:text-foreground">
               Privacy Policy
             </a>
           </div>
