@@ -44,19 +44,20 @@ const config: Config = {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
-        gold: '#C8A96E',
         dimmed: 'hsl(var(--dimmed-foreground))',
       },
       boxShadow: {
-        'accent-glow': '0 0 20px rgba(var(--accent-rgb), 0.25)',
+        elevated: '0 4px 24px -4px rgba(0, 0, 0, 0.4)',
+        subtle: '0 1px 3px rgba(0, 0, 0, 0.3)',
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)'],
+        display: ['var(--font-display)'],
       },
       borderRadius: {
         lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        md: 'calc(var(--radius) - 1px)',
+        sm: 'calc(var(--radius) - 2px)',
       },
       keyframes: {
         'accordion-down': {

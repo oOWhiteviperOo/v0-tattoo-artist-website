@@ -1,13 +1,7 @@
 'use client'
 
-import { Zap, Clock, Calendar, Check } from 'lucide-react'
+import { Check } from 'lucide-react'
 import type { SessionData } from '@/lib/types/studio-config'
-
-const ICON_MAP = {
-  Zap,
-  Clock,
-  Calendar,
-} as const
 
 interface SessionCardProps {
   session: SessionData
@@ -17,29 +11,25 @@ interface SessionCardProps {
 }
 
 export function SessionCard({ session, popularLabel, waitlistButtonText, onBook }: SessionCardProps) {
-  const Icon = ICON_MAP[session.iconName]
   const isSoldOut = session.status === 'sold_out'
 
   return (
-    <div className="group relative flex flex-col border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-accent/15 hover:bg-white/[0.06] lg:p-8">
+    <div className="group relative flex flex-col border border-border bg-card p-6 rounded-sm transition-colors duration-200 hover:border-accent/30 lg:p-8">
       {session.popular && (
-        <div className="absolute -top-px left-6 bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-accent-foreground">
+        <div className="absolute -top-px left-6 bg-accent px-3 py-1 text-xs font-medium text-accent-foreground rounded-b-sm">
           {popularLabel}
         </div>
       )}
 
-      <div className="mb-4 flex items-center gap-3">
-        <Icon className="h-5 w-5 text-accent" />
-        <h3 className="font-sans text-xl font-bold uppercase tracking-tight text-foreground">
-          {session.title}
-        </h3>
-      </div>
+      <h3 className="font-display text-xl font-normal text-foreground">
+        {session.title}
+      </h3>
 
-      <p className="text-sm text-dimmed">{session.duration}</p>
+      <p className="mt-1 text-sm text-muted-foreground">{session.duration}</p>
 
       <div className="mt-4 mb-6">
-        <span className="font-sans text-3xl font-extrabold text-foreground">{session.price}</span>
-        <p className="mt-1 text-sm text-dimmed">{session.priceSubtitle}</p>
+        <span className="font-display text-3xl font-normal text-foreground">{session.price}</span>
+        <p className="mt-1 text-sm text-muted-foreground">{session.priceSubtitle}</p>
       </div>
 
       <ul className="mb-8 flex flex-col gap-3 flex-1">
@@ -52,28 +42,24 @@ export function SessionCard({ session, popularLabel, waitlistButtonText, onBook 
       </ul>
 
       <div className="mt-auto flex flex-col gap-3">
-        <div className="flex items-center gap-2">
-          {session.status === 'limited' && (
-            <span className="inline-block h-2 w-2 rounded-full bg-accent animate-pulse-dot" />
-          )}
+        {session.availabilityText && (
           <span
-            className={`text-xs font-medium uppercase tracking-wider ${isSoldOut ? 'text-dimmed' : session.status === 'limited' ? 'text-accent' : 'text-muted-foreground'
-              }`}
+            className={`text-xs font-medium ${isSoldOut ? 'text-muted-foreground' : session.status === 'limited' ? 'text-accent' : 'text-muted-foreground'}`}
           >
             {session.availabilityText}
           </span>
-        </div>
+        )}
 
         <button
           type="button"
           onClick={() => onBook(session.title)}
-          className={`w-full py-3 font-sans text-sm font-bold uppercase tracking-wider transition-all duration-300 ${session.buttonVariant === 'default'
-              ? 'bg-accent text-accent-foreground hover:scale-[1.02] hover:shadow-accent-glow'
-              : 'border border-white/[0.06] text-foreground hover:border-accent/15 hover:bg-white/[0.06]'
+          className={`w-full py-3 font-sans text-sm font-medium rounded-sm transition-colors duration-200 ${session.buttonVariant === 'default'
+              ? 'bg-accent text-accent-foreground hover:bg-accent/90'
+              : 'border border-border text-foreground hover:border-accent/30'
             } ${isSoldOut ? 'opacity-50 cursor-not-allowed' : ''}`}
           disabled={isSoldOut}
         >
-          {isSoldOut ? waitlistButtonText : `${session.buttonText} \u2192`}
+          {isSoldOut ? waitlistButtonText : session.buttonText}
         </button>
       </div>
     </div>

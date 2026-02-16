@@ -10,28 +10,28 @@
 
 @layer base {
   :root {
-    --background: 0 0% 4%;
-    --foreground: 0 0% 96%;
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 96%;
-    --popover: 0 0% 8%;
-    --popover-foreground: 0 0% 96%;
-    --primary: 0 0% 96%;
-    --primary-foreground: 0 0% 4%;
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 63%;
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 42%;
-    --accent: 39 35% 61%;
-    --accent-foreground: 0 0% 4%;
-    --accent-rgb: 200, 169, 110;
-    --dimmed-foreground: 0 0% 42%;
-    --destructive: 0 84.2% 60.2%;
+    --background: 20 8% 5%;
+    --foreground: 40 10% 93%;
+    --card: 20 6% 8%;
+    --card-foreground: 40 10% 93%;
+    --popover: 20 6% 10%;
+    --popover-foreground: 40 10% 93%;
+    --primary: 40 10% 93%;
+    --primary-foreground: 20 8% 5%;
+    --secondary: 20 5% 14%;
+    --secondary-foreground: 30 5% 60%;
+    --muted: 20 5% 14%;
+    --muted-foreground: 30 5% 55%;
+    --accent: 32 80% 50%;
+    --accent-foreground: 20 8% 5%;
+    --accent-rgb: 230, 155, 25;
+    --dimmed-foreground: 25 4% 45%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 12%;
-    --input: 0 0% 12%;
-    --ring: 39 35% 61%;
-    --radius: 0rem;
+    --border: 20 5% 15%;
+    --input: 20 5% 15%;
+    --ring: 32 80% 50%;
+    --radius: 0.25rem;
   }
 }
 
@@ -42,33 +42,4 @@
   body {
     @apply bg-background text-foreground;
   }
-}
-
-@keyframes ken-burns {
-  0% {
-    transform: scale(1) translate(0, 0);
-  }
-  50% {
-    transform: scale(1.08) translate(-1.5%, -1%);
-  }
-  100% {
-    transform: scale(1) translate(0, 0);
-  }
-}
-
-.animate-ken-burns {
-  animation: ken-burns 25s ease-in-out infinite;
-}
-
-@keyframes pulse-dot {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.4;
-  }
-}
-
-.animate-pulse-dot {
-  animation: pulse-dot 2s ease-in-out infinite;
 }

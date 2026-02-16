@@ -139,18 +139,18 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
   const today = new Date().toISOString().split('T')[0]
 
   const inputClass =
-    'bg-background border-border text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-accent rounded-none'
+    'bg-background border-border text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-accent rounded-sm'
   const errorBorder = 'border-red-500/50'
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-h-[90vh] overflow-y-auto bg-card border-border rounded-none sm:max-w-lg">
+      <DialogContent className="max-h-[90vh] overflow-y-auto bg-card border-border rounded-sm sm:max-w-lg">
         {submitted ? (
           <div className="flex flex-col items-center justify-center gap-4 py-12">
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10">
               <Check className="h-8 w-8 text-accent" />
             </div>
-            <p className="text-center font-sans text-lg font-semibold text-foreground">
+            <p className="text-center font-display text-lg text-foreground">
               {booking.successTitle}
             </p>
             <p className="text-center text-sm text-muted-foreground">
@@ -160,7 +160,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
         ) : (
           <>
             <DialogHeader>
-              <DialogTitle className="font-sans text-lg font-bold uppercase tracking-wider text-accent">
+              <DialogTitle className="font-display text-xl font-normal text-foreground">
                 {booking.modalTitle}
               </DialogTitle>
               <DialogDescription className="text-sm text-muted-foreground">
@@ -171,7 +171,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
             <form onSubmit={handleSubmit} className="flex flex-col gap-4 mt-2">
               {/* Full Name */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="fullName" className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                <Label htmlFor="fullName" className="text-xs font-medium text-muted-foreground">
                   Full Name <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -186,7 +186,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Email */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="email" className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                <Label htmlFor="email" className="text-xs font-medium text-muted-foreground">
                   Email <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -202,7 +202,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
               {/* Phone & Instagram */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="phone" className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                  <Label htmlFor="phone" className="text-xs font-medium text-muted-foreground">
                     Phone
                   </Label>
                   <Input
@@ -215,7 +215,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="instagram" className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                  <Label htmlFor="instagram" className="text-xs font-medium text-muted-foreground">
                     Instagram
                   </Label>
                   <Input
@@ -231,7 +231,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Session Type */}
               <div className="flex flex-col gap-1.5">
-                <Label className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                <Label className="text-xs font-medium text-muted-foreground">
                   Session Type <span className="text-red-400">*</span>
                 </Label>
                 <Select value={form.sessionType} onValueChange={(v) => update('sessionType', v)}>
@@ -240,7 +240,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
                   </SelectTrigger>
                   <SelectContent className="bg-card border-border">
                     {sessions.items.map((session) => (
-                      <SelectItem key={session.title} value={session.title} className="text-foreground focus:bg-white/[0.06] focus:text-foreground">
+                      <SelectItem key={session.title} value={session.title} className="text-foreground focus:bg-secondary focus:text-foreground">
                         {session.title}
                       </SelectItem>
                     ))}
@@ -250,7 +250,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Preferred Date */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="preferredDate" className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                <Label htmlFor="preferredDate" className="text-xs font-medium text-muted-foreground">
                   Preferred Date <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -265,7 +265,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Placement */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="placement" className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                <Label htmlFor="placement" className="text-xs font-medium text-muted-foreground">
                   Placement <span className="text-red-400">*</span>
                 </Label>
                 <Input
@@ -280,7 +280,7 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
 
               {/* Description */}
               <div className="flex flex-col gap-1.5">
-                <Label htmlFor="description" className="text-xs font-medium uppercase tracking-wider text-dimmed">
+                <Label htmlFor="description" className="text-xs font-medium text-muted-foreground">
                   {'Description / References'} <span className="text-red-400">*</span>
                 </Label>
                 <Textarea
@@ -315,9 +315,9 @@ export function BookingModal({ open, onOpenChange, sessionTitle }: BookingModalP
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="mt-2 w-full bg-accent py-3 font-sans text-sm font-bold uppercase tracking-wider text-accent-foreground transition-all duration-300 hover:scale-[1.02] hover:shadow-accent-glow disabled:opacity-50 disabled:cursor-not-allowed"
+                className="mt-2 w-full bg-accent py-3 font-sans text-sm font-medium text-accent-foreground rounded-sm transition-colors duration-200 hover:bg-accent/90 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Submitting...' : `${booking.submitText} \u2192`}
+                {isSubmitting ? 'Submitting...' : booking.submitText}
               </button>
             </form>
           </>
