@@ -12,19 +12,19 @@ export function About() {
     target: sectionRef,
     offset: ['start end', 'end start'],
   })
-  const yParallax = useTransform(scrollYProgress, [0, 1], [0, -40])
+  const yParallax = useTransform(scrollYProgress, [0, 1], [0, -20])
 
   return (
     <section ref={sectionRef} className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
-          className="mb-12 text-center lg:text-left"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
+          className="mb-12"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: '-100px' }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-foreground sm:text-4xl lg:text-5xl">
+          <h2 className="font-display text-3xl font-normal text-foreground sm:text-4xl">
             {about.sectionTitle}
           </h2>
         </motion.div>
@@ -33,10 +33,10 @@ export function About() {
           {/* Image */}
           <motion.div
             className="relative aspect-[3/4] w-full overflow-hidden lg:w-1/2"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, ease: 'easeOut' }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, margin: '-100px' }}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
             <motion.div
               className="relative h-full w-full"
@@ -49,7 +49,7 @@ export function About() {
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 placeholder="blur"
                 blurDataURL={blurDataUrl}
-                className="rounded-lg object-cover"
+                className="rounded-sm object-cover"
               />
             </motion.div>
           </motion.div>
@@ -57,10 +57,10 @@ export function About() {
           {/* Text */}
           <motion.div
             className="flex flex-1 flex-col gap-6"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, margin: '-100px' }}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
             {about.paragraphs.map((paragraph, index) => (
               <p
@@ -70,8 +70,8 @@ export function About() {
                 {paragraph}
               </p>
             ))}
-            <div className="border-l-2 border-accent pl-4">
-              <p className="text-sm font-medium text-accent">
+            <div className="border-l border-border pl-6">
+              <p className="text-base italic text-foreground/80 font-display">
                 {about.callout}
               </p>
             </div>

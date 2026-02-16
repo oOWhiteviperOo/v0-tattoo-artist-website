@@ -70,7 +70,7 @@ export function MobileMenu({ isOpen, onClose, onBookingOpen }: MobileMenuProps) 
           key={link.href}
           type="button"
           onClick={() => handleNavClick(link.href)}
-          className="font-sans text-3xl font-semibold uppercase tracking-wider text-foreground transition-colors duration-300 hover:text-accent"
+          className="font-display text-3xl font-normal text-foreground transition-colors duration-200 hover:text-accent"
         >
           {link.label}
         </button>
@@ -79,7 +79,7 @@ export function MobileMenu({ isOpen, onClose, onBookingOpen }: MobileMenuProps) 
       <button
         type="button"
         onClick={handleBooking}
-        className="mt-4 w-64 bg-accent text-accent-foreground px-8 py-4 font-sans text-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-[1.02] hover:shadow-accent-glow"
+        className="mt-4 w-64 bg-accent text-accent-foreground px-8 py-3.5 font-sans text-base font-medium rounded-sm transition-colors duration-200 hover:bg-accent/90"
       >
         {nav.bookButtonText}
       </button>

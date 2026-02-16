@@ -25,10 +25,10 @@ export function ScrollToTop() {
     <button
       type="button"
       onClick={scrollUp}
-      className="fixed bottom-6 right-6 z-30 flex h-11 w-11 items-center justify-center rounded-full border-2 border-[#C8A96E] bg-white/[0.03] backdrop-blur-md transition-all duration-200 hover:bg-white/[0.06] animate-in fade-in"
+      className="fixed bottom-6 right-6 z-30 flex h-11 w-11 items-center justify-center rounded-sm border border-border bg-card text-accent transition-colors duration-200 hover:border-accent/30 animate-in fade-in"
       aria-label="Scroll to top"
     >
-      <ChevronUp className="h-5 w-5 text-[#C8A96E]" />
+      <ChevronUp className="h-5 w-5" />
     </button>
   )
 }

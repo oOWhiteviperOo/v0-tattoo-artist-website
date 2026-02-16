@@ -1,18 +1,11 @@
 'use client'
 
 import Image from 'next/image'
+import { Fragment } from 'react'
 import { motion } from 'motion/react'
-import { CheckCircle2, TrendingUp, Sparkles, Star } from 'lucide-react'
 import { useStudio } from '@/lib/studio-context'
 import { TestimonialCarousel } from './TestimonialCarousel'
 import { TrustBadge } from '@/lib/types/studio-config'
-
-const BADGE_ICON_MAP = {
-  CheckCircle2,
-  TrendingUp,
-  Sparkles,
-  Star,
-} as const
 
 export function SocialProof() {
   const { socialProof, blurDataUrl } = useStudio()
@@ -20,61 +13,44 @@ export function SocialProof() {
     <section className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
-          className="mb-12 text-center"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
+          className="mb-12"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: '-100px' }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
+          <h2 className="font-display text-3xl font-normal text-foreground sm:text-4xl text-balance">
             {socialProof.sectionTitle}
           </h2>
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: '-100px' }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
           <TestimonialCarousel testimonials={socialProof.testimonials} />
         </motion.div>
 
         {/* Trust Badges */}
-        <motion.div
-          className="mt-16 grid grid-cols-2 gap-6 lg:grid-cols-4"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
-        >
-          {socialProof.trustBadges.map((badge: TrustBadge) => {
-            const Icon = BADGE_ICON_MAP[badge.iconName]
-            return (
-              <div key={badge.label} className="flex flex-col items-center gap-2 text-center">
-                <Icon className="h-5 w-5 text-accent" />
-                <span className="text-sm text-muted-foreground">{badge.label}</span>
-              </div>
-            )
-          })}
-        </motion.div>
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
+          {socialProof.trustBadges.map((badge: TrustBadge, i: number) => (
+            <Fragment key={badge.label}>
+              {i > 0 && <span className="hidden sm:block h-4 w-px bg-border" />}
+              <span className="text-sm text-muted-foreground">{badge.label}</span>
+            </Fragment>
+          ))}
+        </div>
 
         {/* Instagram Strip */}
-        <motion.div
-          className="mt-16"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut', delay: 0.3 }}
-        >
-          <p className="mb-4 text-center text-xs font-medium uppercase tracking-widest text-dimmed">
+        <div className="mt-16">
+          <p className="mb-4 text-center text-sm text-muted-foreground">
             {socialProof.instagram.label}
           </p>
-          <div
-            className="grid grid-cols-3 gap-1 lg:grid-cols-6"
-          >
+          <div className="grid grid-cols-3 gap-2 lg:grid-cols-6">
             {socialProof.instagram.images.map((src, i) => (
-              <div key={src} className="group relative aspect-square overflow-hidden bg-white/[0.03]">
+              <div key={src} className="relative aspect-square overflow-hidden bg-secondary rounded-sm">
                 <Image
                   src={src || "/placeholder.svg"}
                   alt={`Instagram post ${i + 1}`}
@@ -82,12 +58,12 @@ export function SocialProof() {
                   sizes="(max-width: 640px) 33vw, 16vw"
                   placeholder="blur"
                   blurDataURL={blurDataUrl}
-                  className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.03]"
+                  className="object-cover transition-[filter] duration-300 hover:brightness-110"
                 />
               </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   )

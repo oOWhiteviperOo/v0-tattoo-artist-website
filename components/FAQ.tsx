@@ -10,40 +10,33 @@ export function FAQ() {
     <section id="faq" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-3xl px-6">
         <motion.div
-          className="mb-12 text-center"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
+          className="mb-12"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: '-100px' }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h2 className="font-sans text-3xl font-extrabold uppercase tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
+          <h2 className="font-display text-3xl font-normal text-foreground sm:text-4xl text-balance">
             {faq.sectionTitle}
           </h2>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
-        >
-          <Accordion type="single" collapsible defaultValue="faq-1" className="flex flex-col gap-3">
-            {faq.items.map((item) => (
-              <AccordionItem
-                key={item.id}
-                value={item.id}
-                className="border border-white/[0.06] bg-white/[0.03] px-6 backdrop-blur-xl transition-colors hover:border-accent/15 hover:bg-white/[0.06]"
-              >
-                <AccordionTrigger className="py-5 text-left font-sans text-base font-semibold text-accent hover:no-underline">
-                  {item.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-base leading-relaxed text-muted-foreground">
-                  {item.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </motion.div>
+        <Accordion type="single" collapsible defaultValue="faq-1" className="flex flex-col gap-0">
+          {faq.items.map((item) => (
+            <AccordionItem
+              key={item.id}
+              value={item.id}
+              className="border-b border-border px-0 transition-colors"
+            >
+              <AccordionTrigger className="py-5 text-left font-sans text-base font-medium text-foreground hover:no-underline">
+                {item.question}
+              </AccordionTrigger>
+              <AccordionContent className="text-base leading-relaxed text-muted-foreground">
+                {item.answer}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </div>
     </section>
   )

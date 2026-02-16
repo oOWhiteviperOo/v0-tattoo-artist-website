@@ -14,7 +14,7 @@ function StarRating({ rating }: { rating: number }) {
       {Array.from({ length: 5 }).map((_, i) => (
         <Star
           key={`star-${i}`}
-          className={`h-3.5 w-3.5 ${i < rating ? 'fill-accent text-accent' : 'text-dimmed'}`}
+          className={`h-3.5 w-3.5 ${i < rating ? 'fill-accent/70 text-accent/70' : 'text-muted-foreground/30'}`}
         />
       ))}
     </div>
@@ -23,16 +23,17 @@ function StarRating({ rating }: { rating: number }) {
 
 function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
-    <div className="flex h-full flex-col justify-between border border-white/[0.06] bg-card p-6 backdrop-blur-xl">
+    <div className="flex h-full flex-col justify-between border border-border bg-card p-6 rounded-sm">
       <div>
         <StarRating rating={testimonial.rating} />
         <p className="mt-4 text-base leading-relaxed text-foreground">
-          {`"${testimonial.quote}"`}
+          <span className="font-display text-2xl text-accent/20 leading-none">&ldquo;</span>
+          {testimonial.quote}
         </p>
       </div>
       <div className="mt-6">
         <p className="text-sm font-medium text-foreground">{testimonial.author}</p>
-        <p className="text-sm text-dimmed">{testimonial.city}</p>
+        <p className="text-sm text-muted-foreground">{testimonial.city}</p>
       </div>
     </div>
   )
@@ -70,14 +71,13 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
   if (!isMobile) {
     return (
       <div>
-        <div className="flex items-center justify-between mb-6">
-          <div />
+        <div className="flex items-center justify-end mb-6">
           <div className="flex gap-2">
             <button
               type="button"
               onClick={() => goTo(currentIndex - 1)}
               disabled={currentIndex === 0}
-              className="flex h-10 w-10 items-center justify-center border border-white/[0.06] text-muted-foreground transition-colors hover:border-accent/15 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+              className="flex h-10 w-10 items-center justify-center border border-border text-muted-foreground rounded-sm transition-colors hover:border-foreground/20 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
               aria-label="Previous testimonials"
             >
               <ChevronLeft className="h-5 w-5" />
@@ -86,7 +86,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
               type="button"
               onClick={() => goTo(currentIndex + 1)}
               disabled={currentIndex >= maxIndex}
-              className="flex h-10 w-10 items-center justify-center border border-white/[0.06] text-muted-foreground transition-colors hover:border-accent/15 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
+              className="flex h-10 w-10 items-center justify-center border border-border text-muted-foreground rounded-sm transition-colors hover:border-foreground/20 hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed"
               aria-label="Next testimonials"
             >
               <ChevronRight className="h-5 w-5" />
@@ -123,8 +123,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
             key={t.author}
             type="button"
             onClick={() => goTo(i)}
-            className={`h-2 w-2 rounded-full transition-colors ${i === currentIndex ? 'bg-accent' : 'bg-white/10'
-              }`}
+            className={`h-2 w-2 rounded-full transition-colors ${i === currentIndex ? 'bg-accent' : 'bg-border'}`}
             aria-label={`Go to testimonial ${i + 1}`}
           />
         ))}
