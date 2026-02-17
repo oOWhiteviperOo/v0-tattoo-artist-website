@@ -83,7 +83,7 @@ function PricingCard({
 
   return (
     <motion.div
-      className={`relative p-6 lg:p-8 border bg-card rounded-[10px] flex flex-col transition-all duration-200 ease-out ${
+      className={`relative p-6 lg:p-8 border bg-card rounded-[10px] flex flex-col transition-all duration-200 ease-out before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-white/[0.04] before:rounded-t-[10px] ${
         popular ? 'border-accent/70 scale-[1.06] z-10 shadow-subtle' : 'border-border/50 shadow-subtle'
       }`}
       initial={{ opacity: 0, y: 12 }}
@@ -124,7 +124,7 @@ function PricingCard({
         className={`block w-full text-center py-3 text-sm font-medium transition-all duration-200 rounded-[8px] ${
           popular
             ? 'bg-accent text-accent-foreground hover:bg-accent-hover hover:shadow-glow active:translate-y-[1px] active:bg-accent-pressed'
-            : 'border border-border text-foreground/80 hover:border-accent/70'
+            : 'border border-border text-foreground/80 hover:border-foreground/40'
         }`}
       >
         {cta}

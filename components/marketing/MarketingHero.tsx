@@ -59,7 +59,7 @@ export function MarketingHero() {
         </motion.p>
 
         <motion.div
-          className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center"
+          className="mt-7 flex flex-col gap-4 sm:flex-row sm:items-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 5 }}

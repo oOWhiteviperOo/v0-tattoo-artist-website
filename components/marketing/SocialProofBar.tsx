@@ -70,7 +70,7 @@ export function SocialProofBar() {
           {STATS.map((stat, i) => (
             <motion.div
               key={stat.label}
-              className={`text-center ${i < STATS.length - 1 ? 'md:border-r md:border-border/20' : ''}`}
+              className={`text-center ${i < STATS.length - 1 ? 'md:border-r md:border-border/35' : ''}`}
               initial={{ opacity: 0, y: 12 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.22, delay: i * STAGGER_DELAY, ease: EASE }}

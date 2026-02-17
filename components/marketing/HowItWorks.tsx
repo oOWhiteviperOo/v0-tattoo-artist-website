@@ -56,7 +56,7 @@ export function HowItWorks() {
         <div className="relative">
           {/* Vertical connecting rail */}
           <motion.div
-            className="absolute left-[23px] top-0 bottom-0 w-px bg-border/35 hidden md:block"
+            className="absolute left-[23px] top-0 bottom-0 w-px bg-border/45 hidden md:block"
             initial={{ scaleY: 0 }}
             animate={inView ? { scaleY: 1 } : {}}
             transition={{ duration: 0.8, ease: EASE, delay: STAGGER_DELAY * 2 }}

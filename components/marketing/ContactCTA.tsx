@@ -121,7 +121,7 @@ export function ContactCTA() {
             transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 }}
           >
             {formState === 'success' ? (
-              <div className="border border-accent/30 bg-card p-8 text-center rounded-[10px]">
+              <div className="relative border border-accent/30 bg-card p-8 text-center rounded-[10px] before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-white/[0.04] before:rounded-t-[10px]">
                 <CheckCircle2 className="w-10 h-10 text-accent mx-auto mb-4" />
                 <h3 className="text-foreground font-medium text-lg mb-2">We&apos;ll be in touch</h3>
                 <p className="text-sm text-muted-foreground">
@@ -129,7 +129,7 @@ export function ContactCTA() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="border border-border/50 bg-card rounded-[10px] p-6 lg:p-8 space-y-5">
+              <form onSubmit={handleSubmit} className="relative border border-border/50 bg-card rounded-[10px] p-6 lg:p-8 space-y-5 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-white/[0.04] before:rounded-t-[10px]">
                 <div>
                   <label htmlFor="contact-name" className="block text-sm text-foreground/80 mb-1.5">
                     Your name *
@@ -140,7 +140,7 @@ export function ContactCTA() {
                     type="text"
                     required
                     placeholder="Jay"
-                    className="w-full bg-background/50 border border-border/50 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all"
+                    className="w-full bg-background/50 border border-border/60 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all"
                   />
                 </div>
 
@@ -154,7 +154,7 @@ export function ContactCTA() {
                     type="email"
                     required
                     placeholder="jay@studio.com"
-                    className="w-full bg-background/50 border border-border/50 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all"
+                    className="w-full bg-background/50 border border-border/60 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all"
                   />
                 </div>
 
@@ -167,7 +167,7 @@ export function ContactCTA() {
                     name="studioName"
                     type="text"
                     placeholder="Ink & Iron"
-                    className="w-full bg-background/50 border border-border/50 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all"
+                    className="w-full bg-background/50 border border-border/60 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all"
                   />
                 </div>
 
@@ -180,7 +180,7 @@ export function ContactCTA() {
                     name="message"
                     rows={3}
                     placeholder="Tell us about your studio..."
-                    className="w-full bg-background/50 border border-border/50 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all resize-none"
+                    className="w-full bg-background/50 border border-border/60 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all resize-none"
                   />
                 </div>
 

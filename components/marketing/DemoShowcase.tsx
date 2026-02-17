@@ -60,7 +60,7 @@ export function DemoShowcase() {
             >
               <Link
                 href={`/${slug}`}
-                className="group flex items-center justify-between px-5 py-6 md:py-8 border border-border/50 bg-card rounded-[10px] shadow-subtle transition-all duration-200 ease-out hover:-translate-y-1 hover:border-border/70"
+                className="group relative flex items-center justify-between px-5 py-6 md:py-8 border border-border/50 bg-card rounded-[10px] shadow-subtle transition-all duration-200 ease-out hover:-translate-y-1 hover:border-border/70 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-white/[0.04] before:rounded-t-[10px]"
               >
                 <div>
                   <p className="text-foreground font-medium group-hover:text-foreground transition-colors duration-200">
