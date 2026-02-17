@@ -55,7 +55,7 @@ export function MarketingNav() {
               key={link.id}
               type="button"
               onClick={() => smoothScrollTo(link.id)}
-              className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground hover:underline hover:underline-offset-4 hover:decoration-accent/60"
+              className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground hover:underline hover:underline-offset-4 hover:decoration-foreground/30"
             >
               {link.label}
             </button>

@@ -63,7 +63,7 @@ export function HowItWorks() {
             style={{ transformOrigin: 'top' }}
           />
 
-          <div className="flex flex-col gap-12 md:gap-16">
+          <div className="flex flex-col gap-14 md:gap-20">
             {STEPS.map(({ step, title, description, chip }, i) => (
               <motion.div
                 key={step}
@@ -73,14 +73,14 @@ export function HowItWorks() {
                 transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 + i * STAGGER_DELAY * 2 }}
               >
                 {/* Step number */}
-                <div className="relative shrink-0 w-12 h-12 flex items-center justify-center border border-accent/30 bg-background rounded-[8px] z-10">
-                  <span className="text-accent font-display text-2xl md:text-3xl">{step}</span>
+                <div className="relative shrink-0 w-12 h-12 flex items-center justify-center border border-border/50 bg-background rounded-[8px] z-10">
+                  <span className="text-foreground/40 font-display text-2xl md:text-3xl">{step}</span>
                 </div>
 
                 {/* Content */}
                 <div className="pt-1">
                   <h3 className="text-foreground font-medium text-lg md:text-xl mb-2">{title}</h3>
-                  <p className="text-muted-foreground text-sm md:text-base leading-relaxed max-w-md">
+                  <p className="text-secondary-foreground/70 text-sm md:text-base leading-relaxed max-w-[55ch]">
                     {description}
                   </p>
                   <span className="inline-block mt-3 px-3 py-1 border border-border/40 rounded text-xs text-muted-foreground">

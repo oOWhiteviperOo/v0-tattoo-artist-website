@@ -84,7 +84,7 @@ function PricingCard({
   return (
     <motion.div
       className={`relative p-6 lg:p-8 border bg-card rounded-[10px] flex flex-col transition-all duration-200 ease-out ${
-        popular ? 'border-accent/70 scale-[1.06] z-10' : 'border-border/40'
+        popular ? 'border-accent/70 scale-[1.06] z-10 shadow-subtle' : 'border-border/50 shadow-subtle'
       }`}
       initial={{ opacity: 0, y: 12 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -97,14 +97,14 @@ function PricingCard({
       )}
       <h3 className="text-foreground font-medium text-lg">{name}</h3>
       <div className="mt-4 mb-1">
-        <span className="text-4xl font-display text-foreground">&pound;{price}</span>
+        <span className="text-5xl md:text-6xl font-sans text-foreground tabular-nums">&pound;{price}</span>
         <span className="text-muted-foreground text-sm">/month</span>
       </div>
-      <p className="text-sm text-muted-foreground mb-8">{description}</p>
+      <p className="text-sm text-secondary-foreground/70 mb-8">{description}</p>
       <ul className="space-y-3 mb-8 flex-1">
         {visibleFeatures.map((feature) => (
           <li key={feature} className="flex items-start gap-2.5 text-sm">
-            <span className="w-1.5 h-1.5 rounded-full bg-accent/70 mt-2 shrink-0" />
+            <span className="w-1 h-1 rounded-full bg-foreground/30 mt-2 shrink-0" />
             <span className="text-foreground/80">{feature}</span>
           </li>
         ))}
@@ -159,7 +159,7 @@ export function PricingSection() {
         </motion.h2>
 
         <motion.p
-          className="text-muted-foreground max-w-xl mb-14 text-base md:text-lg leading-[1.65]"
+          className="text-secondary-foreground/80 max-w-[60ch] mb-14 text-base md:text-lg leading-[1.65]"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}

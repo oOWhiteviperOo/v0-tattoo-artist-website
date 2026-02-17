@@ -25,14 +25,14 @@ export function MarketingHero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-20 mx-auto w-full max-w-content px-4 pb-24 lg:pb-32">
+      <div className="relative z-20 mx-auto w-full max-w-content px-4 pb-16 lg:pb-20">
         <motion.div
-          className="inline-flex items-center gap-2 px-3 py-1 mb-8 border border-accent/30 text-muted-foreground font-semibold tracking-[0.1em] text-xs uppercase"
+          className="inline-flex items-center gap-2 px-3 py-1 mb-8 border border-border/50 text-muted-foreground font-semibold tracking-[0.1em] text-xs uppercase"
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.22, ease: EASE }}
         >
-          <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" />
+          <span className="w-1.5 h-1.5 bg-foreground/40 rounded-full animate-pulse" />
           Now onboarding UK studios
         </motion.div>
 
@@ -48,7 +48,7 @@ export function MarketingHero() {
         </motion.h1>
 
         <motion.p
-          className="mt-6 max-w-lg text-base md:text-lg leading-[1.65] text-foreground/65"
+          className="mt-6 max-w-[55ch] text-base md:text-lg leading-[1.65] text-secondary-foreground"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 }}
@@ -74,7 +74,7 @@ export function MarketingHero() {
           <button
             type="button"
             onClick={() => smoothScrollTo('demos')}
-            className="border border-border text-foreground/80 px-8 py-3.5 text-sm font-medium rounded-[8px] transition-colors duration-200 hover:border-accent/70"
+            className="border border-border text-foreground/80 px-8 py-3.5 text-sm font-medium rounded-[8px] transition-colors duration-200 hover:border-foreground/40 hover:text-foreground"
           >
             See Live Demos
           </button>

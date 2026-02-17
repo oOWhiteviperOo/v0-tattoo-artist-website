@@ -53,7 +53,7 @@ function AnimatedCounter({
   }, [inView, value])
 
   return (
-    <span className="font-display text-3xl md:text-4xl text-foreground tabular-nums">
+    <span className="font-display text-4xl md:text-5xl text-foreground tabular-nums">
       {prefix}{count.toLocaleString()}{suffix}
     </span>
   )
@@ -64,7 +64,7 @@ export function SocialProofBar() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section ref={ref} className="relative border-y border-border/30 bg-card/30">
+    <section ref={ref} className="relative border-y border-border/30 bg-secondary">
       <div className="mx-auto max-w-content px-4 py-12 md:py-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-0">
           {STATS.map((stat, i) => (

@@ -47,7 +47,7 @@ export function ContactCTA() {
   }
 
   return (
-    <section id="contact" ref={sectionRef} className="relative py-24 lg:py-32 px-4 border-t border-border/30 overflow-hidden">
+    <section id="contact" ref={sectionRef} className="relative py-24 lg:py-32 px-4 border-t border-border/30 overflow-hidden bg-secondary">
       {/* Background image */}
       <div className="absolute inset-0 vignette">
         <Image
@@ -57,7 +57,7 @@ export function ContactCTA() {
           sizes="100vw"
           className="object-cover opacity-20"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/95 to-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/95 to-secondary/80" />
         <GrainOverlay opacity={0.06} />
       </div>
 
@@ -84,7 +84,7 @@ export function ContactCTA() {
             </motion.h2>
 
             <motion.p
-              className="text-muted-foreground text-base md:text-lg leading-[1.65] mb-8 max-w-md"
+              className="text-secondary-foreground/80 text-base md:text-lg leading-[1.65] mb-8 max-w-[55ch]"
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
               transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
@@ -100,15 +100,15 @@ export function ContactCTA() {
               transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 }}
             >
               <p className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent/70 shrink-0" />
+                <span className="w-1 h-1 rounded-full bg-foreground/30 shrink-0" />
                 Free demo site in 24 hours
               </p>
               <p className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent/70 shrink-0" />
+                <span className="w-1 h-1 rounded-full bg-foreground/30 shrink-0" />
                 No credit card required
               </p>
               <p className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent/70 shrink-0" />
+                <span className="w-1 h-1 rounded-full bg-foreground/30 shrink-0" />
                 14-day free trial
               </p>
             </motion.div>
@@ -208,7 +208,7 @@ export function ContactCTA() {
 
                 <p className="text-xs text-muted-foreground/60 text-center">
                   Or email us directly at{' '}
-                  <a href="mailto:hello@apexink.uk" className="text-accent/60 hover:text-accent transition-colors">
+                  <a href="mailto:hello@apexink.uk" className="text-foreground/60 hover:text-foreground underline underline-offset-2 transition-colors">
                     hello@apexink.uk
                   </a>
                 </p>
