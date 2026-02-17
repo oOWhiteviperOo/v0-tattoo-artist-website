@@ -37,6 +37,8 @@ const config: Config = {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
         },
+        'accent-hover': 'hsl(var(--accent-hover))',
+        'accent-pressed': 'hsl(var(--accent-pressed))',
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
@@ -46,12 +48,26 @@ const config: Config = {
         ring: 'hsl(var(--ring))',
         dimmed: 'hsl(var(--dimmed-foreground))',
       },
+      maxWidth: {
+        content: '1200px',
+      },
+      spacing: {
+        's': 'var(--space-s)',
+        '1.5s': 'calc(var(--space-s) * 1.5)',
+        '2s': 'calc(var(--space-s) * 2)',
+        '3s': 'calc(var(--space-s) * 3)',
+        '4s': 'calc(var(--space-s) * 4)',
+        '6s': 'calc(var(--space-s) * 6)',
+        '8s': 'calc(var(--space-s) * 8)',
+      },
       boxShadow: {
         elevated: '0 4px 24px -4px rgba(0, 0, 0, 0.4)',
         subtle: '0 1px 3px rgba(0, 0, 0, 0.3)',
+        glow: '0 0 20px rgba(var(--gold-glow), 0.2)',
+        'glow-sm': '0 0 12px rgba(var(--gold-glow), 0.15)',
       },
       fontFamily: {
-        sans: ['var(--font-geist-sans)'],
+        sans: ['var(--font-inter)'],
         display: ['var(--font-display)'],
       },
       borderRadius: {

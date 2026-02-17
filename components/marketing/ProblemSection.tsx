@@ -3,8 +3,7 @@
 import { motion, useInView } from 'motion/react'
 import { useRef } from 'react'
 import { MessageSquare, Clock, CreditCard } from 'lucide-react'
-
-const EASE = [0.22, 1, 0.36, 1] as const
+import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 
 const PROBLEMS = [
   {
@@ -32,13 +31,13 @@ export function ProblemSection() {
   const inView = useInView(sectionRef, { once: true, margin: '-100px' })
 
   return (
-    <section id="problem" ref={sectionRef} className="py-24 lg:py-32 px-6 border-t border-border/30">
-      <div className="max-w-5xl mx-auto">
+    <section id="problem" ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-border/30">
+      <div className="max-w-content mx-auto">
         <motion.p
-          className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-4"
+          className="text-muted-foreground text-xs font-semibold tracking-[0.1em] uppercase mb-4"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.5, ease: EASE }}
+          transition={{ duration: 0.22, ease: EASE }}
         >
           The problem
         </motion.p>
@@ -47,16 +46,16 @@ export function ProblemSection() {
           className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.1] mb-5 text-foreground"
           initial={{ opacity: 0, y: 12 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.7, ease: EASE, delay: 0.1 }}
+          transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
           Your inbox is costing you money
         </motion.h2>
 
         <motion.p
-          className="text-muted-foreground max-w-xl mb-16 text-base md:text-lg leading-relaxed"
+          className="text-muted-foreground max-w-xl mb-16 text-base md:text-lg leading-[1.65]"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.5, ease: EASE, delay: 0.2 }}
+          transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
           Every hour a message sits unanswered, another client books somewhere else. Sound familiar?
         </motion.p>
@@ -65,13 +64,13 @@ export function ProblemSection() {
           {PROBLEMS.map(({ icon: Icon, title, description }, i) => (
             <motion.div
               key={title}
-              className="group relative p-6 lg:p-8 border border-border/50 bg-card/30 transition-colors duration-300 hover:border-accent/20 hover:bg-card/60"
-              initial={{ opacity: 0, y: 20 }}
+              className="group relative p-6 lg:p-8 border border-border/40 bg-card rounded-[10px] transition-all duration-200 ease-out hover:-translate-y-1 hover:border-border/70"
+              initial={{ opacity: 0, y: 12 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, ease: EASE, delay: 0.3 + i * 0.12 }}
+              transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 + i * STAGGER_DELAY }}
             >
-              <div className="w-10 h-10 flex items-center justify-center border border-accent/20 bg-accent/5 mb-5">
-                <Icon className="w-5 h-5 text-accent" />
+              <div className="w-12 h-12 flex items-center justify-center border border-accent/15 bg-accent/[0.07] rounded-[8px] mb-5">
+                <Icon className="w-5 h-5 text-accent/80" />
               </div>
               <h3 className="text-foreground font-medium text-lg mb-3">{title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{description}</p>

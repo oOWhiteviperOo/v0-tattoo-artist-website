@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useState } from 'react'
 import { motion, useInView } from 'motion/react'
+import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 
 const STATS = [
   { value: 71, suffix: '+', label: 'Studios onboarded' },
@@ -25,6 +26,14 @@ function AnimatedCounter({
 
   useEffect(() => {
     if (!inView) return
+
+    // Respect reduced motion preference
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (prefersReducedMotion) {
+      setCount(value)
+      return
+    }
+
     let frame: number
     const duration = 1600
     const start = performance.now()
@@ -32,7 +41,6 @@ function AnimatedCounter({
     function tick(now: number) {
       const elapsed = now - start
       const progress = Math.min(elapsed / duration, 1)
-      // ease-out cubic
       const eased = 1 - Math.pow(1 - progress, 3)
       setCount(Math.round(eased * value))
       if (progress < 1) {
@@ -57,15 +65,15 @@ export function SocialProofBar() {
 
   return (
     <section ref={ref} className="relative border-y border-border/30 bg-card/30">
-      <div className="mx-auto max-w-6xl px-6 py-12 md:py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
+      <div className="mx-auto max-w-content px-4 py-12 md:py-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-0">
           {STATS.map((stat, i) => (
             <motion.div
               key={stat.label}
-              className="text-center"
+              className={`text-center ${i < STATS.length - 1 ? 'md:border-r md:border-border/20' : ''}`}
               initial={{ opacity: 0, y: 12 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
+              transition={{ duration: 0.22, delay: i * STAGGER_DELAY, ease: EASE }}
             >
               <AnimatedCounter
                 value={stat.value}
@@ -73,7 +81,7 @@ export function SocialProofBar() {
                 suffix={stat.suffix}
                 inView={inView}
               />
-              <p className="mt-1 text-xs md:text-sm text-muted-foreground tracking-wide">
+              <p className="mt-1 text-xs md:text-sm uppercase font-semibold tracking-[0.1em] text-muted-foreground">
                 {stat.label}
               </p>
             </motion.div>

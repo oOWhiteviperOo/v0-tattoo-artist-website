@@ -4,8 +4,7 @@ import { motion, useInView } from 'motion/react'
 import { useRef } from 'react'
 import { ChevronRight } from 'lucide-react'
 import Link from 'next/link'
-
-const EASE = [0.22, 1, 0.36, 1] as const
+import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 
 const DEMO_STUDIOS = [
   { slug: 'holier-than-thou', name: 'Holier Than Thou', city: 'Manchester' },
@@ -21,13 +20,13 @@ export function DemoShowcase() {
   const inView = useInView(sectionRef, { once: true, margin: '-100px' })
 
   return (
-    <section id="demos" ref={sectionRef} className="py-24 lg:py-32 px-6 border-t border-border/30">
-      <div className="max-w-5xl mx-auto">
+    <section id="demos" ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-border/30">
+      <div className="max-w-content mx-auto">
         <motion.p
-          className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-4"
+          className="text-muted-foreground text-xs font-semibold tracking-[0.1em] uppercase mb-4"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.5, ease: EASE }}
+          transition={{ duration: 0.22, ease: EASE }}
         >
           Live demos
         </motion.p>
@@ -36,16 +35,16 @@ export function DemoShowcase() {
           className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.1] mb-5 text-foreground"
           initial={{ opacity: 0, y: 12 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.7, ease: EASE, delay: 0.1 }}
+          transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
           See it working for real studios
         </motion.h2>
 
         <motion.p
-          className="text-muted-foreground max-w-xl mb-12 text-base md:text-lg leading-relaxed"
+          className="text-muted-foreground max-w-xl mb-12 text-base md:text-lg leading-[1.65]"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.5, ease: EASE, delay: 0.2 }}
+          transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
           Every demo below is a fully working booking page built for a real UK studio.
           Your branding, your work, live booking forms.
@@ -55,13 +54,13 @@ export function DemoShowcase() {
           {DEMO_STUDIOS.map(({ slug, name, city }, i) => (
             <motion.div
               key={slug}
-              initial={{ opacity: 0, y: 16 }}
+              initial={{ opacity: 0, y: 12 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, ease: EASE, delay: 0.3 + i * 0.08 }}
+              transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 + i * STAGGER_DELAY }}
             >
               <Link
                 href={`/${slug}`}
-                className="group flex items-center justify-between p-5 border border-border/50 bg-card/30 hover:border-accent/30 hover:bg-card/60 transition-all duration-300"
+                className="group flex items-center justify-between p-5 border border-border/40 bg-card rounded-[10px] transition-all duration-200 ease-out hover:-translate-y-1 hover:border-border/70"
               >
                 <div>
                   <p className="text-foreground font-medium group-hover:text-accent transition-colors duration-200">
@@ -79,7 +78,7 @@ export function DemoShowcase() {
           className="text-sm text-muted-foreground mt-8"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.5, ease: EASE, delay: 0.7 }}
+          transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 9 }}
         >
           71 studios and counting.{' '}
           <span className="text-accent">Yours could be next.</span>

@@ -1,18 +1,20 @@
 import React from "react"
 import type { Metadata } from 'next'
-import { Geist } from 'next/font/google'
-import { Playfair_Display } from 'next/font/google'
+import { Inter } from 'next/font/google'
+import { Libre_Baskerville } from 'next/font/google'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
 import './globals.css'
 
-const geistSans = Geist({
+const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-geist-sans',
+  variable: '--font-inter',
+  display: 'swap',
 })
 
-const playfair = Playfair_Display({
+const libreBaskerville = Libre_Baskerville({
   subsets: ['latin'],
+  weight: ['400', '700'],
   variable: '--font-display',
   display: 'swap',
 })
@@ -27,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${inter.variable} ${libreBaskerville.variable}`}>
       <body className="font-sans antialiased bg-background text-foreground">
         {children}
         <SpeedInsights />

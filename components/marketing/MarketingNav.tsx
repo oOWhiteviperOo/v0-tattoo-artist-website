@@ -27,16 +27,16 @@ export function MarketingNav() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${
         scrolled
-          ? 'bg-background/95 backdrop-blur-md border-b border-border'
+          ? 'bg-background/80 backdrop-blur-md border-b border-border'
           : 'bg-transparent border-b border-transparent'
       }`}
       style={{
         boxShadow: scrolled ? '0 1px 3px rgba(0, 0, 0, 0.3)' : 'none',
       }}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 h-16">
+      <div className="mx-auto flex max-w-content items-center justify-between px-4 h-[8vh] min-h-[56px] max-h-[72px]">
         <a
           href="#"
           onClick={(e) => {
@@ -55,7 +55,7 @@ export function MarketingNav() {
               key={link.id}
               type="button"
               onClick={() => smoothScrollTo(link.id)}
-              className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
+              className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground hover:underline hover:underline-offset-4 hover:decoration-accent/60"
             >
               {link.label}
             </button>
@@ -63,7 +63,7 @@ export function MarketingNav() {
           <button
             type="button"
             onClick={() => smoothScrollTo('contact')}
-            className="bg-accent text-accent-foreground px-5 py-2 text-sm font-medium transition-all duration-200 hover:bg-accent/90 active:scale-[0.98]"
+            className="bg-accent text-accent-foreground px-5 py-2 text-sm font-medium rounded-[8px] transition-all duration-200 hover:bg-accent-hover hover:shadow-glow active:translate-y-[1px] active:bg-accent-pressed"
           >
             Book a Demo
           </button>
@@ -109,7 +109,7 @@ export function MarketingNav() {
                     setMobileOpen(false)
                     setTimeout(() => smoothScrollTo('contact'), 300)
                   }}
-                  className="w-full bg-accent text-accent-foreground py-3 text-sm font-medium transition-all hover:bg-accent/90"
+                  className="w-full bg-accent text-accent-foreground py-3 text-sm font-medium rounded-[8px] transition-all hover:bg-accent-hover hover:shadow-glow"
                 >
                   Book a Demo
                 </button>
