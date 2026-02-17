@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "The London Social Tattoo - Soho",
+    "slug": "the-london-social-tattoo-soho",
+    "tagline": "Where Art Meets Community in the Heart of Soho",
+    "artistName": "Marcus Sterling"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "60 9% 98%",
+    "accent": "45 93% 47%",
+    "accentForeground": "0 0% 4%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "218, 165, 32",
+    "ring": "45 93% 47%"
+  },
+  "seo": {
+    "title": "The London Social Tattoo - Premium Soho Tattoo Studio",
+    "description": "Award-winning tattoo studio in Soho, London. Custom designs, expert artists, and a welcoming community atmosphere. Book your consultation today.",
+    "keywords": [
+      "London tattoo studio",
+      "Soho tattoo artist"
+    ],
+    "openGraph": {
+      "title": "The London Social Tattoo - Soho | Premium Custom Tattoos",
+      "description": "Experience exceptional tattooing in the heart of Soho. Custom designs, expert craftsmanship, and a vibrant community atmosphere.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/the-london-social-tattoo-soho",
+      "siteName": "The London Social Tattoo - Soho",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=The%20London%20Social%20Tattoo%20-%20Soho+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "The London Social Tattoo - Soho"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Where London's Creative",
+      "Community Gets Inked"
+    ],
+    "subheadline": "Premium custom tattoos in the heart of Soho, where artistic excellence meets London's vibrant culture",
+    "urgencyText": "Limited December slots available",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working in modern Soho studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years in Soho"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Happy Clients"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "100% Custom Work"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Featured Artwork",
+    "subtitle": "Every piece tells a story - explore our latest custom creations",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattooing services tailored to your vision",
+    "guarantee": "100% satisfaction guarantee on all work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Piece",
+        "duration": "2-3 hours",
+        "price": "£200",
+        "priceSubtitle": "Starting from",
+        "features": [
+          "Design consultation included",
+          "Perfect for first tattoos"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Custom Session",
+        "duration": "4-6 hours",
+        "price": "£450",
+        "priceSubtitle": "Starting from",
+        "features": [
+          "Complete custom design process",
+          "Premium aftercare included"
+        ],
+        "status": "available",
+        "availabilityText": "2-week booking lead",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Community Says",
+    "testimonials": [
+      {
+        "quote": "Marcus created the most incredible sleeve for me. The attention to detail and artistic vision exceeded all my expectations. The studio atmosphere is so welcoming too.",
+        "author": "Sarah Chen",
+        "city": "Fitzrovia, London",
+        "rating": 5
+      },
+      {
+        "quote": "Been coming here for three years now. The quality is consistently outstanding and the vibe is exactly what you want from a Soho studio - creative and professional.",
+        "author": "James Mitchell",
+        "city": "Camden, London",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Health & Safety Certified"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Award-Winning Artists"
+      },
+      {
+        "iconName": "Star",
+        "label": "Soho's Choice Since 2016"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @londonsocialtattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "About The London Social",
+    "paragraphs": [
+      "Founded in the creative heart of Soho, The London Social Tattoo has become a cornerstone of London's tattoo community. Our studio combines traditional craftsmanship with contemporary artistic vision, creating a space where clients become part of our extended creative family.",
+      "Led by Marcus Sterling, our team specializes in custom work that reflects each client's unique story. From intricate fine-line pieces to bold traditional designs, we approach every tattoo as a collaborative art project, ensuring the final result exceeds expectations."
+    ],
+    "callout": "Every tattoo is a conversation between artist and canvas, resulting in truly personal artwork.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus Sterling, lead tattoo artist at The London Social Tattoo"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-3 weeks in advance for custom pieces. Smaller designs may have earlier availability. Contact us to check current scheduling."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Every consultation includes design discussion, placement advice, sizing recommendations, and a detailed quote. We'll also cover aftercare instructions and answer any questions about the process."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Join the London Social Community?",
+    "subheadline": "Book your consultation today and let's create something extraordinary together",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Tell us about your tattoo vision and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Received!",
+    "successMessage": "Thanks for choosing The London Social! We'll contact you within 24 hours to confirm your appointment and discuss your design ideas.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit is required to secure your appointment and will be deducted from your final session cost."
+  },
+  "contact": {
+    "email": "hello@londonsocialtattoo.com",
+    "instagram": "@londonsocialtattoo",
+    "instagramUrl": "https://instagram.com/londonsocialtattoo",
+    "phone": "+44 20 7434 9876",
+    "address": "15 Berwick Street, Soho, London W1F 0PP"
+  },
+  "footer": {
+    "copyrightHolder": "The London Social Tattoo",
+    "tagline": "Where art meets community in the heart of Soho"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

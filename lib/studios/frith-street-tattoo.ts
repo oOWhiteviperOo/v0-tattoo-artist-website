@@ -28,7 +28,7 @@ export const FRITH_STREET_TATTOO: StudioConfig = {
             description: 'Award-winning tattoo studio in London\'s Soho. Custom designs, traditional & contemporary styles. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/frith-street-tattoo',
+            url: 'https://www.apexink.uk/frith-street-tattoo',
             siteName: 'Frith Street Tattoo',
             images: [
                 {

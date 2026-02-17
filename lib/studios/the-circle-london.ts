@@ -28,7 +28,7 @@ export const THE_CIRCLE_LONDON: StudioConfig = {
             description: 'Where artistry meets precision in the heart of London. Custom tattoos by award-winning artists.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/the-circle-london',
+            url: 'https://www.apexink.uk/the-circle-london',
             siteName: 'The Circle London',
             images: [
                 {

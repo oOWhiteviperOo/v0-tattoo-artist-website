@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Princelet Tattoo London",
+    "slug": "princelet-tattoo-london",
+    "tagline": "Where Royal Artistry Meets Modern Ink",
+    "artistName": "Alex Princelet"
+  },
+  "theme": {
+    "background": "0 0% 5%",
+    "foreground": "60 9% 98%",
+    "accent": "280 65% 60%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 8%",
+    "accentRgb": "153, 89, 204",
+    "ring": "280 65% 60%"
+  },
+  "seo": {
+    "title": "Princelet Tattoo London - Premium Custom Tattoos",
+    "description": "London's premier tattoo studio specializing in custom designs. Award-winning artist Alex Princelet creates unique, high-quality tattoos in the heart of London.",
+    "keywords": [
+      "London tattoo studio",
+      "custom tattoos London"
+    ],
+    "openGraph": {
+      "title": "Princelet Tattoo London - Where Royal Artistry Meets Modern Ink",
+      "description": "Experience premium custom tattoo artistry in London's most distinguished studio. Book your consultation today.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/princelet-tattoo-london",
+      "siteName": "Princelet Tattoo London",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Princelet%20Tattoo%20London+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Princelet Tattoo London"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "London's Premier",
+      "Tattoo Artistry"
+    ],
+    "subheadline": "Custom designs crafted with royal precision in the heart of London. Each tattoo is a masterpiece tailored exclusively for you.",
+    "urgencyText": "Only 3 consultation slots remaining this month",
+    "ctaText": "Book Your Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on custom design at Princelet Tattoo London"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Mastery"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Custom Pieces"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Excellence"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Bespoke Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Masterpiece Gallery",
+    "subtitle": "Each piece tells a story, crafted with precision and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose your perfect tattoo experience",
+    "guarantee": "100% satisfaction guaranteed or full refund",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Piece",
+        "duration": "2-3 hours",
+        "price": "£250",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Custom design consultation",
+          "Small to medium tattoo completion"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Custom Session",
+        "duration": "4-6 hours",
+        "price": "£450",
+        "priceSubtitle": "For detailed artwork",
+        "features": [
+          "Comprehensive design process",
+          "Large detailed piece completion"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 2 weeks",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex's attention to detail is incredible. My sleeve took 6 months to complete and every session was worth it. The artistry is simply unmatched in London.",
+        "author": "Sarah Mitchell",
+        "city": "Camden, London",
+        "rating": 5
+      },
+      {
+        "quote": "I've been to many tattoo studios across London, but Princelet is in a league of its own. The custom design process was collaborative and the final result exceeded all expectations.",
+        "author": "James Thompson",
+        "city": "Shoreditch, London",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Award Winning"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @princelet_tattoo_london",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Alex Princelet",
+    "paragraphs": [
+      "With over 8 years of dedicated artistry, Alex Princelet has established himself as one of London's most sought-after tattoo artists. Trained at prestigious studios across Europe, Alex brings a unique blend of classical technique and contemporary vision to every piece.",
+      "Specializing in custom designs that reflect each client's personal story, Alex believes that every tattoo should be a collaborative masterpiece. His meticulous attention to detail and commitment to excellence has earned recognition from both clients and peers in the London tattoo community."
+    ],
+    "callout": "Every tattoo is a conversation between artist and canvas, resulting in something truly extraordinary.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Princelet, master tattoo artist at Princelet Tattoo London"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance for consultation sessions. Custom pieces may require additional design time, so early booking ensures your preferred dates."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Your consultation includes design discussion, size and placement planning, style exploration, and a detailed quote. We'll also discuss aftercare and answer any questions you have about the tattoo process."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Masterpiece?",
+    "subheadline": "Join hundreds of satisfied clients who chose Princelet Tattoo London for their custom ink",
+    "ctaText": "Book Your Session Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Choose your preferred session type and we'll contact you within 24 hours to confirm your appointment and discuss your custom design.",
+    "successTitle": "Booking Request Received!",
+    "successMessage": "Thank you for choosing Princelet Tattoo London. We'll contact you within 24 hours to confirm your appointment and begin the design process.",
+    "submitText": "Request Booking",
+    "depositDisclaimer": "A £50 deposit is required to secure your booking and will be deducted from your final session cost."
+  },
+  "contact": {
+    "email": "hello@princelettattoo.london",
+    "instagram": "@princelet_tattoo_london",
+    "instagramUrl": "https://instagram.com/princelet_tattoo_london",
+    "phone": "+44 20 7123 4567",
+    "address": "123 Princelet Street, Spitalfields, London E1 6QH"
+  },
+  "footer": {
+    "copyrightHolder": "Princelet Tattoo London",
+    "tagline": "Where Royal Artistry Meets Modern Ink"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

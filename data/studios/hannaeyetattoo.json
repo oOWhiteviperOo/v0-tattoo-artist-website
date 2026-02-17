@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "HannaEyeTattoo",
+    "slug": "hannaeyetattoo",
+    "tagline": "Precision Eye Artistry & Custom Tattoo Designs",
+    "artistName": "Hanna"
+  },
+  "theme": {
+    "background": "0 0% 5%",
+    "foreground": "60 9% 98%",
+    "accent": "280 65% 55%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 8%",
+    "accentRgb": "163, 78, 219",
+    "ring": "280 65% 55%"
+  },
+  "seo": {
+    "title": "HannaEyeTattoo - Custom Eye Art & Precision Tattoos",
+    "description": "Expert tattoo artistry specializing in intricate eye designs and custom artwork. Book your session with Hanna for precision tattooing and unique artistic vision.",
+    "keywords": [
+      "eye tattoo artist",
+      "custom tattoo designs"
+    ],
+    "openGraph": {
+      "title": "HannaEyeTattoo - Precision Eye Artistry & Custom Tattoo Designs",
+      "description": "Expert tattoo artistry specializing in intricate eye designs and custom artwork. Book your session with Hanna for precision tattooing.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/hannaeyetattoo",
+      "siteName": "HannaEyeTattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=HannaEyeTattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "HannaEyeTattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Precision Eye Artistry",
+      "& Custom Tattoo Designs"
+    ],
+    "subheadline": "Specializing in intricate eye artwork and bespoke tattoo designs that capture your unique vision with artistic precision",
+    "urgencyText": "Limited availability - Book your consultation today",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist Hanna working on detailed eye artwork"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "Eye Art Specialist"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Artistic Portfolio",
+    "subtitle": "Explore our collection of precision eye artistry and custom tattoo designs, each piece crafted with meticulous attention to detail",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your custom artwork. Each session includes consultation, design development, and professional aftercare guidance.",
+    "guarantee": "100% satisfaction guarantee with free touch-ups within 6 months",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small Detail Work",
+        "duration": "2-3 hours",
+        "price": "£250",
+        "priceSubtitle": "Starting price",
+        "features": [
+          "Custom design consultation",
+          "Precision line work & details"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Piece",
+        "duration": "4-6 hours",
+        "price": "£450",
+        "priceSubtitle": "Starting price",
+        "features": [
+          "Full custom design process",
+          "Complex eye artistry & shading"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 2 weeks",
+        "buttonText": "Book Large Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Client Reviews",
+    "testimonials": [
+      {
+        "quote": "Hanna's eye for detail is absolutely incredible. The eye tattoo she created for me is a masterpiece - every line is perfect and the depth is amazing.",
+        "author": "Sarah M.",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "The precision and artistry in Hanna's work is unmatched. She took my vision and created something even better than I imagined. Highly recommend!",
+        "author": "James R.",
+        "city": "Manchester",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Professional"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @hannaeyetattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Hanna",
+    "paragraphs": [
+      "With over 8 years of experience in the tattoo industry, Hanna has developed a distinctive style focused on precision eye artistry and intricate custom designs. Her passion for detailed work and anatomical accuracy has made her a sought-after artist for clients seeking unique, meaningful tattoos.",
+      "Hanna's artistic journey began with fine art studies, which gave her a deep understanding of proportion, shading, and composition. This foundation, combined with her technical tattooing skills, allows her to create stunning pieces that are both visually striking and technically flawless. Every tattoo is approached as a collaborative artwork between artist and client."
+    ],
+    "callout": "Every piece tells a story - let's create yours together with precision and artistic vision.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Portrait of tattoo artist Hanna in her studio"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How long does the design process take?",
+        "answer": "The design process typically takes 1-2 weeks from initial consultation to final approval. This includes concept development, sketching, and revisions to ensure your vision is perfectly captured before we begin tattooing."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the session price?",
+        "answer": "All session prices include the initial consultation, custom design work, the tattooing session, premium aftercare products, and detailed healing instructions. Touch-ups within 6 months are complimentary."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Custom Artwork?",
+    "subheadline": "Book your consultation today and let's bring your vision to life with precision and artistic expertise",
+    "ctaText": "Book Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Ready to start your tattoo journey? Fill out the form below and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thank you for your interest! We'll review your request and get back to you within 24 hours to confirm your session details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit is required to secure your booking and will be applied to your session total."
+  },
+  "contact": {
+    "email": "hello@hannaeyetattoo.com",
+    "instagram": "@hannaeyetattoo",
+    "instagramUrl": "https://instagram.com/hannaeyetattoo",
+    "phone": "+44 7XXX XXX XXX",
+    "address": "Private Studio, UK"
+  },
+  "footer": {
+    "copyrightHolder": "HannaEyeTattoo",
+    "tagline": "Precision Eye Artistry & Custom Tattoo Designs"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

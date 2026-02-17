@@ -28,7 +28,7 @@ export const SECRET_SOCIETY_TATTOO_MCR: StudioConfig = {
             description: 'Manchester\'s premier tattoo studio specializing in dark art and mystical designs. Experience the difference of true artistry.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/secret-society-tattoo-mcr',
+            url: 'https://www.apexink.uk/secret-society-tattoo-mcr',
             siteName: 'Secret Society Tattoo MCR',
             images: [
                 {

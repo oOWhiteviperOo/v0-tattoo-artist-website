@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "North of Winter Tattoo Studio Manchester",
+    "slug": "north-of-winter-tattoo-studio-manchester",
+    "tagline": "Where Nordic artistry meets Manchester grit",
+    "artistName": "Alex Nordström"
+  },
+  "theme": {
+    "background": "220 15% 4%",
+    "foreground": "210 40% 98%",
+    "accent": "200 90% 55%",
+    "accentForeground": "210 40% 98%",
+    "mutedForeground": "215 20% 65%",
+    "dimmedForeground": "215 15% 45%",
+    "border": "220 15% 12%",
+    "card": "220 15% 6%",
+    "accentRgb": "51, 153, 255",
+    "ring": "200 90% 55%"
+  },
+  "seo": {
+    "title": "North of Winter Tattoo Studio Manchester | Nordic Ink Art",
+    "description": "Premium Nordic-inspired tattoos in Manchester. Custom designs, blackwork, and geometric pieces. Book your consultation at North of Winter today.",
+    "keywords": [
+      "tattoo studio Manchester",
+      "Nordic tattoo artist"
+    ],
+    "openGraph": {
+      "title": "North of Winter Tattoo Studio Manchester",
+      "description": "Where Nordic artistry meets Manchester grit. Custom tattoos inspired by Scandinavian culture and mythology.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/north-of-winter-tattoo-studio-manchester",
+      "siteName": "North of Winter Tattoo Studio Manchester",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=North%20of%20Winter%20Tattoo%20Studio%20Manchester+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "North of Winter Tattoo Studio Manchester"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Nordic Artistry in the Heart of",
+      "Manchester"
+    ],
+    "subheadline": "Custom tattoos inspired by Scandinavian culture, mythology, and minimalist design. Where ancient symbols meet modern craftsmanship.",
+    "urgencyText": "Only 3 slots available this month",
+    "ctaText": "Book Your Design Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Nordic-inspired tattoo artwork at North of Winter Tattoo Studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Nordic Tattoos"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Google Reviews"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Nordic Ink Mastery",
+    "subtitle": "From ancient runes to modern geometric designs, each piece tells a story of northern heritage",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your Nordic ink journey",
+    "guarantee": "100% satisfaction guarantee or full refund",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Design Consultation",
+        "duration": "2 hours",
+        "price": "£150",
+        "priceSubtitle": "Applied to final tattoo cost",
+        "features": [
+          "Custom Nordic design creation",
+          "Cultural significance discussion"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Tattoo Session",
+        "duration": "4-6 hours",
+        "price": "£400-£800",
+        "priceSubtitle": "Depends on size and complexity",
+        "features": [
+          "Complete tattoo execution",
+          "Aftercare kit included"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 3 weeks",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex created the most incredible Norse mythology sleeve. The attention to detail and cultural authenticity is unmatched. Worth every penny!",
+        "author": "Marcus Thompson",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "The geometric Viking compass Alex designed for me is absolutely perfect. Clean lines, meaningful symbolism, and flawless execution.",
+        "author": "Sarah Mitchell",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @northofwintertattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist Behind the Nordic Vision",
+    "paragraphs": [
+      "Alex Nordström brings eight years of tattooing expertise with a deep passion for Scandinavian culture and mythology. Born in Manchester but raised on stories of Viking heritage, Alex combines traditional Nordic symbolism with contemporary tattooing techniques to create truly unique pieces.",
+      "Specializing in blackwork, geometric patterns, and runic scripts, every tattoo is researched for cultural accuracy and designed with personal meaning. From Mjölnir hammers to intricate knotwork, each piece connects you to the rich tapestry of northern European heritage."
+    ],
+    "callout": "Every design tells a story. Every tattoo carries meaning. Every client becomes part of the Nordic legacy.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Nordström, Nordic tattoo artist at North of Winter Tattoo Studio"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you only do Nordic-style tattoos?",
+        "answer": "While Nordic and Scandinavian designs are my specialty, I also create geometric, blackwork, and minimalist pieces. I'm happy to discuss how we can incorporate Nordic elements into other styles."
+      },
+      {
+        "id": "faq-2",
+        "question": "How do I book a consultation?",
+        "answer": "You can book through our website or Instagram. Consultations are £150 and include custom design creation, which is applied toward your final tattoo cost when you book a full session."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Begin Your Nordic Journey?",
+    "subheadline": "Book your consultation today and let's create something legendary together",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Ready to start your Nordic tattoo journey? Fill out the form below and we'll get back to you within 24 hours.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for your interest! We'll review your request and get back to you within 24 hours with availability and next steps.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your booking"
+  },
+  "contact": {
+    "email": "hello@northofwintertattoo.com",
+    "instagram": "@northofwintertattoo",
+    "instagramUrl": "https://instagram.com/northofwintertattoo",
+    "phone": "+44 161 555 0123",
+    "address": "Northern Quarter, Manchester M1 1AA"
+  },
+  "footer": {
+    "copyrightHolder": "North of Winter Tattoo Studio Manchester",
+    "tagline": "Where Nordic artistry meets Manchester grit"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

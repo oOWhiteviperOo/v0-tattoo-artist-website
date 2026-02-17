@@ -28,7 +28,7 @@ export const OHLA_TATTOO_MANCHESTER: StudioConfig = {
             description: 'Manchester\'s premier custom tattoo studio. Expert artistry, unique designs, and professional service in the heart of Manchester.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/ohla-tattoo-manchester',
+            url: 'https://www.apexink.uk/ohla-tattoo-manchester',
             siteName: 'Ohla Tattoo Manchester',
             images: [
                 {

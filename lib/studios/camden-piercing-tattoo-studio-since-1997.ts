@@ -28,7 +28,7 @@ export const CAMDEN_PIERCING_TATTOO_STUDIO_SINCE_1997: StudioConfig = {
             description: 'Experience 25+ years of tattoo artistry in Camden, London. Custom designs, professional piercings, and exceptional service since 1997.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/camden-piercing-tattoo-studio-since-1997',
+            url: 'https://www.apexink.uk/camden-piercing-tattoo-studio-since-1997',
             siteName: 'Camden Piercing & Tattoo Studio - Since 1997',
             images: [
                 {

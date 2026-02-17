@@ -28,7 +28,7 @@ export const STRAIGHT_LINES_AND_CIRCLES: StudioConfig = {
             description: 'Precision geometric tattoos featuring clean lines and perfect circles. Custom minimalist designs by expert artists.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/straight-lines-and-circles',
+            url: 'https://www.apexink.uk/straight-lines-and-circles',
             siteName: 'Straight Lines and Circles',
             images: [
                 {

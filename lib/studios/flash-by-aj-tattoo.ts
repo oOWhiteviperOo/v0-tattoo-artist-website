@@ -28,7 +28,7 @@ export const FLASH_BY_AJ_TATTOO: StudioConfig = {
             description: 'Professional tattoo artist AJ specializing in bold flash art and custom designs. Book your appointment today for high-quality tattoos.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/flash-by-aj-tattoo',
+            url: 'https://www.apexink.uk/flash-by-aj-tattoo',
             siteName: 'Flash By AJ Tattoo',
             images: [
                 {

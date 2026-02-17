@@ -28,7 +28,7 @@ export const SWEET_TIME_TATTOO: StudioConfig = {
             description: 'Premium custom tattoo studio creating unique, artistic designs. Book your consultation today for exceptional tattoo artistry.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/sweet-time-tattoo',
+            url: 'https://www.apexink.uk/sweet-time-tattoo',
             siteName: 'Sweet Time Tattoo',
             images: [
                 {

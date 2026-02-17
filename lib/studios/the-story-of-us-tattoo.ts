@@ -28,7 +28,7 @@ export const THE_STORY_OF_US_TATTOO: StudioConfig = {
             description: 'Premium custom tattoo studio creating meaningful art that tells your unique story. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/the-story-of-us-tattoo',
+            url: 'https://www.apexink.uk/the-story-of-us-tattoo',
             siteName: 'The Story Of Us Tattoo',
             images: [
                 {

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "No Regrets Studios Manchester",
+    "slug": "no-regrets-studios-manchester",
+    "tagline": "Premium Tattoo Artistry in the Heart of Manchester",
+    "artistName": "Jake Morrison"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "14 100% 57%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "255, 145, 0",
+    "ring": "14 100% 57%"
+  },
+  "seo": {
+    "title": "No Regrets Studios Manchester | Premium Tattoo Artists",
+    "description": "Manchester's premier tattoo studio. Custom designs, expert artists, sterile environment. Book your consultation today for award-winning tattoo artistry.",
+    "keywords": [
+      "tattoo studio Manchester",
+      "custom tattoo Manchester"
+    ],
+    "openGraph": {
+      "title": "No Regrets Studios Manchester - Premium Tattoo Artistry",
+      "description": "Manchester's premier tattoo studio offering custom designs and expert artistry in a professional, sterile environment.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/no-regrets-studios-manchester",
+      "siteName": "No Regrets Studios Manchester",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=No%20Regrets%20Studios%20Manchester+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "No Regrets Studios Manchester"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Premier",
+      "Tattoo Artistry"
+    ],
+    "subheadline": "Where bold visions become permanent masterpieces. Custom designs crafted by award-winning artists in the heart of Manchester.",
+    "urgencyText": "Only 3 consultation slots left this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on detailed custom design at No Regrets Studios Manchester"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "100% Custom Designs"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Masterpiece Gallery",
+    "subtitle": "Every tattoo tells a story. Browse our collection of custom artistry that transforms skin into canvas.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattoo services tailored to bring your vision to life with precision and artistry.",
+    "guarantee": "100% satisfaction guarantee or we'll make it right",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Piece",
+        "duration": "2-3 hours",
+        "price": "£180",
+        "priceSubtitle": "Includes design consultation",
+        "features": [
+          "Custom design consultation",
+          "Small to medium tattoo completion"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Day Session",
+        "duration": "6-8 hours",
+        "price": "£650",
+        "priceSubtitle": "Complete large piece",
+        "features": [
+          "Extended session for large pieces",
+          "Multiple breaks & aftercare kit"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 2 weeks",
+        "buttonText": "Book Full Day",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Jake's attention to detail is incredible. My sleeve took months to plan but the result exceeded every expectation. The studio atmosphere is professional yet welcoming.",
+        "author": "Sarah Chen",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "Been getting work done here for 3 years now. The quality is consistently outstanding and the aftercare advice is spot on. Wouldn't go anywhere else.",
+        "author": "Marcus Thompson",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Award Winning Artists"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Vegan Friendly Inks"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @noregretsstudiosmcr",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Jake Morrison",
+    "paragraphs": [
+      "With over 8 years of dedicated artistry, Jake has established No Regrets Studios as Manchester's premier destination for custom tattoo work. His background in fine arts and passion for storytelling through ink has earned him recognition across the UK tattoo community.",
+      "Jake specializes in neo-traditional, blackwork, and photorealistic styles, but his true passion lies in collaborating with clients to create completely unique pieces. Every tattoo begins with extensive consultation to ensure the final result exceeds expectations and tells your personal story."
+    ],
+    "callout": "Every piece is a collaboration between artist and client, resulting in truly one-of-a-kind artwork.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Jake Morrison, lead tattoo artist at No Regrets Studios Manchester"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a consultation?",
+        "answer": "You can book through our online form, call us directly, or message us on Instagram. We'll discuss your ideas, provide a quote, and schedule your session. Consultations are included in all bookings."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit and cancellation policy?",
+        "answer": "We require a £50 deposit to secure your appointment, which goes toward your final session cost. 48 hours notice is required for cancellations to receive a full refund of your deposit."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Something Extraordinary?",
+    "subheadline": "Join hundreds of satisfied clients who trust No Regrets Studios with their permanent art. Book your consultation today.",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Consultation",
+    "modalDescription": "Tell us about your tattoo ideas and we'll get back to you within 24 hours to discuss your design and schedule your session.",
+    "successTitle": "Consultation Request Sent!",
+    "successMessage": "Thanks for choosing No Regrets Studios! We'll review your request and get back to you within 24 hours to discuss your design and schedule your session.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "A £50 deposit will be required to confirm your booking"
+  },
+  "contact": {
+    "email": "hello@noregretsstudiosmcr.com",
+    "instagram": "@noregretsstudiosmcr",
+    "instagramUrl": "https://instagram.com/noregretsstudiosmcr",
+    "phone": "+44 161 555 0123",
+    "address": "45 Northern Quarter, Manchester M1 4FN"
+  },
+  "footer": {
+    "copyrightHolder": "No Regrets Studios Manchester",
+    "tagline": "Premium tattoo artistry in the heart of Manchester"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

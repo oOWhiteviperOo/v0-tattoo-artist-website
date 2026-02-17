@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Ohla Tattoo Manchester",
+    "slug": "ohla-tattoo-manchester",
+    "tagline": "Where Art Meets Skin in Manchester",
+    "artistName": "Ohla"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "0 0% 98%",
+    "accent": "280 100% 60%",
+    "accentForeground": "0 0% 98%",
+    "mutedForeground": "0 0% 64%",
+    "dimmedForeground": "0 0% 45%",
+    "border": "0 0% 15%",
+    "card": "0 0% 6%",
+    "accentRgb": "153, 51, 255",
+    "ring": "280 100% 60%"
+  },
+  "seo": {
+    "title": "Ohla Tattoo Manchester - Custom Tattoos & Art",
+    "description": "Premium custom tattoo studio in Manchester. Expert artistry, unique designs, and professional service. Book your consultation today at Ohla Tattoo.",
+    "keywords": [
+      "tattoo studio Manchester",
+      "custom tattoos Manchester"
+    ],
+    "openGraph": {
+      "title": "Ohla Tattoo Manchester - Where Art Meets Skin",
+      "description": "Manchester's premier custom tattoo studio. Expert artistry, unique designs, and professional service in the heart of Manchester.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/ohla-tattoo-manchester",
+      "siteName": "Ohla Tattoo Manchester",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Ohla%20Tattoo%20Manchester+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Ohla Tattoo Manchester"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Premier",
+      "Custom Tattoo Studio"
+    ],
+    "subheadline": "Where artistic vision meets exceptional craftsmanship in the heart of Manchester",
+    "urgencyText": "Limited slots available this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist at work in modern Manchester studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Artwork",
+    "subtitle": "Each piece tells a unique story, crafted with precision and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattoo services tailored to your vision",
+    "guarantee": "100% satisfaction guarantee on all work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Tattoo",
+        "duration": "2-3 hours",
+        "price": "£180",
+        "priceSubtitle": "Perfect for first-time clients",
+        "features": [
+          "Design consultation included",
+          "Up to 4 inches in size"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Tattoo",
+        "duration": "4-6 hours",
+        "price": "£450",
+        "priceSubtitle": "For detailed custom work",
+        "features": [
+          "Detailed custom design",
+          "Multiple session option"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 2 weeks",
+        "buttonText": "Book Large Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Ohla created the most beautiful custom piece for me. The attention to detail and artistic vision exceeded all my expectations. Couldn't be happier!",
+        "author": "Sarah Mitchell",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "Professional, clean, and incredibly talented. Ohla listened to my ideas and created something even better than I imagined. Highly recommend!",
+        "author": "James Thompson",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Inks Only"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @ohlatattoo_mcr",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Ohla",
+    "paragraphs": [
+      "With over 8 years of experience in the tattoo industry, Ohla has established herself as one of Manchester's most sought-after tattoo artists. Specializing in custom designs that blend traditional techniques with contemporary artistry, she creates unique pieces that tell each client's personal story.",
+      "Based in the heart of Manchester, Ohla Tattoo has become a destination for those seeking exceptional artistry and professional service. Every tattoo is approached as a collaborative artwork, ensuring each client leaves with a piece they'll treasure forever."
+    ],
+    "callout": "Every tattoo tells a story - let's create yours together",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Ohla, professional tattoo artist at work in Manchester studio"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a consultation?",
+        "answer": "You can book a consultation through our website or by contacting us directly via Instagram or email. We'll discuss your ideas, provide a quote, and schedule your session."
+      },
+      {
+        "id": "faq-2",
+        "question": "What should I expect during my first visit?",
+        "answer": "During your first visit, we'll discuss your design ideas, review placement options, and create a custom design just for you. We'll also go over aftercare instructions and answer any questions you might have."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Get Your Dream Tattoo?",
+    "subheadline": "Book your consultation today and let's bring your vision to life",
+    "ctaText": "Book Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Fill out the form below and we'll get back to you within 24 hours to confirm your booking.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thank you for your booking request. We'll contact you within 24 hours to confirm your appointment and discuss your design ideas.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your booking"
+  },
+  "contact": {
+    "email": "hello@ohlatattoo.co.uk",
+    "instagram": "@ohlatattoo_mcr",
+    "instagramUrl": "https://instagram.com/ohlatattoo_mcr",
+    "phone": "+44 161 123 4567",
+    "address": "Northern Quarter, Manchester, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Ohla Tattoo Manchester",
+    "tagline": "Where Art Meets Skin"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

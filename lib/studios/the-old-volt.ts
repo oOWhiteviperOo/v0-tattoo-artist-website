@@ -28,7 +28,7 @@ export const THE_OLD_VOLT: StudioConfig = {
             description: 'Where electric artistry meets timeless craft. Premium custom tattoos by award-winning artists.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/the-old-volt',
+            url: 'https://www.apexink.uk/the-old-volt',
             siteName: 'The Old Volt',
             images: [
                 {

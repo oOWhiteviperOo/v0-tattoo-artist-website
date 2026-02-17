@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Holier Than Thou",
+    "slug": "holier-than-thou",
+    "tagline": "Sacred Art, Unholy Skill",
+    "artistName": "Marcus Thorne"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "280 100% 70%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "179, 0, 255",
+    "ring": "280 100% 70%"
+  },
+  "seo": {
+    "title": "Holier Than Thou - Sacred Art Tattoo Studio",
+    "description": "Premium custom tattoo studio specializing in religious iconography, dark art, and sacred geometry. Book your transformative ink experience today.",
+    "keywords": [
+      "custom tattoo studio",
+      "religious tattoo art"
+    ],
+    "openGraph": {
+      "title": "Holier Than Thou - Sacred Art, Unholy Skill",
+      "description": "Transform your vision into sacred ink with our award-winning custom tattoo artistry. Specializing in religious iconography and dark art.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/holier-than-thou",
+      "siteName": "Holier Than Thou",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Holier%20Than%20Thou+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Holier Than Thou"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Sacred Art Meets",
+      "Unholy Skill"
+    ],
+    "subheadline": "Transform your vision into divine ink with our award-winning custom tattoo artistry, specializing in religious iconography, dark art, and sacred geometry.",
+    "urgencyText": "Only 3 consultation slots left this month",
+    "ctaText": "Book Your Vision",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Holier Than Thou tattoo studio hero image"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "12+ Years Mastery"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Sacred Pieces"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Artist"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Divine Gallery",
+    "subtitle": "Each piece tells a sacred story, crafted with precision and reverence for the art form",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Sacred Sessions",
+    "subtitle": "Choose your path to divine ink - from intimate consultations to full sacred transformations",
+    "guarantee": "100% satisfaction guarantee - your vision, perfected",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Piece",
+        "duration": "2-3 hours",
+        "price": "£180",
+        "priceSubtitle": "Perfect for first-timers",
+        "features": [
+          "Custom design consultation",
+          "Small to medium tattoo"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Sacred Transformation",
+        "duration": "4-6 hours",
+        "price": "£450",
+        "priceSubtitle": "Complete artistic vision",
+        "features": [
+          "Extensive design development",
+          "Large detailed masterpiece"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 3 weeks",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Blessed by Our Clients",
+    "testimonials": [
+      {
+        "quote": "Marcus transformed my vision into something beyond my wildest dreams. The attention to detail in my religious sleeve is absolutely divine.",
+        "author": "Sarah M.",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "The atmosphere at Holier Than Thou is unlike any other studio. Marcus creates art that truly speaks to your soul.",
+        "author": "James R.",
+        "city": "Manchester",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Award-Winning Artist"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Inks Only"
+      },
+      {
+        "iconName": "Star",
+        "label": "Lifetime Touch-ups"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @holierthanthou_ink",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist Behind the Sacred",
+    "paragraphs": [
+      "Marcus Thorne has spent over a decade perfecting the delicate balance between reverence and rebellion in tattoo artistry. Specializing in religious iconography, dark art, and sacred geometry, Marcus believes that every tattoo should be a transformative experience that honors both the client's vision and the ancient art of tattooing.",
+      "At Holier Than Thou, we don't just create tattoos - we craft sacred stories on skin. Each piece is meticulously designed and executed with the highest standards of artistry and hygiene. Our studio serves as a sanctuary where art meets spirituality, creating lasting connections between artist, client, and the divine nature of self-expression."
+    ],
+    "callout": "Every tattoo is a sacred contract between artist and canvas - I take that responsibility seriously.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus Thorne, tattoo artist at Holier Than Thou"
+  },
+  "faq": {
+    "sectionTitle": "Sacred Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "Due to high demand, we typically book 3-4 weeks in advance for full sessions. Consultation appointments are usually available within 1-2 weeks. We recommend booking as early as possible to secure your preferred dates."
+      },
+      {
+        "id": "faq-2",
+        "question": "Do you offer touch-ups?",
+        "answer": "Absolutely! We provide complimentary touch-ups within the first 6 months, and lifetime touch-ups at a reduced rate. Your satisfaction and the longevity of your tattoo are our top priorities."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Begin Your Sacred Journey?",
+    "subheadline": "Transform your vision into divine ink with Britain's most revered tattoo artistry",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Sacred Session",
+    "modalDescription": "Ready to transform your vision into divine ink? Share your ideas and let's create something extraordinary together.",
+    "successTitle": "Booking Received!",
+    "successMessage": "Your consultation request has been received. We'll contact you within 24 hours to confirm your appointment and discuss your vision.",
+    "submitText": "Submit Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "book@holierthanthou.ink",
+    "instagram": "@holierthanthou_ink",
+    "instagramUrl": "https://instagram.com/holierthanthou_ink",
+    "phone": "+44 20 7946 0958",
+    "address": "Sacred Studios, 42 Ink Lane, London"
+  },
+  "footer": {
+    "copyrightHolder": "Holier Than Thou Tattoo Studio",
+    "tagline": "Where sacred art meets unholy skill"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

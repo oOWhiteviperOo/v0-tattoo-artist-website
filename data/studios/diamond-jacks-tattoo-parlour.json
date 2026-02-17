@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Diamond Jacks Tattoo Parlour",
+    "slug": "diamond-jacks-tattoo-parlour",
+    "tagline": "Where Artistry Meets Excellence",
+    "artistName": "Jack Diamond"
+  },
+  "theme": {
+    "background": "0 0% 5%",
+    "foreground": "60 9% 98%",
+    "accent": "210 100% 50%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 8%",
+    "accentRgb": "0, 128, 255",
+    "ring": "210 100% 50%"
+  },
+  "seo": {
+    "title": "Diamond Jacks Tattoo Parlour - Premium Custom Tattoos",
+    "description": "Award-winning tattoo studio specializing in custom designs. Expert artistry, premium quality, and exceptional service. Book your consultation today.",
+    "keywords": [
+      "tattoo studio",
+      "custom tattoos"
+    ],
+    "openGraph": {
+      "title": "Diamond Jacks Tattoo Parlour - Where Artistry Meets Excellence",
+      "description": "Premium tattoo studio creating stunning custom designs with expert craftsmanship and uncompromising quality.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/diamond-jacks-tattoo-parlour",
+      "siteName": "Diamond Jacks Tattoo Parlour",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Diamond%20Jacks%20Tattoo%20Parlour+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Diamond Jacks Tattoo Parlour"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Premium Tattoo Artistry",
+      "Diamond Quality Guaranteed"
+    ],
+    "subheadline": "Experience the finest in custom tattoo design with award-winning artistry and uncompromising attention to detail",
+    "urgencyText": "Limited appointments available this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on detailed custom design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "15+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "3000+ Tattoos Created"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Premium Custom Work"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Masterpiece Gallery",
+    "subtitle": "Each tattoo is a unique work of art, crafted with precision and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your vision",
+    "guarantee": "100% satisfaction guarantee on all work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Pieces",
+        "duration": "1-2 hours",
+        "price": "£150-£300",
+        "priceSubtitle": "Starting from £150",
+        "features": [
+          "Design consultation included",
+          "Perfect for first tattoos"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Custom Pieces",
+        "duration": "3-6 hours",
+        "price": "£400-£800",
+        "priceSubtitle": "Starting from £400",
+        "features": [
+          "Detailed custom artwork",
+          "Multi-session projects welcome"
+        ],
+        "status": "available",
+        "availabilityText": "Booking 2-3 weeks out",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Client Testimonials",
+    "testimonials": [
+      {
+        "quote": "Jack's attention to detail is incredible. My sleeve turned out better than I ever imagined. The quality is absolutely diamond standard.",
+        "author": "Sarah M.",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "Professional, clean, and artistic beyond belief. Diamond Jacks is the only place I trust with my skin. Every piece is a masterpiece.",
+        "author": "Marcus T.",
+        "city": "Birmingham",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Award Winning"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Premium Equipment"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @diamondjackstattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Jack Diamond",
+    "paragraphs": [
+      "With over 15 years of experience in the tattoo industry, Jack Diamond has established himself as one of the most respected artists in the field. His journey began with a passion for fine art and evolved into a dedication to creating permanent masterpieces on skin.",
+      "At Diamond Jacks Tattoo Parlour, every piece is approached with the same level of craftsmanship and attention to detail. From intricate black and grey work to vibrant color pieces, Jack's versatility and artistic vision ensure that each client receives a truly unique work of art."
+    ],
+    "callout": "Every tattoo tells a story - let's create yours together.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Jack Diamond, professional tattoo artist and owner of Diamond Jacks Tattoo Parlour"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "For custom pieces, we recommend booking 2-3 weeks in advance. Smaller pieces and consultations can often be scheduled within the same week."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Every consultation includes design discussion, placement advice, sizing recommendations, and a detailed quote. We'll work together to ensure your vision becomes reality."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Diamond Quality Tattoo?",
+    "subheadline": "Join hundreds of satisfied clients who chose excellence",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo vision and we'll get back to you within 24 hours to schedule your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll contact you within 24 hours to confirm your appointment and discuss your design.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit is required to secure your appointment and will be applied to your final session cost."
+  },
+  "contact": {
+    "email": "info@diamondjackstattoo.co.uk",
+    "instagram": "@diamondjackstattoo",
+    "instagramUrl": "https://instagram.com/diamondjackstattoo",
+    "phone": "+44 20 7123 4567",
+    "address": "123 High Street, London, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Diamond Jacks Tattoo Parlour",
+    "tagline": "Where artistry meets excellence"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

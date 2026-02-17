@@ -28,7 +28,7 @@ export const HOPE_ROSEMARY_TATTOO: StudioConfig = {
             description: 'Specializing in delicate botanical tattoos and fine line artistry. Custom nature-inspired designs that bloom on skin.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/hope-rosemary-tattoo',
+            url: 'https://www.apexink.uk/hope-rosemary-tattoo',
             siteName: 'Hope Rosemary Tattoo',
             images: [
                 {

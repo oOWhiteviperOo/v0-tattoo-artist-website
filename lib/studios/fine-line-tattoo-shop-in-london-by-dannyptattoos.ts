@@ -28,7 +28,7 @@ export const FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS: StudioConfig = {
             description: 'Expert fine line tattoos in London by Danny P. Delicate, precise designs crafted with artistic excellence.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/fine-line-tattoo-shop-in-london-by-dannyptattoos',
+            url: 'https://www.apexink.uk/fine-line-tattoo-shop-in-london-by-dannyptattoos',
             siteName: 'Fine Line Tattoo Shop In London by dannyptattoos.',
             images: [
                 {

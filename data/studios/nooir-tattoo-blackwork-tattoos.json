@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Nooir Tattoo - Blackwork Tattoos",
+    "slug": "nooir-tattoo-blackwork-tattoos",
+    "tagline": "Where darkness meets artistry in pure blackwork",
+    "artistName": "Alex Nooir"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "0 0% 98%",
+    "accent": "0 0% 15%",
+    "accentForeground": "0 0% 98%",
+    "mutedForeground": "0 0% 64%",
+    "dimmedForeground": "0 0% 45%",
+    "border": "0 0% 12%",
+    "card": "0 0% 6%",
+    "accentRgb": "38, 38, 38",
+    "ring": "0 0% 15%"
+  },
+  "seo": {
+    "title": "Nooir Tattoo - Expert Blackwork Tattoos & Dark Art",
+    "description": "Specializing in bold blackwork tattoos, geometric designs, and dark art. Professional tattoo studio creating striking black ink masterpieces.",
+    "keywords": [
+      "blackwork tattoos",
+      "dark tattoo art"
+    ],
+    "openGraph": {
+      "title": "Nooir Tattoo - Blackwork Tattoo Specialists",
+      "description": "Expert blackwork tattoos and dark art. Bold geometric designs and striking black ink masterpieces by professional tattoo artists.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/nooir-tattoo-blackwork-tattoos",
+      "siteName": "Nooir Tattoo - Blackwork Tattoos",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Nooir%20Tattoo%20-%20Blackwork%20Tattoos+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Nooir Tattoo - Blackwork Tattoos"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Bold Blackwork",
+      "Dark Art Mastery"
+    ],
+    "subheadline": "Specializing in striking blackwork tattoos, geometric patterns, and dark artistic expressions that make a statement",
+    "urgencyText": "Limited blackwork sessions available this month",
+    "ctaText": "Book Your Dark Art",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional blackwork tattoo artist creating detailed dark art"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Blackwork"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Dark Tattoos"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Blackwork Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Dark Designs"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Blackwork Portfolio",
+    "subtitle": "Explore our collection of bold blackwork tattoos and dark artistic expressions",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Blackwork Sessions",
+    "subtitle": "Choose your perfect blackwork tattoo experience",
+    "guarantee": "100% satisfaction guarantee on all blackwork designs",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Blackwork Design",
+        "duration": "3-4 hours",
+        "price": "£350",
+        "priceSubtitle": "Medium blackwork piece",
+        "features": [
+          "Custom blackwork design",
+          "Bold geometric patterns"
+        ],
+        "status": "limited",
+        "availabilityText": "Next available: This week",
+        "buttonText": "Book Blackwork",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Dark Art",
+        "duration": "5-7 hours",
+        "price": "£650",
+        "priceSubtitle": "Full blackwork masterpiece",
+        "features": [
+          "Complex dark compositions",
+          "Multi-session planning"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: Next week",
+        "buttonText": "Book Dark Art",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "The blackwork detail is incredible. Alex perfectly captured the dark aesthetic I wanted.",
+        "author": "Sarah M.",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "Best blackwork studio around. The geometric precision and dark artistry is unmatched.",
+        "author": "James R.",
+        "city": "Manchester",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Blackwork Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Award-Winning Dark Art"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Custom Blackwork Only"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @nooirtattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "About Nooir Tattoo",
+    "paragraphs": [
+      "Nooir Tattoo specializes exclusively in blackwork tattoos and dark artistic expressions. Our studio is dedicated to creating bold, striking designs using only black ink, focusing on geometric patterns, abstract compositions, and powerful dark imagery that makes a statement.",
+      "With over 8 years of experience in blackwork artistry, Alex Nooir has developed a unique style that combines technical precision with artistic vision. Every piece is custom-designed to reflect the client's personality while maintaining the bold, dramatic aesthetic that defines our blackwork specialty."
+    ],
+    "callout": "Every blackwork tattoo tells a story in shades of black",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Nooir, professional blackwork tattoo artist"
+  },
+  "faq": {
+    "sectionTitle": "Blackwork FAQ",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "What makes blackwork tattoos special?",
+        "answer": "Blackwork tattoos use only black ink to create bold, dramatic designs. They age exceptionally well, maintain their contrast over time, and offer unlimited creative possibilities through shading, geometric patterns, and negative space."
+      },
+      {
+        "id": "faq-2",
+        "question": "How long do blackwork sessions typically take?",
+        "answer": "Session length depends on the complexity and size of your blackwork design. Small to medium pieces typically take 3-4 hours, while larger, more complex dark art pieces may require 5-7 hours or multiple sessions."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Bold Blackwork?",
+    "subheadline": "Join hundreds of satisfied clients who chose Nooir for their blackwork tattoos",
+    "ctaText": "Start Your Dark Art Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Blackwork Session",
+    "modalDescription": "Ready to create your perfect blackwork tattoo? Fill out the form below and we'll get back to you within 24 hours to discuss your dark art vision.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for choosing Nooir Tattoo! We'll contact you within 24 hours to discuss your blackwork design and schedule your session.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £100 deposit is required to secure your blackwork session"
+  },
+  "contact": {
+    "email": "hello@nooirtattoo.co.uk",
+    "instagram": "@nooirtattoo",
+    "instagramUrl": "https://instagram.com/nooirtattoo",
+    "phone": "+44 7700 900123",
+    "address": "123 Dark Arts Lane, Creative Quarter"
+  },
+  "footer": {
+    "copyrightHolder": "Nooir Tattoo",
+    "tagline": "Where darkness meets artistry"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

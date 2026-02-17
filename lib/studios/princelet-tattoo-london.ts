@@ -28,7 +28,7 @@ export const PRINCELET_TATTOO_LONDON: StudioConfig = {
             description: 'Experience premium custom tattoo artistry in London\'s most distinguished studio. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/princelet-tattoo-london',
+            url: 'https://www.apexink.uk/princelet-tattoo-london',
             siteName: 'Princelet Tattoo London',
             images: [
                 {

@@ -1,29 +1,20 @@
-import { getStudioOrDefault, DEFAULT_STUDIO } from '@/lib/studios'
-import { StudioPage } from '@/components/StudioPage'
 import { Metadata } from 'next'
+import { MarketingPage } from '@/components/MarketingPage'
 
-export async function generateMetadata(): Promise<Metadata> {
-  const studio = getStudioOrDefault(DEFAULT_STUDIO)
-  const { seo } = studio
-
-  return {
-    title: seo.title,
-    description: seo.description,
-    keywords: seo.keywords,
+export const metadata: Metadata = {
+    title: 'Apex Ink | AI Booking Automation for UK Tattoo Studios',
+    description: 'Stop losing bookings to slow replies. AI-powered booking automation handles DMs, deposits, and reminders for UK tattoo studios. 14-day free trial.',
+    keywords: ['tattoo booking automation', 'UK tattoo studio', 'AI booking', 'tattoo deposit collection', 'tattoo studio software'],
     openGraph: {
-      title: seo.openGraph.title,
-      description: seo.openGraph.description,
-      type: 'website',
-      locale: seo.openGraph.locale,
-      url: seo.openGraph.url,
-      siteName: seo.openGraph.siteName,
-      images: seo.openGraph.images,
+        title: 'Apex Ink | AI Booking Automation for UK Tattoo Studios',
+        description: 'Stop losing bookings to slow replies. AI-powered booking automation handles DMs, deposits, and reminders for UK tattoo studios.',
+        type: 'website',
+        locale: 'en_GB',
+        url: 'https://www.apexink.uk',
+        siteName: 'Apex Ink',
     },
-  }
 }
 
 export default function Home() {
-  const studio = getStudioOrDefault(DEFAULT_STUDIO)
-
-  return <StudioPage config={studio} />
+    return <MarketingPage />
 }

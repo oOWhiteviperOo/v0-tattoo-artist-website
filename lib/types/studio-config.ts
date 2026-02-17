@@ -41,6 +41,8 @@ export interface StudioConfig {
         slug: string
         tagline?: string
         artistName?: string
+        customDomain?: string   // e.g., "ironinktattoo.co.uk"
+        subdomain?: string      // e.g., "ironink" (for ironink.apexink.uk)
     }
     theme: {
         background: string // HSL values, e.g., "0 0% 4%"

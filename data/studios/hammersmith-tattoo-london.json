@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Hammersmith Tattoo London",
+    "slug": "hammersmith-tattoo-london",
+    "tagline": "Where Industrial Meets Artistry",
+    "artistName": "Marcus Stone"
+  },
+  "theme": {
+    "background": "0 0% 5%",
+    "foreground": "210 40% 98%",
+    "accent": "25 95% 53%",
+    "accentForeground": "210 40% 98%",
+    "mutedForeground": "215 20% 65%",
+    "dimmedForeground": "215 14% 48%",
+    "border": "215 27% 17%",
+    "card": "215 27% 8%",
+    "accentRgb": "242, 101, 34",
+    "ring": "25 95% 53%"
+  },
+  "seo": {
+    "title": "Hammersmith Tattoo London | Premium Tattoo Studio",
+    "description": "Award-winning tattoo studio in Hammersmith, London. Custom designs, traditional & modern styles. Book your consultation today.",
+    "keywords": [
+      "tattoo studio Hammersmith",
+      "London tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Hammersmith Tattoo London - Where Industrial Meets Artistry",
+      "description": "Premium tattoo studio in the heart of Hammersmith. Custom designs crafted with precision and passion.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/hammersmith-tattoo-london",
+      "siteName": "Hammersmith Tattoo London",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Hammersmith%20Tattoo%20London+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Hammersmith Tattoo London"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Industrial Strength",
+      "Artistic Vision"
+    ],
+    "subheadline": "Premium tattoo artistry in the heart of Hammersmith, where tradition meets innovation",
+    "urgencyText": "Limited appointments available this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist at work in Hammersmith studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "12+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "3000+ Tattoos Completed"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Google Rated"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Award-Winning Studio"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Masterpiece Gallery",
+    "subtitle": "Every tattoo tells a story. Here are some of our favourites.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your vision",
+    "guarantee": "100% satisfaction guarantee or your deposit back",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small Piece Session",
+        "duration": "2-3 hours",
+        "price": "£200",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Custom design consultation",
+          "Premium aftercare kit included"
+        ],
+        "status": "limited",
+        "availabilityText": "Available next week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Piece Session",
+        "duration": "4-6 hours",
+        "price": "£450",
+        "priceSubtitle": "For detailed artwork",
+        "features": [
+          "Extended design process",
+          "Multiple revision rounds"
+        ],
+        "status": "available",
+        "availabilityText": "2-week waiting list",
+        "buttonText": "Book Large Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Marcus transformed my idea into something incredible. The attention to detail at Hammersmith Tattoo is unmatched.",
+        "author": "Sarah Chen",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "Been to many studios across London, but this is the only place I trust with my skin. Absolutely phenomenal work.",
+        "author": "James Mitchell",
+        "city": "Hammersmith",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Award Winner 2023"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @hammersmithtattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Your Artist",
+    "paragraphs": [
+      "Marcus Stone has been creating stunning tattoos for over 12 years, establishing Hammersmith Tattoo London as one of West London's premier studios. With a background in fine arts and a passion for both traditional and contemporary styles, Marcus brings a unique perspective to every piece.",
+      "Our studio combines the industrial heritage of Hammersmith with cutting-edge artistry. We believe every tattoo should be a masterpiece that you'll be proud to wear for life. From intricate blackwork to vibrant colour pieces, we specialise in bringing your vision to reality."
+    ],
+    "callout": "Every tattoo is a collaboration between artist and client, resulting in truly unique artwork.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus Stone, lead tattoo artist at Hammersmith Tattoo London"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance for most pieces. Large custom work may require longer lead times for the design process."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We require a £50 deposit to secure your appointment, which goes towards your final session cost. Deposits are non-refundable but can be transferred to a new date with 48 hours notice."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Masterpiece?",
+    "subheadline": "Book your consultation today and let's bring your vision to life",
+    "ctaText": "Book Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss your design and schedule.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll contact you within 24 hours to discuss your design and confirm your appointment.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@hammersmithtattoo.co.uk",
+    "instagram": "@hammersmithtattoo",
+    "instagramUrl": "https://instagram.com/hammersmithtattoo",
+    "phone": "+44 20 8748 3421",
+    "address": "156 King Street, Hammersmith, London W6 0QU"
+  },
+  "footer": {
+    "copyrightHolder": "Hammersmith Tattoo London",
+    "tagline": "Where Industrial Meets Artistry"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

@@ -28,7 +28,7 @@ export const ORIGIN_TATTOO_LONDON: StudioConfig = {
             description: 'London\'s premier custom tattoo studio specializing in fine line, geometric, and contemporary designs. Expert artistry in the heart of London.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/origin-tattoo-london',
+            url: 'https://www.apexink.uk/origin-tattoo-london',
             siteName: 'Origin Tattoo London',
             images: [
                 {

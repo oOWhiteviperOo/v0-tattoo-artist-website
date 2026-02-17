@@ -28,7 +28,7 @@ export const BOYS_DONT_CRY_TATTOO_PIERCING_CAMDEN: StudioConfig = {
             description: 'Where art meets rebellion. Camden\'s boldest tattoo and piercing studio creating custom designs that tell your story.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/boys-dont-cry-tattoo-piercing-camden',
+            url: 'https://www.apexink.uk/boys-dont-cry-tattoo-piercing-camden',
             siteName: 'Boys Don\'t Cry Tattoo & Piercing - Camden',
             images: [
                 {

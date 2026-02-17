@@ -28,7 +28,7 @@ export const ONE_DAY_TATTOO_STUDIO_LONDON: StudioConfig = {
             description: 'Get your custom tattoo completed in one day. Premium London tattoo studio with experienced artists and same-day service.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/one-day-tattoo-studio-london',
+            url: 'https://www.apexink.uk/one-day-tattoo-studio-london',
             siteName: 'ONE DAY Tattoo Studio London',
             images: [
                 {

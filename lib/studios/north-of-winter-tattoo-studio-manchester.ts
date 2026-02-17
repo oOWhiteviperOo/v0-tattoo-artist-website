@@ -28,7 +28,7 @@ export const NORTH_OF_WINTER_TATTOO_STUDIO_MANCHESTER: StudioConfig = {
             description: 'Where Nordic artistry meets Manchester grit. Custom tattoos inspired by Scandinavian culture and mythology.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/north-of-winter-tattoo-studio-manchester',
+            url: 'https://www.apexink.uk/north-of-winter-tattoo-studio-manchester',
             siteName: 'North of Winter Tattoo Studio Manchester',
             images: [
                 {

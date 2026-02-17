@@ -28,7 +28,7 @@ export const RAIN_CITY_TATTOO_COLLECTIVE: StudioConfig = {
             description: 'Premium custom tattoos crafted with precision and artistry. Experience the Rain City difference.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/rain-city-tattoo-collective',
+            url: 'https://www.apexink.uk/rain-city-tattoo-collective',
             siteName: 'Rain City Tattoo Collective',
             images: [
                 {

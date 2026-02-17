@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Boys Don't Cry Tattoo & Piercing - Camden",
+    "slug": "boys-dont-cry-tattoo-piercing-camden",
+    "tagline": "Where Art Meets Rebellion",
+    "artistName": "Alex Morgan"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "280 100% 70%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "179, 0, 255",
+    "ring": "280 100% 70%"
+  },
+  "seo": {
+    "title": "Boys Don't Cry Tattoo & Piercing Camden | Custom Tattoos",
+    "description": "Camden's premier tattoo & piercing studio. Custom artwork, professional piercings, and rebellious designs. Book your consultation today.",
+    "keywords": [
+      "Camden tattoo studio",
+      "custom tattoo piercing"
+    ],
+    "openGraph": {
+      "title": "Boys Don't Cry Tattoo & Piercing - Camden",
+      "description": "Where art meets rebellion. Camden's boldest tattoo and piercing studio creating custom designs that tell your story.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/boys-dont-cry-tattoo-piercing-camden",
+      "siteName": "Boys Don't Cry Tattoo & Piercing - Camden",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Boys%20Don't%20Cry%20Tattoo%20%26%20Piercing%20-%20Camden+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Boys Don't Cry Tattoo & Piercing - Camden"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Express Your",
+      "Rebellious Spirit"
+    ],
+    "subheadline": "Camden's boldest tattoo and piercing studio where alternative culture meets exceptional artistry",
+    "urgencyText": "Limited November slots available",
+    "ctaText": "Book Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Tattooed artist working on custom design at Boys Don't Cry Tattoo Camden"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Reviews"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Our Latest Artwork",
+    "subtitle": "Every tattoo tells a story. Here are some of our recent rebellious masterpieces.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo & Piercing Sessions",
+    "subtitle": "Professional artistry with a rebellious edge",
+    "guarantee": "100% satisfaction guarantee or we'll make it right",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Tattoo Session",
+        "duration": "2-6 hours",
+        "price": "£150",
+        "priceSubtitle": "per hour + consultation",
+        "features": [
+          "Custom design consultation",
+          "Professional aftercare kit"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Tattoo",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Professional Piercing",
+        "duration": "30-60 minutes",
+        "price": "£45",
+        "priceSubtitle": "jewellery included",
+        "features": [
+          "High-quality titanium jewellery",
+          "Comprehensive aftercare guide"
+        ],
+        "status": "available",
+        "availabilityText": "Walk-ins welcome",
+        "buttonText": "Book Piercing",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Rebels Say",
+    "testimonials": [
+      {
+        "quote": "Alex perfectly captured my vision for a sleeve that represents my journey through music. The attention to detail is incredible.",
+        "author": "Jamie Thompson",
+        "city": "Camden",
+        "rating": 5
+      },
+      {
+        "quote": "Finally found a studio that gets alternative culture. My geometric back piece exceeded all expectations.",
+        "author": "Morgan Clarke",
+        "city": "London",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Custom Designs"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @boysdontcrytattoo_camden",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist Behind the Rebellion",
+    "paragraphs": [
+      "Alex Morgan has been pushing the boundaries of tattoo artistry in Camden for over 8 years. Specializing in bold, alternative designs that challenge conventions, Alex believes every tattoo should be a statement of individual rebellion against the ordinary.",
+      "From intricate blackwork to vibrant neo-traditional pieces, our studio has become Camden's go-to destination for those seeking authentic artistic expression. We don't just create tattoos - we craft personal manifestos in ink."
+    ],
+    "callout": "Every design is completely custom - no flash, no compromises, just pure artistic rebellion.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Morgan, lead tattoo artist at Boys Don't Cry Tattoo Camden"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance for custom tattoos. Piercing appointments are often available same-day or within a few days."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Every consultation includes design discussion, placement advice, sizing recommendations, and a custom sketch. We'll work together until the design perfectly captures your vision."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Express Your Rebellion?",
+    "subheadline": "Join the Camden alternative art movement. Book your consultation today.",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Ready to create something rebellious? Fill out the form below and we'll get back to you within 24 hours.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll review your request and get back to you within 24 hours to confirm your appointment.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@boysdontcrytattoo.co.uk",
+    "instagram": "@boysdontcrytattoo_camden",
+    "instagramUrl": "https://instagram.com/boysdontcrytattoo_camden",
+    "phone": "+44 20 7485 9876",
+    "address": "123 Camden High Street, Camden, London NW1 7JN"
+  },
+  "footer": {
+    "copyrightHolder": "Boys Don't Cry Tattoo & Piercing",
+    "tagline": "Where art meets rebellion"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

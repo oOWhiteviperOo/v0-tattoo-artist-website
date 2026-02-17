@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Metal Morphosis Piercing",
+    "slug": "metal-morphosis-piercing",
+    "tagline": "Transform Your Look with Precision Piercing",
+    "artistName": "Alex Morgan"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "60 9% 98%",
+    "accent": "35 91% 55%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "255, 165, 0",
+    "ring": "35 91% 55%"
+  },
+  "seo": {
+    "title": "Metal Morphosis Piercing - Professional Body Piercing Studio",
+    "description": "Expert body piercing services with precision and style. Custom piercings, premium jewelry, sterile environment. Book your transformation today.",
+    "keywords": [
+      "professional body piercing",
+      "custom piercing studio"
+    ],
+    "openGraph": {
+      "title": "Metal Morphosis Piercing - Transform Your Look",
+      "description": "Professional body piercing studio specializing in custom piercings with premium jewelry and expert technique.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/metal-morphosis-piercing",
+      "siteName": "Metal Morphosis Piercing",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Metal%20Morphosis%20Piercing+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Metal Morphosis Piercing"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Piercing"
+  },
+  "hero": {
+    "headline": [
+      "Transform Your Look with",
+      "Precision Piercing"
+    ],
+    "subheadline": "Expert body piercing services with premium jewelry and sterile technique. Your transformation awaits.",
+    "urgencyText": "Limited slots available this month",
+    "ctaText": "Book Your Piercing",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional body piercing studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "3000+ Piercings Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Premium Jewelry Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Our Precision Work",
+    "subtitle": "Every piercing is a masterpiece of precision and style",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Piercing Services",
+    "subtitle": "Professional piercing services with premium jewelry and aftercare",
+    "guarantee": "100% sterile environment guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Standard Piercing",
+        "duration": "30 minutes",
+        "price": "£45",
+        "priceSubtitle": "Including basic jewelry",
+        "features": [
+          "Professional piercing service",
+          "Basic titanium jewelry included"
+        ],
+        "status": "limited",
+        "availabilityText": "Available daily",
+        "buttonText": "Book Standard",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Premium Piercing",
+        "duration": "45 minutes",
+        "price": "£85",
+        "priceSubtitle": "Including premium jewelry",
+        "features": [
+          "Premium jewelry selection",
+          "Extended consultation included"
+        ],
+        "status": "available",
+        "availabilityText": "Book in advance",
+        "buttonText": "Book Premium",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex's precision and attention to detail is incredible. My piercings healed perfectly and look amazing!",
+        "author": "Sarah M.",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "The most professional piercing experience I've ever had. Clean, safe, and the jewelry selection is outstanding.",
+        "author": "James R.",
+        "city": "Manchester",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Professional"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Jewelry"
+      },
+      {
+        "iconName": "Star",
+        "label": "Expert Aftercare"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @metalmorphosispiercing",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Master Piercer",
+    "paragraphs": [
+      "With over 8 years of experience in professional body piercing, Alex Morgan has built a reputation for precision, safety, and artistic vision. Trained in advanced piercing techniques and anatomy, Alex ensures every client receives the highest standard of care.",
+      "At Metal Morphosis Piercing, we believe every piercing is a form of self-expression. Our studio maintains the strictest hygiene standards while offering an extensive collection of premium jewelry from renowned brands. Your safety and satisfaction are our top priorities."
+    ],
+    "callout": "Every piercing tells a story - let us help you tell yours with precision and style.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Morgan, professional body piercer"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How should I prepare for my piercing appointment?",
+        "answer": "Come well-rested and hydrated. Avoid alcohol 24 hours before your appointment. Eat a good meal beforehand and bring ID. We'll handle all the sterilization and preparation."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the aftercare service?",
+        "answer": "We provide detailed aftercare instructions, cleaning solution, and follow-up check-ins. You can contact us anytime during the healing process with questions or concerns."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Transform Your Look?",
+    "subheadline": "Book your professional piercing session today and experience the Metal Morphosis difference.",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Piercing Session",
+    "modalDescription": "Ready to get your new piercing? Fill out the form below and we'll confirm your appointment within 24 hours.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll contact you within 24 hours to confirm your appointment and discuss any specific requirements.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £20 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@metalmorphosispiercing.co.uk",
+    "instagram": "@metalmorphosispiercing",
+    "instagramUrl": "https://instagram.com/metalmorphosispiercing",
+    "phone": "+44 20 7123 4567",
+    "address": "123 High Street, London, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Metal Morphosis Piercing",
+    "tagline": "Transform Your Look with Precision Piercing"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
