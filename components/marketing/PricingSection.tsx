@@ -165,7 +165,7 @@ export function PricingSection() {
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
           No contracts. Cancel anytime. 14-day free trial on every plan.
-          If we don&apos;t book you 5+ extra sessions in 30 days, you don&apos;t pay.
+          Founding studios get free setup and priority support.
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-6 items-start">

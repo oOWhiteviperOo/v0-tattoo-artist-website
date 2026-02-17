@@ -37,7 +37,7 @@ export function DemoShowcase() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
-          See it working for real studios
+          See what we&apos;ll build for you
         </motion.h2>
 
         <motion.p
@@ -46,8 +46,8 @@ export function DemoShowcase() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
-          Every demo below is a fully working booking page we built for a real UK studio.
-          See what yours could look like.
+          We&apos;ve built these for real UK studios to show what&apos;s possible.
+          Pick one and try the booking flow yourself.
         </motion.p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -84,8 +84,7 @@ export function DemoShowcase() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 9 }}
         >
-          71 demo sites built.{' '}
-          <span className="text-foreground">Yours could be next.</span>
+          Each demo is fully functional &mdash; live forms, real calendar, Stripe deposits.
         </motion.p>
       </div>
     </section>

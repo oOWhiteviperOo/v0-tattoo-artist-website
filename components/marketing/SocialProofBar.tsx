@@ -5,7 +5,7 @@ import { motion, useInView } from 'motion/react'
 import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 
 const STATS = [
-  { value: 71, label: 'Demo sites built' },
+  { value: 48, suffix: 'h', label: 'Setup time' },
   { value: 60, suffix: 's', label: 'AI reply time' },
   { value: 0, prefix: '£', label: 'Setup fee' },
   { value: 14, suffix: '-day', label: 'Free trial' },

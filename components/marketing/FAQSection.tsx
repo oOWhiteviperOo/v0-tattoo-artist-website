@@ -29,7 +29,7 @@ const FAQS = [
   {
     question: 'How fast is setup?',
     answer:
-      'Most studios are live within 48 hours. We build your custom booking page, connect your calendar and payments, and send you a working demo. You test it, we tweak it, and you\u2019re taking bookings the same week.',
+      'Your studio can be live within 48 hours. We build your custom booking page, connect your calendar and payments, and send you a working demo to test. You give feedback, we tweak it, and you\u2019re taking bookings the same week.',
   },
   {
     question: 'Can I cancel any time?',
