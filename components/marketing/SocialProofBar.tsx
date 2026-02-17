@@ -5,10 +5,10 @@ import { motion, useInView } from 'motion/react'
 import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 
 const STATS = [
-  { value: 71, suffix: '+', label: 'Studios onboarded' },
-  { value: 4000, suffix: '+', label: 'Bookings handled' },
-  { value: 60, prefix: '< ', suffix: 's', label: 'AI response time' },
-  { value: 99, suffix: '%', label: 'Uptime' },
+  { value: 71, label: 'Demo sites built' },
+  { value: 60, suffix: 's', label: 'AI reply time' },
+  { value: 0, prefix: '£', label: 'Setup fee' },
+  { value: 14, suffix: '-day', label: 'Free trial' },
 ]
 
 function AnimatedCounter({

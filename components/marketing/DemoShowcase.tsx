@@ -7,12 +7,12 @@ import Link from 'next/link'
 import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 
 const DEMO_STUDIOS = [
-  { slug: 'holier-than-thou', name: 'Holier Than Thou', city: 'Manchester' },
-  { slug: 'frith-street-tattoo', name: 'Frith Street Tattoo', city: 'London' },
-  { slug: 'rain-city-tattoo-collective', name: 'Rain City Tattoo', city: 'Manchester' },
-  { slug: 'the-family-business-tattoo', name: 'The Family Business', city: 'London' },
-  { slug: 'good-fortune-studio', name: 'Good Fortune Studio', city: 'London' },
-  { slug: 'seven-dials-tattoo', name: 'Seven Dials Tattoo', city: 'Brighton' },
+  { slug: 'holier-than-thou', name: 'Holier Than Thou', city: 'Manchester', feature: 'AI booking form' },
+  { slug: 'frith-street-tattoo', name: 'Frith Street Tattoo', city: 'London', feature: 'Multi-artist routing' },
+  { slug: 'rain-city-tattoo-collective', name: 'Rain City Tattoo', city: 'Manchester', feature: 'Deposit collection' },
+  { slug: 'the-family-business-tattoo', name: 'The Family Business', city: 'London', feature: 'Session pricing' },
+  { slug: 'good-fortune-studio', name: 'Good Fortune Studio', city: 'London', feature: 'Portfolio showcase' },
+  { slug: 'seven-dials-tattoo', name: 'Seven Dials Tattoo', city: 'Brighton', feature: 'Custom branding' },
 ]
 
 export function DemoShowcase() {
@@ -46,12 +46,12 @@ export function DemoShowcase() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
-          Every demo below is a fully working booking page built for a real UK studio.
-          Your branding, your work, live booking forms.
+          Every demo below is a fully working booking page we built for a real UK studio.
+          See what yours could look like.
         </motion.p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {DEMO_STUDIOS.map(({ slug, name, city }, i) => (
+          {DEMO_STUDIOS.map(({ slug, name, city, feature }, i) => (
             <motion.div
               key={slug}
               initial={{ opacity: 0, y: 12 }}
@@ -67,6 +67,10 @@ export function DemoShowcase() {
                     {name}
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">{city}</p>
+                  <p className="text-xs text-foreground/40 mt-1.5 flex items-center gap-1.5">
+                    <span className="w-1 h-1 rounded-full bg-foreground/20 shrink-0" />
+                    {feature}
+                  </p>
                 </div>
                 <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200" />
               </Link>
@@ -80,7 +84,7 @@ export function DemoShowcase() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 9 }}
         >
-          71 studios and counting.{' '}
+          71 demo sites built.{' '}
           <span className="text-foreground">Yours could be next.</span>
         </motion.p>
       </div>

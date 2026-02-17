@@ -33,7 +33,7 @@ export function MarketingHero() {
           transition={{ duration: 0.22, ease: EASE }}
         >
           <span className="w-1.5 h-1.5 bg-foreground/40 rounded-full animate-pulse" />
-          Now onboarding UK studios
+          5 founding spots left
         </motion.div>
 
         <motion.h1
@@ -80,14 +80,19 @@ export function MarketingHero() {
           </button>
         </motion.div>
 
-        <motion.p
-          className="text-xs text-muted-foreground mt-6"
+        <motion.div
+          className="mt-6 space-y-1.5"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 7 }}
         >
-          Trusted by 71+ UK studios · &lt; 60s AI response · £0 setup
-        </motion.p>
+          <p className="text-xs text-muted-foreground">
+            Now accepting 5 founding studios
+          </p>
+          <p className="text-xs text-foreground/40">
+            Free setup{' · '}Priority support{' · '}Lock in founder pricing
+          </p>
+        </motion.div>
       </div>
 
       {/* Scroll indicator */}
