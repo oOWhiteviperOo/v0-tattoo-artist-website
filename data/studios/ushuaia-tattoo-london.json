@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Ushuaia Tattoo London",
+    "slug": "ushuaia-tattoo-london",
+    "tagline": "Where Art Meets Skin in London's Heart",
+    "artistName": "Marcus Rivera"
+  },
+  "theme": {
+    "background": "220 8% 4%",
+    "foreground": "220 9% 98%",
+    "accent": "195 100% 50%",
+    "accentForeground": "220 9% 98%",
+    "mutedForeground": "220 5% 64%",
+    "dimmedForeground": "220 6% 45%",
+    "border": "220 6% 15%",
+    "card": "220 6% 6%",
+    "accentRgb": "0, 191, 255",
+    "ring": "195 100% 50%"
+  },
+  "seo": {
+    "title": "Ushuaia Tattoo London - Premium Custom Tattoos",
+    "description": "London's premier tattoo studio creating stunning custom designs. Expert artists, sterile environment, and exceptional artistry. Book your consultation today.",
+    "keywords": [
+      "tattoo studio London",
+      "custom tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Ushuaia Tattoo London - Where Art Meets Skin",
+      "description": "Experience London's finest custom tattoo artistry at Ushuaia Tattoo. Professional artists creating unique designs in a premium studio environment.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/ushuaia-tattoo-london",
+      "siteName": "Ushuaia Tattoo London",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Ushuaia%20Tattoo%20London+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Ushuaia Tattoo London"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "London's Premier",
+      "Tattoo Destination"
+    ],
+    "subheadline": "Where artistic vision meets flawless execution. Creating bespoke tattoos that tell your story with uncompromising quality and attention to detail.",
+    "urgencyText": "Next available slots in 3 weeks",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on detailed custom design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Mastery"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Excellence"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Bespoke Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Artistry in Motion",
+    "subtitle": "Each piece tells a unique story, crafted with precision and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your vision",
+    "guarantee": "100% satisfaction guarantee or full refund",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Piece",
+        "duration": "2-3 hours",
+        "price": "£280",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Custom design consultation",
+          "Small to medium tattoo"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Custom Session",
+        "duration": "4-6 hours",
+        "price": "£520",
+        "priceSubtitle": "For detailed artwork",
+        "features": [
+          "Extensive design process",
+          "Large detailed tattoo"
+        ],
+        "status": "available",
+        "availabilityText": "3 week wait",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Trusted by London's Art Lovers",
+    "testimonials": [
+      {
+        "quote": "Marcus transformed my vision into an absolute masterpiece. The attention to detail and artistic flair is unmatched in London.",
+        "author": "Sarah Chen",
+        "city": "Camden",
+        "rating": 5
+      },
+      {
+        "quote": "Three tattoos later and I wouldn't go anywhere else. The studio atmosphere is perfect and the quality speaks for itself.",
+        "author": "James Morrison",
+        "city": "Shoreditch",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Health Certified"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Award Winning"
+      },
+      {
+        "iconName": "Star",
+        "label": "Sterile Environment"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @ushuaiatattoolondon",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Marcus Rivera",
+    "paragraphs": [
+      "With over eight years of dedication to the craft, Marcus has established Ushuaia Tattoo as London's go-to destination for bespoke tattoo artistry. Trained in traditional techniques and modern innovations, he specializes in creating unique pieces that reflect each client's personal story and aesthetic vision.",
+      "Every tattoo begins with a thorough consultation where Marcus collaborates closely with clients to develop custom designs. His commitment to excellence extends beyond artistry to encompass the highest standards of hygiene, safety, and client care, ensuring every experience at Ushuaia Tattoo exceeds expectations."
+    ],
+    "callout": "\"Each tattoo is a collaboration between artist and client, resulting in something truly unique and meaningful.\"",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus Rivera, lead tattoo artist at Ushuaia Tattoo London"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance for custom work. Consultation appointments are usually available within a week. Popular time slots fill quickly, so early booking ensures your preferred date."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Every consultation includes design development, placement discussion, sizing recommendations, aftercare guidance, and accurate pricing. We take time to understand your vision and create something uniquely yours."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Masterpiece?",
+    "subheadline": "Join hundreds of satisfied clients who chose Ushuaia Tattoo for their artistic journey",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo vision and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll contact you within 24 hours to confirm your consultation. Check your email for next steps.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "£50 deposit required to secure booking, applied to final session cost"
+  },
+  "contact": {
+    "email": "hello@ushuaiatattoolondon.com",
+    "instagram": "@ushuaiatattoolondon",
+    "instagramUrl": "https://instagram.com/ushuaiatattoolondon",
+    "phone": "+44 20 7946 0958",
+    "address": "42 Brick Lane, London E1 6RF"
+  },
+  "footer": {
+    "copyrightHolder": "Ushuaia Tattoo London",
+    "tagline": "Where Art Meets Skin"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

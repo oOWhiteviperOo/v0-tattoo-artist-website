@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Supreme Karma Tattoo and Piercing - Camden",
+    "slug": "supreme-karma-tattoo-and-piercing-camden",
+    "tagline": "Where Artistry Meets Destiny",
+    "artistName": "Alex Martinez"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "280 100% 60%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "153, 0, 255",
+    "ring": "280 100% 60%"
+  },
+  "seo": {
+    "title": "Supreme Karma Tattoo & Piercing Camden | Custom Ink Art",
+    "description": "Premium tattoo and piercing studio in Camden. Custom designs, expert artists, and professional piercing services. Book your session today.",
+    "keywords": [
+      "tattoo studio Camden",
+      "piercing Camden London"
+    ],
+    "openGraph": {
+      "title": "Supreme Karma Tattoo and Piercing - Camden",
+      "description": "Where artistry meets destiny. Premium custom tattoos and professional piercing services in the heart of Camden.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/supreme-karma-tattoo-and-piercing-camden",
+      "siteName": "Supreme Karma Tattoo and Piercing - Camden",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Supreme%20Karma%20Tattoo%20and%20Piercing%20-%20Camden+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Supreme Karma Tattoo and Piercing - Camden"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Manifest Your Vision in",
+      "Supreme Ink"
+    ],
+    "subheadline": "Camden's premier destination for custom tattoos and professional piercing, where every piece tells your unique story",
+    "urgencyText": "Limited spots available this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Supreme Karma Tattoo artist creating custom tattoo design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Our Masterpieces",
+    "subtitle": "Every tattoo is a unique work of art, crafted with precision and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattoo services tailored to bring your vision to life",
+    "guarantee": "100% satisfaction guarantee on all work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small to Medium Tattoo",
+        "duration": "2-4 hours",
+        "price": "£200-400",
+        "priceSubtitle": "Starting price",
+        "features": [
+          "Custom design consultation",
+          "Premium ink and equipment"
+        ],
+        "status": "limited",
+        "availabilityText": "Available weekdays",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Piece",
+        "duration": "4-8 hours",
+        "price": "£500-1200",
+        "priceSubtitle": "Multi-session available",
+        "features": [
+          "Detailed design process",
+          "Premium aftercare included"
+        ],
+        "status": "available",
+        "availabilityText": "Weekends preferred",
+        "buttonText": "Book Large Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex absolutely nailed my sleeve design. The attention to detail and artistic vision exceeded all my expectations. Couldn't be happier!",
+        "author": "Sarah Mitchell",
+        "city": "Camden",
+        "rating": 5
+      },
+      {
+        "quote": "Professional, clean, and incredibly talented. The piercing was quick and painless, and the aftercare advice was spot on. Highly recommend!",
+        "author": "James Thompson",
+        "city": "North London",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Award Winning"
+      },
+      {
+        "iconName": "Star",
+        "label": "Camden's Choice"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @supremekarmatattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Your Artist",
+    "paragraphs": [
+      "With over 8 years of experience in the tattoo industry, Alex Martinez has established Supreme Karma as Camden's premier destination for custom ink art. Specialising in detailed realism, bold traditional pieces, and intricate geometric designs, Alex brings a unique blend of technical skill and artistic vision to every piece.",
+      "Based in the heart of Camden, our studio combines the vibrant energy of London's creative scene with professional standards and exceptional hygiene practices. Every tattoo is approached as a collaborative journey, ensuring your vision is perfectly translated into permanent art that you'll treasure forever."
+    ],
+    "callout": "Your story deserves to be told with supreme artistry and karma.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Martinez, lead tattoo artist at Supreme Karma Tattoo Camden"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How much does a tattoo cost?",
+        "answer": "Tattoo pricing varies based on size, complexity, and placement. Small tattoos start from £200, while larger custom pieces range from £500-£1200. We provide detailed quotes after your consultation."
+      },
+      {
+        "id": "faq-2",
+        "question": "Do you require a deposit?",
+        "answer": "Yes, we require a £50 deposit to secure your booking. This deposit goes towards your final tattoo cost and ensures your slot is reserved."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Masterpiece?",
+    "subheadline": "Book your consultation today and let's bring your vision to life with supreme artistry",
+    "ctaText": "Book Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo vision and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thank you for choosing Supreme Karma. We'll contact you within 24 hours to confirm your appointment and discuss your design.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to confirm your booking"
+  },
+  "contact": {
+    "email": "hello@supremekarmatattoo.co.uk",
+    "instagram": "@supremekarmatattoo",
+    "instagramUrl": "https://instagram.com/supremekarmatattoo",
+    "phone": "+44 20 7485 9876",
+    "address": "Camden High Street, London NW1 7JE"
+  },
+  "footer": {
+    "copyrightHolder": "Supreme Karma Tattoo and Piercing",
+    "tagline": "Where artistry meets destiny"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

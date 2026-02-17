@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Camden Piercing & Tattoo Studio - Since 1997",
+    "slug": "camden-piercing-tattoo-studio-since-1997",
+    "tagline": "London's Premier Tattoo & Piercing Destination Since 1997",
+    "artistName": "Mark Thompson"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "210 40% 98%",
+    "accent": "14 100% 57%",
+    "accentForeground": "210 40% 98%",
+    "mutedForeground": "215 20% 65%",
+    "dimmedForeground": "215 15% 45%",
+    "border": "215 27% 17%",
+    "card": "222 84% 5%",
+    "accentRgb": "255, 102, 0",
+    "ring": "14 100% 57%"
+  },
+  "seo": {
+    "title": "Camden Piercing & Tattoo Studio - London's Best Since 1997",
+    "description": "Professional tattoo & piercing studio in Camden, London. 25+ years of excellence. Custom designs, expert artists. Book your session today!",
+    "keywords": [
+      "Camden tattoo studio",
+      "London piercing studio"
+    ],
+    "openGraph": {
+      "title": "Camden Piercing & Tattoo Studio - London's Premier Destination",
+      "description": "Experience 25+ years of tattoo artistry in Camden, London. Custom designs, professional piercings, and exceptional service since 1997.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/camden-piercing-tattoo-studio-since-1997",
+      "siteName": "Camden Piercing & Tattoo Studio - Since 1997",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Camden%20Piercing%20%26%20Tattoo%20Studio%20-%20Since%201997+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Camden Piercing & Tattoo Studio - Since 1997"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Camden's Legendary",
+      "Tattoo & Piercing Studio"
+    ],
+    "subheadline": "25 years of artistic excellence in the heart of London. Where tradition meets innovation.",
+    "urgencyText": "Limited availability - Book your session today",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Camden Piercing & Tattoo Studio interior showcasing professional equipment and artwork"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "25+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "5000+ Satisfied Clients"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Artists"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Fully Licensed Studio"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Our Artistry",
+    "subtitle": "Discover the exceptional work that has made us Camden's premier tattoo destination for over two decades",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo & Piercing Sessions",
+    "subtitle": "Professional services tailored to bring your vision to life",
+    "guarantee": "100% satisfaction guarantee or your money back",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Tattoo Session",
+        "duration": "2-4 hours",
+        "price": "£200",
+        "priceSubtitle": "Starting price + hourly rate",
+        "features": [
+          "Custom design consultation included",
+          "Aftercare kit provided"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Tattoo Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Professional Piercing",
+        "duration": "30-60 minutes",
+        "price": "£50",
+        "priceSubtitle": "Includes premium jewelry",
+        "features": [
+          "Sterile single-use equipment",
+          "Free aftercare consultation"
+        ],
+        "status": "available",
+        "availabilityText": "Same day available",
+        "buttonText": "Book Piercing",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely incredible work! The attention to detail and professionalism at Camden Piercing & Tattoo is unmatched. My tattoo healed perfectly and looks amazing.",
+        "author": "Sarah Mitchell",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "Been getting work done here for years. The artists are true professionals and the studio maintains the highest standards. Wouldn't go anywhere else!",
+        "author": "James Rodriguez",
+        "city": "Camden",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Health & Safety Certified"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Licensed Professionals"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Premium Equipment"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @camdentattoopiercingstudio",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "25 Years of Artistic Excellence",
+    "paragraphs": [
+      "Founded in 1997, Camden Piercing & Tattoo Studio has been at the forefront of London's tattoo and piercing scene for over two decades. What started as a small studio has grown into one of Camden's most respected establishments, known for our commitment to artistic excellence and client satisfaction.",
+      "Our team of experienced artists specializes in a wide range of styles, from traditional and neo-traditional to realistic and contemporary designs. We pride ourselves on maintaining the highest standards of hygiene and safety while creating stunning, personalized artwork that our clients treasure for life."
+    ],
+    "callout": "Every piece we create is a collaboration between artist and client, ensuring your tattoo or piercing is uniquely yours.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Mark Thompson, lead artist at Camden Piercing & Tattoo Studio"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a consultation?",
+        "answer": "You can book a consultation through our online booking system or by calling the studio directly. We recommend booking at least a week in advance for tattoo consultations."
+      },
+      {
+        "id": "faq-2",
+        "question": "What should I expect during my first visit?",
+        "answer": "During your first visit, we'll discuss your design ideas, placement, and sizing. We'll also go over aftercare instructions and answer any questions you may have about the process."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Next Masterpiece?",
+    "subheadline": "Join thousands of satisfied clients who trust Camden's premier tattoo and piercing studio",
+    "ctaText": "Book Your Session Today"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Ready to get started? Fill out the form below and we'll get back to you within 24 hours to confirm your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We've received your booking request and will contact you within 24 hours to confirm your appointment details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "info@camdenpiercingandtattoo.co.uk",
+    "instagram": "@camdentattoopiercingstudio",
+    "instagramUrl": "https://instagram.com/camdentattoopiercingstudio",
+    "phone": "+44 20 7485 2847",
+    "address": "123 Camden High Street, Camden, London NW1 7JR"
+  },
+  "footer": {
+    "copyrightHolder": "Camden Piercing & Tattoo Studio",
+    "tagline": "London's Premier Tattoo & Piercing Destination Since 1997"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

@@ -28,7 +28,7 @@ export const SUPREME_KARMA_TATTOO_AND_PIERCING_CAMDEN: StudioConfig = {
             description: 'Where artistry meets destiny. Premium custom tattoos and professional piercing services in the heart of Camden.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/supreme-karma-tattoo-and-piercing-camden',
+            url: 'https://www.apexink.uk/supreme-karma-tattoo-and-piercing-camden',
             siteName: 'Supreme Karma Tattoo and Piercing - Camden',
             images: [
                 {

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "London's GLITCH",
+    "slug": "londons-glitch",
+    "tagline": "Where Art Meets Digital Rebellion",
+    "artistName": "Alex Sterling"
+  },
+  "theme": {
+    "background": "0 0% 5%",
+    "foreground": "0 0% 98%",
+    "accent": "285 85% 60%",
+    "accentForeground": "0 0% 98%",
+    "mutedForeground": "0 0% 64%",
+    "dimmedForeground": "0 0% 45%",
+    "border": "0 0% 15%",
+    "card": "0 0% 8%",
+    "accentRgb": "153, 39, 245",
+    "ring": "285 85% 60%"
+  },
+  "seo": {
+    "title": "London's GLITCH - Digital Art Tattoo Studio London",
+    "description": "London's premier digital art tattoo studio. Custom glitch art, cyberpunk & tech-inspired tattoos by expert artists. Book your consultation today.",
+    "keywords": [
+      "digital tattoo studio London",
+      "glitch art tattoos"
+    ],
+    "openGraph": {
+      "title": "London's GLITCH - Digital Art Tattoo Studio",
+      "description": "Where traditional tattooing meets digital rebellion. Custom glitch art and cyberpunk tattoos in the heart of London.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/londons-glitch",
+      "siteName": "London's GLITCH",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=London's%20GLITCH+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "London's GLITCH"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Digital Art Meets",
+      "Skin Canvas"
+    ],
+    "subheadline": "London's premier studio for glitch art, cyberpunk, and tech-inspired tattoos that push creative boundaries",
+    "urgencyText": "Limited slots available this month",
+    "ctaText": "Book Your Glitch",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Digital glitch art tattoo design showcase"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Digital Tattoos"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Digital Rebellion Gallery",
+    "subtitle": "Explore our collection of glitch art, cyberpunk, and tech-inspired masterpieces",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose your digital transformation journey",
+    "guarantee": "100% satisfaction guarantee on all custom designs",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Glitch Art Session",
+        "duration": "3-4 hours",
+        "price": "£350",
+        "priceSubtitle": "Medium-sized digital art piece",
+        "features": [
+          "Custom glitch design consultation",
+          "Digital mockup preview"
+        ],
+        "status": "limited",
+        "availabilityText": "Available weekdays",
+        "buttonText": "Book Glitch Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Cyberpunk Full Piece",
+        "duration": "6-8 hours",
+        "price": "£650",
+        "priceSubtitle": "Large cyberpunk masterpiece",
+        "features": [
+          "Full consultation & design process",
+          "Multiple session booking available"
+        ],
+        "status": "available",
+        "availabilityText": "Weekends preferred",
+        "buttonText": "Book Full Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex transformed my vision into the most incredible glitch art sleeve. The attention to digital detail is unmatched in London.",
+        "author": "Marcus Chen",
+        "city": "Shoreditch",
+        "rating": 5
+      },
+      {
+        "quote": "The cyberpunk piece they created for me gets compliments everywhere I go. True digital artistry on skin.",
+        "author": "Sarah Williams",
+        "city": "Camden",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Award Winning"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @londonsglitch",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist Behind the Glitch",
+    "paragraphs": [
+      "Alex Sterling combines traditional tattooing mastery with cutting-edge digital art concepts. With over 8 years of experience, they've pioneered the glitch art tattoo movement in London, creating pieces that blur the line between technology and human expression.",
+      "Specializing in cyberpunk aesthetics, digital distortions, and tech-inspired designs, Alex works closely with each client to create truly unique pieces that reflect their digital identity. Every tattoo is a custom creation, never replicated."
+    ],
+    "callout": "\"I don't just tattoo skin - I create digital rebellions that live and breathe with you.\"",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Sterling, digital tattoo artist at London's GLITCH"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How long does a custom glitch design take to create?",
+        "answer": "Custom designs typically take 3-5 days to develop. We work closely with you through digital mockups to ensure the design perfectly captures your vision before the tattoo session."
+      },
+      {
+        "id": "faq-2",
+        "question": "Do you work with existing tattoos for glitch effects?",
+        "answer": "Absolutely! We specialize in incorporating glitch effects into existing tattoos, creating stunning digital distortion effects that can transform older pieces into modern digital art."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Join the Digital Revolution?",
+    "subheadline": "Book your consultation today and let's create your unique digital masterpiece",
+    "ctaText": "Start Your Glitch"
+  },
+  "booking": {
+    "modalTitle": "Book Your Glitch Session",
+    "modalDescription": "Ready to create your digital masterpiece? Fill out the form below and we'll get back to you within 24 hours to discuss your vision.",
+    "successTitle": "Booking Request Received!",
+    "successMessage": "Thanks for choosing London's GLITCH! We'll review your request and get back to you within 24 hours to discuss your digital tattoo vision.",
+    "submitText": "Submit Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your booking"
+  },
+  "contact": {
+    "email": "hello@londonsglitch.co.uk",
+    "instagram": "@londonsglitch",
+    "instagramUrl": "https://instagram.com/londonsglitch",
+    "phone": "+44 20 7946 0958",
+    "address": "42 Digital Street, Shoreditch, London E1 6AN"
+  },
+  "footer": {
+    "copyrightHolder": "London's GLITCH",
+    "tagline": "Where Art Meets Digital Rebellion"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

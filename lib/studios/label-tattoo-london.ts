@@ -28,7 +28,7 @@ export const LABEL_TATTOO_LONDON: StudioConfig = {
             description: 'Award-winning tattoo studio in London specializing in custom designs. Book your consultation with expert artist Alex Morrison today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/label-tattoo-london',
+            url: 'https://www.apexink.uk/label-tattoo-london',
             siteName: 'Label Tattoo London',
             images: [
                 {

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Gypsy Stables Tattoo Collective",
+    "slug": "gypsy-stables-tattoo-collective",
+    "tagline": "Where wandering souls find their story in ink",
+    "artistName": "The Collective Artists"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "45 9% 98%",
+    "accent": "25 95% 53%",
+    "accentForeground": "0 0% 98%",
+    "mutedForeground": "25 5% 64%",
+    "dimmedForeground": "25 6% 45%",
+    "border": "25 6% 15%",
+    "card": "25 6% 6%",
+    "accentRgb": "245, 158, 11",
+    "ring": "25 95% 53%"
+  },
+  "seo": {
+    "title": "Gypsy Stables Tattoo Collective - Custom Tattoo Artists",
+    "description": "Award-winning custom tattoo artists creating unique, story-driven ink. Book your consultation at Gypsy Stables Tattoo Collective today.",
+    "keywords": [
+      "custom tattoo artist",
+      "tattoo collective"
+    ],
+    "openGraph": {
+      "title": "Gypsy Stables Tattoo Collective - Where Stories Become Art",
+      "description": "Experience the artistry of our collective. Custom tattoos that tell your unique story with unmatched craftsmanship.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/gypsy-stables-tattoo-collective",
+      "siteName": "Gypsy Stables Tattoo Collective",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Gypsy%20Stables%20Tattoo%20Collective+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Gypsy Stables Tattoo Collective"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Where wandering souls",
+      "find their story in ink"
+    ],
+    "subheadline": "Our collective of master artists transforms your vision into timeless body art that speaks to your soul's journey",
+    "urgencyText": "Limited consultation slots this month",
+    "ctaText": "Start Your Journey",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Gypsy Stables Tattoo Collective artist at work"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "15+ Years Combined Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "3000+ Custom Pieces"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Artists"
+      },
+      {
+        "iconName": "Shield",
+        "label": "100% Original Designs"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Stories Written in Skin",
+    "subtitle": "Each piece tells a unique tale of personal transformation and artistic mastery",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Your Journey Begins Here",
+    "subtitle": "Choose the path that resonates with your vision and story",
+    "guarantee": "100% satisfaction guarantee - your story deserves nothing less",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Vision Quest",
+        "duration": "2-3 hours",
+        "price": "£200",
+        "priceSubtitle": "starting from",
+        "features": [
+          "Custom design consultation",
+          "Small to medium pieces"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Vision Quest",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Epic Journey",
+        "duration": "4-6 hours",
+        "price": "£450",
+        "priceSubtitle": "starting from",
+        "features": [
+          "Large custom masterpieces",
+          "Multi-session projects welcome"
+        ],
+        "status": "available",
+        "availabilityText": "Booking 3 weeks out",
+        "buttonText": "Begin Epic Journey",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Stories from Fellow Travelers",
+    "testimonials": [
+      {
+        "quote": "The collective understood my vision perfectly. My sleeve tells the story of my travels better than any photo album ever could.",
+        "author": "Marcus Chen",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "Three different artists, one cohesive story. The collaboration and artistry at Gypsy Stables is unmatched anywhere else.",
+        "author": "Sarah Williams",
+        "city": "Manchester",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Award-Winning Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Fully Licensed & Insured"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Health & Safety Certified"
+      },
+      {
+        "iconName": "Star",
+        "label": "Custom Design Specialists"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @gypsystablestattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Collective's Story",
+    "paragraphs": [
+      "Born from the wandering spirits of artists who found their home in ink, Gypsy Stables Tattoo Collective represents more than just a studio—we're a gathering place for souls seeking to tell their stories through permanent art. Our collective of master artists brings together diverse styles, techniques, and cultural influences to create truly unique pieces.",
+      "Every tattoo that leaves our stable carries the essence of collaboration, craftsmanship, and deep respect for the ancient art of tattooing. We believe that your skin is the most intimate canvas, and your story deserves to be told with the highest level of artistry and care."
+    ],
+    "callout": "\"We don't just create tattoos—we forge connections between your inner journey and the world you show.\"",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "The artists of Gypsy Stables Tattoo Collective"
+  },
+  "faq": {
+    "sectionTitle": "Journey Questions Answered",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How does the collective approach work?",
+        "answer": "Our artists collaborate on larger pieces and complex projects, bringing multiple perspectives and specialties to create cohesive, stunning work. You'll work with the artist whose style best matches your vision, with input from the collective when beneficial."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Every consultation includes design discussion, style exploration, sizing and placement advice, and a custom sketch. We take time to understand your story and ensure the design truly represents your vision before any ink touches skin."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Begin Your Story?",
+    "subheadline": "Join the countless souls who've found their artistic home with us",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Begin Your Tattoo Journey",
+    "modalDescription": "Tell us about your vision and we'll match you with the perfect artist from our collective",
+    "successTitle": "Your Journey Begins Soon!",
+    "successMessage": "We'll contact you within 24 hours to discuss your vision and schedule your consultation.",
+    "submitText": "Start My Journey",
+    "depositDisclaimer": "A £50 deposit is required to secure your consultation slot"
+  },
+  "contact": {
+    "email": "hello@gypsystablestattoo.com",
+    "instagram": "@gypsystablestattoo",
+    "instagramUrl": "https://instagram.com/gypsystablestattoo",
+    "phone": "+44 20 7946 0958",
+    "address": "The Stables, Creative Quarter, London"
+  },
+  "footer": {
+    "copyrightHolder": "Gypsy Stables Tattoo Collective",
+    "tagline": "Where wandering souls find their story"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

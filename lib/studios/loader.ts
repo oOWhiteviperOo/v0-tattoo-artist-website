@@ -1,0 +1,28 @@
+import { readFile } from 'fs/promises'
+import path from 'path'
+import { StudioConfig } from '../types/studio-config'
+// Legacy fallback — remove after Phase 6 cleanup
+import { studios as legacyStudios } from './index'
+
+const STUDIOS_DIR = path.join(process.cwd(), 'data', 'studios')
+
+export async function loadStudioConfig(slug: string): Promise<StudioConfig | null> {
+    try {
+        const filePath = path.join(STUDIOS_DIR, `${slug}.json`)
+        const content = await readFile(filePath, 'utf-8')
+        return JSON.parse(content) as StudioConfig
+    } catch {
+        // Fallback to legacy TypeScript registry
+        return legacyStudios[slug] || null
+    }
+}
+
+export async function loadAllSlugs(): Promise<string[]> {
+    try {
+        const indexPath = path.join(STUDIOS_DIR, '_index.json')
+        return JSON.parse(await readFile(indexPath, 'utf-8'))
+    } catch {
+        // Fallback to legacy TypeScript registry
+        return Object.keys(legacyStudios)
+    }
+}

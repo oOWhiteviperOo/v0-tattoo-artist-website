@@ -28,7 +28,7 @@ export const SIXTYINK_LONDON_TATTOO_STUDIO: StudioConfig = {
             description: 'Where art meets skin. Custom tattoos and fine artistry in the heart of London. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/sixtyink-london-tattoo-studio',
+            url: 'https://www.apexink.uk/sixtyink-london-tattoo-studio',
             siteName: 'Sixtyink – London Tattoo Studio',
             images: [
                 {

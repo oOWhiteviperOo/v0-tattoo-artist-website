@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Flash By AJ Tattoo",
+    "slug": "flash-by-aj-tattoo",
+    "tagline": "Bold Flash Art & Custom Designs",
+    "artistName": "AJ"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "350 89% 60%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "240, 51, 115",
+    "ring": "350 89% 60%"
+  },
+  "seo": {
+    "title": "Flash By AJ Tattoo - Bold Flash Art & Custom Designs",
+    "description": "Professional tattoo artist AJ specializing in bold flash art and custom designs. Book your appointment today for high-quality tattoos.",
+    "keywords": [
+      "flash tattoo artist",
+      "custom tattoo designs"
+    ],
+    "openGraph": {
+      "title": "Flash By AJ Tattoo - Bold Flash Art & Custom Designs",
+      "description": "Professional tattoo artist AJ specializing in bold flash art and custom designs. Book your appointment today for high-quality tattoos.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/flash-by-aj-tattoo",
+      "siteName": "Flash By AJ Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Flash%20By%20AJ%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Flash By AJ Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Bold Flash Art &",
+      "Custom Designs"
+    ],
+    "subheadline": "Professional tattoo artistry with a focus on vibrant flash designs and personalized custom work",
+    "urgencyText": "Limited slots available this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Flash By AJ Tattoo studio hero image"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Flash & Custom Specialist"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "A collection of bold flash designs and custom pieces",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your next tattoo",
+    "guarantee": "All sessions include aftercare kit and follow-up consultation",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Flash Design",
+        "duration": "2-3 hours",
+        "price": "£200",
+        "priceSubtitle": "Starting price",
+        "features": [
+          "Choose from flash sheet designs",
+          "Quick turnaround time"
+        ],
+        "status": "limited",
+        "availabilityText": "Same week booking available",
+        "buttonText": "Book Flash Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Custom Design",
+        "duration": "3-5 hours",
+        "price": "£350",
+        "priceSubtitle": "Starting price",
+        "features": [
+          "Fully personalized artwork",
+          "Design consultation included"
+        ],
+        "status": "available",
+        "availabilityText": "2-3 week lead time",
+        "buttonText": "Book Custom Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Clients Say",
+    "testimonials": [
+      {
+        "quote": "AJ's flash work is incredible - bold, clean lines and amazing colour saturation. Exactly what I was looking for!",
+        "author": "Sarah M.",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "The custom piece AJ designed for me exceeded all expectations. Professional, creative, and such attention to detail.",
+        "author": "Mike T.",
+        "city": "Leeds",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Artist"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Inks"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @flashbyajtattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet AJ",
+    "paragraphs": [
+      "With over 8 years in the tattoo industry, AJ has developed a distinctive style that combines classic flash art with modern techniques. Specializing in bold, vibrant designs that stand the test of time.",
+      "From traditional flash pieces to completely custom artwork, AJ works closely with each client to bring their vision to life. Every tattoo is approached with meticulous attention to detail and a commitment to excellence."
+    ],
+    "callout": "Every piece tells a story - let's create yours together.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "AJ, tattoo artist at Flash By AJ Tattoo"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "Flash designs can often be booked within the same week, while custom pieces typically require 2-3 weeks lead time for design and scheduling."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the session price?",
+        "answer": "All sessions include the tattoo work, aftercare kit, detailed aftercare instructions, and a follow-up consultation to ensure proper healing."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Book your session today and join hundreds of satisfied clients",
+    "ctaText": "Book Your Session Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Fill out the form below and we'll get back to you within 24 hours to confirm your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thank you for your booking request. We'll contact you within 24 hours to confirm your appointment details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "info@flashbyajtattoo.co.uk",
+    "instagram": "@flashbyajtattoo",
+    "instagramUrl": "https://instagram.com/flashbyajtattoo",
+    "phone": "+44 7123 456789",
+    "address": "123 High Street, City Centre"
+  },
+  "footer": {
+    "copyrightHolder": "Flash By AJ Tattoo",
+    "tagline": "Bold Flash Art & Custom Designs"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

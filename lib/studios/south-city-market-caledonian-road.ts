@@ -28,7 +28,7 @@ export const SOUTH_CITY_MARKET_CALEDONIAN_ROAD: StudioConfig = {
             description: 'Expert tattoo artistry in North London\'s creative heart. Custom designs and professional service on Caledonian Road.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/south-city-market-caledonian-road',
+            url: 'https://www.apexink.uk/south-city-market-caledonian-road',
             siteName: 'South City Market - Caledonian Road',
             images: [
                 {

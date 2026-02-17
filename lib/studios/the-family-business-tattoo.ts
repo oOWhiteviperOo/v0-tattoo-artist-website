@@ -28,7 +28,7 @@ export const THE_FAMILY_BUSINESS_TATTOO: StudioConfig = {
             description: 'Experience the art of tattooing with our family-run studio. Custom designs, traditional craftsmanship, and stories that last a lifetime.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/the-family-business-tattoo',
+            url: 'https://www.apexink.uk/the-family-business-tattoo',
             siteName: 'The Family Business Tattoo',
             images: [
                 {

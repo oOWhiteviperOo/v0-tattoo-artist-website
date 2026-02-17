@@ -28,7 +28,7 @@ export const VON_BARBAZ_TATTOO_FINE_LINE_TATTOO: StudioConfig = {
             description: 'Expert fine line tattoo artist specializing in delicate, detailed designs. Custom work with precision and artistry.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/von-barbaz-tattoo-fine-line-tattoo',
+            url: 'https://www.apexink.uk/von-barbaz-tattoo-fine-line-tattoo',
             siteName: 'Von Barbaz Tattoo Fine Line Tattoo',
             images: [
                 {

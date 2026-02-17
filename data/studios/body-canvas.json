@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Body Canvas",
+    "slug": "body-canvas",
+    "tagline": "Your Story, Our Artistry",
+    "artistName": "Alex Rivera"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "280 85% 60%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "153, 51, 255",
+    "ring": "280 85% 60%"
+  },
+  "seo": {
+    "title": "Body Canvas - Premium Tattoo Studio | Custom Ink Art",
+    "description": "Transform your vision into stunning tattoo art at Body Canvas. Expert custom designs, professional artistry, and exceptional aftercare. Book your consultation today.",
+    "keywords": [
+      "custom tattoo studio",
+      "professional tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Body Canvas - Premium Custom Tattoo Studio",
+      "description": "Expert tattoo artistry with custom designs. Professional, clean, and creative tattoo studio specializing in bringing your vision to life.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/body-canvas",
+      "siteName": "Body Canvas",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Body%20Canvas+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Body Canvas"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Transform Your Vision Into",
+      "Exceptional Ink Art"
+    ],
+    "subheadline": "Professional custom tattoo artistry where creativity meets precision. Every piece tells your unique story.",
+    "urgencyText": "Limited consultation slots available this month",
+    "ctaText": "Start Your Journey",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist creating custom artwork at Body Canvas studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Custom Tattoos"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Studio Rating"
+      },
+      {
+        "iconName": "Shield",
+        "label": "100% Original Designs"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Artistry In Action",
+    "subtitle": "Every tattoo is a masterpiece crafted with precision, creativity, and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattooing services tailored to your vision and comfort",
+    "guarantee": "100% satisfaction guarantee with complimentary touch-ups within 6 months",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Piece",
+        "duration": "1-2 Hours",
+        "price": "£120",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Custom design consultation",
+          "Small to medium tattoos"
+        ],
+        "status": "limited",
+        "availabilityText": "Available daily",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Custom Session",
+        "duration": "3-6 Hours",
+        "price": "£350",
+        "priceSubtitle": "For detailed artwork",
+        "features": [
+          "Comprehensive design process",
+          "Large detailed pieces"
+        ],
+        "status": "available",
+        "availabilityText": "Weekend priority",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Client Stories",
+    "testimonials": [
+      {
+        "quote": "Alex transformed my rough idea into an incredible piece of art. The attention to detail and professionalism at Body Canvas is unmatched.",
+        "author": "Sarah Mitchell",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "Three tattoos later and I keep coming back. The custom designs are always unique and the studio atmosphere is so welcoming and professional.",
+        "author": "James Thompson",
+        "city": "Birmingham",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Inks Only"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @bodycanvasstudio",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Your Artist",
+    "paragraphs": [
+      "With over 8 years of professional tattooing experience, Alex Rivera founded Body Canvas with a vision to create truly personalized tattoo art. Specializing in custom designs that blend traditional techniques with contemporary artistry, every piece is crafted to tell your unique story.",
+      "From intricate geometric patterns to flowing organic designs, Alex's versatile style adapts to bring your vision to life. The studio maintains the highest standards of cleanliness and professionalism, ensuring every client feels comfortable and confident throughout their tattoo journey."
+    ],
+    "callout": "Every tattoo is a collaboration between artist and client, resulting in truly one-of-a-kind artwork.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Rivera, professional tattoo artist and founder of Body Canvas studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I prepare for my tattoo session?",
+        "answer": "Get a good night's sleep, eat a proper meal beforehand, stay hydrated, and avoid alcohol or blood-thinning medications. Bring ID and wear comfortable clothing that allows easy access to the tattoo area."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the aftercare process?",
+        "answer": "You'll receive detailed aftercare instructions, premium healing products, and ongoing support. We also include complimentary touch-ups within 6 months if needed, ensuring your tattoo heals perfectly."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Masterpiece?",
+    "subheadline": "Join hundreds of satisfied clients who chose Body Canvas for their tattoo journey",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Tell us about your tattoo vision and we'll schedule your consultation. A £50 deposit secures your appointment.",
+    "successTitle": "Booking Request Received!",
+    "successMessage": "We'll contact you within 24 hours to confirm your appointment and discuss your design ideas.",
+    "submitText": "Submit Booking Request",
+    "depositDisclaimer": "£50 deposit required to secure appointment, deducted from final session cost"
+  },
+  "contact": {
+    "email": "hello@bodycanvasstudio.com",
+    "instagram": "@bodycanvasstudio",
+    "instagramUrl": "https://instagram.com/bodycanvasstudio",
+    "phone": "+44 7700 900123",
+    "address": "123 Ink Street, Creative Quarter, Manchester M1 1AA"
+  },
+  "footer": {
+    "copyrightHolder": "Body Canvas Studio",
+    "tagline": "Your Story, Our Artistry"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

@@ -28,7 +28,7 @@ export const PURE_PIERCING: StudioConfig = {
             description: 'Professional body piercing and tattoo services with expert artists in a sterile, welcoming environment.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/pure-piercing',
+            url: 'https://www.apexink.uk/pure-piercing',
             siteName: 'Pure Piercing',
             images: [
                 {

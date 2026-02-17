@@ -1,26 +1,29 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getStudio, getAllSlugs } from '@/lib/studios'
+import { loadStudioConfig, loadAllSlugs } from '@/lib/studios/loader'
 import { StudioPage } from '@/components/StudioPage'
+
+// ISR: revalidate pages at most once per hour (on-demand revalidation via /api/revalidate)
+export const revalidate = 3600
 
 interface PageProps {
     params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
-    const slugs = getAllSlugs()
+    const slugs = await loadAllSlugs()
     return slugs.map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { slug } = await params
-    const studio = getStudio(slug)
+    const studio = await loadStudioConfig(slug)
 
     if (!studio) {
         return {}
     }
 
-    const { seo, theme } = studio
+    const { seo } = studio
 
     return {
         title: seo.title,
@@ -35,14 +38,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             siteName: seo.openGraph.siteName,
             images: seo.openGraph.images,
         },
-        // We can't set theme color here easily for dynamic routes in the strict sense without viewport export,
-        // but Next.js 14 handles viewport separate. For now we stick to standard metadata.
     }
 }
 
 export default async function Page({ params }: PageProps) {
     const { slug } = await params
-    const studio = getStudio(slug)
+    const studio = await loadStudioConfig(slug)
 
     if (!studio) {
         notFound()

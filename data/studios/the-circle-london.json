@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "The Circle London",
+    "slug": "the-circle-london",
+    "tagline": "Where artistry meets precision in the heart of London",
+    "artistName": "Alex Mitchell"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "60 9% 98%",
+    "accent": "280 100% 70%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "178, 0, 255",
+    "ring": "280 100% 70%"
+  },
+  "seo": {
+    "title": "The Circle London | Premium Tattoo Studio in Central London",
+    "description": "Award-winning tattoo studio in London specializing in custom designs, geometric patterns & fine line work. Book your consultation today.",
+    "keywords": [
+      "London tattoo studio",
+      "custom tattoo London"
+    ],
+    "openGraph": {
+      "title": "The Circle London - Premium Tattoo Studio",
+      "description": "Where artistry meets precision in the heart of London. Custom tattoos by award-winning artists.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/the-circle-london",
+      "siteName": "The Circle London",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=The%20Circle%20London+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "The Circle London"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "London's Premier",
+      "Tattoo Destination"
+    ],
+    "subheadline": "Custom artwork crafted with precision and passion in the heart of London. Where your vision becomes timeless art.",
+    "urgencyText": "Only 3 slots remaining this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on custom design at The Circle London"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Satisfied Clients"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Artist"
+      },
+      {
+        "iconName": "Shield",
+        "label": "100% Custom Designs"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Masterpieces",
+    "subtitle": "Every piece tells a story, crafted with precision and artistic vision",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your vision",
+    "guarantee": "100% satisfaction guarantee or free touch-up within 30 days",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small to Medium Piece",
+        "duration": "2-4 hours",
+        "price": "£300-600",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Custom design consultation",
+          "Professional aftercare kit"
+        ],
+        "status": "limited",
+        "availabilityText": "Available next week",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Piece",
+        "duration": "5-8 hours",
+        "price": "£700-1200",
+        "priceSubtitle": "Full day intensive",
+        "features": [
+          "Multiple design revisions",
+          "Priority booking for touch-ups"
+        ],
+        "status": "available",
+        "availabilityText": "2-3 week wait",
+        "buttonText": "Book Large Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex's attention to detail is incredible. My geometric sleeve turned out even better than I imagined. The studio atmosphere is so professional and welcoming.",
+        "author": "Sarah Chen",
+        "city": "Shoreditch, London",
+        "rating": 5
+      },
+      {
+        "quote": "Best tattoo experience I've ever had. The Circle London sets the standard for professionalism and artistry. My fine line work is absolutely perfect.",
+        "author": "Marcus Thompson",
+        "city": "Camden, London",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Award Winner 2023"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @thecirclelondon",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Your Artist",
+    "paragraphs": [
+      "Alex Mitchell founded The Circle London with a vision to create more than just tattoos – to craft personal stories in ink. With over 8 years of experience and training from some of Europe's most respected artists, Alex specializes in geometric patterns, fine line work, and contemporary designs that push creative boundaries.",
+      "Every piece begins with understanding your story. At The Circle, we believe tattoos should be as unique as the person wearing them. From initial consultation to final healing, we're committed to delivering an experience that exceeds expectations and creates art that lasts a lifetime."
+    ],
+    "callout": "Each design is hand-drawn and completely original to you",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Mitchell, founder and lead artist at The Circle London tattoo studio"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance for custom pieces. Smaller designs may be available sooner. Contact us to check current availability."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We require a £100 deposit to secure your appointment, which goes toward your final session cost. Deposits are non-refundable but can be transferred to a new date with 48 hours notice."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Something Extraordinary?",
+    "subheadline": "Join hundreds of satisfied clients who chose The Circle London for their tattoo journey",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Consultation",
+    "modalDescription": "Tell us about your tattoo vision and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Consultation Booked!",
+    "successMessage": "We'll contact you within 24 hours to confirm your appointment details. Check your email for next steps.",
+    "submitText": "Submit Inquiry",
+    "depositDisclaimer": "£100 deposit required to secure appointment"
+  },
+  "contact": {
+    "email": "hello@thecirclelondon.com",
+    "instagram": "@thecirclelondon",
+    "instagramUrl": "https://instagram.com/thecirclelondon",
+    "phone": "+44 20 7123 4567",
+    "address": "123 Brick Lane, Shoreditch, London E1 6SB"
+  },
+  "footer": {
+    "copyrightHolder": "The Circle London",
+    "tagline": "Artistry meets precision"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+}

@@ -28,7 +28,7 @@ export const THE_LONDON_SOCIAL_TATTOO_SOHO: StudioConfig = {
             description: 'Experience exceptional tattooing in the heart of Soho. Custom designs, expert craftsmanship, and a vibrant community atmosphere.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/the-london-social-tattoo-soho',
+            url: 'https://www.apexink.uk/the-london-social-tattoo-soho',
             siteName: 'The London Social Tattoo - Soho',
             images: [
                 {

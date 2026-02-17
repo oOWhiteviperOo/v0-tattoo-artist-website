@@ -28,7 +28,7 @@ export const WORLD_FAMOUS_FULHAM_TATTOO_LONDON: StudioConfig = {
             description: 'Experience world-class tattoo artistry in the heart of Fulham. Custom designs, award-winning artists, and exceptional service.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/world-famous-fulham-tattoo-london',
+            url: 'https://www.apexink.uk/world-famous-fulham-tattoo-london',
             siteName: 'World Famous Fulham Tattoo London',
             images: [
                 {

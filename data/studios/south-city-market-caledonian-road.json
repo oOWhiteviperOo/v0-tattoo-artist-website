@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "South City Market - Caledonian Road",
+    "slug": "south-city-market-caledonian-road",
+    "tagline": "Urban Artistry in North London's Creative Heart",
+    "artistName": "Marcus Thompson"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "60 9% 98%",
+    "accent": "25 95% 53%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "245, 158, 11",
+    "ring": "25 95% 53%"
+  },
+  "seo": {
+    "title": "South City Market Tattoo Studio | Caledonian Road London",
+    "description": "Premium tattoo studio on Caledonian Road. Custom designs, expert artistry, and professional service in North London's vibrant creative district.",
+    "keywords": [
+      "tattoo studio caledonian road",
+      "london tattoo artist"
+    ],
+    "openGraph": {
+      "title": "South City Market - Caledonian Road | Premium Tattoo Studio",
+      "description": "Expert tattoo artistry in North London's creative heart. Custom designs and professional service on Caledonian Road.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/south-city-market-caledonian-road",
+      "siteName": "South City Market - Caledonian Road",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=South%20City%20Market%20-%20Caledonian%20Road+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "South City Market - Caledonian Road"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Urban Artistry Meets",
+      "Timeless Craftsmanship"
+    ],
+    "subheadline": "Premium custom tattoos in the heart of North London's creative district",
+    "urgencyText": "Next availability in 3 weeks",
+    "ctaText": "Book Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working in modern studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Custom Pieces"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Award-Winning Artist"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Artworks",
+    "subtitle": "Each piece tells a story, crafted with precision and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional service tailored to bring your vision to life",
+    "guarantee": "100% satisfaction guarantee on all custom work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small Custom Piece",
+        "duration": "2-3 hours",
+        "price": "£280",
+        "priceSubtitle": "Perfect for first-time clients",
+        "features": [
+          "Custom design consultation",
+          "Professional aftercare kit"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Small Piece",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Artwork",
+        "duration": "4-6 hours",
+        "price": "£520",
+        "priceSubtitle": "For detailed, complex designs",
+        "features": [
+          "Multiple design revisions",
+          "Premium ink and materials"
+        ],
+        "status": "available",
+        "availabilityText": "3 week wait",
+        "buttonText": "Book Large Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Marcus transformed my rough idea into an absolute masterpiece. The attention to detail and professionalism at South City Market is unmatched.",
+        "author": "Sarah Chen",
+        "city": "Camden",
+        "rating": 5
+      },
+      {
+        "quote": "Been to many studios in London, but the quality and atmosphere here is something special. My sleeve turned out better than I ever imagined.",
+        "author": "James Mitchell",
+        "city": "Islington",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Award Winning"
+      },
+      {
+        "iconName": "Star",
+        "label": "Custom Designs Only"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @southcitymarket_cal",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Master of Urban Expression",
+    "paragraphs": [
+      "Marcus Thompson brings over eight years of tattooing expertise to North London's vibrant creative scene. Specializing in contemporary designs with classical technique, he's built a reputation for transforming personal stories into stunning visual art.",
+      "Located in the heart of Caledonian Road's artistic quarter, South City Market serves as both studio and creative sanctuary. Every piece is approached with meticulous attention to detail, ensuring each client leaves with artwork that exceeds their wildest expectations."
+    ],
+    "callout": "Every tattoo tells a story - let's craft yours together.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus Thompson, lead tattoo artist at South City Market"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We typically book 2-4 weeks in advance for custom work. Small pieces may have earlier availability. Contact us to check current schedule."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the session price?",
+        "answer": "All sessions include design consultation, professional tattooing, aftercare kit, and follow-up support. Deposit is applied to final cost."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Something Extraordinary?",
+    "subheadline": "Book your consultation today and let's bring your vision to life",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll contact you within 24 hours to confirm your appointment and discuss your design.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "£50 deposit required to secure booking"
+  },
+  "contact": {
+    "email": "hello@southcitymarket.co.uk",
+    "instagram": "@southcitymarket_cal",
+    "instagramUrl": "https://instagram.com/southcitymarket_cal",
+    "phone": "+44 20 7607 8392",
+    "address": "142 Caledonian Road, London N1 9RD"
+  },
+  "footer": {
+    "copyrightHolder": "South City Market - Caledonian Road",
+    "tagline": "Urban artistry in North London's creative heart"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkrHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

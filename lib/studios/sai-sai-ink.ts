@@ -28,7 +28,7 @@ export const SAI_SAI_INK: StudioConfig = {
             description: 'Professional tattoo studio specializing in custom designs and exceptional artistry. Transform your vision into permanent art.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/sai-sai-ink',
+            url: 'https://www.apexink.uk/sai-sai-ink',
             siteName: 'Sai Sai Ink',
             images: [
                 {

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "K. Barria Tattoo",
+    "slug": "k-barria-tattoo",
+    "tagline": "Where Art Meets Skin",
+    "artistName": "K. Barria"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "45 93% 47%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "218, 165, 32",
+    "ring": "45 93% 47%"
+  },
+  "seo": {
+    "title": "K. Barria Tattoo - Custom Tattoo Artist & Studio",
+    "description": "Professional custom tattoo artist specializing in unique designs. Book your consultation with K. Barria Tattoo for exceptional artistry and quality.",
+    "keywords": [
+      "custom tattoo artist",
+      "professional tattoo studio"
+    ],
+    "openGraph": {
+      "title": "K. Barria Tattoo - Custom Tattoo Artist",
+      "description": "Professional custom tattoo artist creating unique designs with exceptional artistry and attention to detail.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/k-barria-tattoo",
+      "siteName": "K. Barria Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=K.%20Barria%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "K. Barria Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Custom Tattoos by",
+      "K. Barria"
+    ],
+    "subheadline": "Creating unique, meaningful tattoos that tell your story with exceptional artistry and precision",
+    "urgencyText": "Booking now for next month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "K. Barria working on a custom tattoo design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "A selection of custom pieces showcasing diverse styles and exceptional craftsmanship",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your tattoo vision",
+    "guarantee": "100% satisfaction guarantee on all work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Tattoo",
+        "duration": "2-3 hours",
+        "price": "£200",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Custom design consultation",
+          "Small to medium tattoos"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this month",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Custom Session",
+        "duration": "4-6 hours",
+        "price": "£400",
+        "priceSubtitle": "For detailed artwork",
+        "features": [
+          "Extended design process",
+          "Large detailed pieces"
+        ],
+        "status": "available",
+        "availabilityText": "Limited availability",
+        "buttonText": "Book Full Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Clients Say",
+    "testimonials": [
+      {
+        "quote": "K. Barria created the most incredible custom piece for me. The attention to detail and artistry is unmatched. Couldn't be happier!",
+        "author": "Sarah M.",
+        "city": "London",
+        "rating": 5
+      },
+      {
+        "quote": "Professional, clean, and incredibly talented. K. Barria brought my vision to life perfectly. The whole experience was amazing from start to finish.",
+        "author": "James R.",
+        "city": "Manchester",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Artist"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Inks"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @kbarriatattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet K. Barria",
+    "paragraphs": [
+      "With over 8 years of experience in the tattoo industry, K. Barria has developed a reputation for creating stunning custom pieces that perfectly capture each client's vision. Specializing in detailed linework and innovative designs, every tattoo is approached as a unique work of art.",
+      "From concept to completion, K. Barria works closely with clients to ensure their tattoo not only looks incredible but tells their personal story. Using only the highest quality inks and maintaining the strictest hygiene standards, you can trust that your tattoo experience will be both safe and exceptional."
+    ],
+    "callout": "Every tattoo tells a story - let's create yours together.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "K. Barria, professional tattoo artist"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance, especially for larger pieces. Consultations can usually be scheduled within a week."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Your consultation includes design discussion, sizing, placement advice, and a custom sketch. We'll also cover aftercare and answer any questions you have."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Custom Tattoo?",
+    "subheadline": "Book your consultation today and let's bring your vision to life",
+    "ctaText": "Book Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Fill out the form below and we'll get back to you within 24 hours to confirm your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thank you for your booking request. We'll contact you within 24 hours to confirm your appointment and discuss your design ideas.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@kbarriatattoo.com",
+    "instagram": "@kbarriatattoo",
+    "instagramUrl": "https://instagram.com/kbarriatattoo",
+    "phone": "+44 7123 456789",
+    "address": "Studio Address Available Upon Booking"
+  },
+  "footer": {
+    "copyrightHolder": "K. Barria Tattoo",
+    "tagline": "Where Art Meets Skin"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

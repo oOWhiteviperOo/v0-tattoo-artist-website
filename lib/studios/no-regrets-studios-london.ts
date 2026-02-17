@@ -28,7 +28,7 @@ export const NO_REGRETS_STUDIOS_LONDON: StudioConfig = {
             description: 'London\'s premier tattoo studio specializing in custom designs and exceptional artistry. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/no-regrets-studios-london',
+            url: 'https://www.apexink.uk/no-regrets-studios-london',
             siteName: 'No Regrets Studios London',
             images: [
                 {

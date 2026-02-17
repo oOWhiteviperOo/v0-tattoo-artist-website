@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Origin Tattoo London",
+    "slug": "origin-tattoo-london",
+    "tagline": "Where Your Story Begins",
+    "artistName": "Alex Chen"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "45 100% 51%",
+    "accentForeground": "0 0% 0%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "255, 204, 0",
+    "ring": "45 100% 51%"
+  },
+  "seo": {
+    "title": "Origin Tattoo London | Custom Tattoos & Fine Line Art",
+    "description": "London's premier custom tattoo studio. Specializing in fine line, geometric, and contemporary designs. Book your consultation today.",
+    "keywords": [
+      "tattoo studio London",
+      "custom tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Origin Tattoo London - Where Your Story Begins",
+      "description": "London's premier custom tattoo studio specializing in fine line, geometric, and contemporary designs. Expert artistry in the heart of London.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/origin-tattoo-london",
+      "siteName": "Origin Tattoo London",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Origin%20Tattoo%20London+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Origin Tattoo London"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Your Story Starts",
+      "At The Origin"
+    ],
+    "subheadline": "London's premier studio for custom tattoos that tell your unique story through exceptional artistry and timeless design",
+    "urgencyText": "December slots filling fast - book now",
+    "ctaText": "Start Your Journey",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on custom design at Origin Tattoo London"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Custom Pieces"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Award-Winning Artist"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Masterpieces",
+    "subtitle": "Every tattoo tells a story. Here are some of our favourite chapters we've helped bring to life.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your vision. Every piece receives the same meticulous attention to detail.",
+    "guarantee": "100% satisfaction guarantee on all work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small & Fine Line",
+        "duration": "2-3 hours",
+        "price": "£180",
+        "priceSubtitle": "Starting from",
+        "features": [
+          "Perfect for first tattoos",
+          "Delicate, precise linework"
+        ],
+        "status": "limited",
+        "availabilityText": "Next available: This week",
+        "buttonText": "Book Small Piece",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Custom Large Pieces",
+        "duration": "4-8 hours",
+        "price": "£400",
+        "priceSubtitle": "Starting from",
+        "features": [
+          "Fully custom designs",
+          "Complex shading & detail"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: Next week",
+        "buttonText": "Book Large Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex at Origin Tattoo is incredible. The attention to detail and artistic vision exceeded all my expectations. My geometric sleeve is absolutely perfect.",
+        "author": "Sarah M.",
+        "city": "Camden, London",
+        "rating": 5
+      },
+      {
+        "quote": "From consultation to final touch-up, the experience was flawless. The studio is immaculate and Alex's fine line work is unmatched in London.",
+        "author": "James R.",
+        "city": "Shoreditch, London",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @origintattoolondon",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Alex Chen",
+    "paragraphs": [
+      "With over 8 years of experience, Alex has established Origin Tattoo as London's premier destination for custom tattoo artistry. Specializing in fine line work, geometric designs, and contemporary pieces, Alex brings a unique blend of technical precision and artistic vision to every tattoo.",
+      "Trained in traditional techniques and constantly evolving with modern styles, Alex believes every tattoo should be a perfect reflection of the client's story. From the initial consultation to the final healing process, you'll receive personalized attention and expert guidance throughout your tattoo journey."
+    ],
+    "callout": "Every tattoo is a collaboration between artist and client, resulting in truly unique pieces that stand the test of time.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Chen, lead tattoo artist at Origin Tattoo London, in the studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How much do tattoos cost?",
+        "answer": "Prices start from £180 for small pieces and £400 for larger custom work. Final pricing depends on size, complexity, and placement. We provide detailed quotes during consultation."
+      },
+      {
+        "id": "faq-2",
+        "question": "How do I book a consultation?",
+        "answer": "You can book through our online form or contact us directly. We require a £50 deposit for all appointments, which goes toward your final tattoo cost."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Begin Your Story?",
+    "subheadline": "Book your consultation today and let's create something extraordinary together.",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll contact you within 24 hours to confirm your consultation. Check your email for next steps.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit is required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@origintattoolondon.com",
+    "instagram": "@origintattoolondon",
+    "instagramUrl": "https://instagram.com/origintattoolondon",
+    "phone": "+44 20 7946 0958",
+    "address": "123 Brick Lane, London E1 6SB"
+  },
+  "footer": {
+    "copyrightHolder": "Origin Tattoo London",
+    "tagline": "Where Your Story Begins"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

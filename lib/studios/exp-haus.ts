@@ -28,7 +28,7 @@ export const EXP_HAUS: StudioConfig = {
             description: 'Premium tattoo studio specializing in custom designs and exceptional artistry. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/exp-haus',
+            url: 'https://www.apexink.uk/exp-haus',
             siteName: 'EXP Haus',
             images: [
                 {

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "The Old Volt",
+    "slug": "the-old-volt",
+    "tagline": "Electric artistry meets timeless craft",
+    "artistName": "Marcus Sterling"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "60 9% 98%",
+    "accent": "45 93% 58%",
+    "accentForeground": "0 0% 0%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "244, 188, 20",
+    "ring": "45 93% 58%"
+  },
+  "seo": {
+    "title": "The Old Volt - Electric Tattoo Artistry & Custom Designs",
+    "description": "Premium tattoo studio specializing in electric artistry & custom designs. Book your consultation at The Old Volt today. Professional, clean, award-winning.",
+    "keywords": [
+      "tattoo studio",
+      "custom tattoos"
+    ],
+    "openGraph": {
+      "title": "The Old Volt - Electric Tattoo Artistry",
+      "description": "Where electric artistry meets timeless craft. Premium custom tattoos by award-winning artists.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/the-old-volt",
+      "siteName": "The Old Volt",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=The%20Old%20Volt+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "The Old Volt"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Where Electric Artistry",
+      "Meets Timeless Craft"
+    ],
+    "subheadline": "Award-winning custom tattoos that spark conversation and ignite passion. Every piece tells a story worth remembering.",
+    "urgencyText": "Only 3 slots available this month",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "The Old Volt tattoo studio interior with vintage industrial decor"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "12+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "3500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award Winning"
+      },
+      {
+        "iconName": "Shield",
+        "label": "100% Custom Work"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Electric Artistry",
+    "subtitle": "Every piece is a unique fusion of classic technique and modern innovation",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose your journey from consultation to masterpiece",
+    "guarantee": "100% satisfaction guarantee or full refund",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Design Consultation",
+        "duration": "90 minutes",
+        "price": "£150",
+        "priceSubtitle": "Applied to final tattoo cost",
+        "features": [
+          "Custom design creation",
+          "Placement consultation"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Tattoo Session",
+        "duration": "4-6 hours",
+        "price": "£400-800",
+        "priceSubtitle": "Depends on size & complexity",
+        "features": [
+          "Complete tattoo execution",
+          "Aftercare kit included"
+        ],
+        "status": "available",
+        "availabilityText": "3-week booking lead",
+        "buttonText": "Book Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Marcus transformed my vision into something beyond my wildest dreams. The attention to detail and electric energy at The Old Volt is unmatched.",
+        "author": "Sarah Mitchell",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "Three years later and my tattoo still gets compliments daily. The Old Volt doesn't just do tattoos, they create wearable art that tells stories.",
+        "author": "James Crawford",
+        "city": "Liverpool",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Health & Safety Certified"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Award Winning Studio"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Sterile Equipment Guarantee"
+      },
+      {
+        "iconName": "Star",
+        "label": "Professional Artists Only"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @theoldvolt",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist Behind The Volt",
+    "paragraphs": [
+      "Marcus Sterling has been pushing the boundaries of tattoo artistry for over twelve years. What started as a fascination with the intersection of electricity and art has evolved into a signature style that combines industrial aesthetics with organic flow.",
+      "At The Old Volt, every tattoo is approached as a collaborative masterpiece. Marcus believes that the best tattoos happen when technical skill meets genuine connection, creating pieces that resonate on both visual and emotional levels."
+    ],
+    "callout": "Every line tells a story, every shade carries meaning.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus Sterling, lead artist at The Old Volt tattoo studio"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 3-4 weeks in advance for full sessions. Consultations can often be scheduled within the week. Our books fill quickly, especially for larger custom pieces."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Your consultation includes custom design creation, placement discussion, size recommendations, and a detailed timeline for your tattoo. The £150 consultation fee is applied toward your final tattoo cost."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Masterpiece?",
+    "subheadline": "Join the hundreds who've trusted The Old Volt with their story. Limited availability.",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo vision and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll contact you within 24 hours to confirm your consultation. Check your email for next steps.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@theoldvolt.co.uk",
+    "instagram": "@theoldvolt",
+    "instagramUrl": "https://instagram.com/theoldvolt",
+    "phone": "+44 7700 900123",
+    "address": "Industrial Quarter, Manchester"
+  },
+  "footer": {
+    "copyrightHolder": "The Old Volt",
+    "tagline": "Electric artistry meets timeless craft"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Red Point Tattoo | Tattoo Studio North London",
+    "slug": "red-point-tattoo-tattoo-studio-north-london",
+    "tagline": "Where Art Meets Skin in North London",
+    "artistName": "Alex Martinez"
+  },
+  "theme": {
+    "background": "0 0% 4%",
+    "foreground": "60 9% 98%",
+    "accent": "0 84% 60%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "245, 40, 51",
+    "ring": "0 84% 60%"
+  },
+  "seo": {
+    "title": "Red Point Tattoo | Premier Tattoo Studio North London",
+    "description": "Award-winning tattoo studio in North London. Custom designs, expert artists, sterile environment. Book your consultation today for exceptional tattoo art.",
+    "keywords": [
+      "tattoo studio north london",
+      "custom tattoo designs london"
+    ],
+    "openGraph": {
+      "title": "Red Point Tattoo | Premier Tattoo Studio North London",
+      "description": "Award-winning tattoo studio in North London. Custom designs, expert artists, sterile environment. Book your consultation today for exceptional tattoo art.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/red-point-tattoo-tattoo-studio-north-london",
+      "siteName": "Red Point Tattoo | Tattoo Studio North London",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Red%20Point%20Tattoo%20%7C%20Tattoo%20Studio%20North%20London+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Red Point Tattoo | Tattoo Studio North London"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Premium Tattoo Artistry in",
+      "North London"
+    ],
+    "subheadline": "Custom designs crafted with precision. From fine line work to bold statement pieces, we bring your vision to life with exceptional artistry.",
+    "urgencyText": "Limited slots available this month",
+    "ctaText": "Book Your Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist at Red Point Tattoo working on detailed custom design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Rated Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs Only"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Every piece tells a story. Browse our latest custom tattoos and see the artistry that sets Red Point apart.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the perfect session for your tattoo vision. All sessions include consultation, custom design, and aftercare guidance.",
+    "guarantee": "100% satisfaction guaranteed or your deposit back",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Standard Session",
+        "duration": "2-4 hours",
+        "price": "£180",
+        "priceSubtitle": "per hour",
+        "features": [
+          "Custom design consultation",
+          "Professional aftercare kit"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Standard",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Premium Session",
+        "duration": "4-8 hours",
+        "price": "£160",
+        "priceSubtitle": "per hour",
+        "features": [
+          "Priority booking & design time",
+          "Complimentary touch-up session"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 2 weeks",
+        "buttonText": "Book Premium",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex created the most incredible sleeve for me. The attention to detail and artistic vision exceeded all my expectations. Couldn't be happier!",
+        "author": "Sarah Thompson",
+        "city": "Islington",
+        "rating": 5
+      },
+      {
+        "quote": "Professional, clean, and incredibly talented. The custom design process was collaborative and the final result is a true masterpiece on my skin.",
+        "author": "Marcus Chen",
+        "city": "Camden",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Custom Designs"
+      },
+      {
+        "iconName": "Star",
+        "label": "Award Winning"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @redpointtattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Alex Martinez",
+    "paragraphs": [
+      "With over 8 years of experience in the tattoo industry, Alex Martinez founded Red Point Tattoo with a vision to create exceptional custom artwork that tells each client's unique story. Specializing in fine line work, geometric designs, and photorealistic portraits, Alex combines technical precision with artistic innovation.",
+      "Every tattoo at Red Point is a collaborative journey. We believe in taking the time to understand your vision, refining it through detailed consultations, and executing it with meticulous attention to detail. Our North London studio provides a comfortable, professional environment where art comes to life."
+    ],
+    "callout": "\"Every tattoo should be a masterpiece that you're proud to wear for life.\"",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Martinez, lead tattoo artist at Red Point Tattoo, working on a detailed custom design"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance, especially for larger pieces. Rush appointments may be available for smaller tattoos - just give us a call to check availability."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Your consultation includes design discussion, placement advice, sizing recommendations, and a detailed quote. We'll also cover aftercare instructions and answer any questions about the tattooing process."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Start Your Tattoo Journey?",
+    "subheadline": "Book your consultation today and let's create something extraordinary together.",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Consultation",
+    "modalDescription": "Tell us about your tattoo vision and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Consultation Requested!",
+    "successMessage": "Thanks for your interest! We'll review your request and get back to you within 24 hours to confirm your consultation time.",
+    "submitText": "Submit Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@redpointtattoo.com",
+    "instagram": "@redpointtattoo",
+    "instagramUrl": "https://instagram.com/redpointtattoo",
+    "phone": "+44 20 7123 4567",
+    "address": "123 High Street, North London, N1 2AB"
+  },
+  "footer": {
+    "copyrightHolder": "Red Point Tattoo",
+    "tagline": "Where Art Meets Skin in North London"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

@@ -28,7 +28,7 @@ export const THE_STUDIO_AFFLECKS: StudioConfig = {
             description: 'Where art meets skin in the heart of Manchester. Custom designs and expert artistry.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/the-studio-afflecks',
+            url: 'https://www.apexink.uk/the-studio-afflecks',
             siteName: 'The Studio Afflecks',
             images: [
                 {

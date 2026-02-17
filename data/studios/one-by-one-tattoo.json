@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "One by One Tattoo",
+    "slug": "one-by-one-tattoo",
+    "tagline": "Bespoke tattoos crafted with precision, one masterpiece at a time",
+    "artistName": "Alex Morgan"
+  },
+  "theme": {
+    "background": "0 0% 5%",
+    "foreground": "60 9% 98%",
+    "accent": "45 93% 47%",
+    "accentForeground": "0 0% 0%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 8%",
+    "accentRgb": "230, 184, 15",
+    "ring": "45 93% 47%"
+  },
+  "seo": {
+    "title": "One by One Tattoo - Bespoke Custom Tattoos",
+    "description": "Expert custom tattoo artistry with meticulous attention to detail. Book your consultation for a truly unique, handcrafted tattoo experience.",
+    "keywords": [
+      "custom tattoo artist",
+      "bespoke tattoo design"
+    ],
+    "openGraph": {
+      "title": "One by One Tattoo - Custom Tattoo Artistry",
+      "description": "Discover exceptional custom tattoo artistry where every piece is crafted with precision and passion. Your vision, our expertise.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/one-by-one-tattoo",
+      "siteName": "One by One Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=One%20by%20One%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "One by One Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Where Every Tattoo",
+      "Tells Your Story"
+    ],
+    "subheadline": "Meticulously crafted custom tattoos designed exclusively for you. From concept to completion, we create art that lasts a lifetime.",
+    "urgencyText": "Limited consultation slots available this month",
+    "ctaText": "Start Your Journey",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on detailed custom design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Mastery"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Custom Pieces"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "100% Bespoke Designs"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Artistry in Motion",
+    "subtitle": "Each piece tells a unique story, crafted with precision and passion",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Your Tattoo Journey",
+    "subtitle": "Choose the perfect session for your vision",
+    "guarantee": "100% satisfaction guaranteed or full refund",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Design Consultation",
+        "duration": "90 minutes",
+        "price": "£150",
+        "priceSubtitle": "Applied to final tattoo cost",
+        "features": [
+          "Custom design creation",
+          "Placement consultation"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Tattoo Session",
+        "duration": "4-6 hours",
+        "price": "£400-800",
+        "priceSubtitle": "Depends on size & complexity",
+        "features": [
+          "Complete tattoo execution",
+          "Aftercare guidance included"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: 3 weeks",
+        "buttonText": "Reserve Slot",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Alex's attention to detail is incredible. My tattoo came out exactly as I envisioned, but even better. The whole experience was professional and comfortable.",
+        "author": "Sarah Thompson",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "One by One Tattoo exceeded all expectations. The custom design process was collaborative and the final piece is absolutely stunning. Worth every penny.",
+        "author": "James Mitchell",
+        "city": "Liverpool",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @onebyonetattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Your Artist",
+    "paragraphs": [
+      "With over 8 years of dedicated practice, Alex Morgan has built One by One Tattoo on the foundation of exceptional artistry and personal connection. Every tattoo is approached as a unique collaboration, ensuring your vision is transformed into a masterpiece that reflects your individual story.",
+      "Specializing in detailed custom work, Alex combines traditional techniques with modern innovation to create tattoos that stand the test of time. The studio's philosophy is simple: quality over quantity, with each client receiving undivided attention and care throughout their tattoo journey."
+    ],
+    "callout": "Your tattoo should be as unique as you are. That's why we never repeat designs - every piece is created exclusively for you.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex Morgan, professional tattoo artist, in studio setting"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How long does the design process take?",
+        "answer": "The initial consultation typically takes 90 minutes, where we discuss your vision and create preliminary sketches. Final design approval usually happens within 1-2 weeks, depending on complexity."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the aftercare?",
+        "answer": "We provide comprehensive aftercare instructions, premium healing products, and unlimited follow-up consultations during the healing process. We're here to support you every step of the way."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Masterpiece?",
+    "subheadline": "Book your consultation today and begin the journey to your perfect custom tattoo",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Consultation",
+    "modalDescription": "Ready to start your tattoo journey? Fill out the form below and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Consultation Booked!",
+    "successMessage": "Thank you for choosing One by One Tattoo. We'll contact you within 24 hours to confirm your consultation details.",
+    "submitText": "Book Consultation",
+    "depositDisclaimer": "A £50 deposit will be required to secure your consultation slot"
+  },
+  "contact": {
+    "email": "hello@onebyonetattoo.co.uk",
+    "instagram": "@onebyonetattoo",
+    "instagramUrl": "https://instagram.com/onebyonetattoo",
+    "phone": "+44 7123 456789",
+    "address": "Studio Location Available Upon Booking"
+  },
+  "footer": {
+    "copyrightHolder": "One by One Tattoo",
+    "tagline": "Crafting stories, one tattoo at a time"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

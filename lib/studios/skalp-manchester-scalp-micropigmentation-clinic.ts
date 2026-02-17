@@ -28,7 +28,7 @@ export const SKALP_MANCHESTER_SCALP_MICROPIGMENTATION_CLINIC: StudioConfig = {
             description: 'Expert scalp micropigmentation treatments in Manchester. Restore your confidence with our professional SMP services.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/skalp-manchester-scalp-micropigmentation-clinic',
+            url: 'https://www.apexink.uk/skalp-manchester-scalp-micropigmentation-clinic',
             siteName: 'Skalp | Manchester Scalp Micropigmentation Clinic',
             images: [
                 {

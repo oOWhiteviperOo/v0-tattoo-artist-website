@@ -8,7 +8,8 @@ import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
 import { DataTable } from '@/components/admin/shared/DataTable'
 import { StudioForm } from '@/components/admin/studios/StudioForm'
-import { ArrowLeft, Pencil } from 'lucide-react'
+import { ArrowLeft, Pencil, PaintBucket } from 'lucide-react'
+import Link from 'next/link'
 import { format } from 'date-fns'
 import type { StudioRow, BookingRow, ReminderRow, BookingState } from '@/lib/google-sheets/types'
 import type { ColumnDef } from '@tanstack/react-table'
@@ -129,6 +130,12 @@ export default function StudioDetailPage() {
           </div>
           <p className="text-sm text-muted-foreground">{studio.studioAddress}</p>
         </div>
+        <Link href={`/admin/studios/${params.studioId}/content`}>
+          <Button variant="outline" size="sm">
+            <PaintBucket className="h-4 w-4 mr-2" />
+            Edit Landing Page
+          </Button>
+        </Link>
         <Button variant="outline" size="sm" onClick={() => setEditing(!editing)}>
           <Pencil className="h-4 w-4 mr-2" />
           {editing ? 'Cancel' : 'Edit'}

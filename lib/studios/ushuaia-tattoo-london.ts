@@ -28,7 +28,7 @@ export const USHUAIA_TATTOO_LONDON: StudioConfig = {
             description: 'Experience London\'s finest custom tattoo artistry at Ushuaia Tattoo. Professional artists creating unique designs in a premium studio environment.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://v0-inkandiron.vercel.app/ushuaia-tattoo-london',
+            url: 'https://www.apexink.uk/ushuaia-tattoo-london',
             siteName: 'Ushuaia Tattoo London',
             images: [
                 {

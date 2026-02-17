@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Pure Piercing",
+    "slug": "pure-piercing",
+    "tagline": "Precision Piercing & Body Art Excellence",
+    "artistName": "Jordan Mitchell"
+  },
+  "theme": {
+    "background": "0 0% 3%",
+    "foreground": "60 9% 98%",
+    "accent": "280 85% 60%",
+    "accentForeground": "60 9% 98%",
+    "mutedForeground": "24 5% 64%",
+    "dimmedForeground": "12 6% 45%",
+    "border": "20 6% 15%",
+    "card": "20 6% 6%",
+    "accentRgb": "153, 51, 255",
+    "ring": "280 85% 60%"
+  },
+  "seo": {
+    "title": "Pure Piercing - Expert Body Piercing & Tattoo Studio",
+    "description": "Professional body piercing and tattoo services. Expert artists, sterile environment, custom designs. Book your consultation today at Pure Piercing.",
+    "keywords": [
+      "body piercing studio",
+      "professional tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Pure Piercing - Expert Body Piercing & Tattoo Studio",
+      "description": "Professional body piercing and tattoo services with expert artists in a sterile, welcoming environment.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/pure-piercing",
+      "siteName": "Pure Piercing",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Pure%20Piercing+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Pure Piercing"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Appointment"
+  },
+  "hero": {
+    "headline": [
+      "Professional Piercing &",
+      "Body Art Mastery"
+    ],
+    "subheadline": "Experience precision piercing and custom tattoo artistry in our sterile, welcoming studio environment",
+    "urgencyText": "Next available slots this week",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional piercing artist at work in sterile studio environment"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Experience"
+      },
+      {
+        "iconName": "Zap",
+        "label": "3000+ Piercings Done"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Safety Record"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Sterile Procedures Always"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Our Artistry",
+    "subtitle": "Precision piercing and custom tattoo work that speaks for itself",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Piercing & Tattoo Services",
+    "subtitle": "Professional body modification services with guaranteed satisfaction",
+    "guarantee": "100% satisfaction guarantee on all piercing and tattoo work",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Professional Piercing",
+        "duration": "30-60 minutes",
+        "price": "£45",
+        "priceSubtitle": "Starting price, varies by location",
+        "features": [
+          "Sterile single-use needles",
+          "Premium titanium jewelry"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Piercing",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Custom Tattoo Work",
+        "duration": "2-6 hours",
+        "price": "£120",
+        "priceSubtitle": "Per hour, consultation included",
+        "features": [
+          "Custom design creation",
+          "Premium ink and equipment"
+        ],
+        "status": "available",
+        "availabilityText": "Booking 2 weeks out",
+        "buttonText": "Book Tattoo",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Jordan's piercing technique is absolutely flawless. The healing process was smooth and the jewelry selection is incredible. Couldn't be happier!",
+        "author": "Sarah Thompson",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "The most professional piercing experience I've ever had. Clean studio, expert technique, and beautiful results. Will definitely be returning for more work.",
+        "author": "Alex Chen",
+        "city": "Birmingham",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Certified Piercer"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Health Approved"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Jewelry"
+      },
+      {
+        "iconName": "Star",
+        "label": "Sterile Environment"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @purepiercing_studio",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Jordan Mitchell",
+    "paragraphs": [
+      "With over 8 years of experience in professional body piercing and tattoo artistry, Jordan has built Pure Piercing into a premier destination for body modification. Trained in advanced piercing techniques and holding certifications in bloodborne pathogen safety, Jordan combines technical expertise with an artistic eye.",
+      "Every piercing is performed with surgical-grade instruments in a completely sterile environment. Jordan specializes in complex ear projects, facial piercings, and custom tattoo work that reflects each client's unique style. The studio maintains the highest safety standards while creating a welcoming space for self-expression."
+    ],
+    "callout": "Your body is a canvas - let's create something beautiful together with precision and care.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Jordan Mitchell, professional piercer and tattoo artist at Pure Piercing"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How should I prepare for my piercing appointment?",
+        "answer": "Eat a good meal beforehand, avoid alcohol for 24 hours, and wear comfortable clothing that allows easy access to the piercing area. We'll handle all the sterilization and setup."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the piercing price?",
+        "answer": "The price includes the piercing procedure, starter jewelry (titanium or surgical steel), aftercare instructions, and a follow-up consultation. Premium jewelry upgrades are available at additional cost."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Piercing?",
+    "subheadline": "Book your consultation today and let's create something amazing together",
+    "ctaText": "Schedule Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Appointment",
+    "modalDescription": "Ready to get started? Fill out the form below and we'll get back to you within 24 hours to confirm your appointment details.",
+    "successTitle": "Booking Request Received!",
+    "successMessage": "Thanks for your interest! We'll review your request and get back to you within 24 hours to confirm your appointment details and answer any questions.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £25 deposit will be required to secure your appointment slot"
+  },
+  "contact": {
+    "email": "hello@purepiercing.co.uk",
+    "instagram": "@purepiercing_studio",
+    "instagramUrl": "https://instagram.com/purepiercing_studio",
+    "phone": "+44 7123 456789",
+    "address": "123 High Street, City Centre"
+  },
+  "footer": {
+    "copyrightHolder": "Pure Piercing",
+    "tagline": "Precision Piercing & Body Art Excellence"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}

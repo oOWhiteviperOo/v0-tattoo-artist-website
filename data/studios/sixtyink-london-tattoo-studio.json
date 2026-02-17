@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "name": "Sixtyink – London Tattoo Studio",
+    "slug": "sixtyink-london-tattoo-studio",
+    "tagline": "Where Art Meets Skin in the Heart of London",
+    "artistName": "Marcus Chen"
+  },
+  "theme": {
+    "background": "220 8% 4%",
+    "foreground": "210 11% 96%",
+    "accent": "280 65% 60%",
+    "accentForeground": "210 11% 96%",
+    "mutedForeground": "215 8% 65%",
+    "dimmedForeground": "220 6% 45%",
+    "border": "220 8% 15%",
+    "card": "220 8% 6%",
+    "accentRgb": "153, 85, 204",
+    "ring": "280 65% 60%"
+  },
+  "seo": {
+    "title": "Sixtyink London Tattoo Studio | Custom Tattoos & Fine Art",
+    "description": "Premium tattoo studio in London specializing in custom designs, fine line work, and contemporary art. Book your consultation with award-winning artists.",
+    "keywords": [
+      "London tattoo studio",
+      "custom tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Sixtyink – London's Premier Tattoo Studio",
+      "description": "Where art meets skin. Custom tattoos and fine artistry in the heart of London. Book your consultation today.",
+      "type": "website",
+      "locale": "en_US",
+      "url": "https://www.apexink.uk/sixtyink-london-tattoo-studio",
+      "siteName": "Sixtyink – London Tattoo Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Sixtyink%20%E2%80%93%20London%20Tattoo%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sixtyink – London Tattoo Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Where Art Meets Skin in",
+      "Central London"
+    ],
+    "subheadline": "Custom tattoos crafted by award-winning artists. From fine line work to bold statements, we bring your vision to life with precision and artistry.",
+    "urgencyText": "Next available slots in 3-4 weeks",
+    "ctaText": "Book Your Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on detailed custom tattoo"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "8+ Years Mastery"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1500+ Tattoos Created"
+      },
+      {
+        "iconName": "Award",
+        "label": "5-Star Google Rated"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Award-Winning Artists"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Artistry in Motion",
+    "subtitle": "Each piece tells a story. Explore our collection of custom tattoos that showcase the intersection of technical skill and creative vision.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattoo services tailored to your vision and timeline",
+    "guarantee": "100% satisfaction guarantee or we'll make it right",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Design",
+        "duration": "1-2 hours",
+        "price": "£120",
+        "priceSubtitle": "Applied to final tattoo cost",
+        "features": [
+          "Custom design creation",
+          "Placement consultation"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Tattoo Session",
+        "duration": "3-6 hours",
+        "price": "£350-£800",
+        "priceSubtitle": "Depends on size & complexity",
+        "features": [
+          "Complete tattoo execution",
+          "Aftercare kit included"
+        ],
+        "status": "available",
+        "availabilityText": "3-4 week wait",
+        "buttonText": "Book Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Marcus absolutely nailed my sleeve design. The attention to detail and artistic vision exceeded everything I hoped for. Worth every penny and the wait!",
+        "author": "Sarah M.",
+        "city": "Shoreditch",
+        "rating": 5
+      },
+      {
+        "quote": "From consultation to final touch-up, the entire experience was professional and creative. The studio atmosphere is welcoming and the work is simply stunning.",
+        "author": "James R.",
+        "city": "Camden",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @sixtyink_london",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist Behind Sixtyink",
+    "paragraphs": [
+      "Marcus Chen founded Sixtyink in 2016 with a vision to elevate tattoo artistry in London. With over 8 years of experience and training from renowned studios across Europe, Marcus specializes in contemporary fine line work, geometric designs, and custom illustrative pieces that push creative boundaries.",
+      "Our studio combines traditional tattooing techniques with modern artistic sensibilities. Every piece is approached as a collaboration between artist and client, ensuring each tattoo is not just technically excellent, but personally meaningful and visually striking."
+    ],
+    "callout": "Every tattoo tells a story. Let us help you tell yours with artistry that lasts a lifetime.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus Chen, founder and lead artist at Sixtyink London Tattoo Studio"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 3-4 weeks in advance for full sessions. Consultations are typically available within 1-2 weeks. Popular time slots (weekends, evenings) book up fastest."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the consultation?",
+        "answer": "Your consultation includes custom design creation, placement discussion, sizing recommendations, and timeline planning. The £120 consultation fee is applied toward your final tattoo cost."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Create Your Next Masterpiece?",
+    "subheadline": "Join hundreds of satisfied clients who chose Sixtyink for their tattoo journey",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Ready to start your tattoo journey? Fill out the form below and we'll get back to you within 24 hours to schedule your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for your interest! We'll review your request and get back to you within 24 hours with available time slots.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@sixtyink.london",
+    "instagram": "@sixtyink_london",
+    "instagramUrl": "https://instagram.com/sixtyink_london",
+    "phone": "+44 20 7123 4567",
+    "address": "123 Brick Lane, Shoreditch, London E1 6SB"
+  },
+  "footer": {
+    "copyrightHolder": "Sixtyink London Tattoo Studio",
+    "tagline": "Where art meets skin"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
