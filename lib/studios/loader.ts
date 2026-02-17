@@ -1,6 +1,7 @@
 import { readFile } from 'fs/promises'
 import path from 'path'
 import { StudioConfig } from '../types/studio-config'
+import { applyDefaultImages } from './image-pool'
 // Legacy fallback — remove after Phase 6 cleanup
 import { studios as legacyStudios } from './index'
 
@@ -10,10 +11,11 @@ export async function loadStudioConfig(slug: string): Promise<StudioConfig | nul
     try {
         const filePath = path.join(STUDIOS_DIR, `${slug}.json`)
         const content = await readFile(filePath, 'utf-8')
-        return JSON.parse(content) as StudioConfig
+        return applyDefaultImages(JSON.parse(content) as StudioConfig)
     } catch {
         // Fallback to legacy TypeScript registry
-        return legacyStudios[slug] || null
+        const legacy = legacyStudios[slug]
+        return legacy ? applyDefaultImages(legacy) : null
     }
 }
 

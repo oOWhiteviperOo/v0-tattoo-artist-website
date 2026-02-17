@@ -12,11 +12,11 @@ const WORKFLOW_NAMES: Record<string, string> = {
   'J1jKTVofRZXYFtAI': 'Payments',
   '4udGkekeV4Vp5AzR': 'Reminders',
   'NYvCYn4TV2JagDcO': 'Demo Handler',
-  'LiUiWUtrOQTK1LoI': 'Lead Enrichment',
+  'LiUiWUtrOQTK1LoI': 'Customer Enrichment',
   'kN6iaQeUzPPrNSGj': 'Site Generation',
   'PKqiDNOYg6qm3YtS': 'Batch SiteGen',
   'TzrMS2EOtvvlhfxe': 'Outreach Push',
-  '5P66ceLpabsNkMp7': 'Lead Finder',
+  '5P66ceLpabsNkMp7': 'Customer Finder',
 }
 
 export function WorkflowHealthGrid({ workflows }: WorkflowHealthGridProps) {

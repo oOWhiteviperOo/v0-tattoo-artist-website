@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { MarketingPage } from '@/components/MarketingPage'
+import { MarketingPage } from '@/components/marketing/MarketingPage'
 
 export const metadata: Metadata = {
     title: 'Apex Ink | AI Booking Automation for UK Tattoo Studios',

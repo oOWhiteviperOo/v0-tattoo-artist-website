@@ -149,12 +149,18 @@ export const studios: Record<string, StudioConfig> = {
 
 export const DEFAULT_STUDIO = 'ink-and-iron'
 
+// Note: applyDefaultImages is imported here (not in loader.ts) to avoid
+// circular dependency. loader.ts imports `studios` directly and applies
+// its own defaulting.
+import { applyDefaultImages } from './image-pool'
+
 export function getStudio(slug: string): StudioConfig | undefined {
-    return studios[slug]
+    const studio = studios[slug]
+    return studio ? applyDefaultImages(studio) : undefined
 }
 
 export function getStudioOrDefault(slug: string): StudioConfig {
-    return studios[slug] || studios[DEFAULT_STUDIO]
+    return applyDefaultImages(studios[slug] || studios[DEFAULT_STUDIO])
 }
 
 export function getAllSlugs(): string[] {
