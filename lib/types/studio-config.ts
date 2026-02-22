@@ -26,7 +26,7 @@ export interface FAQItem {
 }
 
 export interface TrustMetric {
-    iconName: 'CheckCircle2' | 'Zap' | 'Award' | 'Shield'
+    iconName: 'CheckCircle2' | 'Zap' | 'Award' | 'Shield' | 'Clock' | 'MessageSquare'
     label: string
 }
 
@@ -90,6 +90,7 @@ export interface StudioConfig {
     trustMetrics: {
         items: TrustMetric[]
     }
+    siteMetrics?: TrustMetric[] // Real outcome metrics from API (e.g. "150 Bookings Handled")
     portfolio: {
         sectionTitle: string
         subtitle: string
