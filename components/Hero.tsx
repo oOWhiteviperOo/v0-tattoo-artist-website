@@ -5,7 +5,7 @@ import { motion } from 'motion/react'
 import { ChevronDown } from 'lucide-react'
 import { useStudio } from '@/lib/studio-context'
 
-export function Hero({ onBookingOpen }: { onBookingOpen: () => void }) {
+export function Hero({ onBookingOpen, onDemoOpen }: { onBookingOpen: () => void; onDemoOpen?: () => void }) {
   const { hero, blurDataUrl } = useStudio()
 
   return (
@@ -62,6 +62,15 @@ export function Hero({ onBookingOpen }: { onBookingOpen: () => void }) {
           >
             {hero.ctaText}
           </button>
+          {onDemoOpen && (
+            <button
+              type="button"
+              onClick={onDemoOpen}
+              className="border border-foreground/20 text-foreground/70 px-6 py-3 font-sans text-sm rounded transition-all duration-200 hover:border-foreground/40 hover:text-foreground active:scale-[0.98]"
+            >
+              See how it works
+            </button>
+          )}
           {hero.urgencyText && (
             <span className="text-sm text-foreground/50">
               {hero.urgencyText}

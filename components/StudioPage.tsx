@@ -12,12 +12,14 @@ import { FAQ } from '@/components/FAQ'
 import { FinalCTA } from '@/components/FinalCTA'
 import { Footer } from '@/components/Footer'
 import { BookingModal } from '@/components/BookingModal'
+import { BookingAgent } from '@/components/BookingAgent'
 import { ScrollToTop } from '@/components/ScrollToTop'
 import { StudioConfigProvider } from '@/lib/studio-context'
 import { StudioConfig } from '@/lib/types/studio-config'
 
 export function StudioPage({ config }: { config: StudioConfig }) {
     const [bookingOpen, setBookingOpen] = useState(false)
+    const [demoOpen, setDemoOpen] = useState(false)
     const [selectedSession, setSelectedSession] = useState<string | undefined>()
 
     const openBooking = useCallback((sessionTitle?: string) => {
@@ -30,11 +32,15 @@ export function StudioPage({ config }: { config: StudioConfig }) {
         setBookingOpen(true)
     }, [])
 
+    const openDemo = useCallback(() => {
+        setDemoOpen(true)
+    }, [])
+
     return (
         <StudioConfigProvider config={config}>
             <main>
                 <Header onBookingOpen={openBookingDefault} />
-                <Hero onBookingOpen={openBookingDefault} />
+                <Hero onBookingOpen={openBookingDefault} onDemoOpen={openDemo} />
                 <TrustBar />
                 <Portfolio />
                 <Sessions onBookingOpen={openBooking} />
@@ -47,6 +53,12 @@ export function StudioPage({ config }: { config: StudioConfig }) {
                     open={bookingOpen}
                     onOpenChange={setBookingOpen}
                     sessionTitle={selectedSession}
+                />
+                <BookingAgent
+                    open={demoOpen}
+                    onOpenChange={setDemoOpen}
+                    studioSlug={config.identity.slug}
+                    demoMode
                 />
                 <ScrollToTop />
             </main>
