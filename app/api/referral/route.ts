@@ -67,28 +67,23 @@ export async function POST(req: Request) {
         const cleanSlug = sanitize(referringStudioSlug)
         const cleanInstagram = sanitize(visitorInstagram || '')
 
-        // Write to Referrals tab in Leads spreadsheet via Google Sheets API
-        const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets'
-        const LEADS_SHEET_ID = '1JUmGPXJteLv8h2rmZnNO2iCDFlWJBtM778rIR05fEVQ'
+        // Write to Referrals tab via n8n webhook (same pattern as booking API)
+        const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
+        const webhookUrl = `${N8N_BASE}/webhook/apex-referral`
 
-        const appendUrl = `${SHEETS_BASE}/${LEADS_SHEET_ID}/values/Referrals!A:E:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS&key=${process.env.GOOGLE_SHEETS_API_KEY}`
-
-        const row = [
-            cleanSlug,
-            cleanEmail,
-            cleanInstagram,
-            new Date().toISOString(),
-            'FALSE', // convertedToStudio
-        ]
-
-        const sheetsResp = await fetch(appendUrl, {
+        const sheetsResp = await fetch(webhookUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ values: [row] }),
+            body: JSON.stringify({
+                referringStudioSlug: cleanSlug,
+                visitorEmail: cleanEmail,
+                visitorInstagram: cleanInstagram,
+                timestamp: new Date().toISOString(),
+            }),
         })
 
         if (!sheetsResp.ok) {
-            console.error('Sheets append failed:', await sheetsResp.text())
+            console.error('Referral webhook failed:', await sheetsResp.text())
             return NextResponse.json(
                 { error: 'Failed to save your details. Please try again.' },
                 { status: 502 }
