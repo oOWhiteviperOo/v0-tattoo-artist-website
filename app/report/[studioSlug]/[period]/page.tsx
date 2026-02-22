@@ -15,8 +15,7 @@ interface PageProps {
     params: Promise<{ studioSlug: string; period: string }>
 }
 
-const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets'
-const BOOKINGS_SHEET_ID = '12F1Wfe5SjdSNUhqoZE1I4ySg21S1aE2sS6hLIp7yzao'
+const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
 
 function formatMonth(period: string): string {
     const [y, m] = period.split('-')
@@ -29,30 +28,17 @@ function formatMonth(period: string): string {
 
 async function getStudioData(studioSlug: string) {
     try {
-        const url = `${SHEETS_BASE}/${BOOKINGS_SHEET_ID}/values/Studios!A:R?key=${process.env.GOOGLE_SHEETS_API_KEY}`
+        const url = `${N8N_BASE}/webhook/studio-data?action=getStudio&studioSlug=${encodeURIComponent(studioSlug)}`
         const resp = await fetch(url, { next: { revalidate: 3600 } })
         if (!resp.ok) return null
 
         const data = await resp.json()
-        const rows = data.values || []
-        if (rows.length < 2) return null
-
-        const headers = rows[0] as string[]
-        const idIdx = headers.indexOf('studioId')
-        const nameIdx = headers.indexOf('studioName')
-        const shareIdx = headers.indexOf('shareableOptIn')
-
-        for (let i = 1; i < rows.length; i++) {
-            const row = rows[i] as string[]
-            if (row[idIdx] === studioSlug) {
-                return {
-                    studioId: row[idIdx] || '',
-                    studioName: row[nameIdx] || '',
-                    shareableOptIn: row[shareIdx] || 'FALSE',
-                }
-            }
+        if (!data.found) return null
+        return {
+            studioId: studioSlug,
+            studioName: data.studioName || '',
+            shareableOptIn: data.shareableOptIn || 'FALSE',
         }
-        return null
     } catch {
         return null
     }
@@ -63,37 +49,23 @@ async function getReportMetrics(
     period: string
 ): Promise<ReportMetrics | null> {
     try {
-        const url = `${SHEETS_BASE}/${BOOKINGS_SHEET_ID}/values/ReportHistory!A:J?key=${process.env.GOOGLE_SHEETS_API_KEY}`
+        const url = `${N8N_BASE}/webhook/studio-data?action=getReport&studioSlug=${encodeURIComponent(studioSlug)}&period=${encodeURIComponent(period)}`
         const resp = await fetch(url, { next: { revalidate: 3600 } })
         if (!resp.ok) return null
 
         const data = await resp.json()
-        const rows = data.values || []
-        if (rows.length < 2) return null
+        if (!data.found || !data.report) return null
 
-        const headers = rows[0] as string[]
-        const idIdx = headers.indexOf('studioId')
-        const periodIdx = headers.indexOf('period')
-
-        for (let i = 1; i < rows.length; i++) {
-            const row = rows[i] as string[]
-            if (row[idIdx] === studioSlug && row[periodIdx] === period) {
-                const obj: Record<string, string> = {}
-                headers.forEach((h, idx) => {
-                    obj[h] = row[idx] || '0'
-                })
-                return {
-                    inquiriesHandled: parseInt(obj.inquiriesHandled) || 0,
-                    bookingsCreated: parseInt(obj.bookingsCreated) || 0,
-                    depositsCollected: parseFloat(obj.depositsCollected) || 0,
-                    remindersSent: parseInt(obj.remindersSent) || 0,
-                    noShowsPrevented: parseInt(obj.noShowsPrevented) || 0,
-                    avgResponseTimeSec: parseInt(obj.avgResponseTimeSec) || 0,
-                    calendarUtilisationPct: parseInt(obj.calendarUtilisationPct) || 0,
-                }
-            }
+        const r = data.report
+        return {
+            inquiriesHandled: parseInt(r.inquiriesHandled) || 0,
+            bookingsCreated: parseInt(r.bookingsCreated) || 0,
+            depositsCollected: parseFloat(r.depositsCollected) || 0,
+            remindersSent: parseInt(r.remindersSent) || 0,
+            noShowsPrevented: parseInt(r.noShowsPrevented) || 0,
+            avgResponseTimeSec: parseInt(r.avgResponseTimeSec) || 0,
+            calendarUtilisationPct: parseInt(r.calendarUtilisationPct) || 0,
         }
-        return null
     } catch {
         return null
     }

@@ -6,30 +6,17 @@ interface PageProps {
     params: Promise<{ studioSlug: string }>
 }
 
-const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets'
-const BOOKINGS_SHEET_ID = '12F1Wfe5SjdSNUhqoZE1I4ySg21S1aE2sS6hLIp7yzao'
+const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
 
 async function getStudioName(studioSlug: string): Promise<string | null> {
     try {
-        const url = `${SHEETS_BASE}/${BOOKINGS_SHEET_ID}/values/Studios!A:R?key=${process.env.GOOGLE_SHEETS_API_KEY}`
+        const url = `${N8N_BASE}/webhook/studio-data?action=getStudio&studioSlug=${encodeURIComponent(studioSlug)}`
         const resp = await fetch(url, { next: { revalidate: 3600 } })
         if (!resp.ok) return null
 
         const data = await resp.json()
-        const rows = data.values || []
-        if (rows.length < 2) return null
-
-        const headers = rows[0] as string[]
-        const idIdx = headers.indexOf('studioId')
-        const nameIdx = headers.indexOf('studioName')
-
-        for (let i = 1; i < rows.length; i++) {
-            const row = rows[i] as string[]
-            if (row[idIdx] === studioSlug) {
-                return row[nameIdx] || null
-            }
-        }
-        return null
+        if (!data.found) return null
+        return data.studioName || null
     } catch {
         return null
     }
