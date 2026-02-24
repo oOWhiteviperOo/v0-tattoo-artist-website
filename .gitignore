@@ -9,5 +9,12 @@ instrumentation-client.ts
 node_modules/
 .next/
 .env*.local
-.DS_Storenode_modules
+.DS_Store
 .env
+
+# Claude Code
+.claude/memory/
+.claude/specs/
+
+# Vercel
+.vercel/

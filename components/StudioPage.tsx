@@ -19,9 +19,11 @@ import { StudioConfig } from '@/lib/types/studio-config'
 
 export function StudioPage({ config }: { config: StudioConfig }) {
     const [bookingOpen, setBookingOpen] = useState(false)
+    const [formOpen, setFormOpen] = useState(false)
     const [demoOpen, setDemoOpen] = useState(false)
     const [selectedSession, setSelectedSession] = useState<string | undefined>()
 
+    // Primary CTA — opens conversational BookingAgent
     const openBooking = useCallback((sessionTitle?: string) => {
         setSelectedSession(sessionTitle)
         setBookingOpen(true)
@@ -30,6 +32,11 @@ export function StudioPage({ config }: { config: StudioConfig }) {
     const openBookingDefault = useCallback(() => {
         setSelectedSession(undefined)
         setBookingOpen(true)
+    }, [])
+
+    // Fallback — opens traditional form (triggered from "Prefer a form?" in BookingAgent)
+    const openForm = useCallback(() => {
+        setFormOpen(true)
     }, [])
 
     const openDemo = useCallback(() => {
@@ -49,16 +56,22 @@ export function StudioPage({ config }: { config: StudioConfig }) {
                 <FAQ />
                 <FinalCTA onBookingOpen={openBookingDefault} />
                 <Footer onBookingOpen={openBookingDefault} />
-                <BookingModal
+                <BookingAgent
                     open={bookingOpen}
                     onOpenChange={setBookingOpen}
-                    sessionTitle={selectedSession}
+                    studioSlug={config.identity.slug}
+                    onOpenForm={openForm}
                 />
                 <BookingAgent
                     open={demoOpen}
                     onOpenChange={setDemoOpen}
                     studioSlug={config.identity.slug}
                     demoMode
+                />
+                <BookingModal
+                    open={formOpen}
+                    onOpenChange={setFormOpen}
+                    sessionTitle={selectedSession}
                 />
                 <ScrollToTop />
             </main>

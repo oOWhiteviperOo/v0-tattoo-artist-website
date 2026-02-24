@@ -2,23 +2,44 @@ import { NextResponse } from 'next/server'
 
 const N8N_BASE_URL = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
 
+function stripHtml(str: string): string {
+  return str.replace(/<[^>]*>/g, '').trim()
+}
+
 export async function POST(req: Request) {
   try {
     const body = await req.json()
-    const { message, studioSlug, sessionId, turnCount, completed } = body
+    const {
+      message,
+      studioSlug,
+      sessionId,
+      turnCount,
+      conversationHistory,
+      extractedEntities,
+      completed,
+    } = body
 
-    // Basic validation
-    if (!message || !studioSlug) {
+    // Validate required fields
+    if (!message || !studioSlug || !sessionId) {
       return NextResponse.json(
-        { error: 'Missing required fields: message and studioSlug' },
+        { error: 'Missing required fields: message, studioSlug, sessionId' },
         { status: 400 }
       )
     }
 
-    // Message length guard
-    if (typeof message !== 'string' || message.length > 500) {
+    // Sanitise and validate message
+    const sanitised = stripHtml(String(message)).slice(0, 2000)
+    if (!sanitised) {
       return NextResponse.json(
-        { error: 'Message too long (max 500 characters)' },
+        { error: 'Message is empty after sanitisation' },
+        { status: 400 }
+      )
+    }
+
+    // Validate conversationHistory if provided
+    if (conversationHistory && !Array.isArray(conversationHistory)) {
+      return NextResponse.json(
+        { error: 'conversationHistory must be an array' },
         { status: 400 }
       )
     }
@@ -29,12 +50,11 @@ export async function POST(req: Request) {
     const webhookPath = isDemo ? 'apex-chat-demo' : 'apex-chat'
     const webhookUrl = `${N8N_BASE_URL}/webhook/${webhookPath}`
 
-    // Log demo sessions (no PII)
     if (isDemo) {
       console.log('Demo session:', sessionId, studioSlug, `turn:${turnCount}`)
     }
 
-    // Build the payload in the format Concierge expects
+    // Build the payload for the Concierge chat webhook
     const payload = {
       data: {
         client: {
@@ -43,23 +63,41 @@ export async function POST(req: Request) {
           phone: '',
           studioSlug,
         },
-        message,
+        message: sanitised,
         channel: isDemo ? 'demo-chat' : 'chat',
         studioSlug,
-        sessionId: sessionId || undefined,
+        sessionId,
         turnCount: turnCount || 1,
+        conversationHistory: Array.isArray(conversationHistory)
+          ? conversationHistory.slice(-10)
+          : [],
+        extractedEntities: extractedEntities || {},
         completed: completed || false,
       },
     }
 
-    // Forward to n8n webhook
-    const n8nResponse = await fetch(webhookUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(payload),
-    })
+    // Forward to n8n webhook with 10s timeout
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 10000)
+
+    let n8nResponse: Response
+    try {
+      n8nResponse = await fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal: controller.signal,
+      })
+    } catch (fetchErr: unknown) {
+      clearTimeout(timeout)
+      const isAbort = fetchErr instanceof Error && fetchErr.name === 'AbortError'
+      console.error('n8n fetch failed:', isAbort ? 'timeout' : fetchErr)
+      return NextResponse.json(
+        { error: 'Chat service unavailable' },
+        { status: 502 }
+      )
+    }
+    clearTimeout(timeout)
 
     if (!n8nResponse.ok) {
       const errorText = await n8nResponse.text()
@@ -76,8 +114,12 @@ export async function POST(req: Request) {
     // Return structured response to BookingAgent component
     return NextResponse.json({
       response: data.response || data.message || data.aiResponse || '',
-      action: data.action || data.intent || undefined,
-      actionLabel: data.actionLabel || undefined,
+      intent: data.intent || undefined,
+      action: data.action || undefined,
+      availableSlots: data.availableSlots || undefined,
+      depositUrl: data.depositUrl || undefined,
+      bookingId: data.bookingId || undefined,
+      escalated: data.escalated || false,
       isDemoMode: isDemo,
     })
   } catch (error) {
