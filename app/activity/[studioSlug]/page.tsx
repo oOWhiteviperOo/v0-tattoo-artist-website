@@ -30,7 +30,9 @@ const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
 const MINUTES_SAVED: Record<string, number> = {
   booking_confirmed: 15,
   deposit_received: 0,
+  new_inquiry: 5,
   inquiry_classified: 5,
+  cancellation_completed: 10,
   cancellation_processed: 10,
   reschedule_completed: 10,
   reminder_sent: 3,
@@ -41,7 +43,9 @@ const MINUTES_SAVED: Record<string, number> = {
 const EVENT_LABELS: Record<string, string> = {
   booking_confirmed: 'Booking confirmed',
   deposit_received: 'Deposit received',
+  new_inquiry: 'Inquiry handled',
   inquiry_classified: 'Inquiry handled',
+  cancellation_completed: 'Cancellation processed',
   cancellation_processed: 'Cancellation processed',
   reschedule_completed: 'Rescheduled',
   reminder_sent: 'Reminder sent',
@@ -52,8 +56,10 @@ const EVENT_LABELS: Record<string, string> = {
 const AMBER_EVENTS = new Set([
   'booking_confirmed',
   'deposit_received',
+  'new_inquiry',
   'inquiry_classified',
   'reschedule_completed',
+  'cancellation_completed',
   'escalation_triggered',
 ])
 
