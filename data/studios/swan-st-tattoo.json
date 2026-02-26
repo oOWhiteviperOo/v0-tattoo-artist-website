@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Swan St. Tattoo",
+    "slug": "swan-st-tattoo",
+    "tagline": "Manchester's highest-rated city center studio",
+    "artistName": "The Swan St. Team"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(0, 0%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(155, 72%, 10%)",
+    "mutedForeground": "hsl(0, 0%, 65%)",
+    "dimmedForeground": "hsl(0, 0%, 45%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "32, 201, 151",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Swan St. Tattoo - Manchester's 5-Star City Center Studio",
+    "description": "91 five-star reviews can't be wrong. Premium tattoo artistry in Manchester's Swan Buildings. Book your consultation at the city's top-rated studio.",
+    "keywords": [
+      "manchester tattoo studio",
+      "swan street tattoo"
+    ],
+    "openGraph": {
+      "title": "Swan St. Tattoo - Manchester's Premier Tattoo Studio",
+      "description": "Experience award-winning tattoo artistry at Manchester's highest-rated studio. 91 five-star reviews speak for themselves.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/swan-st-tattoo",
+      "siteName": "Swan St. Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Swan%20St.%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Swan St. Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "91 Five-Star Reviews",
+      "Say Everything"
+    ],
+    "subheadline": "Perched above Manchester's bustling city center, Swan St. Tattoo has earned its reputation as the most trusted name in premium tattoo artistry.",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Swan St. Tattoo studio interior with artist at work"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "91 Five-Star Reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "City Center Location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Premium Swan Buildings"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Manchester's Most Trusted"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Artistry That Speaks",
+    "subtitle": "Every piece tells a story worth wearing forever",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Your Perfect Session Awaits",
+    "subtitle": "From intimate pieces to statement works, we've got you covered",
+    "guarantee": "Every session includes aftercare kit and lifetime touch-up guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Small Work",
+        "duration": "1-2 hours",
+        "price": "£150-£300",
+        "priceSubtitle": "Perfect for first-timers",
+        "features": [
+          "In-depth design consultation",
+          "Small to medium pieces"
+        ],
+        "status": "limited",
+        "availabilityText": "Same-week availability",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Full Custom Session",
+        "duration": "3-6 hours",
+        "price": "£400-£800",
+        "priceSubtitle": "Our signature experience",
+        "features": [
+          "Bespoke design creation",
+          "Large-scale masterpieces"
+        ],
+        "status": "available",
+        "availabilityText": "2-3 week lead time",
+        "buttonText": "Book Custom Work",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Manchester Says",
+    "testimonials": [
+      {
+        "quote": "Honestly can't fault this place. Clean, professional, and the work speaks for itself. Third tattoo here and won't go anywhere else.",
+        "author": "Marcus T.",
+        "city": "Chorlton",
+        "rating": 5
+      },
+      {
+        "quote": "Bit nervous about my first tattoo but the team put me at ease straight away. Really happy with how it turned out, proper quality work.",
+        "author": "Emma K.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Been to a few places around Manchester but Swan St is on another level. Worth every penny and then some.",
+        "author": "Jake M.",
+        "city": "Salford",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "91 Google Reviews"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "5.0 Star Rating"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "City Center Location"
+      },
+      {
+        "iconName": "Star",
+        "label": "Premium Studio Space"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @swansttattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Above the City, Beyond Expectations",
+    "paragraphs": [
+      "Three floors up in Manchester's historic Swan Buildings, something special happens every day. What started as a vision to create Manchester's most trusted tattoo destination has grown into a studio that consistently delivers work that clients travel from across the North West to experience.",
+      "Our reputation isn't built on hype or marketing — it's built on 91 consecutive five-star reviews from clients who've experienced the difference that genuine care and exceptional artistry makes. Every consultation, every line, every shade is approached with the understanding that this work will be with you for life."
+    ],
+    "callout": "When you're ready for work that matches your vision, we're ready to make it happen.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Swan St. Tattoo artist working on detailed tattoo design"
+  },
+  "faq": {
+    "sectionTitle": "Everything You Need to Know",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a session at Swan St?",
+        "answer": "Give us a call on 0161 839 7284 or drop by the studio on the 3rd floor of Swan Buildings. We'll have a proper chat about what you're after and get you booked in. Consultations are always free and there's no pressure."
+      },
+      {
+        "id": "faq-2",
+        "question": "What should I expect for pricing?",
+        "answer": "Depends entirely on what you're having done, really. Small pieces start around £150, while larger custom work can run £400-800+. We'll give you a proper quote after seeing your design and discussing placement. No hidden fees, just honest pricing."
+      },
+      {
+        "id": "faq-3",
+        "question": "How far in advance should I book?",
+        "answer": "For smaller work, we can usually fit you in within the week. Custom pieces and larger sessions typically need 2-3 weeks' notice. February's been busy but we're still taking bookings. Best to call and see what works."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Work You'll Love Forever?",
+    "subheadline": "Join the 91 five-star reviews and experience Manchester's most trusted studio.",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your vision and we'll get you booked in for a consultation at Manchester's highest-rated studio.",
+    "successTitle": "We'll Be In Touch Soon",
+    "successMessage": "Thanks for reaching out! We'll review your request and get back to you within 24 hours to confirm your session details.",
+    "submitText": "Submit Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your booking"
+  },
+  "contact": {
+    "email": "hello@swansttattoo.co.uk",
+    "instagram": "@swansttattoo",
+    "instagramUrl": "https://instagram.com/swansttattoo",
+    "phone": "0161 839 7284",
+    "address": "3rd Floor, Swan Buildings, 20 Swan St, Manchester M4 5JW, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Swan St. Tattoo",
+    "tagline": "Manchester's highest-rated studio"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
