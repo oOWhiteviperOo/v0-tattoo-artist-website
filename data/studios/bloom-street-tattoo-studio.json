@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Bloom Street Tattoo Studio",
+    "slug": "bloom-street-tattoo-studio",
+    "tagline": "Manchester's 5-star tattoo destination",
+    "artistName": "The Bloom Street Team"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 15%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(155, 72%, 8%)",
+    "mutedForeground": "hsl(220, 15%, 65%)",
+    "dimmedForeground": "hsl(220, 15%, 45%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "32, 178, 115",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Bloom Street Tattoo Studio | 5-Star Manchester Tattoos",
+    "description": "Manchester's premier tattoo studio on Bloom Street. 169 five-star reviews. Expert artists, custom designs, city center location. Book your consultation today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Bloom Street tattoo"
+    ],
+    "openGraph": {
+      "title": "Bloom Street Tattoo Studio - Manchester's 5-Star Tattoo Destination",
+      "description": "Award-winning tattoo studio in Manchester city center with 169 five-star reviews. Custom designs by expert artists.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/bloom-street-tattoo-studio",
+      "siteName": "Bloom Street Tattoo Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Bloom%20Street%20Tattoo%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Bloom Street Tattoo Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Most Trusted",
+      "Tattoo Studio"
+    ],
+    "subheadline": "169 five-star reviews don't lie. Located in the heart of Manchester's city center, we've built our reputation one incredible tattoo at a time.",
+    "urgencyText": "Booking into spring 2026",
+    "ctaText": "Start Your Design",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on detailed custom design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "169 Five-Star Reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "City Center Location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-Winning Artists"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Premium Aftercare"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Every piece tells a story. Here's a glimpse of the custom tattoos we've created for our Manchester clients.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "From consultations to full-day pieces, we've got the perfect session for your vision.",
+    "guarantee": "All sessions include comprehensive aftercare guidance and touch-up guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Design Consultation",
+        "duration": "60 minutes",
+        "price": "£50",
+        "priceSubtitle": "Fully refundable with booking",
+        "features": [
+          "Custom design sketches",
+          "Placement and sizing advice"
+        ],
+        "status": "limited",
+        "availabilityText": "Same week availability",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Tattoo Session",
+        "duration": "2-6 hours",
+        "price": "£150/hour",
+        "priceSubtitle": "Minimum 2 hours",
+        "features": [
+          "Premium ink and equipment",
+          "Professional aftercare kit"
+        ],
+        "status": "available",
+        "availabilityText": "Booking 2-4 weeks ahead",
+        "buttonText": "Book Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely blown away by the quality of work here. The attention to detail is incredible and the studio is spotless. Will definitely be back for my next piece.",
+        "author": "James K.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Best tattoo experience I've had in Manchester. Really professional setup and the artist took time to get every detail right. Worth the wait.",
+        "author": "Emma T.",
+        "city": "Chorlton",
+        "rating": 5
+      },
+      {
+        "quote": "Really happy with how it turned out. The healing process was smooth thanks to their aftercare advice. Studio has a great vibe too.",
+        "author": "Mike H.",
+        "city": "Salford",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "169 Google Reviews"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "5-Star Rating"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "Star",
+        "label": "Health Certified"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @bloomstreettattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Story Behind Bloom Street",
+    "paragraphs": [
+      "Nestled on one of Manchester's most vibrant streets, our studio has become a beacon for those seeking exceptional tattoo artistry. What started as a dream to create a space where technical skill meets genuine care has blossomed into Manchester's most trusted tattoo destination.",
+      "Our team of artists brings decades of combined experience, each specializing in different styles but united by the same commitment to excellence. From bold traditional pieces to intricate fine line work, we approach every tattoo with the respect and attention it deserves. The 169 five-star reviews speak to our dedication, but it's the relationships we build with our clients that truly matter."
+    ],
+    "callout": "Every tattoo is a collaboration between artist and client, resulting in something truly unique.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Bloom Street Tattoo Studio artist at work"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a tattoo appointment?",
+        "answer": "Start with a consultation where we'll discuss your ideas and create a custom design. You can book online or pop into the studio. We're located right in Manchester city center on Bloom Street, so it's easy to find us."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the tattoo price?",
+        "answer": "Our hourly rate covers everything - the tattoo work, premium inks, professional equipment, and a complete aftercare kit. We also include a touch-up session within the first few months if needed, though it's rarely necessary."
+      },
+      {
+        "id": "faq-3",
+        "question": "How should I prepare for my tattoo session?",
+        "answer": "Get a good night's sleep, eat a proper meal beforehand, and avoid alcohol for 24 hours prior. Wear comfortable clothes that give easy access to the tattoo area. We'll handle everything else and talk you through the process."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Join the 169 clients who've trusted us with their ink. Book your consultation today.",
+    "ctaText": "Book Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Consultation",
+    "modalDescription": "Tell us about your tattoo ideas and we'll get back to you within 24 hours to schedule your consultation at our Bloom Street studio.",
+    "successTitle": "Consultation Request Received!",
+    "successMessage": "Thanks for choosing Bloom Street Tattoo Studio. We'll review your request and get back to you within 24 hours to confirm your consultation time.",
+    "submitText": "Request Consultation",
+    "depositDisclaimer": "A £50 deposit is required to secure your tattoo appointment, fully refundable if cancelled 48+ hours in advance."
+  },
+  "contact": {
+    "email": "hello@bloomstreettattoo.co.uk",
+    "instagram": "@bloomstreettattoo",
+    "instagramUrl": "https://instagram.com/bloomstreettattoo",
+    "phone": "+44 161 234 5678",
+    "address": "First Floor, 61 Bloom St, Manchester M1 3LY, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Bloom Street Tattoo Studio",
+    "tagline": "Manchester's most trusted tattoo destination"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
