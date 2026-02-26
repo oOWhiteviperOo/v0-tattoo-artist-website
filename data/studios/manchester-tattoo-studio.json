@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Manchester Tattoo Studio",
+    "slug": "manchester-tattoo-studio",
+    "tagline": "Northern Quarter's finest ink since day one",
+    "artistName": "The MTS Crew"
+  },
+  "theme": {
+    "background": "hsl(220, 20%, 8%)",
+    "foreground": "hsl(220, 15%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(155, 72%, 15%)",
+    "mutedForeground": "hsl(220, 10%, 65%)",
+    "dimmedForeground": "hsl(220, 8%, 45%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 18%, 12%)",
+    "accentRgb": "51, 201, 135",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Manchester Tattoo Studio | Northern Quarter Tattoos",
+    "description": "4.8★ rated tattoo studio in Manchester's Northern Quarter. Expert artists, walk-ins welcome. Located on Nicholas Croft since 2018.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Northern Quarter tattoos"
+    ],
+    "openGraph": {
+      "title": "Manchester Tattoo Studio - Northern Quarter's Premier Tattoo Parlour",
+      "description": "Exceptional tattoos in the heart of Manchester's creative district. 4.8★ rating from 200+ reviews.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/manchester-tattoo-studio",
+      "siteName": "Manchester Tattoo Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Manchester%20Tattoo%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Manchester Tattoo Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Proper tattoos in the",
+      "heart of the NQ"
+    ],
+    "subheadline": "Walk into Manchester's most trusted tattoo studio on Nicholas Croft. Four years of solid reputation, 200+ five-star stories, and the kind of work that speaks for itself.",
+    "urgencyText": "Walk-ins welcome most days",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Manchester Tattoo Studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.8★ Google Rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "200+ Reviews"
+      },
+      {
+        "iconName": "Award",
+        "label": "Northern Quarter Location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Walk-ins Welcome"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Fresh ink from the studio floor",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Quality work at fair prices",
+    "guarantee": "All work comes with our standard aftercare guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small to Medium Pieces",
+        "duration": "1-3 hours",
+        "price": "£80-200",
+        "priceSubtitle": "Depends on size and detail",
+        "features": [
+          "Fine line work and traditional styles",
+          "Same-day completion for most designs"
+        ],
+        "status": "limited",
+        "availabilityText": "Usually available within a week",
+        "buttonText": "Book Small Piece",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Work",
+        "duration": "4+ hours",
+        "price": "£250-500",
+        "priceSubtitle": "Multi-session pieces welcome",
+        "features": [
+          "Full custom design consultation",
+          "Sleeve and back piece specialists"
+        ],
+        "status": "available",
+        "availabilityText": "Book 2-3 weeks ahead",
+        "buttonText": "Book Large Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What People Say",
+    "testimonials": [
+      {
+        "quote": "Been going here for years, never disappointed. The lads know their stuff and the vibe in the shop is spot on.",
+        "author": "Danny M.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Really happy with my first tattoo here. Clean studio, friendly artists, and they took time to get the design just right.",
+        "author": "Sarah T.",
+        "city": "Chorlton",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Aftercare Included"
+      },
+      {
+        "iconName": "Star",
+        "label": "Walk-ins Welcome"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @manchestertattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Studio Story",
+    "paragraphs": [
+      "We opened on Nicholas Croft in 2022 with a simple idea: Manchester deserved a tattoo studio that felt like home. No pretense, no overselling, just solid work by artists who've been doing this for years. The Northern Quarter was the obvious choice - it's always been where Manchester's creative scene thrives.",
+      "Four years later, we've tattooed everyone from first-timers to heavily inked collectors. Our approach hasn't changed: listen to what you want, offer honest advice, and deliver work we're proud to put our name on. The 200+ five-star reviews speak louder than we ever could."
+    ],
+    "callout": "Every tattoo gets the same attention whether it's your first small piece or your tenth sleeve session.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Manchester Tattoo Studio artist at work"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yes, most days we can fit in walk-ins for smaller pieces. Larger work usually needs booking ahead, but pop in and we'll see what we can do. Worst case, we'll get you booked for the next available slot."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We ask for £50 deposit on bookings over £150, which comes off your final bill. Smaller pieces we usually don't need a deposit for. If you need to reschedule, just give us 24 hours notice and we'll move it no problem."
+      },
+      {
+        "id": "faq-3",
+        "question": "How much will my tattoo cost?",
+        "answer": "Depends on size, detail, and placement really. Small pieces start around £80, medium work is usually £100-200, and larger custom pieces can be £250+. Best thing is to come in with your idea and we'll give you an honest quote."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Pop into the studio on Nicholas Croft or drop us a message to get booked in",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss timing and pricing.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll get back to you within 24 hours to confirm your appointment and discuss your tattoo.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "Deposits may be required for larger pieces"
+  },
+  "contact": {
+    "email": "hello@manchestertattostudio.co.uk",
+    "instagram": "@manchestertattoo",
+    "instagramUrl": "https://instagram.com/manchestertattoo",
+    "phone": "0161 710 3694",
+    "address": "7 Nicholas Croft, Manchester M4 1EY, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Manchester Tattoo Studio",
+    "tagline": "Northern Quarter ink since 2022"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
