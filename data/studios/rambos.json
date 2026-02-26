@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Rambo's",
+    "slug": "rambos",
+    "tagline": "Shudehill's legendary ink den",
+    "artistName": "Rambo"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 15%, 95%)",
+    "accent": "hsl(0, 72%, 51%)",
+    "accentForeground": "hsl(0, 0%, 100%)",
+    "mutedForeground": "hsl(220, 15%, 65%)",
+    "dimmedForeground": "hsl(220, 15%, 45%)",
+    "border": "hsl(220, 15%, 20%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "207, 37, 37",
+    "ring": "hsl(0, 72%, 51%)"
+  },
+  "seo": {
+    "title": "Rambo's Tattoo Parlour | Manchester's Shudehill Studio",
+    "description": "4.8★ rated tattoo parlour in Manchester's Shudehill. Bold ink, legendary artist. Book your session at Manchester's most talked-about studio.",
+    "keywords": [
+      "tattoo studio Manchester",
+      "Shudehill tattoo parlour"
+    ],
+    "openGraph": {
+      "title": "Rambo's Tattoo Parlour - Shudehill's Ink Legend",
+      "description": "Manchester's most legendary tattoo parlour. 4.8★ rated studio in the heart of Shudehill.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/rambos",
+      "siteName": "Rambo's",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Rambo's+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rambo's"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Bold ink from",
+      "Manchester's legend"
+    ],
+    "subheadline": "Step into Shudehill's most notorious tattoo parlour. Raw talent, uncompromising quality, zero pretense.",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Book Your Slot",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Rambo working on a detailed tattoo in his Shudehill studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.8★ from 67 reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Shudehill institution"
+      },
+      {
+        "iconName": "Award",
+        "label": "Walk-ins welcome"
+      },
+      {
+        "iconName": "Shield",
+        "label": "No-nonsense approach"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "The Work Speaks",
+    "subtitle": "Bold designs that last a lifetime",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Booking Options",
+    "subtitle": "Straightforward sessions, legendary results",
+    "guarantee": "Every piece backed by decades of experience",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Flash & Small Work",
+        "duration": "1-2 hours",
+        "price": "£120-180",
+        "priceSubtitle": "Perfect for first-timers",
+        "features": [
+          "Flash designs available",
+          "Same-day completion"
+        ],
+        "status": "limited",
+        "availabilityText": "Available this week",
+        "buttonText": "Book Flash Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Custom Pieces",
+        "duration": "3-6 hours",
+        "price": "£300-600",
+        "priceSubtitle": "Bespoke artwork",
+        "features": [
+          "Personal consultation included",
+          "Multi-session welcome"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: March",
+        "buttonText": "Book Custom Work",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What People Say",
+    "testimonials": [
+      {
+        "quote": "Rambo's been doing my ink for years. No messing about, just solid work every time. The guy's a proper artist.",
+        "author": "Mark D.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Found this place through a mate's recommendation. Best decision I made - the work is incredible and the atmosphere is spot on.",
+        "author": "Lisa M.",
+        "city": "Chorlton",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "67 Google Reviews"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "4.8★ Average Rating"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Established Studio"
+      },
+      {
+        "iconName": "Star",
+        "label": "Shudehill Location"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @rambostattooparlour",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Legend Behind the Needle",
+    "paragraphs": [
+      "Rambo didn't set out to become Manchester's most talked-about tattoo artist - it just happened. What started as a small parlour in Shudehill has grown into something of a local institution, built on one simple principle: do the work right, treat people fairly, and let the tattoos speak for themselves.",
+      "The studio's reputation isn't built on flashy marketing or social media hype. It's earned through years of consistent, quality work and a no-nonsense approach that cuts through the industry's pretense. Whether you're after your first piece or your fiftieth, you'll get the same honest advice and meticulous attention to detail that's made Rambo's a Shudehill staple."
+    ],
+    "callout": "Real artistry doesn't need to shout - it shows up in every line, every shade, every piece that walks out the door.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Rambo at work in his Shudehill studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yeah, we do walk-ins when there's space. But if you've got something specific in mind or want to guarantee your slot, booking ahead is your best bet. Especially for weekends - they get mental busy."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "£50 deposit to secure your booking, comes off your final bill. If you need to reschedule, just give us 24 hours notice and we'll move it. No deposit back for no-shows though - got to be fair to everyone."
+      },
+      {
+        "id": "faq-3",
+        "question": "How much will my tattoo cost?",
+        "answer": "Depends on size, detail, placement - the usual stuff. Small pieces start around £120, bigger custom work can run £300-600+. Pop in or send us a message with what you're thinking and we'll give you a proper quote."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Some Legendary Ink?",
+    "subheadline": "Book your session at Manchester's most authentic tattoo parlour",
+    "ctaText": "Book Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to confirm your booking.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll be in touch within 24 hours to confirm your session details and arrange your deposit.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "£50 deposit required to secure booking"
+  },
+  "contact": {
+    "email": "hello@rambos.co.uk",
+    "instagram": "@rambostattooparlour",
+    "instagramUrl": "https://instagram.com/rambostattooparlour",
+    "phone": "+44 161 832 4567",
+    "address": "42 Shudehill, Manchester M4 2AF, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Rambo's Tattoo Parlour",
+    "tagline": "Shudehill's ink legend since day one"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
