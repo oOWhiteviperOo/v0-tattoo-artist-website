@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Shallows Studio",
+    "slug": "shallows-studio",
+    "tagline": "Depth in every line",
+    "artistName": "Alex"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 10%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(220, 15%, 8%)",
+    "mutedForeground": "hsl(220, 10%, 65%)",
+    "dimmedForeground": "hsl(220, 10%, 45%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "35, 199, 128",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Shallows Studio Manchester | Premium Tattoo Art in Civic Quarter",
+    "description": "Manchester's 5-star rated tattoo studio in the Civic Quarter. Professional custom tattoos with 480+ perfect reviews. Book your consultation today.",
+    "keywords": [
+      "manchester tattoo studio",
+      "civic quarter tattoo"
+    ],
+    "openGraph": {
+      "title": "Shallows Studio | Manchester's Premier Tattoo Destination",
+      "description": "Experience exceptional tattoo artistry in Manchester's Civic Quarter. 5-star rated with 480+ reviews.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/shallows-studio",
+      "siteName": "Shallows Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Shallows%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Shallows Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Hidden Gem",
+      "in the Heart of the City"
+    ],
+    "subheadline": "Tucked away in the Civic Quarter, we've been quietly building Manchester's most trusted tattoo reputation—one perfect piece at a time.",
+    "urgencyText": "Spring bookings now open",
+    "ctaText": "Start Your Journey",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Shallows Studio interior showcasing clean, modern tattoo workspace"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "480 perfect 5-star reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Civic Quarter location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Sterile equipment guarantee"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Same-day consultations available"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Every piece tells a story—here are some of our latest chapters",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "From quick touch-ups to full sleeve projects",
+    "guarantee": "All work backed by our lifetime touch-up guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Standard Session",
+        "duration": "2-4 hours",
+        "price": "£120/hour",
+        "priceSubtitle": "Most popular choice",
+        "features": [
+          "Custom design consultation included",
+          "Same-day booking available"
+        ],
+        "status": "limited",
+        "availabilityText": "Next available: This week",
+        "buttonText": "Book Standard",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Extended Session",
+        "duration": "5-8 hours",
+        "price": "£110/hour",
+        "priceSubtitle": "Best value for large pieces",
+        "features": [
+          "Discounted hourly rate",
+          "Multiple break periods included"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: Next week",
+        "buttonText": "Book Extended",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Found this place through a mate's recommendation and honestly couldn't be happier. Alex really took the time to understand what I wanted and the final piece exceeded my expectations. The studio itself feels proper professional too.",
+        "author": "Jamie M.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Been to a few places around Manchester but this is definitely the best. Clean, professional, and the attention to detail is spot on. Worth every penny and the location in town is dead convenient.",
+        "author": "Chloe R.",
+        "city": "Didsbury",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "5★ Google Rating"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "480+ Reviews"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Civic Quarter"
+      },
+      {
+        "iconName": "Star",
+        "label": "Licensed Studio"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @shallowsstudio",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Story Behind Shallows",
+    "paragraphs": [
+      "Started in a small corner of Manchester's Civic Quarter, Shallows Studio began as a passion project—a place where tattooing could be both an art form and a deeply personal experience. What started as one artist's vision has grown into Manchester's most trusted tattoo destination, but we've never lost that intimate, personal touch that makes each piece special.",
+      "Our approach is simple: listen first, design second, tattoo third. Every client gets the same attention whether it's your first tattoo or your fiftieth. We believe great tattoos come from understanding not just what you want, but why you want it. That philosophy has earned us 480 perfect reviews and a reputation that speaks for itself."
+    ],
+    "callout": "Every tattoo is a conversation between artist and client—we just happen to be really good listeners.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex, lead artist at Shallows Studio, working on a detailed tattoo design"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance do I need to book?",
+        "answer": "Depends on what you're after really. For smaller pieces or touch-ups, we can often fit you in within a week. Larger custom work might need a few weeks lead time, especially if you want a specific date. Best thing is to give us a call and we'll see what we can sort out."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We ask for a £50 deposit to secure your slot, which comes off your final bill. If you need to reschedule, just give us 48 hours notice and we'll move it no problem. Only time you lose the deposit is if you're a no-show, which is pretty rare to be honest."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do cover-ups and touch-ups?",
+        "answer": "Absolutely. Cover-ups are actually some of our favourite work—there's something satisfying about transforming an old piece into something you're proud of again. For touch-ups on work we've done, there's no charge within the first year. For other studios' work, we'll need to see it first but we're usually happy to help."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Start?",
+    "subheadline": "Book your consultation and let's create something incredible together",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to arrange your consultation.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for reaching out. We'll review your request and get back to you within 24 hours to confirm your session details.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "£50 deposit required to secure booking"
+  },
+  "contact": {
+    "email": "hello@shallowsstudio.co.uk",
+    "instagram": "@shallowsstudio",
+    "instagramUrl": "https://instagram.com/shallowsstudio",
+    "phone": "0161 710 4170",
+    "address": "Whitworth Locke, 74 Princess St, Civic Quarter, Manchester M1 6JD, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Shallows Studio",
+    "tagline": "Depth in every line"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
