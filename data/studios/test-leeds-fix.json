@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Test Leeds Studio",
+    "slug": "test-leeds-fix",
+    "tagline": "Bold blackwork and delicate fine line tattoos in the heart of Leeds",
+    "artistName": "Kai"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 8%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(155, 72%, 8%)",
+    "mutedForeground": "hsl(220, 8%, 65%)",
+    "dimmedForeground": "hsl(220, 8%, 45%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "32, 178, 116",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Test Leeds Studio - Blackwork & Fine Line Tattoos Leeds",
+    "description": "Professional blackwork and fine line tattoos in Leeds. Custom designs, walk-ins welcome. Prices from £80-300. Book your consultation today.",
+    "keywords": [
+      "blackwork tattoos Leeds",
+      "fine line tattoos Leeds"
+    ],
+    "openGraph": {
+      "title": "Test Leeds Studio - Bold Blackwork & Delicate Fine Line",
+      "description": "Custom blackwork and fine line tattoos in Leeds. Professional artistry with attention to detail.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/test-leeds-fix",
+      "siteName": "Test Leeds Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Test%20Leeds%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Test Leeds Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Precision in Every",
+      "Line and Shadow"
+    ],
+    "subheadline": "Specialising in bold blackwork and intricate fine line tattoos that stand the test of time",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Book Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Detailed blackwork tattoo being created at Test Leeds Studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "100+ blackwork designs completed"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Single-needle fine line specialist"
+      },
+      {
+        "iconName": "Award",
+        "label": "Custom designs only"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Same-day touch-up guarantee"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Bold blackwork and delicate fine line pieces from our Leeds studio",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose the session that fits your vision",
+    "guarantee": "All sessions include aftercare kit and free touch-up within 6 weeks",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Fine Line Session",
+        "duration": "2-3 hours",
+        "price": "£80-150",
+        "priceSubtitle": "Delicate single-needle work",
+        "features": [
+          "Perfect for minimalist designs",
+          "Botanical and geometric speciality"
+        ],
+        "status": "limited",
+        "availabilityText": "Next available: This week",
+        "buttonText": "Book Fine Line",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Blackwork Session",
+        "duration": "3-5 hours",
+        "price": "£200-300",
+        "priceSubtitle": "Bold solid black designs",
+        "features": [
+          "Custom tribal and geometric work",
+          "Cover-up specialists"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: Next week",
+        "buttonText": "Book Blackwork",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Kai's blackwork is incredible, the solid fills are so clean and the design flow is perfect. Exactly what I wanted.",
+        "author": "Marcus T.",
+        "city": "Headingley",
+        "rating": 5
+      },
+      {
+        "quote": "Really happy with my fine line piece, the detail work is amazing. Healing perfectly too.",
+        "author": "Beth K.",
+        "city": "Chapel Allerton",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Custom Designs"
+      },
+      {
+        "iconName": "Star",
+        "label": "Touch-up Guarantee"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @testleeds",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Kai",
+    "paragraphs": [
+      "Started tattooing in a mate's garage back in 2019, now running one of Leeds' most focused studios. I specialise in two styles and I do them properly - bold blackwork that'll look sharp for decades, and fine line work so precise you'll think it was drawn with a technical pen.",
+      "No flash sheets here. Every piece is designed specifically for you, your body, your story. I take on fewer clients so I can spend proper time on each design. Quality over quantity, always."
+    ],
+    "callout": "Each tattoo is a custom piece designed specifically for you",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Kai working on a detailed blackwork tattoo at Test Leeds Studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you do walk-ins?",
+        "answer": "I take a few walk-ins each week for smaller fine line pieces, but blackwork sessions are appointment only. Best to message me on Instagram to check availability."
+      },
+      {
+        "id": "faq-2",
+        "question": "How much for a sleeve?",
+        "answer": "Depends on the style and complexity. Blackwork sleeves typically run £800-1200 over multiple sessions. Fine line sleeves are usually £600-900. I'll give you a proper quote after we discuss your design."
+      },
+      {
+        "id": "faq-3",
+        "question": "What's your booking deposit?",
+        "answer": "£50 deposit to secure your slot, comes off your final bill. Non-refundable but you can reschedule with 48 hours notice."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Let's create something unique together",
+    "ctaText": "Book Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for your interest. Kai will review your request and get back to you within 24 hours to discuss your design and confirm your appointment.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "£50 deposit required to confirm booking"
+  },
+  "contact": {
+    "email": "hello@testleedsfix.co.uk",
+    "instagram": "@testleeds",
+    "instagramUrl": "https://instagram.com/testleeds",
+    "phone": "+44 113 XXX XXXX",
+    "address": "Leeds — studio location on request"
+  },
+  "footer": {
+    "copyrightHolder": "Test Leeds Studio",
+    "tagline": "Precision blackwork and fine line tattoos"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
