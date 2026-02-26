@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Last Supper Tattoo Studio",
+    "slug": "last-supper-tattoo-studio",
+    "tagline": "Sacred ink in the heart of Manchester",
+    "artistName": "Marcus"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(0, 0%, 95%)",
+    "accent": "hsl(270, 60%, 55%)",
+    "accentForeground": "hsl(0, 0%, 98%)",
+    "mutedForeground": "hsl(0, 0%, 65%)",
+    "dimmedForeground": "hsl(0, 0%, 45%)",
+    "border": "hsl(220, 15%, 20%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "153, 102, 204",
+    "ring": "hsl(270, 60%, 55%)"
+  },
+  "seo": {
+    "title": "Last Supper Tattoo Studio Manchester - Custom Ink Art",
+    "description": "Award-winning tattoo studio in Manchester city center. 4.9★ rating with 240+ reviews. Professional custom tattoos in the heart of Manchester.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "custom tattoos Manchester"
+    ],
+    "openGraph": {
+      "title": "Last Supper Tattoo Studio - Sacred Ink in Manchester",
+      "description": "Manchester's premier tattoo studio with 4.9★ rating. Custom tattoo artistry in the city center.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/last-supper-tattoo-studio",
+      "siteName": "Last Supper Tattoo Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Last%20Supper%20Tattoo%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Last Supper Tattoo Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Sacred artistry",
+      "lives here"
+    ],
+    "subheadline": "Manchester's most trusted tattoo studio, nestled in the heart of the city center with a legacy of transforming skin into sacred canvas.",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Book Your Vision",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Tattoo artist working on detailed custom piece at Last Supper Tattoo Studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.9★ Google rating from 240+ reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Located in Manchester's historic Department Store"
+      },
+      {
+        "iconName": "Award",
+        "label": "Walk-ins welcome daily"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Premium sterilization standards"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Sacred Works",
+    "subtitle": "Every piece tells a story worth preserving",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Sacred Sessions",
+    "subtitle": "Choose your journey into permanent art",
+    "guarantee": "All work backed by our lifetime touch-up guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Design Session",
+        "duration": "2-4 hours",
+        "price": "£200-400",
+        "priceSubtitle": "Varies by size and complexity",
+        "features": [
+          "Bespoke design consultation included",
+          "Specializing in religious and spiritual imagery"
+        ],
+        "status": "limited",
+        "availabilityText": "Book 2-3 weeks ahead",
+        "buttonText": "Book Custom Work",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Flash Tattoo Session",
+        "duration": "1-2 hours",
+        "price": "£80-150",
+        "priceSubtitle": "Pre-designed flash pieces",
+        "features": [
+          "Same-day availability often possible",
+          "Perfect for first-time clients"
+        ],
+        "status": "available",
+        "availabilityText": "Walk-ins welcome",
+        "buttonText": "Browse Flash",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Sacred Reviews",
+    "testimonials": [
+      {
+        "quote": "Marcus absolutely nailed my religious piece. The detail in the hands is incredible, exactly what I was hoping for.",
+        "author": "James K.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Been going to Last Supper for years now. Clean studio, professional work, and they really listen to what you want.",
+        "author": "Sophie M.",
+        "city": "Didsbury",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "240+ Google Reviews"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "4.9★ Average Rating"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "City Center Location"
+      },
+      {
+        "iconName": "Star",
+        "label": "Walk-ins Welcome"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @lastsupper_tattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Sacred Space",
+    "paragraphs": [
+      "Last Supper opened its doors in Manchester's Department Store building with a simple belief: tattoos should be more than skin deep. What started as one artist's vision to create sacred space for permanent art has grown into Manchester's most trusted tattoo destination.",
+      "Every day, we transform the first floor of this historic building into a sanctuary for ink. Our approach is rooted in respect - for the craft, for our clients' stories, and for the permanent nature of what we create together. Religious imagery, memorial pieces, and deeply personal designs are our specialty."
+    ],
+    "callout": "We believe every tattoo should honor both the wearer and the ancient art of ink itself.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus working on detailed religious tattoo piece"
+  },
+  "faq": {
+    "sectionTitle": "Sacred Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Absolutely! We welcome walk-ins daily, though booking ahead guarantees your spot. Flash pieces and smaller work often available same-day."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your specialty?",
+        "answer": "We're known for religious and spiritual imagery, but we love all styles. Memorial pieces, portraits, and custom designs are what we do best."
+      },
+      {
+        "id": "faq-3",
+        "question": "How far ahead should I book?",
+        "answer": "For custom work, 2-3 weeks is typical. Flash pieces and smaller tattoos often have same-day availability. Give us a call to check."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Sacred Ink?",
+    "subheadline": "Let's create something permanent and meaningful together",
+    "ctaText": "Start Your Journey"
+  },
+  "booking": {
+    "modalTitle": "Book Your Sacred Session",
+    "modalDescription": "Tell us about your vision and we'll get back to you within 24 hours to discuss your custom tattoo.",
+    "successTitle": "Sacred booking received!",
+    "successMessage": "We'll be in touch within 24 hours to discuss your vision and schedule your session.",
+    "submitText": "Send Sacred Request",
+    "depositDisclaimer": "£50 deposit required to secure larger custom sessions"
+  },
+  "contact": {
+    "email": "hello@lastsuppertattoostudio.co.uk",
+    "instagram": "@lastsupper_tattoo",
+    "instagramUrl": "https://instagram.com/lastsupper_tattoo",
+    "phone": "07859 737310",
+    "address": "First Floor, The Department Store, 5 Oak St, Manchester M4 5JD, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Last Supper Tattoo Studio",
+    "tagline": "Sacred ink in Manchester's heart"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
