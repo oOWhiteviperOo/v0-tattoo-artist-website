@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Maple Syrup Tattoo",
+    "slug": "maple-syrup-tattoo",
+    "tagline": "Sweet art, bold lines",
+    "artistName": "Danny"
+  },
+  "theme": {
+    "background": "hsl(220 18% 8%)",
+    "foreground": "hsl(220 9% 95%)",
+    "accent": "hsl(20 65% 45%)",
+    "accentForeground": "hsl(220 9% 95%)",
+    "mutedForeground": "hsl(220 9% 70%)",
+    "dimmedForeground": "hsl(220 9% 50%)",
+    "border": "hsl(220 18% 16%)",
+    "card": "hsl(220 18% 12%)",
+    "accentRgb": "185, 84, 51",
+    "ring": "hsl(20 65% 45%)"
+  },
+  "seo": {
+    "title": "Maple Syrup Tattoo | Manchester's Premier Tattoo Studio",
+    "description": "Award-winning tattoo studio in Manchester's Chapel Street. Custom designs, walk-ins welcome. 5-star rated with 178+ reviews. Book your session today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Chapel Street tattoos"
+    ],
+    "openGraph": {
+      "title": "Maple Syrup Tattoo - Manchester's Sweet Spot for Ink",
+      "description": "Custom tattoos and flash work at Manchester's highest-rated studio. Located on Chapel Street, Salford.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/maple-syrup-tattoo",
+      "siteName": "Maple Syrup Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Maple%20Syrup%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Maple Syrup Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's sweetest",
+      "tattoo destination"
+    ],
+    "subheadline": "Located in the heart of Chapel Street, we've earned our reputation one perfect tattoo at a time",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Book Your Tattoo",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Maple Syrup Tattoo studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "5-star rating from 178+ reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Chapel Street location since 2019"
+      },
+      {
+        "iconName": "Award",
+        "label": "Same-day consultations available"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom designs & walk-ins welcome"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "A taste of what we've been creating lately",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattooing in a relaxed Chapel Street setting",
+    "guarantee": "All work comes with free touch-ups within 6 months",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Flash & Small Custom",
+        "duration": "1-2 hours",
+        "price": "£80-150",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Flash designs or simple custom work",
+          "Same-day appointments often available"
+        ],
+        "status": "limited",
+        "availabilityText": "Most days",
+        "buttonText": "Book Small Piece",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Work",
+        "duration": "3+ hours",
+        "price": "£200+",
+        "priceSubtitle": "Detailed custom designs",
+        "features": [
+          "Full consultation and design process",
+          "Multiple sessions for larger pieces"
+        ],
+        "status": "available",
+        "availabilityText": "Weekends & evenings",
+        "buttonText": "Book Custom Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Danny absolutely smashed my sleeve piece. The detail work is incredible and he made the whole process so chill. Worth every penny.",
+        "author": "Marcus T.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Been going to Maple Syrup for years now, never had a bad experience. Clean, professional, and the work always heals perfectly.",
+        "author": "Jess M.",
+        "city": "Didsbury",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Vegan Friendly Inks"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @maple_syrup_tattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Story Behind the Syrup",
+    "paragraphs": [
+      "Started in a tiny studio above a café on Chapel Street, Maple Syrup Tattoo has grown into Manchester's most beloved ink destination. The name came from our founder's Canadian heritage and a shared love of breakfast – but don't worry, we take our tattooing much more seriously than our morning meals.",
+      "What sets us apart isn't just our perfect Google rating or our prime Salford location. It's the fact that every client leaves feeling like they've made a friend, not just gotten a tattoo. Whether you're after a delicate fine-line piece or a bold traditional design, we treat every project with the same attention to detail."
+    ],
+    "callout": "Every tattoo tells a story – we just help you write it in ink.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Danny tattooing at Maple Syrup Tattoo studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Absolutely! We love walk-ins, especially for flash pieces and smaller work. That said, booking ahead guarantees your slot and lets us prepare properly for custom designs."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your minimum charge?",
+        "answer": "Our shop minimum is £80, which covers most small pieces and simple designs. This includes the consultation, design time, and of course the actual tattooing."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do I prepare for my appointment?",
+        "answer": "Eat a good meal beforehand, stay hydrated, and avoid alcohol for 24 hours before your session. Bring ID and wear something comfortable that gives easy access to the area being tattooed."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Join the hundreds of satisfied clients who've made Maple Syrup their go-to tattoo destination",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss timing and pricing.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for choosing Maple Syrup Tattoo. We'll be in touch within 24 hours to confirm your session details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@maplesyrruptattoo.co.uk",
+    "instagram": "@maple_syrup_tattoo",
+    "instagramUrl": "https://instagram.com/maple_syrup_tattoo",
+    "phone": "07792 992182",
+    "address": "Studio 16, 189 Chapel St, Salford M3 5EQ, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Maple Syrup Tattoo",
+    "tagline": "Sweet art, bold lines"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+}
