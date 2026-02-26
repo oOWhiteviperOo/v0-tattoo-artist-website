@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Tattoos at TOB",
+    "slug": "tattoos-at-tob",
+    "tagline": "Premium ink in Manchester's historic Old Bank Building",
+    "artistName": "The TOB Team"
+  },
+  "theme": {
+    "background": "hsl(220 15% 8%)",
+    "foreground": "hsl(220 15% 95%)",
+    "accent": "hsl(15 80% 60%)",
+    "accentForeground": "hsl(220 15% 8%)",
+    "mutedForeground": "hsl(220 15% 65%)",
+    "dimmedForeground": "hsl(220 15% 45%)",
+    "border": "hsl(220 15% 20%)",
+    "card": "hsl(220 15% 12%)",
+    "accentRgb": "230, 92, 61",
+    "ring": "hsl(15 80% 60%)"
+  },
+  "seo": {
+    "title": "Tattoos at TOB - Manchester's Premier Tattoo Studio",
+    "description": "5-star rated tattoo studio in Salford's historic Old Bank Building. Expert artists, premium ink, exceptional service in Manchester.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Salford tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Tattoos at TOB - Premium Ink in Manchester's Old Bank Building",
+      "description": "82 five-star reviews. Expert tattoo artists in Manchester's most distinctive studio location.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/tattoos-at-tob",
+      "siteName": "Tattoos at TOB",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Tattoos%20at%20TOB+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Tattoos at TOB"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Consultation"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Most Trusted",
+      "Tattoo Studio"
+    ],
+    "subheadline": "Located in the iconic Old Bank Building on Chapel Street, we've earned 82 five-star reviews through exceptional artistry and uncompromising quality.",
+    "urgencyText": "Spring bookings now open",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working in the historic Old Bank Building studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "82 Five-Star Reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Historic Chapel Street Location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Premium Sterile Equipment"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Walk-ins Welcome Daily"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Every piece tells a story, crafted with precision in Manchester's most distinctive studio space.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional consultations and custom work in our Chapel Street studio",
+    "guarantee": "All work guaranteed with free touch-ups within 6 months",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Design Session",
+        "duration": "2-4 hours",
+        "price": "£180-320",
+        "priceSubtitle": "Includes consultation & design",
+        "features": [
+          "Bespoke artwork tailored to you",
+          "Premium ink and sterile equipment"
+        ],
+        "status": "limited",
+        "availabilityText": "Available most weekdays",
+        "buttonText": "Book Custom Work",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Walk-in Flash Tattoos",
+        "duration": "30-90 minutes",
+        "price": "£80-150",
+        "priceSubtitle": "Ready-to-go designs",
+        "features": [
+          "No appointment needed",
+          "Quick turnaround, same quality"
+        ],
+        "status": "available",
+        "availabilityText": "Daily from 11am",
+        "buttonText": "View Flash Designs",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely brilliant work from the team at TOB. The Old Bank location is stunning and the artists really know their stuff. Couldn't be happier with my piece.",
+        "author": "Marcus T.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Been to quite a few studios around Manchester but TOB is something special. Clean, professional, and the artwork speaks for itself. Already planning my next one!",
+        "author": "Kelly R.",
+        "city": "Chorlton",
+        "rating": 5
+      },
+      {
+        "quote": "Great experience from start to finish. The historic building adds such character and the artists are top notch. Highly recommend for anyone in the area.",
+        "author": "James M.",
+        "city": "Salford",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "5-Star Google Rating"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Fully Licensed Studio"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment Only"
+      },
+      {
+        "iconName": "Star",
+        "label": "Same-Day Touch-ups"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @tattoosattob",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Inside The Old Bank Building",
+    "paragraphs": [
+      "Housed in one of Salford's most striking architectural gems, Tattoos at TOB brings together Manchester's rich industrial heritage with cutting-edge tattoo artistry. The Old Bank Building on Chapel Street isn't just our address – it's part of our identity, lending gravitas and character to every session.",
+      "Our team of artists has built an unshakeable reputation through word-of-mouth and genuine skill. With 82 five-star Google reviews, we've proven that quality work and honest service still matter. We welcome both walk-ins looking for flash pieces and clients seeking custom designs that'll stand the test of time."
+    ],
+    "callout": "Every tattoo deserves the perfect setting – and ours happens to be a piece of Manchester history.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Tattoo artist working in the historic Old Bank Building studio space"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you accept walk-ins?",
+        "answer": "Absolutely! We welcome walk-ins daily from 11am onwards. We keep a selection of flash designs ready to go, and if you're after something custom, we can usually get you booked in within the week."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We ask for a £50 deposit on custom work to secure your slot and cover design time. This comes off your final bill, and we only charge it once we've confirmed your appointment date."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do I know if my tattoo idea will work?",
+        "answer": "Bring in your ideas – photos, sketches, whatever you've got – and we'll give you honest feedback. Some concepts need tweaking to work well as tattoos, and we'd rather tell you upfront than deliver something you're not thrilled with."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Get Inked?",
+    "subheadline": "Join the 82 clients who've given us five stars. Book your consultation today.",
+    "ctaText": "Book Now"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss availability and pricing.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for choosing Tattoos at TOB. We'll review your request and get back to you within 24 hours to confirm your appointment.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "A £50 deposit may be required for custom work"
+  },
+  "contact": {
+    "email": "hello@tattoosattob.co.uk",
+    "instagram": "@tattoosattob",
+    "instagramUrl": "https://instagram.com/tattoosattob",
+    "phone": "0161 222 9676",
+    "address": "The Old Bank Bldg, 247 Chapel St, Salford M3 5EP, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Tattoos at TOB",
+    "tagline": "Premium ink in Manchester's Old Bank Building"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
