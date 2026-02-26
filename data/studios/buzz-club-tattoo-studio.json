@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "name": "Buzz Club Tattoo Studio",
+    "slug": "buzz-club-tattoo-studio",
+    "tagline": "Vegan ink. Bold lines. Zero compromises.",
+    "artistName": "Buzz Club Tattoo Artists"
+  },
+  "theme": {
+    "background": "hsl(220 15% 8%)",
+    "foreground": "hsl(210 20% 98%)",
+    "accent": "hsl(290 75% 60%)",
+    "accentForeground": "hsl(0 0% 100%)",
+    "mutedForeground": "hsl(215 20% 65%)",
+    "dimmedForeground": "hsl(215 15% 40%)",
+    "border": "hsl(215 30% 18%)",
+    "card": "hsl(220 15% 12%)",
+    "accentRgb": "204, 51, 204",
+    "ring": "hsl(290 75% 60%)"
+  },
+  "seo": {
+    "title": "Buzz Club Tattoo Studio Leeds | Vegan Custom Tattoos",
+    "description": "Top-rated vegan tattoo studio in Leeds. Specialising in fine line, traditional & realism work. 5/5 Google rating. Book your custom tattoo today.",
+    "keywords": [
+      "vegan tattoo studio Leeds",
+      "custom tattoos Leeds"
+    ],
+    "openGraph": {
+      "title": "Buzz Club Tattoo Studio - Leeds' Premier Vegan Tattoo Studio",
+      "description": "Award-winning vegan tattoo artists specialising in fine line, traditional, and realism work. Over 979 five-star reviews in Leeds city centre.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/buzz-club-tattoo-studio",
+      "siteName": "Buzz Club Tattoo Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Buzz%20Club%20Tattoo%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Buzz Club Tattoo Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Leeds' First Choice for",
+      "Vegan Custom Tattoos"
+    ],
+    "subheadline": "Award-winning artists creating bold, ethical ink in the heart of Leeds. From delicate fine line to striking traditional work.",
+    "urgencyText": "Spring bookings now open",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Buzz Club tattoo artist working on a detailed fine line design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "979+ Five-Star Reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "100% Vegan Inks"
+      },
+      {
+        "iconName": "Award",
+        "label": "Wellington Street Studio"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Design Focus"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "A selection of custom pieces from our Wellington Street studio",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "From initial consultation to final masterpiece",
+    "guarantee": "All sessions include aftercare guidance and touch-up guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Design Consultation",
+        "duration": "60 minutes",
+        "price": "£80",
+        "priceSubtitle": "Applied to tattoo cost",
+        "features": [
+          "Custom design creation",
+          "Placement discussion"
+        ],
+        "status": "limited",
+        "availabilityText": "Same week booking",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Small Custom Tattoo",
+        "duration": "2-3 hours",
+        "price": "£200-£300",
+        "priceSubtitle": "Fine line & small traditional",
+        "features": [
+          "Up to 4 inch designs",
+          "Vegan ink guarantee"
+        ],
+        "status": "limited",
+        "availabilityText": "2-3 weeks",
+        "buttonText": "Book Small Tattoo",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Calendar",
+        "title": "Large Custom Piece",
+        "duration": "4-6 hours",
+        "price": "£400-£500",
+        "priceSubtitle": "Realism & detailed work",
+        "features": [
+          "Complex designs welcome",
+          "Multiple session option"
+        ],
+        "status": "available",
+        "availabilityText": "4-6 weeks",
+        "buttonText": "Book Large Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely buzzing with my new tattoo! The team really understood what I wanted and the vegan inks were a massive plus for me. Studio's spotless too.",
+        "author": "Emma K.",
+        "city": "Headingley",
+        "rating": 5
+      },
+      {
+        "quote": "Been getting tattooed for years and this is hands down the best experience I've had. Really happy with the fine line work, so clean.",
+        "author": "Jake M.",
+        "city": "Chapeltown",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Google Verified"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Vegan Certified"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "5★ Rated"
+      },
+      {
+        "iconName": "Star",
+        "label": "Custom Only"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @buzzclubtattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Buzz Club Story",
+    "paragraphs": [
+      "We opened Buzz Club because we wanted to prove that ethical tattooing doesn't mean compromising on quality. Every ink we use is 100% vegan, every design is completely custom, and every client leaves with something they'll treasure forever. Our Wellington Street studio has become a hub for Leeds' most discerning tattoo collectors.",
+      "Our team specialises in everything from delicate fine line work to bold traditional pieces and photorealistic portraits. We're not just tattoo artists – we're collaborators who work closely with each client to bring their vision to life. The 979+ five-star reviews speak to our commitment to excellence in every aspect of the experience."
+    ],
+    "callout": "Every piece of ink at Buzz Club is vegan-certified and cruelty-free",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Buzz Club tattoo artist at work in the Wellington Street studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you really only use vegan inks?",
+        "answer": "Absolutely – every single ink we use is 100% vegan and cruelty-free. We're committed to ethical tattooing without compromising on colour vibrancy or longevity. All our inks are fully certified and we're happy to show you the documentation."
+      },
+      {
+        "id": "faq-2",
+        "question": "How far in advance do I need to book?",
+        "answer": "It depends on what you're after. Consultations we can usually fit in within a week, small custom pieces are typically 2-3 weeks out, and larger complex work might be 4-6 weeks. We always try to accommodate urgent requests where possible though."
+      },
+      {
+        "id": "faq-3",
+        "question": "Can you work from my own design?",
+        "answer": "We love working with client ideas! Bring in whatever reference you have – sketches, photos, Pinterest boards, whatever. We'll work with you to refine it and make sure it'll translate beautifully as a tattoo. That's what the consultation session is perfect for."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Join the hundreds of satisfied clients who've chosen ethical, custom ink at Buzz Club",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss availability and pricing.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll review your request and get back to you within 24 hours with availability and next steps.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your booking"
+  },
+  "contact": {
+    "email": "hello@buzzclubtattoo.co.uk",
+    "instagram": "@buzzclubtattoo",
+    "instagramUrl": "https://instagram.com/buzzclubtattoo",
+    "phone": "0113 243 9961",
+    "address": "60 Wellington St, Leeds LS1 2EE, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Buzz Club Tattoo Studio",
+    "tagline": "Ethical ink, exceptional art"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
