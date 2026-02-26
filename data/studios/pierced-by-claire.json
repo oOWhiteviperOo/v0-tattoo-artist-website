@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Pierced by Claire",
+    "slug": "pierced-by-claire",
+    "tagline": "Precision piercing in the heart of Manchester",
+    "artistName": "Claire"
+  },
+  "theme": {
+    "background": "hsl(220, 13%, 9%)",
+    "foreground": "hsl(220, 9%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(220, 13%, 9%)",
+    "mutedForeground": "hsl(220, 9%, 60%)",
+    "dimmedForeground": "hsl(220, 9%, 45%)",
+    "border": "hsl(220, 13%, 18%)",
+    "card": "hsl(220, 13%, 12%)",
+    "accentRgb": "32, 201, 151",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Pierced by Claire | Professional Body Piercing Manchester",
+    "description": "Professional body piercing studio in Manchester city center. Claire specializes in safe, sterile piercings with 5-star service on Bridge Street.",
+    "keywords": [
+      "body piercing Manchester",
+      "professional piercing Bridge Street"
+    ],
+    "openGraph": {
+      "title": "Pierced by Claire - Manchester's Premier Piercing Studio",
+      "description": "Expert body piercing in Manchester city center. Safe, sterile, and professional service with Claire.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/pierced-by-claire",
+      "siteName": "Pierced by Claire",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Pierced%20by%20Claire+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Pierced by Claire"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Piercing"
+  },
+  "hero": {
+    "headline": [
+      "Sharp. Clean.",
+      "Perfectly Placed."
+    ],
+    "subheadline": "Professional body piercing in Manchester's city center, where every placement is planned with precision and care.",
+    "urgencyText": "Same-day appointments often available",
+    "ctaText": "Book Your Piercing",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Claire performing a professional piercing at her Bridge Street studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "5-Star Google Rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "City Center Location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Sterile Single-Use Equipment"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Premium Jewelry Selection"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "A selection of piercings completed at our Bridge Street studio",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Piercing Services",
+    "subtitle": "Professional body piercing with premium jewelry options",
+    "guarantee": "All piercings include aftercare guidance and follow-up support",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Standard Piercing",
+        "duration": "15-30 minutes",
+        "price": "£25-45",
+        "priceSubtitle": "Basic jewelry included",
+        "features": [
+          "Professional consultation and placement marking",
+          "Complete aftercare kit and instructions"
+        ],
+        "status": "limited",
+        "availabilityText": "Walk-ins welcome",
+        "buttonText": "Book Standard",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Premium Piercing Package",
+        "duration": "30-45 minutes",
+        "price": "£55-85",
+        "priceSubtitle": "Premium jewelry selection",
+        "features": [
+          "Choice of high-grade titanium or gold jewelry",
+          "Extended consultation and placement options"
+        ],
+        "status": "available",
+        "availabilityText": "Booking recommended",
+        "buttonText": "Book Premium",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Clients Say",
+    "testimonials": [
+      {
+        "quote": "Claire was brilliant, really put me at ease and the piercing healed perfectly. Will definitely be back!",
+        "author": "Emma L.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Super professional setup and Claire knows her stuff. Clean, quick, and exactly what I wanted.",
+        "author": "Jake M.",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Fully Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Single-Use Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Jewelry Brands"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @piercedbyclaire",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Claire",
+    "paragraphs": [
+      "Starting as a body modification enthusiast who was frustrated by inconsistent piercing experiences around Manchester, Claire decided to create the studio she wished existed. Located right in the heart of Bridge Street, the studio reflects her no-nonsense approach: clean lines, premium equipment, and zero compromise on safety standards.",
+      "Claire's philosophy is simple—every piercing should be placed with surgical precision and heal beautifully. She sources jewelry exclusively from reputable body jewelry manufacturers and maintains the highest sterilization standards. Her clients appreciate the straightforward consultation process and the fact that she'll tell you honestly if a piercing won't work for your anatomy."
+    ],
+    "callout": "Every piece of equipment is single-use, every surface is sanitized, and every placement is marked with precision before we begin.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Claire in her Bridge Street piercing studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do I need to book in advance?",
+        "answer": "Walk-ins are welcome, but booking ahead guarantees your slot. I can usually fit people in same-day for standard piercings, but if you want premium jewelry options or have a specific time in mind, definitely book first."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the piercing price?",
+        "answer": "All piercings include the procedure, basic jewelry, aftercare solution, and detailed healing instructions. Premium packages include upgraded jewelry options like titanium or gold pieces. No hidden costs—the price quoted is what you pay."
+      },
+      {
+        "id": "faq-3",
+        "question": "How long does healing take?",
+        "answer": "Depends entirely on the piercing location and your body's healing process. Earlobes are usually 6-8 weeks, cartilage can be 3-6 months. I'll give you realistic timelines during consultation and proper aftercare instructions to help things heal smoothly."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for your next piercing?",
+    "subheadline": "Book directly or stop by the Bridge Street studio for a consultation",
+    "ctaText": "Get Pierced"
+  },
+  "booking": {
+    "modalTitle": "Book Your Piercing",
+    "modalDescription": "Fill in your details and Claire will confirm your appointment within 24 hours. Include any specific requests or questions in the message.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Claire will confirm your appointment within 24 hours. Check your email for confirmation details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "Deposit may be required for premium jewelry selections"
+  },
+  "contact": {
+    "email": "hello@piercedbyclaire.co.uk",
+    "instagram": "@piercedbyclaire",
+    "instagramUrl": "https://instagram.com/piercedbyclaire",
+    "phone": "Manchester — studio location on request",
+    "address": "72 Bridge St, Manchester M3 2RJ, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Pierced by Claire",
+    "tagline": "Precision piercing in Manchester city center"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
