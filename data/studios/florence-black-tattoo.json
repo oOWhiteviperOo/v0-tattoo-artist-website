@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Florence Black Tattoo",
+    "slug": "florence-black-tattoo",
+    "tagline": "Bold lines, darker stories",
+    "artistName": "Florence"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 10%, 95%)",
+    "accent": "hsl(270, 60%, 55%)",
+    "accentForeground": "hsl(220, 10%, 95%)",
+    "mutedForeground": "hsl(220, 8%, 65%)",
+    "dimmedForeground": "hsl(220, 8%, 45%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "153, 102, 204",
+    "ring": "hsl(270, 60%, 55%)"
+  },
+  "seo": {
+    "title": "Florence Black Tattoo - Manchester City Centre Tattoo Studio",
+    "description": "Award-winning tattoo studio in Manchester's Lloyd Street. Bold blackwork and fine line tattoos. 5-star rated. Book your consultation today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "blackwork tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Florence Black Tattoo - Manchester's Premier Tattoo Studio",
+      "description": "Bold lines, darker stories. Award-winning tattoo studio in Manchester city centre with perfect 5-star rating.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/florence-black-tattoo",
+      "siteName": "Florence Black Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Florence%20Black%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Florence Black Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Most",
+      "Trusted Tattoo Studio"
+    ],
+    "subheadline": "From the heart of Lloyd Street, we've earned our perfect 5-star reputation one tattoo at a time",
+    "urgencyText": "Spring bookings filling fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Florence Black Tattoo studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Perfect 5-star Google rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "20+ verified reviews"
+      },
+      {
+        "iconName": "Award",
+        "label": "City centre location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Award-winning artistry"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Bold blackwork and intricate line pieces from our Manchester studio",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattooing in the heart of Manchester",
+    "guarantee": "All work comes with our satisfaction guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Design Session",
+        "duration": "2-4 hours",
+        "price": "£200-400",
+        "priceSubtitle": "Depends on size and complexity",
+        "features": [
+          "Bespoke blackwork designs",
+          "Free consultation included"
+        ],
+        "status": "limited",
+        "availabilityText": "Available weekdays",
+        "buttonText": "Book Custom Design",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Flash & Small Pieces",
+        "duration": "1-2 hours",
+        "price": "£120-250",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Same-day bookings often available",
+          "Fine line speciality"
+        ],
+        "status": "available",
+        "availabilityText": "Walk-ins welcome",
+        "buttonText": "Book Small Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Florence absolutely nailed my blackwork sleeve. The detail is incredible and healing was perfect. Worth every penny.",
+        "author": "Marcus T.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Been looking for ages for someone who could do proper fine line work. Florence gets it right every time, really professional setup too.",
+        "author": "Amy K.",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @florenceblacktattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet Florence",
+    "paragraphs": [
+      "Three floors up in Lloyd Street's historic Lloyds House, something special happens every day. Florence Black Tattoo wasn't built on marketing promises or flashy gimmicks — it was built on the simple idea that every tattoo should be something you're proud to wear forever.",
+      "Florence's approach is refreshingly straightforward: listen carefully, design thoughtfully, and tattoo with absolute precision. Whether you're after bold blackwork that makes a statement or delicate fine line pieces that whisper their stories, every piece gets the same meticulous attention. That's how you earn a perfect 5-star rating from every single client."
+    ],
+    "callout": "Every tattoo tells a story. Let's make sure yours is worth telling.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Florence working on a detailed blackwork piece"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a consultation?",
+        "answer": "Just give us a ring on 07757 649864 or drop us a message on Instagram. We'll chat about your ideas and get you booked in. Consultations are always free and there's no pressure to commit on the spot."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We ask for a £50 deposit to secure your appointment, which comes off your final bill. Deposits are non-refundable but we're pretty flexible if you need to reschedule with reasonable notice."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do walk-ins?",
+        "answer": "We do take walk-ins for smaller pieces when Florence has availability, but it's always best to call ahead. Custom work and larger pieces definitely need to be booked in advance so we can plan properly."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Book your session at Manchester's most trusted tattoo studio",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo ideas and we'll get back to you within 24 hours to discuss your booking.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for your interest! We'll review your request and get back to you within 24 hours to discuss your tattoo and confirm your appointment.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@florenceblacktattoo.co.uk",
+    "instagram": "@florenceblacktattoo",
+    "instagramUrl": "https://instagram.com/florenceblacktattoo",
+    "phone": "07757 649864",
+    "address": "3rd Floor, Lloyds House, 18 Lloyd St, Manchester M2 5WA, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Florence Black Tattoo",
+    "tagline": "Bold lines, darker stories"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkaGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
