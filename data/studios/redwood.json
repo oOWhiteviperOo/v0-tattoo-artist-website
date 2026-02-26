@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Redwood",
+    "slug": "redwood",
+    "tagline": "Northern Quarter's finest ink since day one",
+    "artistName": "Marcus"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 15%, 95%)",
+    "accent": "hsl(15, 80%, 60%)",
+    "accentForeground": "hsl(220, 15%, 8%)",
+    "mutedForeground": "hsl(220, 15%, 65%)",
+    "dimmedForeground": "hsl(220, 15%, 45%)",
+    "border": "hsl(220, 15%, 20%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "230, 102, 77",
+    "ring": "hsl(15, 80%, 60%)"
+  },
+  "seo": {
+    "title": "Redwood Tattoo Studio | Northern Quarter Manchester",
+    "description": "Award-winning tattoo studio in Manchester's Northern Quarter. 4.9/5 rating from 66+ reviews. Book your session at Redwood today.",
+    "keywords": [
+      "manchester tattoo studio",
+      "northern quarter tattoo"
+    ],
+    "openGraph": {
+      "title": "Redwood Tattoo Studio | Northern Quarter Manchester",
+      "description": "Award-winning tattoo studio in Manchester's Northern Quarter with 4.9/5 rating.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/redwood",
+      "siteName": "Redwood",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Redwood+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Redwood"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Northern Quarter's",
+      "legendary tattoo studio"
+    ],
+    "subheadline": "Tucked away on Lever Street, Redwood has been Manchester's go-to for bold, clean work that stands the test of time",
+    "urgencyText": "Spring bookings filling up fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Redwood tattoo studio interior showing clean workspace"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.9/5 Google rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "66+ verified reviews"
+      },
+      {
+        "iconName": "Award",
+        "label": "Northern Quarter location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Walk-ins welcome"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Bold designs, clean lines, lasting impressions",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Studio Sessions",
+    "subtitle": "From quick flash work to full custom pieces",
+    "guarantee": "All work guaranteed with complimentary touch-ups within 6 months",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Flash & Small Work",
+        "duration": "1-2 hours",
+        "price": "£120",
+        "priceSubtitle": "Perfect for first tattoos or adding to existing work",
+        "features": [
+          "Pre-drawn flash designs",
+          "Same-day availability"
+        ],
+        "status": "limited",
+        "availabilityText": "Usually available same week",
+        "buttonText": "Book Flash Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Custom Design Session",
+        "duration": "3-5 hours",
+        "price": "£350",
+        "priceSubtitle": "Bespoke designs created just for you",
+        "features": [
+          "Full consultation included",
+          "Digital design preview"
+        ],
+        "status": "available",
+        "availabilityText": "2-3 week booking lead",
+        "buttonText": "Book Custom Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Marcus absolutely smashed my sleeve piece. The detail work is incredible and it's healed perfectly. Already planning my next one!",
+        "author": "Jake P.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Been going to Redwood for years now, they never disappoint. Clean studio, friendly atmosphere, and the work speaks for itself.",
+        "author": "Amy L.",
+        "city": "Chorlton",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Inks Only"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @redwoodtattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Redwood Story",
+    "paragraphs": [
+      "Redwood started as a small shop with big dreams in the heart of Manchester's creative quarter. What began as a single chair operation has grown into one of the city's most trusted studios, but we've never lost that neighbourhood feel that makes this place special.",
+      "Marcus and the team believe tattooing is about more than just putting ink to skin—it's about creating something that becomes part of your story. Every piece that walks out of here carries a bit of Redwood's soul with it, and that's exactly how we like it."
+    ],
+    "callout": "Located right in the beating heart of the Northern Quarter, we're part of Manchester's creative DNA",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus working on a detailed tattoo piece at Redwood studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yeah, we do our best to fit in walk-ins, especially for smaller pieces. Peak times like weekends can get busy though, so calling ahead is always a good shout."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We ask for £50 deposit to secure your booking, which comes off your final bill. If you need to reschedule, just give us 24 hours notice and we'll move it no problem."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do I book a consultation?",
+        "answer": "Either pop in during opening hours or drop us a message on Instagram. For bigger custom pieces, we like to have a proper chat about what you're after before we start drawing anything up."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to get started?",
+    "subheadline": "Book your session at Redwood and join the hundreds of satisfied clients who trust us with their ink",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session at Redwood",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to arrange your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for choosing Redwood. We'll be in touch within 24 hours to confirm your session details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "£50 deposit required to secure booking, deducted from final price"
+  },
+  "contact": {
+    "email": "hello@redwood.co.uk",
+    "instagram": "@redwoodtattoo",
+    "instagramUrl": "https://instagram.com/redwoodtattoo",
+    "phone": "0161 258 9252",
+    "address": "77 Lever St, Manchester M1 1FL, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Redwood Tattoo Studio",
+    "tagline": "Northern Quarter's finest since day one"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
