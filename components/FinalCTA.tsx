@@ -28,14 +28,6 @@ export function FinalCTA({ onBookingOpen }: { onBookingOpen: () => void }) {
           >
             {finalCta.ctaText}
           </button>
-          <div className="mt-6 flex flex-col items-center gap-1">
-            <p className="text-xs text-muted-foreground/60">
-              Less than a part-time receptionist
-            </p>
-            <p className="text-xs text-muted-foreground/40">
-              Pays for itself with one extra booking per month
-            </p>
-          </div>
         </motion.div>
       </div>
     </section>

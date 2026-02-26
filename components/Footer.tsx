@@ -85,14 +85,12 @@ export function Footer({ onBookingOpen }: { onBookingOpen: () => void }) {
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} {footer.copyrightHolder}. All rights reserved.
           </p>
-          <div className="flex gap-4">
-            <a href="#" className="text-xs text-muted-foreground transition-colors duration-200 hover:text-foreground">
-              Terms & Conditions
+          <p className="text-xs text-muted-foreground/40">
+            Preview site &mdash; powered by{' '}
+            <a href="https://www.apexink.uk" className="underline hover:text-foreground/60 transition-colors duration-200">
+              Apex
             </a>
-            <a href="#" className="text-xs text-muted-foreground transition-colors duration-200 hover:text-foreground">
-              Privacy Policy
-            </a>
-          </div>
+          </p>
         </div>
       </div>
     </footer>

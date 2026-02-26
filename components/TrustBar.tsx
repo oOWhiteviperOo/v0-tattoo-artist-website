@@ -15,10 +15,10 @@ const ICON_MAP = {
 } as const
 
 const OUTCOME_DEFAULTS: TrustMetric[] = [
-  { iconName: 'Zap', label: '24/7 Availability' },
-  { iconName: 'Clock', label: 'Under 60s Response' },
-  { iconName: 'Shield', label: 'Secure Deposits' },
-  { iconName: 'MessageSquare', label: 'SMS Reminders' },
+  { iconName: 'CheckCircle2', label: 'Custom Designs Only' },
+  { iconName: 'Shield', label: 'Licensed & Insured' },
+  { iconName: 'Award', label: 'Sterile Environment' },
+  { iconName: 'Zap', label: 'Free Consultations' },
 ]
 
 export function TrustBar() {
