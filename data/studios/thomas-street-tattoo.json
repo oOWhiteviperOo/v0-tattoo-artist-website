@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Thomas Street Tattoo",
+    "slug": "thomas-street-tattoo",
+    "tagline": "Manchester's trusted ink destination since day one",
+    "artistName": "The Thomas Street crew"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 15%, 95%)",
+    "accent": "hsl(15, 80%, 60%)",
+    "accentForeground": "hsl(220, 15%, 8%)",
+    "mutedForeground": "hsl(220, 10%, 65%)",
+    "dimmedForeground": "hsl(220, 10%, 45%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "245, 101, 61",
+    "ring": "hsl(15, 80%, 60%)"
+  },
+  "seo": {
+    "title": "Thomas Street Tattoo Manchester | Professional Studio M4",
+    "description": "4.7-star rated tattoo studio in Manchester city centre. Professional artists on Thomas Street. Book your consultation today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Thomas Street tattoo"
+    ],
+    "openGraph": {
+      "title": "Thomas Street Tattoo - Manchester's Trusted Studio",
+      "description": "Professional tattooing in Manchester's city centre with 4.7-star rating from 173+ reviews.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/thomas-street-tattoo",
+      "siteName": "Thomas Street Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Thomas%20Street%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Thomas Street Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Proper tattoos done right",
+      "in Manchester's heart"
+    ],
+    "subheadline": "Right on Thomas Street, we've been Manchester's go-to for quality ink. No fuss, just solid work that stands the test of time.",
+    "urgencyText": "February bookings filling up fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Thomas Street Tattoo studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.7★ from 173+ reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "City centre location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Walk-ins welcome"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Established Manchester studio"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Fresh off the needle from our Thomas Street studio",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Straightforward pricing, quality work guaranteed",
+    "guarantee": "All work comes with our aftercare guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small to Medium Pieces",
+        "duration": "1-3 hours",
+        "price": "£80-200",
+        "priceSubtitle": "Depends on size and detail",
+        "features": [
+          "Perfect for first tattoos or additions",
+          "Same day completion"
+        ],
+        "status": "limited",
+        "availabilityText": "Usually available within 2 weeks",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Custom Work",
+        "duration": "4+ hours or multiple sessions",
+        "price": "£300+",
+        "priceSubtitle": "Quote provided after consultation",
+        "features": [
+          "Custom design process included",
+          "Multiple session options available"
+        ],
+        "status": "available",
+        "availabilityText": "Booking 3-4 weeks out",
+        "buttonText": "Book Large Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Manchester Says",
+    "testimonials": [
+      {
+        "quote": "Been going to Thomas Street for years now, never disappointed. Clean studio, friendly artists, proper job done every time.",
+        "author": "Mike D.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Got my sleeve finished here last month. Really happy with how it turned out, the shading work is spot on.",
+        "author": "Emma K.",
+        "city": "Didsbury",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "173+ Google Reviews"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "4.7 Star Rating"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "City Centre Location"
+      },
+      {
+        "iconName": "Star",
+        "label": "Professional Artists"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @thomasstreettattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "About Thomas Street Tattoo",
+    "paragraphs": [
+      "Right in the thick of Manchester's city centre, Thomas Street Tattoo has been a fixture on the local scene for years. We're the studio that locals recommend to their mates - the place you go when you want proper work done without the pretension.",
+      "Our approach is simple: listen to what you want, give honest advice, and deliver tattoos that you'll be proud to wear. Whether you're after your first piece or adding to an existing collection, we treat every client with the same care and attention. No rushing, no cutting corners - just solid tattooing in the heart of Manchester."
+    ],
+    "callout": "Walk-ins welcome, but booking ahead saves you waiting around",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Thomas Street Tattoo artist at work"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yeah, we do walk-ins when we can fit you in. But honestly, booking ahead is your best bet - especially for anything bigger than a small piece. Give us a ring and we'll sort you out."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your minimum charge?",
+        "answer": "Our shop minimum is £80. That covers small pieces that take an hour or less. Anything bigger gets quoted based on size, detail, and how long it'll take."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do I book a consultation?",
+        "answer": "Just give us a call or pop in when you're passing. For bigger custom pieces, we like to have a proper chat about what you're after before we start drawing anything up."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for your next tattoo?",
+    "subheadline": "Get in touch and let's make it happen",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to arrange your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll be in touch within 24 hours to confirm your appointment details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit secures your booking and comes off your final price"
+  },
+  "contact": {
+    "email": "hello@thomasstreettattoo.co.uk",
+    "instagram": "@thomasstreettattoo",
+    "instagramUrl": "https://instagram.com/thomasstreettattoo",
+    "phone": "0161 218 9669",
+    "address": "40 Thomas St, Manchester M4 1ER, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Thomas Street Tattoo",
+    "tagline": "Quality tattoos in Manchester's city centre"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyLlSyNhwpTYfbFLjsLAHNR8iRhPPHPfUJCxHHhsUFmtJG8n/XfGcvJ7sBLJJmyV/8A/9k="
+}
