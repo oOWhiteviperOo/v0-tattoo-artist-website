@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Red Sea Tattoo",
+    "slug": "red-sea-tattoo",
+    "tagline": "Oxford Road's Trusted Ink Destination",
+    "artistName": "Marcus"
+  },
+  "theme": {
+    "background": "hsl(220, 13%, 9%)",
+    "foreground": "hsl(220, 14%, 96%)",
+    "accent": "hsl(15, 80%, 60%)",
+    "accentForeground": "hsl(220, 13%, 9%)",
+    "mutedForeground": "hsl(220, 14%, 71%)",
+    "dimmedForeground": "hsl(220, 14%, 51%)",
+    "border": "hsl(220, 13%, 18%)",
+    "card": "hsl(220, 13%, 12%)",
+    "accentRgb": "245, 101, 61",
+    "ring": "hsl(15, 80%, 60%)"
+  },
+  "seo": {
+    "title": "Red Sea Tattoo Manchester | Oxford Road Tattoo Studio",
+    "description": "4.8★ rated tattoo studio on Oxford Road, Manchester. Professional custom tattoos in the heart of the city center. Book your consultation today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Oxford Road tattoo"
+    ],
+    "openGraph": {
+      "title": "Red Sea Tattoo - Manchester's Premier Tattoo Studio",
+      "description": "Award-winning tattoo artistry in Manchester city center. Custom designs, walk-ins welcome. 4.8★ Google rating.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/red-sea-tattoo",
+      "siteName": "Red Sea Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Red%20Sea%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Red Sea Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Most",
+      "Trusted Tattoo Studio"
+    ],
+    "subheadline": "Right in the heart of Oxford Road, we've been Manchester's go-to spot for bold, clean tattoos that stand the test of time.",
+    "urgencyText": "Spring bookings filling up fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Red Sea Tattoo studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.8★ Google Rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "City Center Location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Walk-Ins Welcome"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Licensed & Insured"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Fresh ink from the Red Sea studio",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "From quick flash pieces to detailed custom work",
+    "guarantee": "All sessions include aftercare kit and touch-up guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Walk-In Flash",
+        "duration": "30-60 minutes",
+        "price": "£80-150",
+        "priceSubtitle": "Same day availability",
+        "features": [
+          "Choose from our flash sheets",
+          "Perfect for first tattoos"
+        ],
+        "status": "limited",
+        "availabilityText": "Most days",
+        "buttonText": "See Flash Designs",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Custom Design Session",
+        "duration": "2-4 hours",
+        "price": "£200-400",
+        "priceSubtitle": "Includes design consultation",
+        "features": [
+          "Bespoke artwork created for you",
+          "Multiple revision rounds"
+        ],
+        "status": "available",
+        "availabilityText": "Book 2 weeks ahead",
+        "buttonText": "Start Custom Design",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Been going to Red Sea for years now, Marcus always delivers exactly what I want. The location on Oxford Road makes it so easy to get to.",
+        "author": "Jake M.",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "Really clean work and fair prices. Got a small piece done as a walk-in and the whole experience was spot on.",
+        "author": "Emma K.",
+        "city": "Didsbury",
+        "rating": 4
+      },
+      {
+        "quote": "The studio has such a good vibe and Marcus made me feel comfortable throughout my first tattoo. Couldn't be happier with how it turned out.",
+        "author": "Ryan P.",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Health & Safety Certified"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Professional Artists"
+      },
+      {
+        "iconName": "Star",
+        "label": "Sterile Equipment"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @redseatattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "About Red Sea Tattoo",
+    "paragraphs": [
+      "Started in a tiny shop just off Oxford Road back in 2018, Red Sea Tattoo has grown into one of Manchester's most reliable tattoo destinations. We're not the flashiest studio in town, but we're definitely one of the most consistent. Our approach is simple: listen to what you want, create something that works with your body, and execute it with clean, solid technique.",
+      "Marcus brings over a decade of tattooing experience to every piece, whether it's a quick flash design or a full custom sleeve. The studio sits right in the buzz of the city center, making us easily accessible whether you're a local or just visiting Manchester. We pride ourselves on being the kind of place where you can walk in nervous and leave feeling confident about your new ink."
+    ],
+    "callout": "Every tattoo comes with our signature aftercare kit and a guarantee on our work.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus tattooing at Red Sea Tattoo studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yeah, we do walk-ins most days for smaller pieces and flash work. For anything custom or larger, it's better to book ahead though. Give us a ring to check what slots we've got available."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your minimum charge?",
+        "answer": "Our shop minimum is £80, which covers small pieces that take up to an hour. That includes all the setup, aftercare kit, and our time. Most flash pieces fall into this category."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do I book a custom tattoo?",
+        "answer": "Best way is to call or message us with your idea and we'll set up a consultation. We usually need about 2 weeks lead time for custom work to get the design right. Deposit is £50 which comes off your final bill."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Visit us on Oxford Road or give us a call to discuss your ideas",
+    "ctaText": "Get In Touch"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Fill out the form below and we'll get back to you within 24 hours to confirm your appointment.",
+    "successTitle": "Booking Request Received!",
+    "successMessage": "Thanks for your booking request. We'll be in touch within 24 hours to confirm your appointment and discuss any design details.",
+    "submitText": "Submit Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@redseatattoo.co.uk",
+    "instagram": "@redseatattoo",
+    "instagramUrl": "https://instagram.com/redseatattoo",
+    "phone": "07947 884934",
+    "address": "127a Oxford Rd, Manchester M1 7DY, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Red Sea Tattoo",
+    "tagline": "Manchester's trusted ink destination since 2018"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGBkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
