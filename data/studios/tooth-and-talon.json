@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Tooth and Talon",
+    "slug": "tooth-and-talon",
+    "tagline": "Fierce ink in Manchester's creative quarter",
+    "artistName": "The Tooth and Talon Team"
+  },
+  "theme": {
+    "background": "hsl(220 13% 9%)",
+    "foreground": "hsl(220 9% 95%)",
+    "accent": "hsl(15 80% 60%)",
+    "accentForeground": "hsl(220 13% 9%)",
+    "mutedForeground": "hsl(220 5% 65%)",
+    "dimmedForeground": "hsl(220 5% 50%)",
+    "border": "hsl(220 13% 18%)",
+    "card": "hsl(220 13% 14%)",
+    "accentRgb": "255, 122, 89",
+    "ring": "hsl(15 80% 60%)"
+  },
+  "seo": {
+    "title": "Tooth and Talon | Premier Tattoo Studio Manchester Ancoats",
+    "description": "5-star rated tattoo studio in Manchester's Ancoats. Expert artists, custom designs, walk-ins welcome. Book your appointment at Tooth and Talon today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Ancoats tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Tooth and Talon - Manchester's Premier Tattoo Studio",
+      "description": "Award-winning tattoo artists in Ancoats, Manchester. Custom designs and exceptional artistry with a perfect 5-star rating.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/tooth-and-talon",
+      "siteName": "Tooth and Talon",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Tooth%20and%20Talon+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Tooth and Talon"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Bold ink for",
+      "fearless souls"
+    ],
+    "subheadline": "Manchester's most trusted tattoo studio in the heart of Ancoats, with a perfect 5-star reputation built on exceptional artistry and uncompromising quality.",
+    "urgencyText": "Spring bookings now open",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Professional tattoo artist working on detailed custom design at Tooth and Talon studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "100+ Five-Star Reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Ancoats Studio Since 2019"
+      },
+      {
+        "iconName": "Award",
+        "label": "Custom Design Specialists"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Same-Day Consultations"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Each piece tells a story, every line has purpose",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "From bold statements to delicate details",
+    "guarantee": "Every piece backed by our reputation for excellence",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Design Session",
+        "duration": "2-4 hours",
+        "price": "£280",
+        "priceSubtitle": "includes design consultation",
+        "features": [
+          "Bespoke artwork created just for you",
+          "Unlimited design revisions"
+        ],
+        "status": "limited",
+        "availabilityText": "Available weekdays",
+        "buttonText": "Book Custom Work",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Flash & Small Pieces",
+        "duration": "1-2 hours",
+        "price": "£150",
+        "priceSubtitle": "perfect for first tattoos",
+        "features": [
+          "Quick turnaround, same quality",
+          "Walk-ins welcome most days"
+        ],
+        "status": "available",
+        "availabilityText": "Daily slots available",
+        "buttonText": "Book Flash Work",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely blown away by the work here. The attention to detail is incredible and the whole team made me feel so comfortable. Will definitely be back for my next piece!",
+        "author": "Emma K.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Been going to Tooth and Talon for years now, never disappointed. Clean studio, talented artists, and they really listen to what you want. Highly recommend.",
+        "author": "Marcus D.",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Inks Only"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Included"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @toothandtalontattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Story Behind the Name",
+    "paragraphs": [
+      "Tooth and Talon emerged from Manchester's vibrant Ancoats district with a simple philosophy: tattoos should be as fierce and authentic as the people who wear them. Our name reflects the primal power of great ink – sharp, bold, and unforgettable. Since opening our doors, we've built our reputation one satisfied client at a time, earning a perfect 5-star rating that speaks to our commitment to excellence.",
+      "Located in the heart of Manchester's creative quarter, our studio combines the raw energy of Ancoats with meticulous attention to detail. We specialise in custom work that captures your vision while pushing artistic boundaries. Whether you're after your first small piece or a full sleeve, we approach every tattoo with the same dedication to quality that's made us one of Manchester's most trusted studios."
+    ],
+    "callout": "Every tattoo tells a story – we're here to help you tell yours with boldness and precision.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Tooth and Talon tattoo artist working on detailed custom piece in Manchester studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yes! We welcome walk-ins for smaller pieces and flash work, especially on weekdays. For larger custom pieces, we recommend booking ahead to ensure you get the time slot you want. Give us a call or pop by to check availability."
+      },
+      {
+        "id": "faq-2",
+        "question": "How much should I expect to pay?",
+        "answer": "Pricing varies based on size, complexity, and placement. Small pieces typically start around £80, while larger custom work ranges from £200-400+. We always provide a clear quote before starting any work, and there are never any hidden fees."
+      },
+      {
+        "id": "faq-3",
+        "question": "What's your booking process like?",
+        "answer": "For custom work, we start with a consultation to discuss your ideas and create the perfect design. We require a £50 deposit to secure your slot, which goes towards your final payment. The whole process is straightforward and we keep you updated every step of the way."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Join the hundreds of satisfied clients who've trusted us with their ink",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Ready to get started? Fill out the form below and we'll get back to you within 24 hours to discuss your ideas and schedule your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for choosing Tooth and Talon. We'll review your request and get back to you within 24 hours to confirm your appointment details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your booking, payable when we confirm your appointment"
+  },
+  "contact": {
+    "email": "hello@toothandtalon.co.uk",
+    "instagram": "@toothandtalontattoo",
+    "instagramUrl": "https://instagram.com/toothandtalontattoo",
+    "phone": "07983 410118",
+    "address": "1 Jersey St, Ancoats, Manchester M4 6JA, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Tooth and Talon",
+    "tagline": "Fierce ink in Manchester's creative quarter"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
