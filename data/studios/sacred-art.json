@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Sacred Art",
+    "slug": "sacred-art",
+    "tagline": "Reverent ink, lasting legacy",
+    "artistName": "Marcus"
+  },
+  "theme": {
+    "background": "hsl(225, 10%, 8%)",
+    "foreground": "hsl(225, 5%, 95%)",
+    "accent": "hsl(340, 65%, 55%)",
+    "accentForeground": "hsl(225, 10%, 8%)",
+    "mutedForeground": "hsl(225, 5%, 65%)",
+    "dimmedForeground": "hsl(225, 5%, 45%)",
+    "border": "hsl(225, 10%, 18%)",
+    "card": "hsl(225, 10%, 12%)",
+    "accentRgb": "214, 79, 134",
+    "ring": "hsl(340, 65%, 55%)"
+  },
+  "seo": {
+    "title": "Sacred Art Tattoo Studio Manchester | Chorlton Tattoo Artists",
+    "description": "Sacred Art tattoo studio in Chorlton-cum-Hardy, Manchester. Expert tattoo artists creating bespoke designs. 4.7★ rated with 261 reviews. Book today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Chorlton tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Sacred Art - Manchester's Premier Tattoo Studio",
+      "description": "Reverent ink, lasting legacy. Award-winning tattoo artists in Chorlton-cum-Hardy, Manchester.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/sacred-art",
+      "siteName": "Sacred Art",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Sacred%20Art+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sacred Art"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Sacred spaces.",
+      "Sacred stories."
+    ],
+    "subheadline": "In the heart of Chorlton, we honour the ancient art of tattooing with contemporary vision and unwavering respect for each client's journey.",
+    "urgencyText": "February bookings filling quickly",
+    "ctaText": "Begin Your Journey",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Sacred Art tattoo studio interior with artist at work"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.7★ from 261 reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Chorlton's premier studio"
+      },
+      {
+        "iconName": "Award",
+        "label": "Award-winning artists"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Sterile, sacred environment"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Sacred Creations",
+    "subtitle": "Each piece tells a story, honours a memory, or marks a transformation",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Sacred Sessions",
+    "subtitle": "Choose the experience that honours your vision",
+    "guarantee": "Every session backed by our sacred commitment to excellence",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Devotion Session",
+        "duration": "3-4 hours",
+        "price": "£350",
+        "priceSubtitle": "Complete custom piece",
+        "features": [
+          "Full consultation and design development",
+          "Premium aftercare kit included"
+        ],
+        "status": "limited",
+        "availabilityText": "Next available: Early March",
+        "buttonText": "Book Devotion",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Pilgrimage Session",
+        "duration": "6+ hours",
+        "price": "£600",
+        "priceSubtitle": "Large scale masterpiece",
+        "features": [
+          "Multiple session planning included",
+          "Priority rebooking for completion"
+        ],
+        "status": "available",
+        "availabilityText": "Next available: Mid March",
+        "buttonText": "Begin Pilgrimage",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Sacred Testimonials",
+    "testimonials": [
+      {
+        "quote": "Marcus absolutely nailed my memorial piece. The detail and respect he showed throughout the whole process was incredible. Couldn't be happier with the result.",
+        "author": "Sarah M.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Been going to Sacred Art for years now. The atmosphere is so calming and the work speaks for itself. Always feel looked after there.",
+        "author": "James P.",
+        "city": "Chorlton",
+        "rating": 5
+      },
+      {
+        "quote": "First tattoo and I was nervous as hell, but the team made me feel so comfortable. The design exceeded my expectations and healing was perfect.",
+        "author": "Zara K.",
+        "city": "Stockport",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Award Winning Studio"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Vegan Friendly Inks"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @sacredartmcr",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Sacred Space",
+    "paragraphs": [
+      "Sacred Art was born from a simple belief: tattooing is a sacred act. Every line drawn on skin carries weight, meaning, and responsibility. Our Chorlton studio exists as a sanctuary where ancient artistry meets modern technique, where stories are honoured and memories are made permanent.",
+      "Led by Marcus, our team approaches each piece with reverence and skill honed through years of dedication. We've built our reputation on 261+ five-star reviews not through marketing, but through genuine care for every client who trusts us with their skin. This is more than a tattoo studio—it's a place where art becomes sacred."
+    ],
+    "callout": "Every tattoo tells a story. We're here to help you tell yours with the respect and artistry it deserves.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Marcus, lead artist at Sacred Art tattoo studio"
+  },
+  "faq": {
+    "sectionTitle": "Sacred Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We're usually booking 4-6 weeks out, sometimes longer for larger pieces. Best to get in touch early to discuss your ideas and get on the books. We always make time for consultations though, so don't worry if you're still planning."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We ask for a £50 deposit to secure your booking, which comes off your final bill. It's non-refundable but you can reschedule with 48 hours notice. Just helps us keep the diary organised and shows you're committed to the piece."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do cover-ups and touch-ups?",
+        "answer": "Absolutely. Cover-ups are some of our favourite challenges - turning something you're not happy with into something you love. For our own work, we offer free touch-ups within the first 6 months if needed. Just part of the service."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Begin Your Sacred Journey?",
+    "subheadline": "Let's discuss your vision and create something truly meaningful together",
+    "ctaText": "Start Your Story"
+  },
+  "booking": {
+    "modalTitle": "Book Your Sacred Session",
+    "modalDescription": "Tell us about your vision and we'll get back to you within 24 hours to discuss your booking.",
+    "successTitle": "Journey Begins",
+    "successMessage": "Thank you for choosing Sacred Art. We'll be in touch within 24 hours to discuss your vision and confirm your booking details.",
+    "submitText": "Send Enquiry",
+    "depositDisclaimer": "£50 deposit required to secure booking, deducted from final cost"
+  },
+  "contact": {
+    "email": "hello@sacredart.co.uk",
+    "instagram": "@sacredartmcr",
+    "instagramUrl": "https://instagram.com/sacredartmcr",
+    "phone": "0161 881 1530",
+    "address": "497 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 8AG, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Sacred Art",
+    "tagline": "Reverent ink, lasting legacy"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
