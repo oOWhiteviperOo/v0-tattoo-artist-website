@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Debug Studio",
+    "slug": "test-debug",
+    "tagline": "Code in skin, art in darkness",
+    "artistName": "Alex"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 10%, 95%)",
+    "accent": "hsl(280, 70%, 58%)",
+    "accentForeground": "hsl(220, 10%, 95%)",
+    "mutedForeground": "hsl(220, 8%, 65%)",
+    "dimmedForeground": "hsl(220, 6%, 45%)",
+    "border": "hsl(220, 13%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "186, 85, 211",
+    "ring": "hsl(280, 70%, 58%)"
+  },
+  "seo": {
+    "title": "Debug Studio - Bold Blackwork Tattoos in Leeds",
+    "description": "Precision blackwork tattoos in Leeds. Clean lines, dark designs, and technical excellence. Book your consultation at Debug Studio today.",
+    "keywords": [
+      "blackwork tattoo Leeds",
+      "geometric tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Debug Studio - Bold Blackwork Tattoos in Leeds",
+      "description": "Precision blackwork tattoos in Leeds. Clean lines, dark designs, and technical excellence.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/test-debug",
+      "siteName": "Debug Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Debug%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Debug Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Bold Lines.",
+      "Dark Vision."
+    ],
+    "subheadline": "Precision blackwork that speaks in shadows and geometry",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Start Your Design",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Bold blackwork tattoo design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "5+ years blackwork focus"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Custom designs only"
+      },
+      {
+        "iconName": "Award",
+        "label": "Sterile single-use equipment"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Free touch-up guarantee"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Bold blackwork pieces from the studio",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Choose your blackwork experience",
+    "guarantee": "All work comes with complimentary touch-ups within 6 months",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Small Blackwork",
+        "duration": "1-2 hours",
+        "price": "£80-150",
+        "priceSubtitle": "Perfect for minimalist designs",
+        "features": [
+          "Custom geometric patterns",
+          "Bold line work focus"
+        ],
+        "status": "limited",
+        "availabilityText": "Same week slots available",
+        "buttonText": "Book Small Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Large Blackwork",
+        "duration": "3-5 hours",
+        "price": "£200-350",
+        "priceSubtitle": "For complex geometric pieces",
+        "features": [
+          "Detailed mandala work",
+          "Multi-session planning"
+        ],
+        "status": "available",
+        "availabilityText": "2-3 week booking lead",
+        "buttonText": "Book Large Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "Client Reviews",
+    "testimonials": [
+      {
+        "quote": "Alex absolutely nailed my geometric sleeve. The lines are so crisp, better than I imagined.",
+        "author": "Emma K.",
+        "city": "Headingley",
+        "rating": 5
+      },
+      {
+        "quote": "Really solid blackwork, exactly what I was after. Studio's got a cool vibe too.",
+        "author": "Jake M.",
+        "city": "Roundhay",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Custom Designs"
+      },
+      {
+        "iconName": "Star",
+        "label": "Touch-up Guarantee"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @debug",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist",
+    "paragraphs": [
+      "Started tattooing because I was obsessed with the precision you could achieve with ink on skin. Trained in traditional methods but found my calling in blackwork - there's something about working purely in shadows and negative space that just clicks.",
+      "Every piece I do is custom. I don't work from flash sheets or copy other people's designs. We'll sit down, talk through your ideas, and I'll create something that's completely yours. The studio runs on quality, not quantity."
+    ],
+    "callout": "No walk-ins, no flash sheets, no compromises on quality",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Alex, tattoo artist at Debug Studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you only do blackwork?",
+        "answer": "Pretty much, yeah. I've focused entirely on blackwork for the past few years because that's where I can deliver the best results. Bold lines, geometric patterns, mandalas - that's my wheelhouse."
+      },
+      {
+        "id": "faq-2",
+        "question": "How far in advance do I need to book?",
+        "answer": "Depends on the size. Small pieces I can usually fit in within a week or two. Larger work might be 2-3 weeks out, especially if we need multiple sessions."
+      },
+      {
+        "id": "faq-3",
+        "question": "What's your deposit policy?",
+        "answer": "£50 deposit to secure your slot, comes off the final price. If you need to reschedule, just give me 48 hours notice and we're good."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for some bold blackwork?",
+    "subheadline": "Let's create something dark and beautiful together",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell me about your blackwork vision and we'll get you booked in",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "I'll get back to you within 24 hours to confirm your session details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "£50 deposit required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@debugstudio.co.uk",
+    "instagram": "@debug",
+    "instagramUrl": "https://instagram.com/debug",
+    "phone": "+44 113 234 5678",
+    "address": "Leeds — studio location on request"
+  },
+  "footer": {
+    "copyrightHolder": "Debug Studio",
+    "tagline": "Bold blackwork in the heart of Leeds"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
