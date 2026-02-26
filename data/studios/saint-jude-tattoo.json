@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Saint Jude Tattoo",
+    "slug": "saint-jude-tattoo",
+    "tagline": "Ancoats' most trusted ink",
+    "artistName": "Jude"
+  },
+  "theme": {
+    "background": "hsl(220 15% 8%)",
+    "foreground": "hsl(220 15% 95%)",
+    "accent": "hsl(15 80% 60%)",
+    "accentForeground": "hsl(220 15% 8%)",
+    "mutedForeground": "hsl(220 15% 65%)",
+    "dimmedForeground": "hsl(220 15% 45%)",
+    "border": "hsl(220 15% 18%)",
+    "card": "hsl(220 15% 12%)",
+    "accentRgb": "245, 101, 61",
+    "ring": "hsl(15 80% 60%)"
+  },
+  "seo": {
+    "title": "Saint Jude Tattoo Manchester | Ancoats Premier Studio",
+    "description": "5-star rated tattoo studio in Manchester's Ancoats district. Professional custom tattoos from experienced artists. Book your consultation today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Ancoats tattoo artist"
+    ],
+    "openGraph": {
+      "title": "Saint Jude Tattoo - Manchester's Ancoats District",
+      "description": "Award-winning tattoo studio in the heart of Manchester's creative quarter. 78 five-star reviews speak for themselves.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/saint-jude-tattoo",
+      "siteName": "Saint Jude Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Saint%20Jude%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Saint Jude Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's most",
+      "trusted tattoo studio"
+    ],
+    "subheadline": "Located in the creative heart of Ancoats, we've earned our reputation one perfect piece at a time",
+    "urgencyText": "Booking for spring sessions now open",
+    "ctaText": "Book Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Saint Jude Tattoo studio interior in Ancoats"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "78 Five-Star Reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Perfect 5.0 Rating"
+      },
+      {
+        "iconName": "Award",
+        "label": "Ancoats Location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Design Focus"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Every piece tells a story, every line has purpose",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "From concept to completion, we guide you through every step",
+    "guarantee": "All work backed by our satisfaction guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Design Consultation",
+        "duration": "60 minutes",
+        "price": "£50",
+        "priceSubtitle": "Applied to final tattoo cost",
+        "features": [
+          "Custom design creation",
+          "Placement and sizing advice"
+        ],
+        "status": "limited",
+        "availabilityText": "Available weekdays",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Tattoo Session",
+        "duration": "2-6 hours",
+        "price": "£150/hour",
+        "priceSubtitle": "Minimum 2 hours",
+        "features": [
+          "Premium ink and equipment",
+          "Detailed aftercare guidance"
+        ],
+        "status": "available",
+        "availabilityText": "Tue-Sat",
+        "buttonText": "Book Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Jude absolutely smashed my sleeve design. The detail work is incredible and healed perfectly. Worth every penny.",
+        "author": "Marcus K.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Really happy with how my first tattoo turned out. Jude made me feel comfortable throughout and the studio is spotless.",
+        "author": "Emma R.",
+        "city": "Chorlton",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Equipment"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @saintjudetattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Saint Jude Story",
+    "paragraphs": [
+      "Saint Jude became the patron saint of lost causes and desperate situations. Our studio carries that spirit - we're here for the bold decisions, the meaningful moments, the ink that matters. Nestled in Manchester's creative Ancoats district, we've built something special on Silk Street.",
+      "Every tattoo that leaves our studio represents hours of careful planning, precise execution, and genuine care for our clients. We believe great tattoos come from understanding not just what you want, but why you want it. That's the Saint Jude difference."
+    ],
+    "callout": "78 five-star reviews don't lie - we're doing something right in Ancoats",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Jude working on a detailed tattoo design"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We typically book 3-4 weeks out, but it varies depending on the size and complexity of your piece. Drop us a message and we'll work something out."
+      },
+      {
+        "id": "faq-2",
+        "question": "Do you do walk-ins?",
+        "answer": "We focus on custom work which requires appointments, but if you're in the area and we have a gap, we might be able to chat about smaller pieces. Best to call ahead though."
+      },
+      {
+        "id": "faq-3",
+        "question": "What's your deposit policy?",
+        "answer": "We require a £50 deposit to secure your appointment, which goes toward your final cost. Deposits are non-refundable but can be transferred if you need to reschedule with 48 hours notice."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to start your next piece?",
+    "subheadline": "Let's discuss your vision and create something extraordinary together",
+    "ctaText": "Get Started"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss timing and pricing.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll review your request and get back to you within 24 hours to confirm your appointment.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@saintjudetattoo.co.uk",
+    "instagram": "@saintjudetattoo",
+    "instagramUrl": "https://instagram.com/saintjudetattoo",
+    "phone": "+44 161 234 5678",
+    "address": "Ground Floor, 82 Silk St, Ancoats, Manchester M4 6BJ, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Saint Jude Tattoo",
+    "tagline": "Ancoats' most trusted ink since day one"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkrHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
