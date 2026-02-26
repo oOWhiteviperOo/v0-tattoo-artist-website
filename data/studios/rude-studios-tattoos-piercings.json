@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "name": "Rude Studios Tattoos & Piercings",
+    "slug": "rude-studios-tattoos-piercings",
+    "tagline": "Bold ink, precise piercings, proper attitude",
+    "artistName": "The Rude Studios Crew"
+  },
+  "theme": {
+    "background": "hsl(222, 47%, 7%)",
+    "foreground": "hsl(210, 40%, 98%)",
+    "accent": "hsl(15, 80%, 60%)",
+    "accentForeground": "hsl(222, 47%, 7%)",
+    "mutedForeground": "hsl(215, 20%, 65%)",
+    "dimmedForeground": "hsl(215, 13%, 45%)",
+    "border": "hsl(215, 27%, 16%)",
+    "card": "hsl(222, 47%, 11%)",
+    "accentRgb": "255, 102, 61",
+    "ring": "hsl(15, 80%, 60%)"
+  },
+  "seo": {
+    "title": "Rude Studios - Premier Tattoos & Piercings Leeds",
+    "description": "Leeds' premier tattoo & piercing studio. Three locations, apprentice-trained artists, traditional to contemporary styles. Book your custom ink today.",
+    "keywords": [
+      "leeds tattoo studio",
+      "body piercing leeds"
+    ],
+    "openGraph": {
+      "title": "Rude Studios Tattoos & Piercings - Leeds",
+      "description": "Bold ink, precise piercings, proper attitude. Three studios across Leeds with apprentice-trained artists specializing in traditional and contemporary work.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/rude-studios-tattoos-piercings",
+      "siteName": "Rude Studios Tattoos & Piercings",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Rude%20Studios%20Tattoos%20%26%20Piercings+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rude Studios Tattoos & Piercings"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Three studios, one attitude:",
+      "properly rude ink"
+    ],
+    "subheadline": "From city center to Headingley, our apprentice-trained artists deliver bold traditional work, contemporary pieces, and precision piercings with zero compromise on quality.",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Rude Studios tattoo artist working on detailed blackwork piece"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Three Leeds locations"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Apprentice-trained artists"
+      },
+      {
+        "iconName": "Award",
+        "label": "Custom jewelry selection"
+      },
+      {
+        "iconName": "Shield",
+        "label": "4.9-star Google rating"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Bold traditional pieces, contemporary designs, and precision blackwork from our three Leeds studios",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Sessions & Services",
+    "subtitle": "From quick piercings to full custom tattoo sessions, we've got you covered",
+    "guarantee": "All work guaranteed with proper aftercare support",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Tattoo Session",
+        "duration": "2-6 hours",
+        "price": "£150-£500",
+        "priceSubtitle": "Depends on size and complexity",
+        "features": [
+          "Traditional, contemporary, or blackwork styles",
+          "Full consultation and design process included"
+        ],
+        "status": "limited",
+        "availabilityText": "Book 2-3 weeks ahead",
+        "buttonText": "Book Custom Work",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Professional Piercing",
+        "duration": "30-45 minutes",
+        "price": "£35-£120",
+        "priceSubtitle": "Including high-quality jewelry",
+        "features": [
+          "Extensive jewelry selection available",
+          "Full aftercare guidance provided"
+        ],
+        "status": "limited",
+        "availabilityText": "Same-day appointments often available",
+        "buttonText": "Book Piercing",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Calendar",
+        "title": "Walk-in Flash",
+        "duration": "1-2 hours",
+        "price": "£80-£200",
+        "priceSubtitle": "Pre-designed flash sheets",
+        "features": [
+          "No appointment needed",
+          "Quick turnaround, quality guaranteed"
+        ],
+        "status": "available",
+        "availabilityText": "First come, first served",
+        "buttonText": "See Flash Options",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Got my first tattoo here and the whole team made me feel so comfortable. The traditional rose on my forearm came out absolutely perfect, exactly what I wanted.",
+        "author": "Lucy H.",
+        "city": "Headingley",
+        "rating": 5
+      },
+      {
+        "quote": "Been getting work done here for years. The blackwork sleeve they did is incredible - really solid line work and the shading is spot on. Proper artists.",
+        "author": "Dan K.",
+        "city": "Chapeltown",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed & Insured"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Quality Guarantee"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @rudestudios",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Three Studios, One Mission",
+    "paragraphs": [
+      "Rude Studios started with a simple idea: Leeds deserved a tattoo shop that didn't compromise. From our flagship Vicar Lane location to our Headingley spot, we've built a reputation on solid traditional work, cutting-edge contemporary pieces, and piercings done right the first time.",
+      "Our artists all came up through proper apprenticeships - no shortcuts, no corner-cutting. Whether you're after a classic sailor jerry piece, detailed realism, or bold illustrative work, our team has the skills and attitude to deliver exactly what you're looking for. We stock quality jewelry, maintain spotless studios, and stand behind every piece of work that walks out our doors."
+    ],
+    "callout": "Bold work requires bold artists - and we've got the best crew in Leeds",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Rude Studios artist working on detailed traditional tattoo design"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do I need to book ahead or can I just walk in?",
+        "answer": "For custom work, definitely book ahead - we're usually 2-3 weeks out. But we do walk-ins for flash pieces and simple piercings when we've got space. Best to call first and check what's available on the day."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your minimum charge for tattoos?",
+        "answer": "Our shop minimum is £80, which covers small pieces that take under an hour. Most custom work starts around £150 depending on size and detail. We'll give you a proper quote after seeing the design and talking placement."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do cover-ups and touch-ups?",
+        "answer": "Yeah, we do loads of cover-up work - some of our best pieces actually. Bring in a photo of what you want covered and we'll work out a design that properly hides the old work. Touch-ups on our own work are free within the first year."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Some Proper Ink?",
+    "subheadline": "Three Leeds locations, apprentice-trained artists, and the attitude to match your vision",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo or piercing idea and we'll get back to you within 24 hours to discuss timing and pricing.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll review your request and get back to you within 24 hours with availability and next steps.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "£50 deposit required to secure larger tattoo appointments"
+  },
+  "contact": {
+    "email": "hello@rudestudiostattoospiercings.co.uk",
+    "instagram": "@rudestudios",
+    "instagramUrl": "https://instagram.com/rudestudios",
+    "phone": "0113 242 2188",
+    "address": "6 Vicar Ln, Leeds LS2 7JF, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Rude Studios Tattoos & Piercings",
+    "tagline": "Bold ink, precise piercings, proper attitude"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
