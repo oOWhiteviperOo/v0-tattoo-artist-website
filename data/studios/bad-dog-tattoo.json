@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Bad Dog Tattoo",
+    "slug": "bad-dog-tattoo",
+    "tagline": "Unleashing bold ink in Manchester's Northern Quarter",
+    "artistName": "Jake"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 10%, 95%)",
+    "accent": "hsl(15, 80%, 60%)",
+    "accentForeground": "hsl(220, 15%, 8%)",
+    "mutedForeground": "hsl(220, 10%, 70%)",
+    "dimmedForeground": "hsl(220, 10%, 55%)",
+    "border": "hsl(220, 15%, 15%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "230, 102, 61",
+    "ring": "hsl(15, 80%, 60%)"
+  },
+  "seo": {
+    "title": "Bad Dog Tattoo Manchester | Northern Quarter Tattoo Studio",
+    "description": "5-star rated tattoo studio in Manchester's Northern Quarter. Bold, custom tattoos from experienced artists at Heart of Gold Studio, Stevenson Square.",
+    "keywords": [
+      "manchester tattoo studio",
+      "northern quarter tattoo"
+    ],
+    "openGraph": {
+      "title": "Bad Dog Tattoo - Manchester's Premier Northern Quarter Studio",
+      "description": "Custom tattoos with a perfect 5-star rating. Located in the heart of Manchester's creative Northern Quarter.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/bad-dog-tattoo",
+      "siteName": "Bad Dog Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Bad%20Dog%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Bad Dog Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Get Inked"
+  },
+  "hero": {
+    "headline": [
+      "Tattoos with",
+      "serious bite"
+    ],
+    "subheadline": "Custom ink from Manchester's Northern Quarter. No compromise on quality, no shortcuts on creativity.",
+    "urgencyText": "Spring bookings filling fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Tattoo artist working on detailed custom design"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Perfect 5-star Google rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "24 verified reviews"
+      },
+      {
+        "iconName": "Award",
+        "label": "Northern Quarter location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Same-day consultations"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Every piece tells a story worth wearing",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattooing in the heart of the Northern Quarter",
+    "guarantee": "All work comes with our aftercare guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Tattoo Session",
+        "duration": "2-4 hours",
+        "price": "£150",
+        "priceSubtitle": "per hour",
+        "features": [
+          "Detailed consultation included",
+          "Premium ink and equipment"
+        ],
+        "status": "limited",
+        "availabilityText": "Next availability: March 2026",
+        "buttonText": "Book Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Flash & Small Pieces",
+        "duration": "1-2 hours",
+        "price": "£100",
+        "priceSubtitle": "minimum",
+        "features": [
+          "Walk-ins welcome weekdays",
+          "Quick turnaround"
+        ],
+        "status": "available",
+        "availabilityText": "Same week availability",
+        "buttonText": "Book Now",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What People Say",
+    "testimonials": [
+      {
+        "quote": "Jake absolutely smashed my sleeve. The detail is insane and healed perfectly. Worth every penny.",
+        "author": "Marcus T.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "First tattoo and couldn't have asked for better. Really put me at ease and the final result is exactly what I wanted.",
+        "author": "Emma K.",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "Been to loads of studios but this is different level. Clean, professional, and the work speaks for itself.",
+        "author": "Dave M.",
+        "city": "Didsbury",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Environment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Vegan Inks Available"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Included"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @bad.dog.tattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist",
+    "paragraphs": [
+      "Bad Dog started in a tiny back room above a record shop, just me and a determination to do tattoos differently. No flash books, no cookie-cutter designs — just raw creativity and a refusal to compromise on quality. That attitude got me noticed, and now I'm working from one of Manchester's most respected studios in the Northern Quarter.",
+      "Every tattoo is a conversation. I want to understand not just what you want, but why you want it. That's how we create something that's not just technically solid, but genuinely yours. Whether it's your first piece or you're adding to a collection, we'll make sure it's something you'll be proud to wear for life."
+    ],
+    "callout": "Quality over quantity, every single time.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Jake, tattoo artist at Bad Dog Tattoo"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "For custom work, I'm usually booking 4-6 weeks out. Smaller pieces or flash designs can often be done same week if you're flexible with timing. Drop me a message and we'll figure it out."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "£50 deposit to secure your slot, deducted from the final cost. If you need to reschedule, just give me 48 hours notice. Life happens, I get it."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do cover-ups?",
+        "answer": "Absolutely, cover-ups are some of my favorite challenges. Bring photos of what you want covered and any ideas you have. We'll work together to design something that completely transforms the area."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to get started?",
+    "subheadline": "Let's create something you'll love for life",
+    "ctaText": "Book Your Consultation"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell me about your tattoo idea and preferred timing. I'll get back to you within 24 hours to confirm details.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for reaching out. I'll review your request and get back to you within 24 hours with availability and next steps.",
+    "submitText": "Send Request",
+    "depositDisclaimer": "A £50 deposit will be required to confirm your booking"
+  },
+  "contact": {
+    "email": "hello@baddogtattoo.co.uk",
+    "instagram": "@bad.dog.tattoo",
+    "instagramUrl": "https://instagram.com/bad.dog.tattoo",
+    "phone": "Manchester — contact via Instagram",
+    "address": "Heart of Gold Tattoo Studio, 1a Stevenson Square, Manchester M1 1DN, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Bad Dog Tattoo",
+    "tagline": "Quality ink, no compromises"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
