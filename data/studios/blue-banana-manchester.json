@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Blue Banana Manchester",
+    "slug": "blue-banana-manchester",
+    "tagline": "Manchester's Alternative Edge",
+    "artistName": "The Blue Banana Team"
+  },
+  "theme": {
+    "background": "hsl(240, 15%, 8%)",
+    "foreground": "hsl(240, 10%, 95%)",
+    "accent": "hsl(270, 80%, 65%)",
+    "accentForeground": "hsl(240, 15%, 8%)",
+    "mutedForeground": "hsl(240, 5%, 65%)",
+    "dimmedForeground": "hsl(240, 5%, 45%)",
+    "border": "hsl(240, 15%, 15%)",
+    "card": "hsl(240, 15%, 12%)",
+    "accentRgb": "181, 126, 220",
+    "ring": "hsl(270, 80%, 65%)"
+  },
+  "seo": {
+    "title": "Blue Banana Manchester | Professional Piercings & Alt Style",
+    "description": "Manchester's premier piercing studio in Arndale Centre. Expert body piercings with 4.9/5 rating. Walk-ins welcome. Alternative fashion & gothic lifestyle.",
+    "keywords": [
+      "body piercing manchester",
+      "ear piercing arndale centre"
+    ],
+    "openGraph": {
+      "title": "Blue Banana Manchester - Professional Body Piercing Studio",
+      "description": "Manchester's trusted piercing destination with 4.9/5 rating from nearly 3,000 reviews. Located in Arndale Shopping Centre.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/blue-banana-manchester",
+      "siteName": "Blue Banana Manchester",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Blue%20Banana%20Manchester+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Blue Banana Manchester"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Piercing"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Most",
+      "Trusted Piercing Studio"
+    ],
+    "subheadline": "Professional body and ear piercings in the heart of Manchester's Arndale Centre. Nearly 3,000 five-star reviews speak for themselves.",
+    "urgencyText": "Walk-ins welcome daily",
+    "ctaText": "Get Pierced Today",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Blue Banana Manchester piercing studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.9/5 Google Rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Nearly 3,000 Reviews"
+      },
+      {
+        "iconName": "Award",
+        "label": "Arndale Centre Location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Walk-ins Welcome"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Our Piercing Portfolio",
+    "subtitle": "From classic ear piercings to bold body modifications, see our precision work",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Piercing Services",
+    "subtitle": "Professional piercings with premium jewelry and aftercare guidance",
+    "guarantee": "All piercings include premium jewelry and comprehensive aftercare instructions",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Piercing Consultation",
+        "duration": "15-20 minutes",
+        "price": "Free",
+        "priceSubtitle": "with any piercing service",
+        "features": [
+          "Placement advice and anatomy assessment",
+          "Jewelry selection and sizing guidance"
+        ],
+        "status": "limited",
+        "availabilityText": "Available daily",
+        "buttonText": "Book Consultation",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Professional Piercing",
+        "duration": "20-45 minutes",
+        "price": "From £25",
+        "priceSubtitle": "depending on piercing type",
+        "features": [
+          "Sterile single-use needles and equipment",
+          "High-quality titanium and surgical steel jewelry"
+        ],
+        "status": "available",
+        "availabilityText": "Walk-ins welcome",
+        "buttonText": "Get Pierced",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Got my nose pierced here last week and the service was spot on. Really clean studio and the piercer talked me through everything. Healing perfectly!",
+        "author": "Emma K.",
+        "city": "Manchester",
+        "rating": 5
+      },
+      {
+        "quote": "Been coming here for years for all my piercings. Never had any issues and the jewelry selection is brilliant. Staff always remember me too which is nice.",
+        "author": "Jake M.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Nervous about getting my first ear piercing but they made me feel so comfortable. Quick and barely hurt at all. Will definitely be back for more!",
+        "author": "Chloe R.",
+        "city": "Didsbury",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Professional Piercing Guild Member"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Technique Certified"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Premium Jewelry Stockist"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support Included"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @bluebananamanchester",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Manchester's Alternative Destination",
+    "paragraphs": [
+      "Right in the bustling heart of Manchester's Arndale Centre, Blue Banana has been the go-to spot for anyone wanting to express their alternative side. We're not just about piercings - we're about helping people embrace their individuality in a safe, professional environment that actually gets it.",
+      "Our team combines serious piercing expertise with a genuine love for alternative culture. Whether you're getting your first lobe piercing or adding to an extensive collection, we treat every client with the same level of care and attention. That's how we've earned nearly 3,000 five-star reviews and become Manchester's most trusted piercing destination."
+    ],
+    "callout": "Every piercing is performed with single-use, sterile equipment and premium jewelry that's built to last.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Blue Banana Manchester team member performing a professional piercing"
+  },
+  "faq": {
+    "sectionTitle": "Piercing FAQs",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do I need to book an appointment?",
+        "answer": "Nope! We welcome walk-ins throughout the day, though you might have a short wait during busy periods. If you want to guarantee a specific time, you can book ahead through our Instagram or give us a call."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's included in the piercing price?",
+        "answer": "Everything you need - the piercing itself, premium jewelry (titanium or surgical steel), aftercare solution, and detailed healing instructions. We don't do cheap jewelry that'll cause problems later."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do I look after my new piercing?",
+        "answer": "We'll give you a proper aftercare guide when you leave, but the basics are: keep it clean with saline solution, don't touch it with dirty hands, and avoid swimming pools for the first few weeks. Most importantly, come back if you have any concerns!"
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Get Pierced?",
+    "subheadline": "Visit us in the Arndale Centre today - no appointment needed",
+    "ctaText": "Find Us Today"
+  },
+  "booking": {
+    "modalTitle": "Book Your Piercing",
+    "modalDescription": "Tell us what you're looking for and we'll get back to you within 24 hours to arrange your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "We'll get back to you within 24 hours to confirm your appointment. Can't wait? Pop into our Arndale Centre studio for a walk-in piercing!",
+    "submitText": "Send Request",
+    "depositDisclaimer": "No deposit required - payment taken on the day of your piercing"
+  },
+  "contact": {
+    "email": "hello@bluebananamanchester.co.uk",
+    "instagram": "@bluebananamanchester",
+    "instagramUrl": "https://instagram.com/bluebananamanchester",
+    "phone": "0161 834 9166",
+    "address": "Arndale Shopping Centre Unit 48 Barbirolli Mall East, Manchester M4 3AQ, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Blue Banana Manchester",
+    "tagline": "Manchester's alternative edge since day one"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
