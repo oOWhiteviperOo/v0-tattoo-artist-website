@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "name": "Fellowship MCR Tattoo",
+    "slug": "fellowship-mcr-tattoo",
+    "tagline": "Northern Quarter's most trusted tattoo studio",
+    "artistName": "The Fellowship Team"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 10%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(155, 72%, 10%)",
+    "mutedForeground": "hsl(220, 10%, 65%)",
+    "dimmedForeground": "hsl(220, 10%, 45%)",
+    "border": "hsl(220, 15%, 15%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "32, 201, 151",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Fellowship MCR Tattoo | 5-Star Northern Quarter Studio",
+    "description": "Manchester's highest-rated tattoo studio in the Northern Quarter. 5-star reviews, Chatham Mill location. Book your consultation today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Northern Quarter tattoo"
+    ],
+    "openGraph": {
+      "title": "Fellowship MCR Tattoo - Manchester's Premier Tattoo Studio",
+      "description": "5-star rated tattoo studio in Manchester's creative Northern Quarter. Professional artists, exceptional service, perfect location.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/fellowship-mcr-tattoo",
+      "siteName": "Fellowship MCR Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Fellowship%20MCR%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Fellowship MCR Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Most",
+      "Trusted Tattoo Studio"
+    ],
+    "subheadline": "Located in the heart of the Northern Quarter's creative scene, we've earned over 200 five-star reviews through exceptional artistry and service",
+    "urgencyText": "Spring bookings now open",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Fellowship MCR Tattoo studio interior"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "200+ Five-Star Reviews"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Northern Quarter Location"
+      },
+      {
+        "iconName": "Award",
+        "label": "Chatham Mill Creative Hub"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Established Manchester Studio"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "From bold traditional pieces to intricate fine line work, every tattoo tells a story",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattooing in Manchester's most creative district",
+    "guarantee": "All work backed by our studio guarantee",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Consultation & Flash",
+        "duration": "1-2 hours",
+        "price": "£80-150",
+        "priceSubtitle": "Small to medium pieces",
+        "features": [
+          "Same-day availability often possible",
+          "Perfect for first tattoos"
+        ],
+        "status": "limited",
+        "availabilityText": "Walk-ins welcome",
+        "buttonText": "Book Flash Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Custom Design Session",
+        "duration": "3-5 hours",
+        "price": "£200-400",
+        "priceSubtitle": "Bespoke artwork consultation included",
+        "features": [
+          "Full design development process",
+          "Multiple revision rounds"
+        ],
+        "status": "limited",
+        "availabilityText": "2-3 week booking lead",
+        "buttonText": "Start Custom Design",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Calendar",
+        "title": "Large Scale Project",
+        "duration": "Full day",
+        "price": "£500+",
+        "priceSubtitle": "Sleeves, back pieces, major work",
+        "features": [
+          "Dedicated full-day sessions",
+          "Project planning included"
+        ],
+        "status": "available",
+        "availabilityText": "Monthly availability",
+        "buttonText": "Plan Large Project",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely brilliant experience at Fellowship. The atmosphere in Chatham Mill is perfect and the work speaks for itself. Couldn't recommend more highly.",
+        "author": "James K.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "Been to a few places around Manchester but nothing comes close to the quality here. Worth every penny and the Northern Quarter location is spot on.",
+        "author": "Emma T.",
+        "city": "Chorlton",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "5.0★ Google Rating"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "200+ Reviews"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Established Studio"
+      },
+      {
+        "iconName": "Star",
+        "label": "Northern Quarter"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @fellowshipmcr",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Fellowship Story",
+    "paragraphs": [
+      "Nestled in the creative heart of Chatham Mill, Fellowship MCR has become synonymous with exceptional tattooing in Manchester's Northern Quarter. Our studio sits on the third floor of this historic mill, surrounded by artists, designers, and makers who share our commitment to quality craftsmanship.",
+      "What sets us apart isn't just our perfect five-star rating or our prime location – it's our approach to tattooing as both art and service. Every client who walks through our doors becomes part of the Fellowship family, and our 200+ glowing reviews reflect the care and attention we put into every single piece."
+    ],
+    "callout": "Every tattoo is a collaboration between artist and client, creating something truly unique",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Fellowship MCR Tattoo artist at work"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a session?",
+        "answer": "You can book through our website, give us a call on 07717 066189, or drop by the studio in Chatham Mill. For custom work, we recommend booking a consultation first to discuss your ideas properly."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We require a £50 deposit to secure your booking, which comes off your final bill. Deposits are non-refundable but can be transferred to a new date with 48 hours notice."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do walk-ins?",
+        "answer": "We welcome walk-ins for flash work and smaller pieces, though availability varies. For the best chance of getting tattooed same-day, we'd suggest calling ahead or following our Instagram for daily updates."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Join the Fellowship?",
+    "subheadline": "Book your session at Manchester's most trusted tattoo studio",
+    "ctaText": "Book Your Tattoo"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo ideas and we'll get back to you within 24 hours to arrange your appointment.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for choosing Fellowship MCR. We'll be in touch within 24 hours to confirm your session details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "£50 deposit required to secure booking"
+  },
+  "contact": {
+    "email": "hello@fellowshipmcrtattoo.co.uk",
+    "instagram": "@fellowshipmcr",
+    "instagramUrl": "https://instagram.com/fellowshipmcr",
+    "phone": "07717 066189",
+    "address": "Unit 8, 3rd floor, Chatham mill, 8 Lower Ormond St, Manchester M1 5QF, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Fellowship MCR Tattoo",
+    "tagline": "Northern Quarter's most trusted tattoo studio"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyEkJYYMkDTjLVbegBBTjV/ADUBU6sLWJ7tGJYqANLJPXLrCIIKnRITD8TKKmCM8W5U1k5qoGGPRGIXnC6eMbMNSDxiAIdD+i5p9Zb7uDHy8RqLwMqWwjM9NLCOzk7VBDXxmGrfXYJmEQqYm3LjA4FEBJRwn1ZBGT7qKRnrZ3x"
+}
