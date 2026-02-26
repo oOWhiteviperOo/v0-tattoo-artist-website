@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Flanderz Tattoo",
+    "slug": "flanderz-tattoo",
+    "tagline": "Creative ink in the heart of Salford's arts district",
+    "artistName": "Flanderz"
+  },
+  "theme": {
+    "background": "hsl(220, 25%, 8%)",
+    "foreground": "hsl(0, 0%, 95%)",
+    "accent": "hsl(155, 72%, 45%)",
+    "accentForeground": "hsl(155, 72%, 8%)",
+    "mutedForeground": "hsl(0, 0%, 70%)",
+    "dimmedForeground": "hsl(0, 0%, 60%)",
+    "border": "hsl(220, 15%, 15%)",
+    "card": "hsl(220, 20%, 12%)",
+    "accentRgb": "32, 196, 114",
+    "ring": "hsl(155, 72%, 45%)"
+  },
+  "seo": {
+    "title": "Flanderz Tattoo | Top-Rated Studio in Salford Manchester",
+    "description": "5-star tattoo studio in Islington Mill, Salford. Expert custom work in Manchester's creative quarter. Perfect rating from 28 reviews.",
+    "keywords": [
+      "Flanderz Tattoo Manchester",
+      "Salford tattoo studio"
+    ],
+    "openGraph": {
+      "title": "Flanderz Tattoo - Salford's 5-Star Tattoo Studio",
+      "description": "Award-winning tattoo artistry in Manchester's creative Islington Mill. Perfect 5-star rating from real clients.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/flanderz-tattoo",
+      "siteName": "Flanderz Tattoo",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Flanderz%20Tattoo+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Flanderz Tattoo"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Your Session"
+  },
+  "hero": {
+    "headline": [
+      "Ink that tells your story",
+      "in Salford's creative heart"
+    ],
+    "subheadline": "Located in the iconic Islington Mill, Flanderz Tattoo brings bold artistry to Manchester's most creative district",
+    "urgencyText": "Spring bookings now open",
+    "ctaText": "Book Consultation",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Flanderz Tattoo artist working on detailed custom tattoo"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Perfect 5.0 rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "28+ verified reviews"
+      },
+      {
+        "iconName": "Award",
+        "label": "Islington Mill location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom design focus"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Every piece tells a unique story",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional artistry tailored to your vision",
+    "guarantee": "All work comes with our quality guarantee and aftercare support",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Design Session",
+        "duration": "3-4 hours",
+        "price": "£350",
+        "priceSubtitle": "Includes design consultation",
+        "features": [
+          "Bespoke artwork created just for you",
+          "Full aftercare kit and instructions"
+        ],
+        "status": "limited",
+        "availabilityText": "Available weekdays and weekends",
+        "buttonText": "Book Custom Design",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Flash & Small Work",
+        "duration": "1-2 hours",
+        "price": "£150",
+        "priceSubtitle": "Perfect for first tattoos",
+        "features": [
+          "Quick turnaround, same-day availability",
+          "Great for adding to existing collections"
+        ],
+        "status": "available",
+        "availabilityText": "Walk-ins welcome most days",
+        "buttonText": "Book Flash Session",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely love my new piece! The attention to detail is incredible and the whole experience was so chill. Flanderz really listened to what I wanted.",
+        "author": "Emma K.",
+        "city": "Chorlton",
+        "rating": 5
+      },
+      {
+        "quote": "Been to loads of studios but this one's different. The vibe in Islington Mill is perfect and the work speaks for itself. Already planning my next one.",
+        "author": "Marcus D.",
+        "city": "Salford",
+        "rating": 5
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Sterile Equipment Guarantee"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Custom Design Specialists"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Aftercare Support Included"
+      },
+      {
+        "iconName": "Star",
+        "label": "Walk-ins Welcome"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @flanderztattoo",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "The Artist",
+    "paragraphs": [
+      "Flanderz set up shop in the creative hub of Islington Mill because it felt right – surrounded by artists, makers, and independent spirits who understand that good work takes time. The converted mill space gives the studio a unique atmosphere that you won't find in your typical high street shop.",
+      "Every tattoo starts with a conversation. Whether you're after something bold and graphic or delicate and detailed, the focus is always on creating something that's genuinely yours. The 5-star rating from clients speaks to a commitment to getting it right, every single time."
+    ],
+    "callout": "Based in Manchester's most creative district, bringing bold ideas to life one tattoo at a time.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Flanderz tattoo artist at work in Islington Mill studio"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yeah, most days we can fit in smaller pieces or flash work. For custom designs though, it's best to book ahead so we can spend proper time on your consultation and design process."
+      },
+      {
+        "id": "faq-2",
+        "question": "How much will my tattoo cost?",
+        "answer": "Depends on size, detail, and placement really. Small flash pieces start around £150, custom work from £350. Best thing is to come in for a chat and we can give you an exact quote based on what you're after."
+      },
+      {
+        "id": "faq-3",
+        "question": "What's the booking process like?",
+        "answer": "Drop us a message on Instagram or give us a call. We'll have a chat about your ideas, maybe sketch something up, then book you in when you're happy with the design. Usually takes a week or two to get you sorted."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to start your next tattoo?",
+    "subheadline": "Get in touch and let's create something unique together",
+    "ctaText": "Start Your Project"
+  },
+  "booking": {
+    "modalTitle": "Book Your Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss your design and book your appointment.",
+    "successTitle": "Thanks for your booking request!",
+    "successMessage": "We'll be in touch within 24 hours to discuss your design and confirm your appointment details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "A £50 deposit will be required to secure your booking"
+  },
+  "contact": {
+    "email": "hello@flanderztattoo.co.uk",
+    "instagram": "@flanderztattoo",
+    "instagramUrl": "https://instagram.com/flanderztattoo",
+    "phone": "Manchester — studio location on request",
+    "address": "Islington Mill, James St, Salford M3 5HW, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Flanderz Tattoo",
+    "tagline": "Creative ink in Salford's arts district"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+}
