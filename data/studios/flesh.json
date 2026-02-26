@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "name": "Flesh",
+    "slug": "flesh",
+    "tagline": "Raw. Bold. Unforgettable.",
+    "artistName": "The Flesh Team"
+  },
+  "theme": {
+    "background": "hsl(220 13% 9%)",
+    "foreground": "hsl(220 9% 96%)",
+    "accent": "hsl(0 72% 51%)",
+    "accentForeground": "hsl(0 0% 100%)",
+    "mutedForeground": "hsl(220 5% 65%)",
+    "dimmedForeground": "hsl(220 5% 45%)",
+    "border": "hsl(220 13% 18%)",
+    "card": "hsl(220 13% 12%)",
+    "accentRgb": "207, 38, 54",
+    "ring": "hsl(0 72% 51%)"
+  },
+  "seo": {
+    "title": "Flesh Tattoo Studio Manchester | Bold Custom Tattoos",
+    "description": "Manchester's premier tattoo studio in the city center. 4.9/5 stars from 1000+ reviews. Bold, custom tattoos by skilled artists at Bridge Street.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "custom tattoos Manchester"
+    ],
+    "openGraph": {
+      "title": "Flesh Tattoo Studio Manchester",
+      "description": "Raw. Bold. Unforgettable. Manchester's highest-rated tattoo studio with 4.9/5 stars from 1000+ reviews.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/flesh",
+      "siteName": "Flesh",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Flesh+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Flesh"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Manchester's Most",
+      "Trusted Tattoo Studio"
+    ],
+    "subheadline": "4.9/5 stars from nearly 1,000 reviews. Located in Manchester city center, we've earned our reputation one exceptional tattoo at a time.",
+    "urgencyText": "February bookings filling up fast",
+    "ctaText": "Book Your Session",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Flesh tattoo studio interior with tattooing in progress"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.9/5 Google Rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "1000+ Happy Clients"
+      },
+      {
+        "iconName": "Award",
+        "label": "City Center Location"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Established Studio"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Our Work Speaks",
+    "subtitle": "Bold designs that make a statement. Every piece tells a story.",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Professional tattooing in Manchester's city center",
+    "guarantee": "All work guaranteed with aftercare support",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Custom Tattoo Session",
+        "duration": "2-4 hours",
+        "price": "£200",
+        "priceSubtitle": "Starting price - final cost depends on size and complexity",
+        "features": [
+          "Custom design consultation included",
+          "Professional aftercare guidance"
+        ],
+        "status": "limited",
+        "availabilityText": "Available most days",
+        "buttonText": "Book Custom Work",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Flash Tattoo Session",
+        "duration": "1-2 hours",
+        "price": "£120",
+        "priceSubtitle": "Pre-designed flash pieces - quick turnaround",
+        "features": [
+          "Choose from our flash collection",
+          "Same-day appointments often available"
+        ],
+        "status": "available",
+        "availabilityText": "Walk-ins welcome",
+        "buttonText": "Book Flash Piece",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Absolutely buzzing with my new piece! The team at Flesh really know their stuff and the atmosphere is spot on.",
+        "author": "Jake M.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Been going to Flesh for years now and they never disappoint. Clean studio, friendly artists, quality work every time.",
+        "author": "Emma K.",
+        "city": "Didsbury",
+        "rating": 5
+      },
+      {
+        "quote": "First tattoo and was proper nervous but the staff put me at ease. Really happy with how it turned out, would definitely go back.",
+        "author": "Ryan T.",
+        "city": "Chorlton",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Experienced Artists"
+      },
+      {
+        "iconName": "Star",
+        "label": "Aftercare Support"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @flesh_manchester",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Raw Talent, Refined Skill",
+    "paragraphs": [
+      "Flesh opened its doors in Manchester's bustling city center because we believed the scene needed something different. Not just another tattoo shop, but a place where bold ideas come to life without compromise. Our reputation speaks for itself - nearly 1,000 five-star reviews from clients who trusted us with their vision.",
+      "Located at The Hadley Clinic on Bridge Street, we've become Manchester's go-to studio for those who want tattoos that make a statement. Our artists don't just follow trends - they set them. Whether you're after your first piece or adding to an existing collection, we approach every tattoo with the same level of dedication and skill."
+    ],
+    "callout": "Every tattoo tells a story. We make sure it's one worth telling.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Flesh tattoo artist working on detailed custom piece"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "We do accept walk-ins for flash pieces when we have availability, but custom work is by appointment only. Give us a ring on 0161 706 2286 to check what's available on the day."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We require a £50 deposit to secure your booking, which comes off your final bill. Deposits are non-refundable but can be transferred to a new date with 48 hours notice."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do I prepare for my tattoo?",
+        "answer": "Get a good night's sleep, eat a proper meal beforehand, stay hydrated, and avoid alcohol for 24 hours before your appointment. Wear comfortable clothes that give us easy access to the area being tattooed."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for Your Next Tattoo?",
+    "subheadline": "Join the hundreds of satisfied clients who've trusted Flesh with their ink",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss details and availability.",
+    "successTitle": "Booking Request Sent!",
+    "successMessage": "Thanks for choosing Flesh! We'll review your request and get back to you within 24 hours to confirm your appointment details.",
+    "submitText": "Send Booking Request",
+    "depositDisclaimer": "£50 deposit required to secure booking"
+  },
+  "contact": {
+    "email": "hello@flesh.co.uk",
+    "instagram": "@flesh_manchester",
+    "instagramUrl": "https://instagram.com/flesh_manchester",
+    "phone": "0161 706 2286",
+    "address": "The Hadley Clinic, 72 Bridge St, Manchester M3 2RJ, UK"
+  },
+  "footer": {
+    "copyrightHolder": "Flesh Tattoo Studio",
+    "tagline": "Raw. Bold. Unforgettable."
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
