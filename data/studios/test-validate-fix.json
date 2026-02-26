@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "Validate Fix Studio",
+    "slug": "test-validate-fix",
+    "tagline": "Traditional craft, modern execution",
+    "artistName": "Not provided"
+  },
+  "theme": {
+    "background": "hsl(220, 15%, 8%)",
+    "foreground": "hsl(220, 10%, 95%)",
+    "accent": "hsl(15, 80%, 60%)",
+    "accentForeground": "hsl(220, 15%, 8%)",
+    "mutedForeground": "hsl(220, 10%, 70%)",
+    "dimmedForeground": "hsl(220, 10%, 50%)",
+    "border": "hsl(220, 15%, 18%)",
+    "card": "hsl(220, 15%, 12%)",
+    "accentRgb": "245, 102, 61",
+    "ring": "hsl(15, 80%, 60%)"
+  },
+  "seo": {
+    "title": "Validate Fix Studio | Traditional & Japanese Tattoos Leeds",
+    "description": "Traditional and Japanese tattoo specialists in Leeds city centre. Bold lines, solid colour, proper tattooing. Book your consultation today.",
+    "keywords": [
+      "traditional tattoos Leeds",
+      "Japanese tattoo studio Leeds"
+    ],
+    "openGraph": {
+      "title": "Validate Fix Studio - Traditional Tattoos Leeds",
+      "description": "Bold traditional and Japanese tattoos in the heart of Leeds. Proper tattooing, no compromises.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/test-validate-fix",
+      "siteName": "Validate Fix Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=Validate%20Fix%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "Validate Fix Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Now"
+  },
+  "hero": {
+    "headline": [
+      "Bold Lines.",
+      "Solid Colour."
+    ],
+    "subheadline": "Traditional and Japanese tattoos done right in Leeds city centre",
+    "urgencyText": "Spring bookings now open",
+    "ctaText": "Get Tattooed",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Traditional tattoo artwork at Validate Fix Studio"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Traditional apprenticeship trained"
+      },
+      {
+        "iconName": "Zap",
+        "label": "Premium Japanese pigments only"
+      },
+      {
+        "iconName": "Award",
+        "label": "Hand-drawn flash sheets"
+      },
+      {
+        "iconName": "Shield",
+        "label": "No machine shortcuts"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "subtitle": "Bold traditional pieces and authentic Japanese work",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Tattoo Sessions",
+    "subtitle": "Traditional and Japanese work priced by piece complexity",
+    "guarantee": "All work guaranteed for life",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Traditional Flash",
+        "duration": "2-4 hours",
+        "price": "£150-250",
+        "priceSubtitle": "Classic designs from our flash sheets",
+        "features": [
+          "Bold outlines and solid colour",
+          "Same-day walk-ins welcome"
+        ],
+        "status": "limited",
+        "availabilityText": "Most weekdays available",
+        "buttonText": "Book Flash",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "Japanese Custom Work",
+        "duration": "4-8 hours",
+        "price": "£300-400",
+        "priceSubtitle": "Bespoke Japanese designs and large pieces",
+        "features": [
+          "Traditional Japanese techniques",
+          "Full consultation included"
+        ],
+        "status": "available",
+        "availabilityText": "Weekends mostly booked",
+        "buttonText": "Book Custom",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "Proper old school tattooing, none of this modern nonsense. My eagle came out perfect, bold lines that'll last forever.",
+        "author": "Mike T.",
+        "city": "Headingley",
+        "rating": 5
+      },
+      {
+        "quote": "Been getting Japanese work done here for two years now. The attention to detail is incredible, really knows the traditional methods.",
+        "author": "Sarah M.",
+        "city": "Chapel Allerton",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Walk-ins welcome"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Flash sheets available"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Traditional methods only"
+      },
+      {
+        "iconName": "Star",
+        "label": "City centre location"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @validatefix",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Proper Tattooing",
+    "paragraphs": [
+      "We opened Validate Fix because too many shops were cutting corners. Machine-generated stencils, watered-down inks, rushed work that fades in five years. That's not tattooing – that's just marking skin.",
+      "Every piece here is done the right way. Hand-drawn designs, premium pigments, techniques passed down through generations. We specialise in traditional American and authentic Japanese work because these styles have stood the test of time. No trends, no gimmicks – just solid tattoos that'll look as good in twenty years as they do today."
+    ],
+    "callout": "If you want fast and cheap, go elsewhere. If you want it done right, you're in the right place.",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Artist working on traditional tattoo design"
+  },
+  "faq": {
+    "sectionTitle": "Common Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Do you take walk-ins?",
+        "answer": "Yeah, especially for traditional flash pieces. Japanese custom work usually needs booking ahead though. Best to ring or drop by and we'll sort you out."
+      },
+      {
+        "id": "faq-2",
+        "question": "How much for a sleeve?",
+        "answer": "Depends what you want really. Traditional sleeve might be £800-1200, Japanese could be more depending on detail. Come in for a chat and we'll give you a proper quote."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do cover-ups?",
+        "answer": "If it can be covered properly with bold traditional work, then yeah. Won't do a bodge job though – if it needs laser first, I'll tell you straight."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready for a proper tattoo?",
+    "subheadline": "No compromises, no shortcuts – just solid work that lasts",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours",
+    "successTitle": "Booking Request Sent",
+    "successMessage": "We'll review your request and get back to you within 24 hours with availability",
+    "submitText": "Send Request",
+    "depositDisclaimer": "£50 deposit required to secure booking"
+  },
+  "contact": {
+    "email": "hello@validatefixstudio.co.uk",
+    "instagram": "@validatefix",
+    "instagramUrl": "https://instagram.com/validatefix",
+    "phone": "+44 113 456 7890",
+    "address": "12 Briggate, Leeds LS1 6ER"
+  },
+  "footer": {
+    "copyrightHolder": "Validate Fix Studio",
+    "tagline": "Traditional craft, modern execution"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
