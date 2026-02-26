@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "name": "She-Devil Tattoo Studio",
+    "slug": "she-devil-tattoo-studio",
+    "tagline": "Fierce ink for fearless souls",
+    "artistName": "Raven"
+  },
+  "theme": {
+    "background": "hsl(0, 15%, 8%)",
+    "foreground": "hsl(0, 0%, 95%)",
+    "accent": "hsl(340, 65%, 55%)",
+    "accentForeground": "hsl(0, 0%, 98%)",
+    "mutedForeground": "hsl(0, 0%, 65%)",
+    "dimmedForeground": "hsl(0, 0%, 45%)",
+    "border": "hsl(0, 15%, 18%)",
+    "card": "hsl(0, 10%, 12%)",
+    "accentRgb": "218, 79, 130",
+    "ring": "hsl(340, 65%, 55%)"
+  },
+  "seo": {
+    "title": "She-Devil Tattoo Studio Manchester | Bold Tattoos Cheetham Hill",
+    "description": "Fierce tattoos at She-Devil Tattoo Studio in Manchester. Bold designs, expert artistry. 4.7★ rated studio in Cheetham Hill. Book your rebellious ink today.",
+    "keywords": [
+      "Manchester tattoo studio",
+      "Cheetham Hill tattoo artist"
+    ],
+    "openGraph": {
+      "title": "She-Devil Tattoo Studio - Fierce Ink for Fearless Souls",
+      "description": "Bold tattoo artistry in Manchester's Cheetham Hill. Expert designs that make a statement.",
+      "type": "website",
+      "locale": "en_GB",
+      "url": "https://www.apexink.uk/she-devil-tattoo-studio",
+      "siteName": "She-Devil Tattoo Studio",
+      "images": [
+        {
+          "url": "https://placehold.co/1200x630?text=She-Devil%20Tattoo%20Studio+OG",
+          "width": 1200,
+          "height": 630,
+          "alt": "She-Devil Tattoo Studio"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Sessions",
+        "href": "#sessions"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonText": "Book Session"
+  },
+  "hero": {
+    "headline": [
+      "Unleash Your",
+      "Inner Rebel"
+    ],
+    "subheadline": "Bold tattoos that tell your story without apologies. From delicate florals with thorns to full-sleeve statements.",
+    "urgencyText": "February bookings filling fast",
+    "ctaText": "Claim Your Spot",
+    "image": "https://placehold.co/800x1000?text=Hero+Image",
+    "imageAlt": "Dramatic tattoo studio interior with bold artwork"
+  },
+  "trustMetrics": {
+    "items": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "4.7★ Google Rating"
+      },
+      {
+        "iconName": "Zap",
+        "label": "31+ Happy Clients"
+      },
+      {
+        "iconName": "Award",
+        "label": "Cheetham Hill Based"
+      },
+      {
+        "iconName": "Shield",
+        "label": "Custom Designs"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Ink That Commands Attention",
+    "subtitle": "Every piece designed to make you feel unstoppable",
+    "images": [
+      "https://placehold.co/600x600?text=Portfolio+1",
+      "https://placehold.co/600x600?text=Portfolio+2",
+      "https://placehold.co/600x600?text=Portfolio+3",
+      "https://placehold.co/600x600?text=Portfolio+4",
+      "https://placehold.co/600x600?text=Portfolio+5",
+      "https://placehold.co/600x600?text=Portfolio+6"
+    ]
+  },
+  "sessions": {
+    "sectionTitle": "Choose Your Rebellion",
+    "subtitle": "Professional tattoo sessions designed around your vision",
+    "guarantee": "Free touch-ups within 6 months",
+    "popularLabel": "Most Popular",
+    "waitlistButtonText": "Join Waitlist",
+    "items": [
+      {
+        "iconName": "Zap",
+        "title": "Statement Piece",
+        "duration": "3-4 hours",
+        "price": "£300-500",
+        "priceSubtitle": "Large custom designs",
+        "features": [
+          "Full consultation & custom sketch",
+          "Bold blackwork & fine line speciality"
+        ],
+        "status": "limited",
+        "availabilityText": "Weekend slots available",
+        "buttonText": "Book Statement Session",
+        "popular": false,
+        "buttonVariant": "outline"
+      },
+      {
+        "iconName": "Clock",
+        "title": "First Ink",
+        "duration": "1-2 hours",
+        "price": "£120-250",
+        "priceSubtitle": "Perfect for your debut tattoo",
+        "features": [
+          "Nervous-friendly approach",
+          "Small to medium designs"
+        ],
+        "status": "available",
+        "availabilityText": "Weekday appointments open",
+        "buttonText": "Start Your Journey",
+        "popular": true,
+        "buttonVariant": "default"
+      }
+    ]
+  },
+  "socialProof": {
+    "sectionTitle": "What Our Rebels Say",
+    "testimonials": [
+      {
+        "quote": "Raven absolutely smashed my sleeve design. The detail in the roses is insane and everyone asks where I got it done!",
+        "author": "Jess M.",
+        "city": "Salford",
+        "rating": 5
+      },
+      {
+        "quote": "Was proper nervous about my first tattoo but the studio made me feel so comfortable. Really happy with the linework.",
+        "author": "Connor P.",
+        "city": "Chorlton",
+        "rating": 4
+      }
+    ],
+    "trustBadges": [
+      {
+        "iconName": "CheckCircle2",
+        "label": "Licensed Studio"
+      },
+      {
+        "iconName": "TrendingUp",
+        "label": "Sterile Equipment"
+      },
+      {
+        "iconName": "Sparkles",
+        "label": "Custom Artwork"
+      },
+      {
+        "iconName": "Star",
+        "label": "Touch-Up Guarantee"
+      }
+    ],
+    "instagram": {
+      "label": "Follow on Instagram @shedevil.tattoostudio",
+      "images": [
+        "https://placehold.co/400x400?text=Insta+1",
+        "https://placehold.co/400x400?text=Insta+2",
+        "https://placehold.co/400x400?text=Insta+3",
+        "https://placehold.co/400x400?text=Insta+4"
+      ]
+    }
+  },
+  "about": {
+    "sectionTitle": "Meet the Devil Behind the Ink",
+    "paragraphs": [
+      "Born from a love of rebellion and beautiful chaos, She-Devil opened in Cheetham Hill with one mission: create tattoos that make you feel invincible. Our studio isn't about following trends – it's about crafting pieces that reflect your authentic self, thorns and all.",
+      "From delicate botanical work to bold statement pieces, we specialise in designs that balance beauty with bite. Every consultation starts with your story, and every tattoo ends with you walking out feeling like the main character of your own life."
+    ],
+    "callout": "Your tattoo should be as fearless as you are",
+    "image": "https://placehold.co/600x800?text=Artist+Portrait",
+    "imageAlt": "Raven, lead tattoo artist at She-Devil Studio"
+  },
+  "faq": {
+    "sectionTitle": "Questions? We've Got Answers",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How do I book a consultation?",
+        "answer": "Drop us a message on Instagram or fill out our booking form. We'll chat about your idea and get you booked in for a proper consultation where we can discuss design, placement, and pricing."
+      },
+      {
+        "id": "faq-2",
+        "question": "What's your deposit policy?",
+        "answer": "We ask for a £50 deposit to secure your appointment, which comes off your final bill. Deposits are non-refundable but can be transferred to a new date with 48 hours notice."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you do cover-ups?",
+        "answer": "Absolutely! Cover-ups are some of our favourite projects. Bring in photos of what you want covered and we'll work out the best approach. Sometimes it takes a bit of creativity but we love a good challenge."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to Make Your Mark?",
+    "subheadline": "Your next chapter starts with bold ink. Let's create something unforgettable together.",
+    "ctaText": "Book Your Session"
+  },
+  "booking": {
+    "modalTitle": "Book Your Tattoo Session",
+    "modalDescription": "Tell us about your tattoo idea and we'll get back to you within 24 hours to discuss your design.",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thanks for reaching out! We'll review your idea and get back to you within 24 hours to discuss next steps.",
+    "submitText": "Send Enquiry",
+    "depositDisclaimer": "£50 deposit required to secure your appointment"
+  },
+  "contact": {
+    "email": "hello@shedevil-tattoo-studio.co.uk",
+    "instagram": "@shedevil.tattoostudio",
+    "instagramUrl": "https://instagram.com/shedevil.tattoostudio",
+    "phone": "+44 161 234 5678",
+    "address": "10a Robert St, Cheetham Hill, Manchester M3 1EY"
+  },
+  "footer": {
+    "copyrightHolder": "She-Devil Tattoo Studio",
+    "tagline": "Fierce ink for fearless souls"
+  },
+  "blurDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+}
