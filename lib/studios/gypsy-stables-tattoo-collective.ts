@@ -28,7 +28,7 @@ export const GYPSY_STABLES_TATTOO_COLLECTIVE: StudioConfig = {
             description: 'Experience the artistry of our collective. Custom tattoos that tell your unique story with unmatched craftsmanship.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/gypsy-stables-tattoo-collective',
+            url: 'https://www.apexaisystems.co.uk/gypsy-stables-tattoo-collective',
             siteName: 'Gypsy Stables Tattoo Collective',
             images: [
                 {

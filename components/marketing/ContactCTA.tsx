@@ -212,8 +212,8 @@ export function ContactCTA() {
 
                 <p className="text-xs text-muted-foreground/60 text-center">
                   Or email us directly at{' '}
-                  <a href="mailto:hello@apexink.uk" className="text-accent hover:text-accent-hover underline underline-offset-2 transition-colors">
-                    hello@apexink.uk
+                  <a href="mailto:hello@apexaisystems.co.uk" className="text-accent hover:text-accent-hover underline underline-offset-2 transition-colors">
+                    hello@apexaisystems.co.uk
                   </a>
                 </p>
               </form>

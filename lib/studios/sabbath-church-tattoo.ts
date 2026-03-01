@@ -28,7 +28,7 @@ export const SABBATH_CHURCH_TATTOO: StudioConfig = {
             description: 'Where sacred meets profane. Custom dark art tattoos by award-winning artists. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/sabbath-church-tattoo',
+            url: 'https://www.apexaisystems.co.uk/sabbath-church-tattoo',
             siteName: 'Sabbath Church Tattoo',
             images: [
                 {

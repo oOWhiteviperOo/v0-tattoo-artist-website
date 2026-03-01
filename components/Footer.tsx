@@ -87,7 +87,7 @@ export function Footer({ onBookingOpen }: { onBookingOpen: () => void }) {
           </p>
           <p className="text-xs text-muted-foreground/40">
             Preview site &mdash; powered by{' '}
-            <a href="https://www.apexink.uk" className="underline hover:text-foreground/60 transition-colors duration-200">
+            <a href="https://www.apexaisystems.co.uk" className="underline hover:text-foreground/60 transition-colors duration-200">
               Apex
             </a>
           </p>

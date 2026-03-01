@@ -28,7 +28,7 @@ export const RED_POINT_TATTOO_TATTOO_STUDIO_NORTH_LONDON: StudioConfig = {
             description: 'Award-winning tattoo studio in North London. Custom designs, expert artists, sterile environment. Book your consultation today for exceptional tattoo art.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/red-point-tattoo-tattoo-studio-north-london',
+            url: 'https://www.apexaisystems.co.uk/red-point-tattoo-tattoo-studio-north-london',
             siteName: 'Red Point Tattoo | Tattoo Studio North London',
             images: [
                 {

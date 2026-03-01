@@ -15,7 +15,7 @@ interface PageProps {
     params: Promise<{ studioSlug: string; period: string }>
 }
 
-const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
+const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexaisystems.co.uk'
 
 function formatMonth(period: string): string {
     const [y, m] = period.split('-')
@@ -182,7 +182,7 @@ export default async function ReportPage({ params }: PageProps) {
                     <p className="text-xs text-[#9ca3af]">
                         Powered by{' '}
                         <a
-                            href="https://www.apexink.uk"
+                            href="https://www.apexaisystems.co.uk"
                             className="text-[#2563eb] hover:underline"
                         >
                             Apex Influence

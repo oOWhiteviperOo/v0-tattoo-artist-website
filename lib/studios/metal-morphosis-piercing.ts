@@ -28,7 +28,7 @@ export const METAL_MORPHOSIS_PIERCING: StudioConfig = {
             description: 'Professional body piercing studio specializing in custom piercings with premium jewelry and expert technique.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/metal-morphosis-piercing',
+            url: 'https://www.apexaisystems.co.uk/metal-morphosis-piercing',
             siteName: 'Metal Morphosis Piercing',
             images: [
                 {

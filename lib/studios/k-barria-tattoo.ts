@@ -28,7 +28,7 @@ export const K_BARRIA_TATTOO: StudioConfig = {
             description: 'Professional custom tattoo artist creating unique designs with exceptional artistry and attention to detail.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/k-barria-tattoo',
+            url: 'https://www.apexaisystems.co.uk/k-barria-tattoo',
             siteName: 'K. Barria Tattoo',
             images: [
                 {

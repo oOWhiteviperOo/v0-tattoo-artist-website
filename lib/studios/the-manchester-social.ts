@@ -28,7 +28,7 @@ export const THE_MANCHESTER_SOCIAL: StudioConfig = {
             description: 'Manchester\'s premier tattoo studio specializing in custom designs and exceptional artistry. Where art meets community.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/the-manchester-social',
+            url: 'https://www.apexaisystems.co.uk/the-manchester-social',
             siteName: 'The Manchester Social',
             images: [
                 {

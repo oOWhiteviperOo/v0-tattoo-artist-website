@@ -28,7 +28,7 @@ export const MIDNIGHT_TATTOO_AND_PIERCE: StudioConfig = {
             description: 'Professional tattoo and piercing studio specializing in dark art, blackwork, and custom designs. Book your midnight session today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/midnight-tattoo-and-pierce',
+            url: 'https://www.apexaisystems.co.uk/midnight-tattoo-and-pierce',
             siteName: 'Midnight Tattoo and Pierce',
             images: [
                 {

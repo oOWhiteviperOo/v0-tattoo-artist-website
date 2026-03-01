@@ -28,7 +28,7 @@ export const KINGS_CROSS_TATTOO_PARLOUR: StudioConfig = {
             description: 'Award-winning tattoo studio specializing in custom designs, traditional and modern styles. Professional artists in a sterile, welcoming environment.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/kings-cross-tattoo-parlour',
+            url: 'https://www.apexaisystems.co.uk/kings-cross-tattoo-parlour',
             siteName: 'Kings Cross Tattoo Parlour',
             images: [
                 {

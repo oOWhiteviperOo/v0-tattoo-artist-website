@@ -28,7 +28,7 @@ export const NO_REGRETS_STUDIOS_MANCHESTER: StudioConfig = {
             description: 'Manchester\'s premier tattoo studio offering custom designs and expert artistry in a professional, sterile environment.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/no-regrets-studios-manchester',
+            url: 'https://www.apexaisystems.co.uk/no-regrets-studios-manchester',
             siteName: 'No Regrets Studios Manchester',
             images: [
                 {

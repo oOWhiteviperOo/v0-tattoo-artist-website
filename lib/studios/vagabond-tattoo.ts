@@ -28,7 +28,7 @@ export const VAGABOND_TATTOO: StudioConfig = {
             description: 'Custom tattoo studio creating unique, travel-inspired designs with expert artistry and uncompromising quality.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/vagabond-tattoo',
+            url: 'https://www.apexaisystems.co.uk/vagabond-tattoo',
             siteName: 'Vagabond Tattoo',
             images: [
                 {

@@ -28,7 +28,7 @@ export const RIVAL_INK_TATTOO_SALFORD: StudioConfig = {
             description: 'Premium tattoo studio in Salford creating custom artwork that tells your story. Expert artists, sterile environment, exceptional results.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/rival-ink-tattoo-salford',
+            url: 'https://www.apexaisystems.co.uk/rival-ink-tattoo-salford',
             siteName: 'Rival Ink Tattoo Salford',
             images: [
                 {

@@ -28,7 +28,7 @@ export const BODY_CANVAS: StudioConfig = {
             description: 'Expert tattoo artistry with custom designs. Professional, clean, and creative tattoo studio specializing in bringing your vision to life.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/body-canvas',
+            url: 'https://www.apexaisystems.co.uk/body-canvas',
             siteName: 'Body Canvas',
             images: [
                 {

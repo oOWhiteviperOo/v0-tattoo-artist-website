@@ -28,7 +28,7 @@ export const LONDONS_GLITCH: StudioConfig = {
             description: 'Where traditional tattooing meets digital rebellion. Custom glitch art and cyberpunk tattoos in the heart of London.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/londons-glitch',
+            url: 'https://www.apexaisystems.co.uk/londons-glitch',
             siteName: 'London\'s GLITCH',
             images: [
                 {

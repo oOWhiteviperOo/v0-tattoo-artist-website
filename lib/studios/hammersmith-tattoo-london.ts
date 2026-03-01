@@ -28,7 +28,7 @@ export const HAMMERSMITH_TATTOO_LONDON: StudioConfig = {
             description: 'Premium tattoo studio in the heart of Hammersmith. Custom designs crafted with precision and passion.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/hammersmith-tattoo-london',
+            url: 'https://www.apexaisystems.co.uk/hammersmith-tattoo-london',
             siteName: 'Hammersmith Tattoo London',
             images: [
                 {

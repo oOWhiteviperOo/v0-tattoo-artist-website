@@ -81,7 +81,7 @@ export const GLOW_AESTHETICS: StudioConfig = {
             description: 'Expert aesthetics treatments including lip filler, Botox, dermal fillers, and advanced skin treatments.',
             type: 'website',
             locale: 'en_GB',
-            url: 'https://www.apexink.uk/glow-aesthetics',
+            url: 'https://www.apexaisystems.co.uk/glow-aesthetics',
             siteName: 'Glow Aesthetics',
             images: [
                 {

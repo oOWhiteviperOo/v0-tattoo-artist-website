@@ -25,7 +25,7 @@ interface PageProps {
 
 // --- Config ---
 
-const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
+const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexaisystems.co.uk'
 
 const MINUTES_SAVED: Record<string, number> = {
   booking_confirmed: 15,
@@ -398,7 +398,7 @@ export default async function ActivityFeedPage({ params }: PageProps) {
             <p className="text-xs" style={{ color: '#6b7280' }}>
               Powered by{' '}
               <a
-                href="https://www.apexink.uk"
+                href="https://www.apexaisystems.co.uk"
                 style={{ color: '#f59e0b' }}
                 className="hover:underline"
               >

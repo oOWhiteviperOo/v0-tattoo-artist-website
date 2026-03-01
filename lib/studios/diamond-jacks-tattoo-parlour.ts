@@ -28,7 +28,7 @@ export const DIAMOND_JACKS_TATTOO_PARLOUR: StudioConfig = {
             description: 'Premium tattoo studio creating stunning custom designs with expert craftsmanship and uncompromising quality.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/diamond-jacks-tattoo-parlour',
+            url: 'https://www.apexaisystems.co.uk/diamond-jacks-tattoo-parlour',
             siteName: 'Diamond Jacks Tattoo Parlour',
             images: [
                 {

@@ -68,7 +68,7 @@ export async function POST(req: Request) {
         const cleanInstagram = sanitize(visitorInstagram || '')
 
         // Write to Referrals tab via n8n webhook (same pattern as booking API)
-        const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
+        const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexaisystems.co.uk'
         const webhookUrl = `${N8N_BASE}/webhook/apex-referral`
 
         const sheetsResp = await fetch(webhookUrl, {

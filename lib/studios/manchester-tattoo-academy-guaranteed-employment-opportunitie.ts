@@ -28,7 +28,7 @@ export const MANCHESTER_TATTOO_ACADEMY_GUARANTEED_EMPLOYMENT_OPPORTUNITIE: Studi
             description: 'Professional tattoo training with guaranteed employment opportunities. Learn from industry masters in Manchester.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/manchester-tattoo-academy-guaranteed-employment-opportunitie',
+            url: 'https://www.apexaisystems.co.uk/manchester-tattoo-academy-guaranteed-employment-opportunitie',
             siteName: 'Manchester Tattoo Academy "Guaranteed Employment Opportunities"',
             images: [
                 {

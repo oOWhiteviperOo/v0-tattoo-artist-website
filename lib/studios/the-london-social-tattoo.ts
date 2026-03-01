@@ -28,7 +28,7 @@ export const THE_LONDON_SOCIAL_TATTOO: StudioConfig = {
             description: 'Where Art Meets Community in the Heart of London. Custom designs, expert artists, exceptional service.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/the-london-social-tattoo',
+            url: 'https://www.apexaisystems.co.uk/the-london-social-tattoo',
             siteName: 'The London Social Tattoo',
             images: [
                 {

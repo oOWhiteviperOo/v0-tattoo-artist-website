@@ -28,7 +28,7 @@ export const INK_ME_TATTOO_STUDIO: StudioConfig = {
             description: 'Professional tattoo studio creating custom artwork on skin. Expert artists, premium service, and unforgettable ink experiences.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/ink-me-tattoo-studio',
+            url: 'https://www.apexaisystems.co.uk/ink-me-tattoo-studio',
             siteName: 'Ink Me Tattoo Studio',
             images: [
                 {

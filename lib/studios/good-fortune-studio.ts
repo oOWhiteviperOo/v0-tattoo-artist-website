@@ -28,7 +28,7 @@ export const GOOD_FORTUNE_STUDIO: StudioConfig = {
             description: 'Premium tattoo artistry with custom designs. Experience the finest in tattoo craftsmanship at Good Fortune Studio.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/good-fortune-studio',
+            url: 'https://www.apexaisystems.co.uk/good-fortune-studio',
             siteName: 'Good Fortune Studio',
             images: [
                 {

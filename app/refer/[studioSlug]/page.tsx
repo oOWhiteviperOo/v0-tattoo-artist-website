@@ -6,7 +6,7 @@ interface PageProps {
     params: Promise<{ studioSlug: string }>
 }
 
-const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
+const N8N_BASE = process.env.N8N_BASE_URL || 'https://n8n.apexaisystems.co.uk'
 
 async function getStudioName(studioSlug: string): Promise<string | null> {
     try {
@@ -93,7 +93,7 @@ export default async function ReferralPage({ params }: PageProps) {
                 <div className="bg-[#f9fafb] px-6 py-4 text-center border-t border-gray-100">
                     <p className="text-xs text-[#9ca3af]">
                         <a
-                            href="https://www.apexink.uk"
+                            href="https://www.apexaisystems.co.uk"
                             className="text-[#2563eb] hover:underline"
                         >
                             Apex Influence

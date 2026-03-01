@@ -28,7 +28,7 @@ export const KUSTOM_CREATIONS_TATTOO_STUDIO: StudioConfig = {
             description: 'Premium custom tattoo studio creating unique artistic designs. Professional quality ink work with personalized service.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/kustom-creations-tattoo-studio',
+            url: 'https://www.apexaisystems.co.uk/kustom-creations-tattoo-studio',
             siteName: 'Kustom Creations tattoo studio',
             images: [
                 {

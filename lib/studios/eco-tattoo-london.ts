@@ -28,7 +28,7 @@ export const ECO_TATTOO_LONDON: StudioConfig = {
             description: 'Experience guilt-free tattooing with our eco-friendly inks, sustainable practices, and conscious artistry in the heart of London.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/eco-tattoo-london',
+            url: 'https://www.apexaisystems.co.uk/eco-tattoo-london',
             siteName: 'Eco Tattoo London',
             images: [
                 {

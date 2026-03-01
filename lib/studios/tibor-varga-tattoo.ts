@@ -28,7 +28,7 @@ export const TIBOR_VARGA_TATTOO: StudioConfig = {
             description: 'Experience exceptional tattoo artistry with custom designs and meticulous attention to detail.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/tibor-varga-tattoo',
+            url: 'https://www.apexaisystems.co.uk/tibor-varga-tattoo',
             siteName: 'Tibor Varga Tattoo',
             images: [
                 {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         description: 'Stop losing bookings to slow replies. Your AI receptionist handles enquiries, deposits, and reminders 24/7 — so you can focus on your patients.',
         type: 'website',
         locale: 'en_GB',
-        url: 'https://www.apexink.uk',
+        url: 'https://www.apexaisystems.co.uk',
         siteName: 'Apex AI',
     },
 }

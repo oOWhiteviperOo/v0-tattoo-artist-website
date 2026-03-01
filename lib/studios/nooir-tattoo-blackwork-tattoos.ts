@@ -28,7 +28,7 @@ export const NOOIR_TATTOO_BLACKWORK_TATTOOS: StudioConfig = {
             description: 'Expert blackwork tattoos and dark art. Bold geometric designs and striking black ink masterpieces by professional tattoo artists.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/nooir-tattoo-blackwork-tattoos',
+            url: 'https://www.apexaisystems.co.uk/nooir-tattoo-blackwork-tattoos',
             siteName: 'Nooir Tattoo - Blackwork Tattoos',
             images: [
                 {

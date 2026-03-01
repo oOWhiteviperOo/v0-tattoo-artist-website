@@ -28,7 +28,7 @@ export const HOLIER_THAN_THOU: StudioConfig = {
             description: 'Transform your vision into sacred ink with our award-winning custom tattoo artistry. Specializing in religious iconography and dark art.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/holier-than-thou',
+            url: 'https://www.apexaisystems.co.uk/holier-than-thou',
             siteName: 'Holier Than Thou',
             images: [
                 {

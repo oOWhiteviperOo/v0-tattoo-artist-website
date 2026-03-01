@@ -28,7 +28,7 @@ export const TATTOO_13: StudioConfig = {
             description: 'Premium custom tattoo studio creating unique, personalized artwork that tells your story.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/tattoo-13',
+            url: 'https://www.apexaisystems.co.uk/tattoo-13',
             siteName: 'Tattoo 13',
             images: [
                 {

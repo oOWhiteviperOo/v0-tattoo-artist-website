@@ -6,7 +6,7 @@ import { NextResponse } from 'next/server'
 // Add entries as studios sign up with custom domains
 import domains from '@/data/domains.json'
 
-const APEX_DOMAIN = 'apexink.uk'
+const APEX_DOMAIN = 'apexaisystems.co.uk'
 
 export default auth((req) => {
   const hostname = req.headers.get('host') || ''
@@ -45,7 +45,7 @@ export default auth((req) => {
     return NextResponse.rewrite(new URL(`/${slug}`, req.url))
   }
 
-  // Check subdomain (e.g., ironink.apexink.uk → /ironink)
+  // Check subdomain (e.g., ironink.apexaisystems.co.uk → /ironink)
   if (hostname.endsWith(`.${APEX_DOMAIN}`) && !hostname.startsWith('www.') && !hostname.startsWith('n8n.')) {
     const subdomain = hostname.replace(`.${APEX_DOMAIN}`, '')
     if (subdomain && (pathname === '/' || pathname === '')) {

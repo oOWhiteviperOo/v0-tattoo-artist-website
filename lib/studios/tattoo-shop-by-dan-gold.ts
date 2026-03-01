@@ -28,7 +28,7 @@ export const TATTOO_SHOP_BY_DAN_GOLD: StudioConfig = {
             description: 'Professional custom tattoos by Dan Gold. Award-winning artist specializing in unique designs. Book your consultation today for premium tattoo artistry.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/tattoo-shop-by-dan-gold',
+            url: 'https://www.apexaisystems.co.uk/tattoo-shop-by-dan-gold',
             siteName: 'Tattoo Shop By Dan Gold',
             images: [
                 {

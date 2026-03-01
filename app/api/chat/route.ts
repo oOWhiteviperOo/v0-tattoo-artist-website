@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-const N8N_BASE_URL = process.env.N8N_BASE_URL || 'https://n8n.apexink.uk'
+const N8N_BASE_URL = process.env.N8N_BASE_URL || 'https://n8n.apexaisystems.co.uk'
 
 function stripHtml(str: string): string {
   return str.replace(/<[^>]*>/g, '').trim()

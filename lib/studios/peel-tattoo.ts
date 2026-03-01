@@ -28,7 +28,7 @@ export const PEEL_TATTOO: StudioConfig = {
             description: 'Premium custom tattoo studio specializing in authentic artistry and storytelling through ink. Expert artists, professional service, exceptional results.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/peel-tattoo',
+            url: 'https://www.apexaisystems.co.uk/peel-tattoo',
             siteName: 'PEEL TATTOO',
             images: [
                 {

@@ -28,7 +28,7 @@ export const INKD_LONDON: StudioConfig = {
             description: 'Premium tattoo studio in London offering custom designs by expert artists. Book your consultation today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/inkd-london',
+            url: 'https://www.apexaisystems.co.uk/inkd-london',
             siteName: 'INK\'D London',
             images: [
                 {

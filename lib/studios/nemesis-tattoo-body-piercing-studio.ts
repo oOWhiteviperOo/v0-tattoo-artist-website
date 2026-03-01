@@ -28,7 +28,7 @@ export const NEMESIS_TATTOO_BODY_PIERCING_STUDIO: StudioConfig = {
             description: 'Experience the finest in custom tattoo artistry and professional body piercing. Book your session with our skilled artists today.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/nemesis-tattoo-body-piercing-studio',
+            url: 'https://www.apexaisystems.co.uk/nemesis-tattoo-body-piercing-studio',
             siteName: 'Nemesis Tattoo & Body Piercing Studio',
             images: [
                 {

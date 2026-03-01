@@ -28,7 +28,7 @@ export const HANNAEYETATTOO: StudioConfig = {
             description: 'Expert tattoo artistry specializing in intricate eye designs and custom artwork. Book your session with Hanna for precision tattooing.',
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.apexink.uk/hannaeyetattoo',
+            url: 'https://www.apexaisystems.co.uk/hannaeyetattoo',
             siteName: 'HannaEyeTattoo',
             images: [
                 {
