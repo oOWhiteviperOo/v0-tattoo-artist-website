@@ -33,7 +33,7 @@ export function MarketingNav() {
           : 'bg-transparent border-b border-transparent'
       }`}
       style={{
-        boxShadow: scrolled ? '0 1px 3px rgba(0, 0, 0, 0.3)' : 'none',
+        boxShadow: scrolled ? '0 1px 3px rgba(0, 0, 0, 0.06)' : 'none',
       }}
     >
       <div className="mx-auto flex max-w-content items-center justify-between px-4 h-[8vh] min-h-[56px] max-h-[72px]">
@@ -73,7 +73,7 @@ export function MarketingNav() {
           <SheetTrigger asChild>
             <button
               type="button"
-              className="md:hidden text-foreground p-2 transition-colors hover:bg-secondary"
+              className="md:hidden text-foreground p-2.5 min-h-[44px] min-w-[44px] flex items-center justify-center transition-colors hover:bg-secondary"
               aria-label="Open menu"
             >
               <Menu className="h-5 w-5" />

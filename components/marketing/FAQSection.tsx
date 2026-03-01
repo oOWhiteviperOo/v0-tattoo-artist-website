@@ -43,12 +43,12 @@ export function FAQSection() {
   const inView = useInView(sectionRef, { once: true, margin: '-100px' })
 
   return (
-    <section ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-border/30 bg-secondary">
+    <section ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-hairline bg-secondary">
       <div className="max-w-content mx-auto">
         <motion.p
           className="text-muted-foreground text-xs font-semibold tracking-[0.1em] uppercase mb-4"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          initial={{ y: 6 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE }}
         >
           Common questions
@@ -56,17 +56,17 @@ export function FAQSection() {
 
         <motion.h2
           className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.1] mb-12 text-foreground"
-          initial={{ opacity: 0, y: 12 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
+          initial={{ y: 8 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
           Everything you need to know
         </motion.h2>
 
         <motion.div
-          className="max-w-[720px]"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          className="max-w-[720px] border border-hairline bg-card rounded-[12px] p-6 lg:p-8"
+          initial={{ y: 6 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
           <Accordion type="single" collapsible>
@@ -74,12 +74,12 @@ export function FAQSection() {
               <AccordionItem
                 key={i}
                 value={`faq-${i}`}
-                className="border-border/30"
+                className="border-hairline"
               >
-                <AccordionTrigger className="text-foreground text-sm md:text-base font-medium hover:no-underline py-5 [&>svg]:text-muted-foreground">
+                <AccordionTrigger className="text-foreground text-sm md:text-base font-medium hover:no-underline py-6 [&>svg]:text-muted-foreground">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-secondary-foreground/70 text-sm leading-relaxed pb-5">
+                <AccordionContent className="text-secondary-foreground/70 text-sm leading-relaxed pb-6">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

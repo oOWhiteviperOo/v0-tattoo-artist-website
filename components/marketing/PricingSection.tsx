@@ -10,6 +10,7 @@ const TIERS = [
     name: 'Starter',
     price: '499',
     description: 'Everything a solo practitioner needs',
+    bestFor: 'Best for solo practitioners',
     features: [
       'AI receptionist (24/7 enquiry handling)',
       'Custom clinic booking page',
@@ -26,6 +27,7 @@ const TIERS = [
     name: 'Growth',
     price: '799',
     description: 'For clinics with multiple practitioners',
+    bestFor: 'Best for multi-practitioner clinics',
     features: [
       'Everything in Starter',
       'Multi-practitioner routing',
@@ -42,6 +44,7 @@ const TIERS = [
     name: 'Scale',
     price: '1,299',
     description: 'Full clinic operations automation',
+    bestFor: 'Best for clinic chains & groups',
     features: [
       'Everything in Growth',
       'Client reactivation sequences',
@@ -62,6 +65,7 @@ function PricingCard({
   name,
   price,
   description,
+  bestFor,
   features,
   cta,
   popular,
@@ -71,6 +75,7 @@ function PricingCard({
   name: string
   price: string
   description: string
+  bestFor: string
   features: string[]
   cta: string
   popular: boolean
@@ -83,11 +88,11 @@ function PricingCard({
 
   return (
     <motion.div
-      className={`relative p-6 lg:p-8 border bg-card rounded-[10px] flex flex-col transition-all duration-200 ease-out before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-white/[0.04] before:rounded-t-[10px] ${
-        popular ? 'border-accent/70 scale-[1.06] z-10 shadow-subtle' : 'border-border/50 shadow-subtle'
+      className={`relative p-6 lg:p-8 border bg-card rounded-[10px] flex flex-col transition-all duration-200 ease-out ${
+        popular ? 'border-accent/50 md:scale-[1.06] z-10 shadow-elevated ring-1 ring-accent/20' : 'border-hairline shadow-card'
       }`}
-      initial={{ opacity: 0, y: 12 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
+      initial={{ y: 8 }}
+      animate={inView ? { y: 0 } : {}}
       transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 + index * STAGGER_DELAY }}
     >
       {popular && (
@@ -100,12 +105,13 @@ function PricingCard({
         <span className="text-5xl md:text-6xl font-sans text-foreground tabular-nums">&pound;{price}</span>
         <span className="text-muted-foreground text-sm">/month</span>
       </div>
-      <p className="text-sm text-secondary-foreground/70 mb-8">{description}</p>
+      <p className="text-sm text-secondary-foreground/70 mb-2">{description}</p>
+      <p className="text-xs font-medium text-muted-foreground mb-8">{bestFor}</p>
       <ul className="space-y-3 mb-8 flex-1">
         {visibleFeatures.map((feature) => (
           <li key={feature} className="flex items-start gap-2.5 text-sm">
-            <span className="w-1 h-1 rounded-full bg-foreground/30 mt-2 shrink-0" />
-            <span className="text-foreground/80">{feature}</span>
+            <span className="w-1 h-1 rounded-full bg-accent/50 mt-2 shrink-0" />
+            <span className="text-foreground/80 font-medium">{feature}</span>
           </li>
         ))}
       </ul>
@@ -138,12 +144,12 @@ export function PricingSection() {
   const inView = useInView(sectionRef, { once: true, margin: '-100px' })
 
   return (
-    <section id="pricing" ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-border/30">
+    <section id="pricing" ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-hairline">
       <div className="max-w-content mx-auto">
         <motion.p
           className="text-muted-foreground text-xs font-semibold tracking-[0.1em] uppercase mb-4"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          initial={{ y: 6 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE }}
         >
           Pricing
@@ -151,8 +157,8 @@ export function PricingSection() {
 
         <motion.h2
           className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.1] mb-5 text-foreground"
-          initial={{ opacity: 0, y: 12 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
+          initial={{ y: 8 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
           One extra booking covers the cost
@@ -160,8 +166,8 @@ export function PricingSection() {
 
         <motion.p
           className="text-secondary-foreground/80 max-w-[60ch] mb-14 text-base md:text-lg leading-[1.65]"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          initial={{ y: 6 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
           No contracts. Cancel anytime. 14-day free trial on every plan.

@@ -64,15 +64,15 @@ export function SocialProofBar() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section ref={ref} className="relative border-y border-border/30 bg-secondary">
+    <section ref={ref} className="relative border-y border-hairline bg-secondary">
       <div className="mx-auto max-w-content px-4 py-12 md:py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-0">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {STATS.map((stat, i) => (
             <motion.div
               key={stat.label}
-              className={`text-center ${i < STATS.length - 1 ? 'md:border-r md:border-border/35' : ''}`}
-              initial={{ opacity: 0, y: 12 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
+              className="text-center bg-card border border-hairline rounded-[10px] py-8 px-5"
+              initial={{ y: 8 }}
+              animate={inView ? { y: 0 } : {}}
               transition={{ duration: 0.22, delay: i * STAGGER_DELAY, ease: EASE }}
             >
               <AnimatedCounter

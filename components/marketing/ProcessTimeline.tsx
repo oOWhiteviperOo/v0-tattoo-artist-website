@@ -30,12 +30,12 @@ export function ProcessTimeline() {
   const inView = useInView(sectionRef, { once: true, margin: '-100px' })
 
   return (
-    <section ref={sectionRef} className="py-16 lg:py-20 px-4 border-t border-border/30">
+    <section ref={sectionRef} className="py-16 lg:py-20 px-4 border-t border-hairline bg-band">
       <div className="max-w-content mx-auto">
         <motion.p
           className="text-muted-foreground text-xs font-semibold tracking-[0.1em] uppercase mb-4"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          initial={{ y: 6 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE }}
         >
           What happens next
@@ -43,8 +43,8 @@ export function ProcessTimeline() {
 
         <motion.h2
           className="font-display text-2xl md:text-3xl leading-[1.1] mb-10 text-foreground"
-          initial={{ opacity: 0, y: 12 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
+          initial={{ y: 8 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
           From enquiry to working demo in 3 steps
@@ -55,11 +55,11 @@ export function ProcessTimeline() {
             <motion.div
               key={step}
               className="flex gap-4 items-start"
-              initial={{ opacity: 0, y: 12 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
+              initial={{ y: 8 }}
+              animate={inView ? { y: 0 } : {}}
               transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 + i * STAGGER_DELAY }}
             >
-              <span className="text-foreground/20 font-display text-2xl shrink-0">{step}</span>
+              <span className="text-accent/40 font-display text-2xl shrink-0">{step}</span>
               <div>
                 <h3 className="text-foreground font-medium text-sm mb-1">{title}</h3>
                 <p className="text-secondary-foreground/60 text-sm leading-relaxed">{description}</p>

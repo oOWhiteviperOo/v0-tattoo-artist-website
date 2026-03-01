@@ -13,6 +13,10 @@ import { ProcessTimeline } from './ProcessTimeline'
 import { ContactCTA } from './ContactCTA'
 import { MarketingFooter } from './MarketingFooter'
 
+function SectionDivider() {
+  return <hr className="border-t border-hairline mx-auto max-w-content" />
+}
+
 export function MarketingPage() {
   return (
     <div className="min-h-screen">
@@ -21,11 +25,13 @@ export function MarketingPage() {
       <SocialProofBar />
       <ProblemSection />
       <ProofQuote />
+      <SectionDivider />
       <HowItWorks />
       <DemoShowcase />
       <PricingSection />
       <FAQSection />
       <ProcessTimeline />
+      <SectionDivider />
       <ContactCTA />
       <MarketingFooter />
     </div>

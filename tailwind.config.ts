@@ -47,9 +47,11 @@ const config: Config = {
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         dimmed: 'hsl(var(--dimmed-foreground))',
+        hairline: 'hsl(var(--hairline))',
+        band: 'hsl(var(--band))',
       },
       maxWidth: {
-        content: '1200px',
+        content: '1080px',
       },
       spacing: {
         's': 'var(--space-s)',
@@ -61,10 +63,11 @@ const config: Config = {
         '8s': 'calc(var(--space-s) * 8)',
       },
       boxShadow: {
-        elevated: '0 4px 24px -4px rgba(0, 0, 0, 0.4)',
-        subtle: '0 1px 3px rgba(0, 0, 0, 0.3)',
-        glow: '0 0 20px rgba(var(--gold-glow), 0.2)',
-        'glow-sm': '0 0 12px rgba(var(--gold-glow), 0.15)',
+        elevated: '0 4px 24px -4px rgba(0, 0, 0, 0.08)',
+        subtle: '0 1px 3px rgba(0, 0, 0, 0.06)',
+        glow: '0 0 20px rgba(var(--gold-glow), 0.15)',
+        'glow-sm': '0 0 12px rgba(var(--gold-glow), 0.1)',
+        card: '0 2px 12px -2px rgba(0, 0, 0, 0.06)',
       },
       fontFamily: {
         sans: ['var(--font-inter)'],

@@ -34,12 +34,12 @@ export function ProblemSection() {
   const inView = useInView(sectionRef, { once: true, margin: '-100px' })
 
   return (
-    <section id="problem" ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-border/30 bg-secondary">
+    <section id="problem" ref={sectionRef} className="py-24 lg:py-32 px-4 border-t border-hairline bg-secondary">
       <div className="max-w-content mx-auto">
         <motion.p
           className="text-muted-foreground text-xs font-semibold tracking-[0.1em] uppercase mb-4"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          initial={{ y: 6 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE }}
         >
           The problem
@@ -47,8 +47,8 @@ export function ProblemSection() {
 
         <motion.h2
           className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.1] mb-5 text-foreground"
-          initial={{ opacity: 0, y: 12 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
+          initial={{ y: 8 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
           Your inbox is costing you money
@@ -56,8 +56,8 @@ export function ProblemSection() {
 
         <motion.p
           className="text-secondary-foreground/80 max-w-[60ch] mb-16 text-base md:text-lg leading-[1.65]"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          initial={{ y: 6 }}
+          animate={inView ? { y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
           Every hour a message sits unanswered, another client books somewhere else. Sound familiar?
@@ -67,15 +67,15 @@ export function ProblemSection() {
           {PROBLEMS.map(({ icon: Icon, title, firstLine, description }, i) => (
             <motion.div
               key={title}
-              className="group relative p-6 lg:p-8 border border-border/50 bg-card rounded-[10px] shadow-subtle transition-all duration-200 ease-out hover:-translate-y-1 hover:border-border/70 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-white/[0.04] before:rounded-t-[10px]"
-              initial={{ opacity: 0, y: 12 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
+              className="group relative p-6 lg:p-8 border border-hairline bg-card rounded-[10px] transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-foreground/20"
+              initial={{ y: 8 }}
+              animate={inView ? { y: 0 } : {}}
               transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 + i * STAGGER_DELAY }}
             >
-              <div className="w-14 h-14 flex items-center justify-center border border-border/50 bg-secondary rounded-[8px] mb-5">
-                <Icon className="w-5 h-5 text-foreground/60" />
+              <div className="w-16 h-16 flex items-center justify-center bg-foreground/[0.06] rounded-[10px] mb-5">
+                <Icon className="w-7 h-7 text-foreground/70" />
               </div>
-              <h3 className="text-foreground font-medium text-lg mb-3">{title}</h3>
+              <h3 className="text-foreground font-semibold text-lg mb-3">{title}</h3>
               <p className="text-sm text-secondary-foreground/70 leading-relaxed">
                 <span className="font-medium text-foreground/90">{firstLine}</span>{' '}
                 {description}
@@ -83,6 +83,19 @@ export function ProblemSection() {
             </motion.div>
           ))}
         </div>
+
+        {/* Cost callout strip */}
+        <motion.div
+          className="mt-10 flex items-center justify-center gap-3 py-4 px-6 border border-hairline bg-card rounded-[10px] text-center"
+          initial={{ y: 8 }}
+          animate={inView ? { y: 0 } : {}}
+          transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 7 }}
+        >
+          <CreditCard className="w-5 h-5 text-foreground/70 shrink-0" />
+          <p className="text-sm text-foreground font-medium">
+            1 missed appointment per month = <span className="text-accent font-semibold">&pound;200+ lost</span>
+          </p>
+        </motion.div>
       </div>
     </section>
   )

@@ -10,30 +10,32 @@
 
 @layer base {
   :root {
-    --background: 240 7% 3%;
-    --foreground: 36 25% 94%;
-    --card: 240 10% 8%;
-    --card-foreground: 36 25% 94%;
-    --popover: 240 11% 10%;
-    --popover-foreground: 36 25% 94%;
-    --primary: 36 25% 94%;
-    --primary-foreground: 240 7% 3%;
-    --secondary: 240 10% 6%;
-    --secondary-foreground: 35 10% 79%;
-    --muted: 240 5% 24%;
-    --muted-foreground: 34 7% 62%;
-    --accent: 37 65% 57%;
-    --accent-foreground: 240 7% 3%;
-    --accent-rgb: 216, 162, 74;
-    --accent-hover: 40 68% 64%;
-    --accent-pressed: 36 56% 46%;
-    --gold-glow: 216, 162, 74;
-    --dimmed-foreground: 36 8% 44%;
-    --destructive: 7 63% 52%;
+    --background: 30 20% 96%;
+    --foreground: 220 30% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 20%;
+    --primary: 220 30% 15%;
+    --primary-foreground: 30 20% 96%;
+    --secondary: 30 15% 92%;
+    --secondary-foreground: 220 15% 35%;
+    --muted: 30 10% 88%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 348 32% 55%;
+    --accent-foreground: 0 0% 100%;
+    --accent-rgb: 181, 101, 122;
+    --accent-hover: 348 30% 49%;
+    --accent-pressed: 348 28% 44%;
+    --gold-glow: 181, 101, 122;
+    --hairline: 30 24% 88%;
+    --band: 30 18% 93%;
+    --dimmed-foreground: 220 10% 55%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 5% 17%;
-    --input: 240 5% 17%;
-    --ring: 37 65% 57%;
+    --border: 30 10% 88%;
+    --input: 30 10% 88%;
+    --ring: 220 30% 15%;
     --radius: 0.625rem;
     --space-s: clamp(16px, 1.4vw, 24px);
   }
@@ -81,17 +83,9 @@
   }
 }
 
-/* Vignette overlay effect */
+/* Vignette overlay effect (disabled on light theme) */
 .vignette {
   position: relative;
-}
-.vignette::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: radial-gradient(ellipse at center, transparent 50%, rgba(11, 11, 12, 0.15) 100%);
-  z-index: 5;
 }
 
 /* Thinking shimmer for typing indicator */
@@ -126,9 +120,7 @@
   }
 }
 
-/* Mobile grain opacity reduction */
-@media (max-width: 767px) {
-  .grain-overlay {
-    opacity: 0.04 !important;
-  }
+/* Grain overlay hidden on light theme */
+.grain-overlay {
+  display: none;
 }
