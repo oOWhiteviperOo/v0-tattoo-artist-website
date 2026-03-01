@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 export async function POST(req: Request) {
     try {
         const body = await req.json()
-        const { form, studio } = body
+        const { form, studio, vertical } = body
 
         // Basic validation
         if (!form || !studio || !process.env.N8N_BOOKING_WEBHOOK_URL) {
@@ -14,6 +14,8 @@ export async function POST(req: Request) {
             )
         }
 
+        const isAesthetics = vertical === 'aesthetics'
+
         // Forward to n8n
         const n8nResponse = await fetch(process.env.N8N_BOOKING_WEBHOOK_URL, {
             method: 'POST',
@@ -21,9 +23,16 @@ export async function POST(req: Request) {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                source: 'v0-tattoo-artist-website',
+                source: isAesthetics ? 'apex-ai-booking-page' : 'v0-tattoo-artist-website',
+                vertical: vertical || 'tattoo',
                 studio,
-                form,
+                form: {
+                    ...form,
+                    // Map aesthetics-specific fields
+                    ...(isAesthetics && form.sessionType ? { treatmentType: form.sessionType } : {}),
+                    ...(isAesthetics && form.treatmentArea ? { treatmentArea: form.treatmentArea } : {}),
+                    ...(isAesthetics && form.previousTreatments ? { previousTreatments: form.previousTreatments } : {}),
+                },
                 metadata: {
                     submittedAt: new Date().toISOString(),
                     userAgent: req.headers.get('user-agent') || 'unknown',

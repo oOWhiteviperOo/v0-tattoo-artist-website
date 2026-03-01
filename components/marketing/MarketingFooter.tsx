@@ -4,7 +4,7 @@ export function MarketingFooter() {
       <div className="max-w-content mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
         <div className="flex items-center gap-1.5">
           <span className="text-accent font-bold">Apex</span>
-          <span className="text-foreground/40">Ink</span>
+          <span className="text-foreground/40">AI</span>
           <span className="ml-2">&copy; {new Date().getFullYear()}</span>
         </div>
         <div className="flex items-center gap-6">

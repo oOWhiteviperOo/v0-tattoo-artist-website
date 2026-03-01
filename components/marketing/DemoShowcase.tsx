@@ -41,13 +41,22 @@ export function DemoShowcase() {
         </motion.h2>
 
         <motion.p
-          className="text-secondary-foreground/80 max-w-[60ch] mb-12 text-base md:text-lg leading-[1.65]"
+          className="text-secondary-foreground/80 max-w-[60ch] mb-4 text-base md:text-lg leading-[1.65]"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
-          We&apos;ve built these for real UK studios to show what&apos;s possible.
-          Pick one and try the booking flow yourself.
+          We built this system for tattoo studios first. Now we&apos;re bringing
+          the same technology to aesthetics clinics.
+        </motion.p>
+
+        <motion.p
+          className="text-muted-foreground max-w-[60ch] mb-12 text-sm leading-relaxed"
+          initial={{ opacity: 0 }}
+          animate={inView ? { opacity: 1 } : {}}
+          transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2.5 }}
+        >
+          Pick a demo below and try the booking flow yourself &mdash; every enquiry handled in under 60 seconds, deposits collected, reminders sent.
         </motion.p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

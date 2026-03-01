@@ -46,7 +46,7 @@ export function MarketingNav() {
           className="flex items-center gap-1.5"
         >
           <span className="text-accent font-bold text-xl tracking-tight">Apex</span>
-          <span className="text-foreground/60 text-xl tracking-tight">Ink</span>
+          <span className="text-foreground/60 text-xl tracking-tight">AI</span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main navigation">
@@ -84,7 +84,7 @@ export function MarketingNav() {
               <div className="flex items-center justify-between px-6 py-5 border-b border-border/50">
                 <div className="flex items-center gap-1.5">
                   <span className="text-accent font-bold text-lg">Apex</span>
-                  <span className="text-foreground/60 text-lg">Ink</span>
+                  <span className="text-foreground/60 text-lg">AI</span>
                 </div>
               </div>
               <nav className="flex flex-col gap-1 px-3 py-4">

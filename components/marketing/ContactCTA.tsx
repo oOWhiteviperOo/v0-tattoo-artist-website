@@ -80,7 +80,7 @@ export function ContactCTA() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
             >
-              Ready to stop playing receptionist?
+              Ready to stop losing enquiries?
             </motion.h2>
 
             <motion.p
@@ -89,8 +89,8 @@ export function ContactCTA() {
               animate={inView ? { opacity: 1 } : {}}
               transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
             >
-              We&apos;ll build you a free demo site. No commitment, no setup fee, no catch.
-              Just tell us your studio name and we&apos;ll show you what it looks like.
+              We&apos;ll show you exactly what the system looks like for your clinic.
+              No commitment, no setup fee, no catch.
             </motion.p>
 
             <motion.div
@@ -101,7 +101,7 @@ export function ContactCTA() {
             >
               <p className="flex items-center gap-2">
                 <span className="w-1 h-1 rounded-full bg-foreground/30 shrink-0" />
-                Free demo site in 24 hours
+                Free demo in 48 hours
               </p>
               <p className="flex items-center gap-2">
                 <span className="w-1 h-1 rounded-full bg-foreground/30 shrink-0" />
@@ -160,13 +160,13 @@ export function ContactCTA() {
 
                 <div>
                   <label htmlFor="contact-studio" className="block text-sm text-foreground/80 mb-1.5">
-                    Studio name
+                    Clinic name
                   </label>
                   <input
                     id="contact-studio"
                     name="studioName"
                     type="text"
-                    placeholder="Ink & Iron"
+                    placeholder="Glow Aesthetics"
                     className="w-full bg-background/50 border border-border/60 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all"
                   />
                 </div>
@@ -179,7 +179,7 @@ export function ContactCTA() {
                     id="contact-message"
                     name="message"
                     rows={3}
-                    placeholder="Tell us about your studio..."
+                    placeholder="Tell us about your clinic..."
                     className="w-full bg-background/50 border border-border/60 rounded-[6px] px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-accent/80 focus:shadow-[inset_0_0_8px_rgba(216,162,74,0.12)] transition-all resize-none"
                   />
                 </div>

@@ -60,15 +60,27 @@ const MAX_RETRIES = 3
 const WORDS_PER_TICK = 2
 const TICK_INTERVAL_MS = 30
 
-const DEMO_SUGGESTIONS: SuggestionChip[] = [
+const DEMO_SUGGESTIONS_TATTOO: SuggestionChip[] = [
   { text: "I want a Japanese sleeve on my forearm", icon: 'sparkles' },
   { text: "How much for a small tattoo?", icon: 'help' },
   { text: "I need to cancel a booking", icon: 'calendar' },
 ]
 
-const BOOKING_SUGGESTIONS: SuggestionChip[] = [
+const DEMO_SUGGESTIONS_AESTHETICS: SuggestionChip[] = [
+  { text: "How much for lip filler?", icon: 'sparkles' },
+  { text: "Do you do Botox?", icon: 'help' },
+  { text: "I need to cancel my appointment", icon: 'calendar' },
+]
+
+const BOOKING_SUGGESTIONS_TATTOO: SuggestionChip[] = [
   { text: "I'd like to book a session", icon: 'sparkles' },
   { text: "What styles do you do?", icon: 'help' },
+  { text: "I need to reschedule", icon: 'calendar' },
+]
+
+const BOOKING_SUGGESTIONS_AESTHETICS: SuggestionChip[] = [
+  { text: "I'd like to book a treatment", icon: 'sparkles' },
+  { text: "What treatments do you offer?", icon: 'help' },
   { text: "I need to reschedule", icon: 'calendar' },
 ]
 
@@ -146,7 +158,9 @@ export function BookingAgent({
   demoMode = false,
   onOpenForm,
 }: BookingAgentProps) {
-  const { identity } = useStudio()
+  const config = useStudio()
+  const { identity } = config
+  const isAesthetics = config.vertical === 'aesthetics'
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
@@ -173,13 +187,17 @@ export function BookingAgent({
 
   const getGreeting = useCallback(() => {
     if (demoMode) {
-      return `Hey! I'm the AI that handles bookings for ${identity.name} — 24 hours a day, every day. Try describing a tattoo idea and watch the magic happen.`
+      return isAesthetics
+        ? `Hey! I handle bookings for ${identity.name} — 24 hours a day, every day. Ask me about treatments, availability, or pricing.`
+        : `Hey! I'm the AI that handles bookings for ${identity.name} — 24 hours a day, every day. Try describing a tattoo idea and watch the magic happen.`
     }
     if (bookingRef) {
       return `I can see your booking (ref: ${bookingRef}). Would you like to reschedule or cancel?`
     }
-    return `Hey! I can help you book a session, check availability, or answer questions about ${identity.name}. What are you looking for?`
-  }, [demoMode, bookingRef, identity.name])
+    return isAesthetics
+      ? `Hey! I can help you book a treatment, check availability, or answer questions about ${identity.name}. What are you looking for?`
+      : `Hey! I can help you book a session, check availability, or answer questions about ${identity.name}. What are you looking for?`
+  }, [demoMode, bookingRef, identity.name, isAesthetics])
 
   // Initialise with opening message
   useEffect(() => {
@@ -498,7 +516,9 @@ export function BookingAgent({
     }
   }
 
-  const suggestions = demoMode ? DEMO_SUGGESTIONS : BOOKING_SUGGESTIONS
+  const suggestions = demoMode
+    ? (isAesthetics ? DEMO_SUGGESTIONS_AESTHETICS : DEMO_SUGGESTIONS_TATTOO)
+    : (isAesthetics ? BOOKING_SUGGESTIONS_AESTHETICS : BOOKING_SUGGESTIONS_TATTOO)
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -657,7 +677,7 @@ export function BookingAgent({
               </div>
               <div className="mt-4 pt-3 border-t border-accent/10">
                 <p className="text-xs text-foreground/80 font-medium">
-                  This runs 24/7 for your studio. Zero setup from you.
+                  This runs 24/7 for your {isAesthetics ? 'clinic' : 'studio'}. Zero setup from you.
                 </p>
                 <p className="text-[11px] text-muted-foreground/50 mt-1">
                   Every step above happens automatically — bookings, deposits, reminders, all of it.
@@ -695,7 +715,7 @@ export function BookingAgent({
                   bookingRef
                     ? 'Cancel, reschedule, or ask a question...'
                     : demoMode
-                      ? 'Describe your tattoo idea...'
+                      ? (isAesthetics ? 'Ask about treatments, prices, or availability...' : 'Describe your tattoo idea...')
                       : 'Type a message...'
                 }
                 maxLength={MAX_MESSAGE_LENGTH}

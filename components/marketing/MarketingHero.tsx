@@ -13,8 +13,8 @@ export function MarketingHero() {
       {/* Background image */}
       <div className="absolute inset-0 vignette">
         <Image
-          src="https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?w=1600&h=1000&fit=crop&q=80"
-          alt="Tattoo artist at work in a dark studio"
+          src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&h=1000&fit=crop&q=80"
+          alt="Modern aesthetics clinic interior"
           fill
           sizes="100vw"
           className="object-cover"
@@ -33,7 +33,7 @@ export function MarketingHero() {
           transition={{ duration: 0.22, ease: EASE }}
         >
           <span className="w-1.5 h-1.5 bg-foreground/40 rounded-full animate-pulse" />
-          5 founding spots left
+          5 founding clinic spots left
         </motion.div>
 
         <motion.h1
@@ -53,9 +53,9 @@ export function MarketingHero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 3 }}
         >
-          Your DMs are buried. Your diary&apos;s a mess. People ghost after asking
-          for a quote. We fix all of that&nbsp;&mdash; so you can get back to
-          actually tattooing.
+          Someone DMs about lip filler at 9pm. You&apos;re mid-consultation. By morning,
+          they&apos;ve booked somewhere else. We fix that&nbsp;&mdash; so you can focus on
+          running your clinic.
         </motion.p>
 
         <motion.div
@@ -87,7 +87,7 @@ export function MarketingHero() {
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 7 }}
         >
           <p className="text-xs text-muted-foreground">
-            Now accepting 5 founding studios
+            Now accepting 5 founding clinics
           </p>
           <p className="text-xs text-foreground/40">
             Free setup{' · '}Priority support{' · '}Lock in founder pricing

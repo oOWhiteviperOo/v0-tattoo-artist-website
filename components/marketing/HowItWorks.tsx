@@ -7,23 +7,23 @@ import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 const STEPS = [
   {
     step: '01',
-    title: 'We build your booking page',
+    title: 'We set up your AI receptionist',
     description:
-      'A proper website for your studio \u2014 your work, your branding, a booking form that actually works. Live in 24 hours.',
+      'A booking page built around your clinic \u2014 your treatments, your branding, a booking form that works 24/7. Live in 48 hours.',
     chip: 'Replies in <60s',
   },
   {
     step: '02',
-    title: 'AI handles the back-and-forth',
+    title: 'AI handles every enquiry',
     description:
-      'Someone enquires, the system checks your calendar, sends a deposit link, confirms the booking. Under 60 seconds. No DMs required.',
+      'Someone asks about lip filler at midnight. The system responds, checks your diary, sends a deposit link, confirms the booking. Under 60 seconds.',
     chip: 'Deposits collected',
   },
   {
     step: '03',
-    title: 'You just tattoo',
+    title: 'You focus on your patients',
     description:
-      'Reminders go out automatically. Deposits land before the session. Your chair stays full. We handle the boring stuff.',
+      'Reminders go out automatically. Deposits land before the appointment. Your treatment rooms stay full. We handle the admin.',
     chip: 'No-shows drop',
   },
 ]

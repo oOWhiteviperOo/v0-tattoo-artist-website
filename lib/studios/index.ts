@@ -11,6 +11,7 @@ import { FATES_AND_FURY_TATTOO } from './fates-and-fury-tattoo'
 import { FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS } from './fine-line-tattoo-shop-in-london-by-dannyptattoos'
 import { FLASH_BY_AJ_TATTOO } from './flash-by-aj-tattoo'
 import { FRITH_STREET_TATTOO } from './frith-street-tattoo'
+import { GLOW_AESTHETICS } from './glow-aesthetics'
 import { GOOD_FORTUNE_STUDIO } from './good-fortune-studio'
 import { GUNG_HO_TATTOO } from './gung-ho-tattoo'
 import { GYPSY_STABLES_TATTOO_COLLECTIVE } from './gypsy-stables-tattoo-collective'
@@ -85,6 +86,7 @@ export const studios: Record<string, StudioConfig> = {
     'fine-line-tattoo-shop-in-london-by-dannyptattoos': FINE_LINE_TATTOO_SHOP_IN_LONDON_BY_DANNYPTATTOOS,
     'flash-by-aj-tattoo': FLASH_BY_AJ_TATTOO,
     'frith-street-tattoo': FRITH_STREET_TATTOO,
+    'glow-aesthetics': GLOW_AESTHETICS,
     'good-fortune-studio': GOOD_FORTUNE_STUDIO,
     'gung-ho-tattoo': GUNG_HO_TATTOO,
     'gypsy-stables-tattoo-collective': GYPSY_STABLES_TATTOO_COLLECTIVE,

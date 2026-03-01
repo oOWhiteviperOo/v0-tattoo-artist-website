@@ -2,16 +2,16 @@ import { Metadata } from 'next'
 import { MarketingPage } from '@/components/marketing/MarketingPage'
 
 export const metadata: Metadata = {
-    title: 'Apex Ink | 24/7 Booking Assistant for UK Tattoo Studios',
-    description: 'Stop losing bookings to slow replies. Your 24/7 booking assistant handles enquiries, deposits, and reminders — so you can focus on tattooing. 14-day free trial.',
-    keywords: ['tattoo booking automation', 'UK tattoo studio', 'tattoo booking assistant', 'tattoo deposit collection', 'tattoo studio software'],
+    title: 'Apex AI | 24/7 AI Receptionist for Aesthetics Clinics',
+    description: 'Stop losing bookings to slow replies. Your AI receptionist handles enquiries, deposits, and reminders 24/7 — so you can focus on your patients. 14-day free trial.',
+    keywords: ['aesthetics clinic booking', 'AI receptionist', 'clinic booking automation', 'aesthetics deposit collection', 'medical aesthetics software'],
     openGraph: {
-        title: 'Apex Ink | 24/7 Booking Assistant for UK Tattoo Studios',
-        description: 'Stop losing bookings to slow replies. Your 24/7 booking assistant handles enquiries, deposits, and reminders — so you can focus on tattooing.',
+        title: 'Apex AI | 24/7 AI Receptionist for Aesthetics Clinics',
+        description: 'Stop losing bookings to slow replies. Your AI receptionist handles enquiries, deposits, and reminders 24/7 — so you can focus on your patients.',
         type: 'website',
         locale: 'en_GB',
         url: 'https://www.apexink.uk',
-        siteName: 'Apex Ink',
+        siteName: 'Apex AI',
     },
 }
 

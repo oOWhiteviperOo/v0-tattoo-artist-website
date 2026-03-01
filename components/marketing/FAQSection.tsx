@@ -12,29 +12,29 @@ import {
 
 const FAQS = [
   {
-    question: 'Do I need to change how I book?',
+    question: 'Does the AI give medical advice?',
     answer:
-      'No. We work around your existing process. If you book through DMs, we plug into that. If you use a form, we replace it with something faster. Nothing changes for you except fewer messages to answer.',
+      'No. The system handles booking, scheduling, and deposits only. It never provides clinical advice, treatment recommendations, or medical information. Think of it as a receptionist, not a practitioner.',
   },
   {
-    question: 'Can you use my existing Instagram or DMs?',
+    question: 'How does it work with my existing booking system?',
     answer:
-      'Yes. Our AI concierge handles enquiries through your website booking form. Instagram DM integration is available on the Pro plan and above \u2014 we route enquiries from your DMs straight into the booking system.',
+      'We work around your current process. If you book through DMs, we handle that. If you use Fresha or another tool, we add a layer on top that responds instantly and collects deposits before the appointment.',
   },
   {
-    question: 'What if I have multiple artists?',
+    question: 'What if I have multiple practitioners?',
     answer:
-      'We handle multi-artist studios on the Pro plan. Each artist gets their own calendar, availability, and booking flow. Enquiries are routed to the right person automatically based on style, availability, or your custom rules.',
+      'The Growth plan supports multi-practitioner clinics. Each practitioner gets their own calendar, availability, and treatment menu. Enquiries are routed automatically based on treatment type and availability.',
   },
   {
     question: 'How fast is setup?',
     answer:
-      'Your studio can be live within 48 hours. We build your custom booking page, connect your calendar and payments, and send you a working demo to test. You give feedback, we tweak it, and you\u2019re taking bookings the same week.',
+      'Your clinic can be live within 48 hours. We configure your treatment menu, connect your calendar and payments, and send you a working demo to test. You give feedback, we tweak it, and you\u2019re taking bookings the same week.',
   },
   {
     question: 'Can I cancel any time?',
     answer:
-      'Yes. No contracts, no lock-in. Cancel any time from your dashboard or just send us an email. If you cancel mid-month, you keep access until the end of the billing period.',
+      'Yes. No contracts, no lock-in. Cancel any time or just send us an email. If you cancel mid-month, you keep access until the end of the billing period.',
   },
 ]
 

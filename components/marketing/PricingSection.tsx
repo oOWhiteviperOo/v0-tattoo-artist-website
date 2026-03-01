@@ -8,47 +8,47 @@ import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 const TIERS = [
   {
     name: 'Starter',
-    price: '199',
-    description: 'Everything you need to stop losing bookings',
+    price: '499',
+    description: 'Everything a solo practitioner needs',
     features: [
-      'AI booking concierge',
-      'Custom studio website',
+      'AI receptionist (24/7 enquiry handling)',
+      'Custom clinic booking page',
       'Stripe deposit collection',
       'SMS + email reminders (48h, 24h, 2h)',
       'Google Calendar sync',
-      'Slack alerts for your team',
-      'Monthly check-in call',
+      'Slack alerts for new bookings',
+      'Monthly value report',
     ],
-    cta: 'Start Free Trial',
+    cta: 'Book a Demo',
     popular: false,
   },
   {
-    name: 'Pro',
-    price: '299',
-    description: 'For studios ready to grow',
+    name: 'Growth',
+    price: '799',
+    description: 'For clinics with multiple practitioners',
     features: [
       'Everything in Starter',
-      'Multi-artist routing',
-      'Review generation campaigns',
+      'Multi-practitioner routing',
+      'Treatment-specific intake forms',
       'Post-appointment follow-ups',
-      'Instagram DM auto-responses',
+      'Medical flag escalation alerts',
       'Monthly analytics report',
       'Priority same-day support',
     ],
-    cta: 'Start Free Trial',
+    cta: 'Book a Demo',
     popular: true,
   },
   {
-    name: 'Studio Ops',
-    price: '499',
-    description: 'Full operations automation',
+    name: 'Scale',
+    price: '1,299',
+    description: 'Full clinic operations automation',
     features: [
-      'Everything in Pro',
-      'Live analytics dashboard',
+      'Everything in Growth',
       'Client reactivation sequences',
       'Waitlist auto-fill on cancellations',
-      'KPI reporting',
+      'Review generation campaigns',
       'Custom integrations',
+      'KPI reporting dashboard',
       'Quarterly strategy calls',
     ],
     cta: 'Contact Us',
@@ -155,7 +155,7 @@ export function PricingSection() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY }}
         >
-          Less than your monthly ink spend
+          One extra booking covers the cost
         </motion.h2>
 
         <motion.p
@@ -165,7 +165,7 @@ export function PricingSection() {
           transition={{ duration: 0.22, ease: EASE, delay: STAGGER_DELAY * 2 }}
         >
           No contracts. Cancel anytime. 14-day free trial on every plan.
-          Founding studios get free setup and priority support.
+          Founding clinics get free setup and priority support.
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-6 items-start">

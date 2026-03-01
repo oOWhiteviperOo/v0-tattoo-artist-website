@@ -8,24 +8,24 @@ import { EASE, STAGGER_DELAY } from '@/lib/marketing-motion'
 const PROBLEMS = [
   {
     icon: MessageSquare,
-    title: 'Your inbox is a warzone',
+    title: 'DMs go cold overnight',
     firstLine:
-      'Booking requests mixed in with memes, spam, and "how much for a small one?" DMs.',
-    description: 'Stuff gets missed. People move on.',
+      '"Do you do lip filler?" at 10pm. You see it at 8am. They booked somewhere else at midnight.',
+    description: 'Every slow reply is lost revenue.',
   },
   {
     icon: Clock,
-    title: 'Admin is eating your day',
+    title: 'Admin is eating into clinic time',
     firstLine:
-      'Back-and-forth messages, checking your calendar, chasing deposits.',
+      'Replying to enquiries, checking availability, chasing deposits between consultations.',
     description:
-      "You didn\u2019t pick up a machine to become a receptionist.",
+      "You trained to treat patients, not play receptionist.",
   },
   {
     icon: CreditCard,
-    title: 'No-shows are burning your money',
-    firstLine: 'No deposit, no commitment. People book and ghost.',
-    description: "Empty chairs don\u2019t pay rent.",
+    title: 'No-shows are burning your revenue',
+    firstLine: 'No deposit, no commitment. A missed Botox appointment is \u00A3200+ gone.',
+    description: "Empty treatment rooms don\u2019t pay rent.",
   },
 ]
 

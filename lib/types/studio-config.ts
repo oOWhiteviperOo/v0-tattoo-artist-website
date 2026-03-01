@@ -25,6 +25,16 @@ export interface FAQItem {
     answer: string
 }
 
+export interface TreatmentType {
+    name: string
+    slug: string
+    durationMins: number
+    priceRange: string        // e.g., "£200–£400"
+    depositAmount: number     // in pence, e.g., 5000 = £50
+    consultRequired: boolean
+    category: string          // e.g., "injectables", "skin", "body"
+}
+
 export interface TrustMetric {
     iconName: 'CheckCircle2' | 'Zap' | 'Award' | 'Shield' | 'Clock' | 'MessageSquare'
     label: string
@@ -36,6 +46,7 @@ export interface TrustBadge {
 }
 
 export interface StudioConfig {
+    vertical?: 'tattoo' | 'aesthetics'  // defaults to 'tattoo'
     identity: {
         name: string
         slug: string
@@ -128,6 +139,12 @@ export interface StudioConfig {
         headline: string
         subheadline: string
         ctaText: string
+    }
+    treatments?: {
+        menu: TreatmentType[]
+        medicalFlagInstructions?: string
+        pretreatmentInstructions?: string
+        aftercareInstructions?: string
     }
     booking: {
         modalTitle: string
